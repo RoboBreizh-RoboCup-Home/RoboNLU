@@ -1,1001 +1,1001 @@
 
-O O O B-say B-say.pro O O O O O O O B-say.dest
-O O O B-go O O B-go.dest I-go.dest B-find O B-find.obj O B-put B-put.pro O O B-put.dest I-put.dest
-B-take O B-take.obj O O B-take.dest O B-put B-put.pro O O B-put.dest I-put.dest
-B-find O O O O O B-find.dest
-B-follow B-follow.per O O B-follow.dest O O O
-B-find B-find.per O O B-find.dest O B-take B-take.pro O O B-take.dest
-O B-go O O B-go.dest I-go.dest B-find O O B-find.obj O B-take B-take.pro O B-take.per O O B-take.dest
-B-say B-say.pro O O O O O B-say.dest O O
-B-take B-take.per O O B-take.dest B-take.pro O B-find B-find.pro O O B-find.dest
-B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-go O O B-go.dest I-go.dest
-B-take B-take.per O O B-take.dest B-take.pro O B-find B-find.pro O O O B-find.dest
+O O O B-say B-say.per O O O O O O O B-say.dest
+O O O B-go O O B-go.dest I-go.dest B-find O B-find.obj O B-put B-put.obj O O B-put.dest I-put.dest
+B-take O B-take.obj O O B-take.dest O B-put B-put.obj O O B-put.dest I-put.dest
+B-find O O B-find.obj O O B-find.dest
+B-follow B-follow.per O O B-follow.dest O O B-follow.dest
+B-find B-find.per O O B-find.dest O B-take B-take.per O O B-take.dest
+O B-go O O B-go.dest I-go.dest B-find O O B-find.obj O B-take B-take.obj O B-take.per O O B-take.dest
+B-say B-say.per O O O O O B-say.dest O O
+B-take B-take.per O O B-take.dest B-take.per B-take.per B-find B-find.per O O B-find.dest
+B-find B-find.per O O B-find.dest B-follow B-follow.per O B-go O O B-go.dest I-go.dest
+B-take B-take.per O O B-take.dest B-take.per B-take.per B-find B-find.per O O B-find.dest I-find.dest
 B-take B-take.obj O O O O O O B-take.dest I-take.dest
-O O B-find O O O B-find.dest O B-follow B-follow.pro O O B-follow.dest
-B-find B-find.per O O B-find.dest I-find.dest O B-follow B-follow.pro O O B-follow.dest I-follow.dest
-B-follow B-follow.per O O B-follow.dest O O O
+O O B-find B-find.per O O B-find.dest O B-follow B-follow.per O O B-follow.dest
+B-find B-find.per O O B-find.dest I-find.dest O B-follow B-follow.per O O B-follow.dest I-follow.dest
+B-follow B-follow.per O O B-follow.dest O O B-follow.dest
 B-take O O O
-B-find B-find.per O O B-find.dest O B-follow B-follow.pro
+B-find B-find.per O O B-find.dest O B-follow B-follow.per
 B-find O O O O O B-find.dest I-find.dest
-O O O B-follow B-follow.per O O O O O B-follow.dest I-follow.dest
+O O O B-follow B-follow.per O O B-follow.dest O O B-follow.dest I-follow.dest
 O O B-find O O O O B-find.dest I-find.dest O B-say O O
-B-take B-take.pro O O
-B-follow O
-O O O B-follow B-follow.per O O B-follow.dest O O O
-O B-take O O O O O O O O O O B-take.dest
+B-take B-take.per O B-take.obj
+B-follow B-follow.per
+O O O B-follow B-follow.per O O B-follow.dest O O B-follow.dest
+O B-take B-take.obj O O O O O O O O O B-take.dest
 B-take O B-take.obj O O B-take.dest I-take.dest
-O O B-find B-find.per O O B-find.dest O B-take B-take.pro O O B-take.dest
+O O B-find B-find.per O O B-find.dest O B-take B-take.per O O B-take.dest
 B-take O O O O O
-O B-take O B-take.obj O O B-take.dest O B-put B-put.pro O O B-put.dest
-B-take O B-take.obj O B-take B-take.pro O O B-take.dest I-take.dest
-B-go O O B-go.dest B-find B-find.per O B-follow B-follow.pro
-B-go O O O B-go.dest B-find B-find.per O B-take B-take.pro
+O B-take O B-take.obj O O B-take.dest O B-put B-put.obj O O B-put.dest
+B-take O B-take.obj O B-take B-take.obj O O B-take.dest I-take.dest
+B-go O O B-go.dest B-find B-find.per O B-follow B-follow.per
+B-go O O B-go.dest I-go.dest B-find B-find.per O B-take B-take.per
 O B-take O O O O O O O O O O B-take.dest
-O O B-take O B-take.obj O O O B-take.dest O B-take B-take.pro O B-take.per O O B-take.dest I-take.dest
-B-take O O O B-take.pro
-O O O B-take B-take.per O O B-take.dest O O O
-O B-go O O B-go.dest I-go.dest B-find B-find.per O B-take B-take.pro O O O
-B-say B-say.pro O O O O O O O B-say.dest I-say.dest
-B-go O O B-go.dest B-find O B-find.obj O B-put B-put.pro O O B-put.dest
-O O B-go O O B-go.dest B-find O O B-find.obj O B-take B-take.pro O B-take.per O O B-take.dest
-B-find B-find.per O O O B-find.dest O B-follow B-follow.pro O O B-follow.dest
-O O B-say B-say.pro O O O O B-say.obj O O B-say.dest
-B-take B-take.pro O B-take.obj
-O B-take O B-take.obj O O B-take.dest I-take.dest O O O
-O B-find B-find.per O O O B-find.dest B-follow B-follow.pro O B-take B-take.pro O
-O B-take O O O O O O O B-take.dest
-B-find B-find.per O O B-find.dest O B-say B-say.pro O O
-B-say B-say.pro O O O O O O O B-say.dest I-say.dest
-B-go O O B-go.dest B-find B-find.per O B-follow B-follow.pro
-O O B-find B-find.per O O O B-follow B-follow.pro O B-take B-take.pro O
-B-take O O B-take.obj O B-put B-put.pro O O B-put.dest I-put.dest
-O O B-take B-take.obj O B-take.pro
-B-find B-find.per O O O B-find.dest O B-follow B-follow.pro O O B-follow.dest
-O O B-find B-find.per O O O B-find.dest O B-follow B-follow.pro O O B-follow.dest I-follow.dest
-O O B-go O O B-go.dest I-go.dest B-find O B-find.obj O B-take B-take.pro O O
-B-find B-find.per O O O O B-follow B-follow.pro O O B-follow.dest I-follow.dest
-O O O B-go O O B-go.dest I-go.dest B-find B-find.per O B-take B-take.pro O O B-take.dest
-B-find B-find.per O O B-find.dest O B-say B-say.pro O B-say.per O O B-say.dest
-O O B-follow B-follow.per O O O O O B-follow.dest
+O O B-take O B-take.obj O O B-take.dest I-take.dest O B-take B-take.obj O B-take.per O O B-take.dest I-take.dest
+B-take O O O B-take.per
+O O O B-take B-take.per O O B-take.dest O O B-take.dest
+O B-go O O B-go.dest I-go.dest B-find B-find.per O B-take B-take.per O O B-take.dest
+B-say B-say.per O O O O O O O B-say.dest I-say.dest
+B-go O O B-go.dest B-find O B-find.obj O B-put B-put.obj O O B-put.dest
+O O B-go O O B-go.dest B-find O O B-find.obj O B-take B-take.obj O B-take.per O O B-take.dest
+B-find B-find.per O O B-find.dest I-find.dest O B-follow B-follow.per O O B-follow.dest
+O O B-say B-say.per O O O O B-say.obj O O B-say.dest
+B-take B-take.per O B-take.obj
+O B-take O B-take.obj O O B-take.dest I-take.dest O O B-take.dest
+O B-find B-find.per O O B-find.dest I-find.dest B-follow B-follow.per O B-take B-take.per O
+O B-take B-take.obj O O O O O O B-take.dest
+B-find B-find.per O O B-find.dest O B-say B-say.per O O
+B-say B-say.per O O O O O O O B-say.dest I-say.dest
+B-go O O B-go.dest B-find B-find.per O B-follow B-follow.per
+O O B-find B-find.per O O B-find.dest B-follow B-follow.per O B-take B-take.per O
+B-take O O B-take.obj O B-put B-put.obj O O B-put.dest I-put.dest
+O O B-take B-take.obj O B-take.per
+B-find B-find.per O O B-find.dest I-find.dest O B-follow B-follow.per O O B-follow.dest
+O O B-find B-find.per O O B-find.dest I-find.dest O B-follow B-follow.per O O B-follow.dest I-follow.dest
+O O B-go O O B-go.dest I-go.dest B-find O B-find.obj O B-take B-take.obj O B-take.per
+B-find B-find.per O O B-find.dest O B-follow B-follow.per O O B-follow.dest I-follow.dest
+O O O B-go O O B-go.dest I-go.dest B-find B-find.per O B-take B-take.per O O B-take.dest
+B-find B-find.per O O B-find.dest O B-say B-say.obj O B-say.per O O B-say.dest
+O O B-follow B-follow.per O O B-follow.dest O O B-follow.dest
 O O O B-find O O O O O B-find.dest I-find.dest O B-say O O
 O O
-O O B-find B-find.per O O B-find.dest O B-say B-say.pro O B-say.per O O O
-B-go O O B-go.dest I-go.dest B-find O B-find.obj O B-take B-take.pro O O
-O O B-go O O O B-find B-find.per O B-take B-take.pro O O B-take.dest
+O O B-find B-find.per O O B-find.dest O B-say B-say.obj O B-say.per O O B-say.dest
+B-go O O B-go.dest I-go.dest B-find O B-find.obj O B-take B-take.obj O B-take.per
+O O B-go O O B-go.dest B-find B-find.per O B-take B-take.per O O B-take.dest
 O O B-put O O
-B-follow B-follow.per O O B-follow.dest O O O
-B-take B-take.pro O B-take.obj O O B-take.dest I-take.dest
-O B-say B-say.pro O O B-say.obj O O O O B-say.dest
+B-follow B-follow.per O O B-follow.dest O O B-follow.dest
+B-take B-take.per O B-take.obj O O B-take.dest I-take.dest
+O B-say B-say.per O O B-say.obj O O O O B-say.dest
 B-take O O O O O
 B-say O O O O O O O O O O O B-say.dest
-B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-go O O B-go.dest
+B-find B-find.per O O B-find.dest B-follow B-follow.per O B-go O O B-go.dest
 O B-take B-take.obj O O O O O O B-take.dest I-take.dest
-O B-take B-take.per O O B-take.dest O O O
-B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-go O O B-go.dest I-go.dest
-B-take O O O B-take.dest I-take.dest O O O
-B-find O O O B-find.dest B-follow B-follow.pro O B-go O O B-go.dest
+O B-take B-take.per O O B-take.dest O O B-take.dest
+B-find B-find.per O O B-find.dest B-follow B-follow.per O B-go O O B-go.dest I-go.dest
+B-take B-take.per O O B-take.dest I-take.dest O O B-take.dest
+B-find B-find.per O O B-find.dest B-follow B-follow.per O B-go O O B-go.dest
 O B-take O B-take.obj O O B-take.dest I-take.dest
 O O O
-B-take O O O O O B-take.dest I-take.dest
+B-take O B-take.obj I-take.obj O O B-take.dest I-take.dest
 B-find O O O O O B-find.dest
-B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-go O O B-go.dest
-B-find B-find.per O O B-find.dest O B-take B-take.pro O O O B-take.dest
-O O B-find B-find.per O O B-find.dest O B-say B-say.pro O O
-O O O B-take B-take.pro O B-take.obj O O B-take.dest I-take.dest
-B-say B-say.pro O O O O O B-say.dest I-say.dest O O O
-O O B-take B-take.pro O O O O O B-take.dest
+B-find B-find.per O O B-find.dest B-follow B-follow.per O B-go O O B-go.dest
+B-find B-find.per O O B-find.dest O B-take B-take.per O O B-take.dest I-take.dest
+O O B-find B-find.per O O B-find.dest O B-say B-say.per O O
+O O O B-take B-take.per O B-take.obj O O B-take.dest I-take.dest
+B-say B-say.per O O O O O B-say.dest I-say.dest O O O
+O O B-take B-take.per O O O O O B-take.dest
 O O B-take O O O O O
 B-find O O O O B-find.dest I-find.dest
-O O B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-take B-take.pro O
-B-find B-find.per O O B-find.dest O B-take B-take.pro O O O
+O O B-find B-find.per O O B-find.dest B-follow B-follow.per O B-take B-take.per O
+B-find B-find.per O O B-find.dest O B-take B-take.per O O O
 O O O B-find O O O O O B-find.dest
-B-find B-find.per O O B-find.dest O B-take B-take.pro O O O
-B-say B-say.pro O O O O O O O B-say.dest
+B-find B-find.per O O B-find.dest O B-take B-take.per O O O
+B-say B-say.per O O O O O O O B-say.dest
 B-find O O B-find.obj O O B-find.dest
-B-find B-find.per O O O B-find.dest O B-say B-say.pro O B-say.per O O O
+B-find B-find.per O O B-find.dest I-find.dest O B-say B-say.obj O B-say.per O O B-say.dest
 B-take B-take.per O O B-take.dest
-B-find O O O B-find.dest B-follow B-follow.pro O B-go O O B-go.dest
-B-say B-say.pro O O O O O O O B-say.dest
+B-find B-find.per O O B-find.dest B-follow B-follow.per O B-go O O B-go.dest
+B-say B-say.per O O O O O O O B-say.dest
 B-follow B-follow.per
-O O O B-say B-say.pro O O O O O O O O O B-say.dest
+O O O B-say B-say.per O O O O O O O O B-say.dest I-say.dest
 B-take O B-take.obj O O B-take.dest
 B-follow B-follow.per
-B-say B-say.pro O O O O O B-say.dest O O
-O O B-say B-say.pro O O B-say.obj O O O O B-say.dest
+B-say B-say.per O O O O O B-say.dest O O
+O O B-say B-say.per O O B-say.obj O O O O B-say.dest
 B-take O O O
-B-take B-take.per O O O O O B-take.dest
-O O B-find B-find.per O O O B-find.dest B-follow B-follow.pro O B-go O O B-go.dest I-go.dest
-B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-take B-take.pro O
+B-take B-take.per O O B-take.dest O O B-take.dest
+O O B-find B-find.per O O B-find.dest I-find.dest B-follow B-follow.per O B-go O O B-go.dest I-go.dest
+B-find B-find.per O O B-find.dest B-follow B-follow.per O B-take B-take.per O
 O O B-go O O B-go.dest B-find O O O O O O O B-say O O
-O B-find B-find.per O O O B-follow B-follow.pro O B-go O O B-go.dest
-O O B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-go O O B-go.dest
-B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-go O O B-go.dest I-go.dest
+O B-find B-find.per O O B-find.dest B-follow B-follow.per O B-go O O B-go.dest
+O O B-find B-find.per O O B-find.dest B-follow B-follow.per O B-go O O B-go.dest
+B-find B-find.per O O B-find.dest B-follow B-follow.per O B-go O O B-go.dest I-go.dest
 B-go O O B-go.dest I-go.dest B-find O O O O O B-say O O
-O B-take B-take.pro O O O O O B-take.dest
-O O B-find B-find.per O O O B-find.dest O B-say B-say.pro O O O O O O B-say.dest I-say.dest
-B-go O O B-go.dest B-find B-find.per O B-follow B-follow.pro
-O O B-find B-find.per O O O B-follow B-follow.pro O B-take B-take.pro O
-O O B-take O B-take.obj O O B-take.dest I-take.dest O O O
-O O O B-say B-say.pro O O O O O O O B-say.dest I-say.dest
-O B-find B-find.per O O B-find.dest O B-follow B-follow.pro O O B-follow.dest I-follow.dest
-B-take B-take.pro O O O O B-take.obj O O B-take.dest
-B-say B-say.pro O O O O O O O O B-say.dest I-say.dest
+O B-take B-take.per O O O O O B-take.dest
+O O B-find B-find.per O O O B-find.dest O B-say B-say.per O O O O O O B-say.dest I-say.dest
+B-go O O B-go.dest B-find B-find.per O B-follow B-follow.per
+O O B-find B-find.per O O B-find.dest B-follow B-follow.per O B-take B-take.per O
+O O B-take O B-take.obj O O B-take.dest I-take.dest O O B-take.dest
+O O O B-say B-say.per O O O O O O O B-say.dest I-say.dest
+O B-find B-find.per O O B-find.dest O B-follow B-follow.per O O B-follow.dest I-follow.dest
+B-take B-take.per O O O O B-take.obj O O B-take.dest
+B-say B-say.per O O O O O O O O B-say.dest I-say.dest
 B-take O O O
-B-say B-say.pro O O O O O O O B-say.dest I-say.dest
-B-follow O O O O O O B-follow.dest I-follow.dest
+B-say B-say.per O O O O O O O B-say.dest I-say.dest
+B-follow B-follow.per O O B-follow.dest O O B-follow.dest I-follow.dest
 O B-take O B-take.obj O O O O O O O O O B-take.dest
 B-follow B-follow.per
 B-put O O
-B-go O O O B-find B-find.per O B-follow B-follow.pro
-O O O B-follow B-follow.per O O O O O B-follow.dest
-B-take O B-take.obj O O O B-take.dest O B-take B-take.pro O B-take.per O O O
-O O B-take O B-take.obj O B-take B-take.pro O O B-take.dest
-B-take O B-take.obj O O O O O B-take.dest
-B-take O O O B-take.pro
+B-go O O B-go.dest B-find B-find.per O B-follow B-follow.per
+O O O B-follow B-follow.per O O B-follow.dest O O B-follow.dest
+B-take O B-take.obj O O B-take.dest I-take.dest O B-take B-take.obj O B-take.per O O B-take.dest
+O O B-take O B-take.obj O B-take B-take.obj O O B-take.dest
+B-take O B-take.obj O O B-take.dest O O B-take.dest
+B-take O O O B-take.per
 B-find O O O O O B-find.dest O B-say O O
 O O O B-find O O B-find.obj O O B-find.dest
-B-find O O O O O B-find.dest
-B-take B-take.per O O B-take.dest B-take.pro O B-find B-find.pro O O B-find.dest
-B-follow B-follow.per O O B-follow.dest I-follow.dest O O O
-B-go O O B-go.dest I-go.dest B-find B-find.per O B-take B-take.pro
+B-find O O B-find.obj O O B-find.dest
+B-take B-take.per O O B-take.dest B-take.per O B-find B-find.per O O B-find.dest
+B-follow B-follow.per O O B-follow.dest I-follow.dest O O B-follow.dest
+B-go O O B-go.dest I-go.dest B-find B-find.per O B-take B-take.per
 B-find O O O O B-find.dest
 B-follow B-follow.per
-O O B-say B-say.pro O O O O O B-say.dest I-say.dest O O O
-B-find B-find.per O O O B-find.dest O B-say B-say.pro O O O O O O B-say.dest I-say.dest
-O B-find B-find.per O O B-find.dest O B-say B-say.pro O O
-O O B-find B-find.per O O B-find.dest I-find.dest B-follow B-follow.pro O B-take B-take.pro O
-B-take O B-take.obj O O B-take.dest O B-take B-take.pro O O B-take.dest
-B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-go O O B-go.dest
-B-take B-take.pro O O
-B-take B-take.pro O O B-take.obj O O B-take.dest I-take.dest
-B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-take B-take.pro O
+O O B-say B-say.per O O O O O B-say.dest I-say.dest O O O
+B-find B-find.per O O O B-find.dest O B-say B-say.per O O O O O O B-say.dest I-say.dest
+O B-find B-find.per O O B-find.dest O B-say B-say.per O O
+O O B-find B-find.per O O B-find.dest I-find.dest B-follow B-follow.per O B-take B-take.per O
+B-take O B-take.obj O O B-take.dest O B-take B-take.obj O O B-take.dest
+B-find B-find.per O O B-find.dest B-follow B-follow.per O B-go O O B-go.dest
+B-take B-take.per O O
+B-take B-take.per O O B-take.obj O O B-take.dest I-take.dest
+B-find B-find.per O O B-find.dest B-follow B-follow.per O B-take B-take.per O
 B-take O B-take.obj O O B-take.dest
-B-find O O O B-find.dest B-follow B-follow.pro O B-go O O B-go.dest
-O B-take B-take.pro O O O O O O O B-take.obj O O B-take.dest
+B-find B-find.per O O B-find.dest B-follow B-follow.per O B-go O O B-go.dest
+O B-take B-take.per O O O O O O B-take.obj I-take.obj O O B-take.dest
 B-find O O O O B-find.dest I-find.dest
 B-find O O O O O B-find.dest O B-say O O
-B-go O O O B-find O O B-take B-take.pro O O B-take.dest
-B-take B-take.pro O O
-B-find O O O O O B-find.dest I-find.dest
+B-go O O B-go.dest B-find B-find.per O B-take B-take.per O O B-take.dest
+B-take B-take.per O O
+B-find O O B-find.obj O O B-find.dest I-find.dest
 O O O
-B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-go O O B-go.dest I-go.dest
-B-go O O B-go.dest B-find B-find.per O B-follow B-follow.pro
-B-say B-say.pro O O O O O O O B-say.dest
-B-take B-take.per O O O
-B-go O O B-go.dest B-find B-find.per O B-follow B-follow.pro
+B-find B-find.per O O B-find.dest B-follow B-follow.per O B-go O O B-go.dest I-go.dest
+B-go O O B-go.dest B-find B-find.per O B-follow B-follow.per
+B-say B-say.per O O O O O O O B-say.dest
 B-take B-take.per O O B-take.dest
-B-find B-find.per O O O B-find.dest B-follow B-follow.pro O B-take B-take.pro O
-O O B-follow B-follow.per O O B-follow.dest I-follow.dest O O O
-O O B-take B-take.per O O B-take.dest O O O
+B-go O O B-go.dest B-find B-find.per O B-follow B-follow.per
+B-take B-take.per O O B-take.dest
+B-find B-find.per O O B-find.dest I-find.dest B-follow B-follow.per O B-take B-take.per O
+O O B-follow B-follow.per O O B-follow.dest I-follow.dest O O B-follow.dest
+O O B-take B-take.per O O B-take.dest O O B-take.dest
 B-take B-take.obj O O O O O O B-take.dest I-take.dest
-O O B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-go O O B-go.dest
-B-go O O O B-find B-find.per O B-follow B-follow.pro
+O O B-find B-find.per O O B-find.dest B-follow B-follow.per O B-go O O B-go.dest
+B-go O O B-go.dest B-find B-find.per O B-follow B-follow.per
 O O B-take O O O O O
-B-find B-find.per O O O O B-follow B-follow.pro
+B-find B-find.per O O B-find.dest O B-follow B-follow.per
 B-take O O O O O
-O O B-take O O O O O B-take.dest
-B-take O B-take.obj O O O O O B-take.dest I-take.dest
-O O O B-follow B-follow.per
-B-find B-find.per O O B-find.dest O B-follow B-follow.pro O O B-follow.dest
-B-find B-find.per O O B-find.dest O B-take B-take.pro O O O
-B-take B-take.pro O O
-O B-say B-say.pro O O O O O O O B-say.dest
-B-find B-find.per O O B-find.dest I-find.dest O B-say B-say.pro O B-say.per O O B-say.dest
-B-say B-say.pro O O O O O O O B-say.dest I-say.dest
-B-take B-take.per O O O B-take.dest
-O O O B-find B-find.per O O B-find.dest O B-take B-take.pro O O B-take.dest I-take.dest
-O O O B-follow O O O O O O B-follow.dest I-follow.dest
-B-take O B-take.obj O O B-take.dest O B-take B-take.pro O O B-take.dest
-B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-go O O B-go.dest
-B-take B-take.per O O B-take.dest
-O B-take B-take.per O O B-take.dest I-take.dest O O O
-B-take O B-take.obj O O O B-take.dest O B-take B-take.pro O O B-take.dest
-O O B-go O O B-go.dest B-find O O B-find.obj O B-put B-put.pro O O B-put.dest I-put.dest
-B-follow B-follow.per O O O O O B-follow.dest I-follow.dest
-B-find B-find.per O O B-find.dest I-find.dest O B-follow B-follow.pro O O B-follow.dest
 O O B-take B-take.obj O O O O B-take.dest
-O O B-find B-find.per O O O B-find.dest O B-say B-say.pro O O O O B-say.dest
-B-go O O B-go.dest B-find B-find.per O B-take B-take.pro O O B-take.dest
-O O O B-find B-find.per O O O B-find.dest O B-say B-say.pro O O O O O O B-say.dest
-B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-take B-take.pro O
+B-take O B-take.obj O O B-take.dest O O B-take.dest I-take.dest
+O O O B-follow B-follow.per
+B-find B-find.per O O B-find.dest O B-follow B-follow.per O O B-follow.dest
+B-find B-find.per O O B-find.dest O B-take B-take.per O O O
+B-take B-take.per O O
+O B-say B-say.per O O O O O O O B-say.dest
+B-find B-find.per O O B-find.dest I-find.dest O B-say B-say.obj O B-say.per O O B-say.dest
+B-say B-say.per O O O O O O O B-say.dest I-say.dest
+B-take B-take.per O O B-take.dest I-take.dest
+O O O B-find B-find.per O O B-find.dest O B-take B-take.per O O B-take.dest I-take.dest
+O O O B-follow B-follow.per O O B-follow.dest O O B-follow.dest I-follow.dest
+B-take O B-take.obj O O B-take.dest O B-take B-take.obj O O B-take.dest
+B-find B-find.per O O B-find.dest B-follow B-follow.per O B-go O O B-go.dest
+B-take B-take.per O O B-take.dest
+O B-take B-take.per O O B-take.dest I-take.dest O O B-take.dest
+B-take O B-take.obj O O B-take.dest I-take.dest O B-take B-take.obj O O B-take.dest
+O O B-go O O B-go.dest B-find O O B-find.obj O B-put B-put.obj O O B-put.dest I-put.dest
+B-follow B-follow.per O O B-follow.dest O O B-follow.dest I-follow.dest
+B-find B-find.per O O B-find.dest I-find.dest O B-follow B-follow.per O O B-follow.dest
+O O B-take B-take.obj O O O O B-take.dest
+O O B-find B-find.per O O O B-find.dest O B-say B-say.per O O O O B-say.dest
+B-go O O B-go.dest B-find B-find.per O B-take B-take.per O O B-take.dest
+O O O B-find B-find.per O O O B-find.dest O B-say B-say.per O O O O O O B-say.dest
+B-find B-find.per O O B-find.dest B-follow B-follow.per O B-take B-take.per O
 B-put O B-put.obj O O B-put.dest
-B-take O B-take.obj O B-take.pro
-O O B-say B-say.pro O O B-say.obj O O O O B-say.dest I-say.dest
-O O B-say B-say.pro O O O O O B-say.dest I-say.dest O O
-B-find B-find.per O B-take B-take.pro
-B-take O B-take.obj O B-put B-put.pro O O B-put.dest
-O O B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-take B-take.pro O
+B-take O B-take.obj O B-take.per
+O O B-say B-say.per O O B-say.obj O O O O B-say.dest I-say.dest
+O O B-say B-say.per O O O O O B-say.dest I-say.dest O O
+B-find B-find.per O B-take B-take.per
+B-take O B-take.obj O B-put B-put.obj O O B-put.dest
+O O B-find B-find.per O O B-find.dest B-follow B-follow.per O B-take B-take.per O
 O B-find O O O O O B-find.dest O B-say O O
-B-find O O O B-find.dest O B-follow B-follow.pro O O B-follow.dest
+B-find B-find.per O O B-find.dest O B-follow B-follow.per O O B-follow.dest
 O O B-find O O O O B-find.dest
-B-find B-find.per O O B-find.dest I-find.dest O B-say B-say.pro O O
-O O B-go O O B-go.dest B-find B-find.per O B-follow B-follow.pro
-O O B-say B-say.pro O O O O O O O O B-say.dest I-say.dest
-B-go O O B-go.dest B-find B-find.per O B-follow B-follow.pro
-B-find B-find.per O O O B-find.dest O B-say B-say.pro O O O O B-say.dest
+B-find B-find.per O O B-find.dest I-find.dest O B-say B-say.per O O
+O O B-go O O B-go.dest B-find B-find.per O B-follow B-follow.per
+O O B-say B-say.per O O O O O O O O B-say.dest I-say.dest
+B-go O O B-go.dest B-find B-find.per O B-follow B-follow.per
+B-find B-find.per O O O B-find.dest O B-say B-say.per O O O O B-say.dest
 O O O
-O B-find B-find.per O O O B-find.dest O B-say B-say.pro O O O O B-say.dest
-B-go O O B-go.dest B-find B-find.per O B-take B-take.pro O O B-take.dest
-B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-go O O B-go.dest I-go.dest
-O O B-find O O O B-find.dest I-find.dest O B-take B-take.pro O O O
-B-say B-say.pro O O O O O O O B-say.dest I-say.dest
-B-take O O O B-take.dest I-take.dest O O O
-B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-take B-take.pro O
-B-find B-find.per O O O B-follow B-follow.pro O B-take B-take.pro O
-B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-take B-take.pro O
-O B-take B-take.per O O O B-take.dest B-take.pro B-take.obj B-find B-find.pro O O B-find.dest
+O B-find B-find.per O O O B-find.dest O B-say B-say.per O O O O B-say.dest
+B-go O O B-go.dest B-find B-find.per O B-take B-take.per O O B-take.dest
+B-find B-find.per O O B-find.dest B-follow B-follow.per O B-go O O B-go.dest I-go.dest
+O O B-find B-find.per O O B-find.dest I-find.dest O B-take B-take.per O O B-take.dest
+B-say B-say.per O O O O O O O B-say.dest I-say.dest
+B-take B-take.per O O B-take.dest I-take.dest O O B-take.dest
+B-find B-find.per O O B-find.dest B-follow B-follow.per O B-take B-take.per O
+B-find B-find.per O O B-find.dest B-follow B-follow.per O B-take B-take.per O
+B-find B-find.per O O B-find.dest B-follow B-follow.per O B-take B-take.per O
+O B-take B-take.per O O B-take.dest I-take.dest B-take.per B-take.obj B-find B-find.per O O B-find.dest
 O O O
-B-find B-find.per O O B-find.dest O B-follow B-follow.pro
-B-say B-say.pro O O O O O O O B-say.dest
-O O O B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-take B-take.pro O
+B-find B-find.per O O B-find.dest O B-follow B-follow.per
+B-say B-say.per O O O O O O O B-say.dest
+O O O B-find B-find.per O O B-find.dest B-follow B-follow.per O B-take B-take.per O
 B-put O O
-B-take O B-take.obj O O B-take.dest I-take.dest O O O O
-B-say B-say.pro O O O O O O O B-say.dest I-say.dest
+B-take O B-take.obj O O B-take.dest I-take.dest O O B-take.dest I-take.dest
+B-say B-say.per O O O O B-say.obj O O B-say.dest I-say.dest
 O O B-take B-take.obj O O O O O O B-take.dest
-O O B-take B-take.pro O O O O B-take.obj O O O B-take.dest
+O O B-take B-take.per O O O O B-take.obj O O B-take.dest I-take.dest
 O O B-take O B-take.obj O O O O O O B-take.dest I-take.dest
-B-say B-say.pro O O O O O O O B-say.dest
+B-say B-say.per O O O O O O O B-say.dest
 B-go O O B-go.dest I-go.dest B-find O O O O B-say O O
-O O B-find O O O O B-find.dest O B-say B-say.pro O O O O B-say.dest
-O B-go O O O B-go.dest B-find B-find.per O B-follow B-follow.pro
-O B-find B-find.per O O B-find.dest I-find.dest O B-take B-take.pro O O O B-take.dest
-B-find O O O B-find.dest I-find.dest B-follow B-follow.pro O B-go O O B-go.dest I-go.dest
-B-take O B-take.obj O B-take.pro
-B-say B-say.pro O O O O B-say.obj O O B-say.dest I-say.dest
-B-say B-say.pro O O O O O O O O B-say.dest
-B-go O O B-go.dest B-find B-find.per O B-take B-take.pro
-O B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-go O O B-go.dest
-O O B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-go O O B-go.dest I-go.dest
+O O B-find B-find.per O O O B-find.dest O B-say B-say.per O O O O B-say.dest
+O B-go O O B-go.dest I-go.dest B-find B-find.per O B-follow B-follow.per
+O B-find B-find.per O O B-find.dest I-find.dest O B-take B-take.per O O B-take.dest I-take.dest
+B-find B-find.per O O B-find.dest I-find.dest B-follow B-follow.per O B-go O O B-go.dest I-go.dest
+B-take O B-take.obj O B-take.per
+B-say B-say.per O O O O B-say.obj O O B-say.dest I-say.dest
+B-say B-say.per O O O O O O O B-say.dest I-say.dest
+B-go O O B-go.dest B-find B-find.per O B-take B-take.per
+O B-find B-find.per O O B-find.dest B-follow B-follow.per O B-go O O B-go.dest
+O O B-find B-find.per O O B-find.dest B-follow B-follow.per O B-go O O B-go.dest I-go.dest
 B-find O O O O B-find.dest O B-say O O
-B-find B-find.per O B-take B-take.pro
-O B-find B-find.per O O B-find.dest O B-say B-say.pro O O
-O B-take B-take.pro O O
+B-find B-find.per O B-take B-take.per
+O B-find B-find.per O O B-find.dest O B-say B-say.per O O
+O B-take B-take.per O O
+B-take B-take.per O O B-take.dest O O B-take.dest
 B-take B-take.per O O B-take.dest O O O
-B-take B-take.per O O B-take.dest O O O
-B-take B-take.pro O O
-B-take B-take.pro O B-take.obj
-O O B-find B-find.per O O B-find.dest O B-say B-say.pro O B-say.per O O B-say.dest
-O B-take B-take.per O O O O O B-take.dest
-B-take O O O B-take.dest
-B-find B-find.per O O O B-find.dest O B-say B-say.pro O O O O O O B-say.dest
-B-go O O O B-go.dest B-find O B-find.obj O B-put B-put.pro O O B-put.dest I-put.dest
-O O O B-say B-say.pro O O O O O O O B-say.dest
-O O B-find B-find.per O B-take B-take.pro
-O O B-take B-take.pro O O B-take.obj O O O B-take.dest
-O O O B-take B-take.pro O B-take.obj
-O B-take B-take.pro O O O O O O B-take.dest
+B-take B-take.per O O
+B-take B-take.per O B-take.obj
+O O B-find B-find.per O O B-find.dest O B-say B-say.obj O B-say.per O O B-say.dest
+O B-take B-take.per O O B-take.dest O O B-take.dest
+B-take B-take.per O O B-take.dest
+B-find B-find.per O O O B-find.dest O B-say B-say.per O O O O O O B-say.dest
+B-go O O B-go.dest I-go.dest B-find O B-find.obj O B-put B-put.obj O O B-put.dest I-put.dest
+O O O B-say B-say.per O O O O O O O B-say.dest
+O O B-find B-find.per O B-take B-take.per
+O O B-take B-take.per O O B-take.obj O O B-take.dest I-take.dest
+O O O B-take B-take.per O B-take.obj
+O B-take B-take.per O O O O O O B-take.dest
 B-follow B-follow.per
-B-take B-take.pro O B-take.obj
-B-take B-take.obj O B-take.pro
-B-find B-find.per O O B-find.dest I-find.dest O B-take B-take.pro O O B-take.dest
-O O B-take B-take.pro O O
-B-take O O B-take.obj O O B-take.dest
+B-take B-take.per O B-take.obj
+B-take B-take.obj O B-take.per
+B-find B-find.per O O B-find.dest I-find.dest O B-take B-take.per O O B-take.dest
+O O B-take B-take.per O O
+B-take O B-take.obj I-take.obj O O B-take.dest
 B-take O O O O O
 B-find O O O O O B-find.dest O B-say O O O
-B-take B-take.pro O O O O O B-take.dest I-take.dest
-B-find B-find.per O B-take B-take.pro
-O O B-say B-say.pro O O O O O O O B-say.dest
-B-find B-find.per O O B-find.dest O B-say B-say.pro O O
-B-find B-find.per O O B-find.dest O B-follow B-follow.pro
-B-follow B-follow.per O O O O O O B-follow.dest I-follow.dest
-O O B-find B-find.per O O B-find.dest O B-take B-take.pro O O B-take.dest I-take.dest
-B-find B-find.per O O B-find.dest O B-follow B-follow.pro
-O O B-find B-find.per O O B-find.dest O B-follow B-follow.pro O O B-follow.dest
+B-take B-take.per O O B-take.obj O O B-take.dest I-take.dest
+B-find B-find.per O B-take B-take.per
+O O B-say B-say.per O O O O O O O B-say.dest
+B-find B-find.per O O B-find.dest O B-say B-say.per O O
+B-find B-find.per O O B-find.dest O B-follow B-follow.per
+B-follow B-follow.per O O B-follow.dest I-follow.dest O O B-follow.dest I-follow.dest
+O O B-find B-find.per O O B-find.dest O B-take B-take.per O O B-take.dest I-take.dest
+B-find B-find.per O O B-find.dest O B-follow B-follow.per
+O O B-find B-find.per O O B-find.dest O B-follow B-follow.per O O B-follow.dest
 O O O B-take O B-take.obj O O B-take.dest
-B-find B-find.per O O O B-find.dest B-follow B-follow.pro O B-go O O B-go.dest I-go.dest
-O B-go O O B-go.dest B-find O O B-take B-take.pro
+B-find B-find.per O O B-find.dest I-find.dest B-follow B-follow.per O B-go O O B-go.dest I-go.dest
+O B-go O O B-go.dest B-find B-find.per O B-take B-take.per
 B-take B-take.per O O B-take.dest O O O
-B-find B-find.per O O B-find.dest I-find.dest B-follow B-follow.pro O B-go O O B-go.dest I-go.dest
-O O B-find B-find.per O O O B-follow B-follow.pro O B-go O O B-go.dest I-go.dest
-O O B-take B-take.pro O O
-B-take O O O O O O O B-take.dest
-B-take B-take.pro O O O O O O B-take.dest I-take.dest
-O O B-take B-take.pro O O O O O O B-take.dest I-take.dest
+B-find B-find.per O O B-find.dest I-find.dest B-follow B-follow.per O B-go O O B-go.dest I-go.dest
+O O B-find B-find.per O O B-find.dest B-follow B-follow.per O B-go O O B-go.dest I-go.dest
+O O B-take B-take.per O O
+B-take B-take.obj O O O O O O B-take.dest
+B-take B-take.per O O O O O O B-take.dest I-take.dest
+O O B-take B-take.per O O O O O O B-take.dest I-take.dest
 O B-find O O O O O B-find.dest
-B-say B-say.pro O O B-say.obj O O O O O B-say.dest
-B-take O B-take.obj O O B-take.dest I-take.dest O B-put B-put.pro O O B-put.dest
-B-take B-take.per O O B-take.dest B-take.pro O B-find B-find.pro O O O
-B-take O O O O O O O B-take.dest
+B-say B-say.per O O B-say.obj O O O O B-say.dest I-say.dest
+B-take O B-take.obj O O B-take.dest I-take.dest O B-put B-put.obj O O B-put.dest
+B-take B-take.per O O B-take.dest B-take.per O B-find B-find.per O O B-find.dest
+B-take B-take.obj O O O O O O B-take.dest
 B-find O O B-find.obj O O B-find.dest
-O O B-follow B-follow.per O O O O O B-follow.dest
-O O B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-take B-take.pro O
-B-go O O B-go.dest B-find B-find.per O B-follow B-follow.pro
-O O B-take O B-take.obj O B-take.pro
-B-find B-find.per O O B-find.dest I-find.dest O B-follow B-follow.pro O O B-follow.dest I-follow.dest
+O O B-follow B-follow.per O O B-follow.dest O O B-follow.dest
+O O B-find B-find.per O O B-find.dest B-follow B-follow.per O B-take B-take.per O
+B-go O O B-go.dest B-find B-find.per O B-follow B-follow.per
+O O B-take O B-take.obj O B-take.per
+B-find B-find.per O O B-find.dest I-find.dest O B-follow B-follow.per O O B-follow.dest I-follow.dest
 B-follow B-follow.per
-B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-go O O B-go.dest
+B-find B-find.per O O B-find.dest B-follow B-follow.per O B-go O O B-go.dest
 O O B-go O O B-go.dest B-find O O O O O B-say O O O O
-B-take O O B-take.pro
-O B-take O O O O B-take.dest I-take.dest
-B-take O O O O O B-take.dest
+B-take O O B-take.per
+O B-take O B-take.obj O O B-take.dest I-take.dest
+B-take O B-take.obj O O B-take.dest I-take.dest
 O O B-take O O O O O
-B-take B-take.pro O O O O O O B-take.dest I-take.dest
-B-go O O B-go.dest B-find B-find.per O B-take B-take.pro
-B-go O O B-go.dest B-find O O B-find.obj O B-put B-put.pro O O B-put.dest
-B-find B-find.per O O B-find.dest O B-take B-take.pro O O B-take.dest
-O O B-find B-find.per O O O O B-follow B-follow.pro O O B-follow.dest
-B-find B-find.per O O B-find.dest I-find.dest B-follow B-follow.pro O B-take B-take.pro O
-B-go O O B-go.dest I-go.dest B-find B-find.per O B-follow B-follow.pro
-B-follow B-follow.per O O O O O B-follow.dest
-B-say B-say.pro O O O O O O O B-say.dest
+B-take B-take.per O O O O O O B-take.dest I-take.dest
+B-go O O B-go.dest B-find B-find.per O B-take B-take.per
+B-go O O B-go.dest B-find O O B-find.obj O B-put B-put.obj O O B-put.dest
+B-find B-find.per O O B-find.dest O B-take B-take.per O O B-take.dest
+O O B-find B-find.per O O B-find.dest O B-follow B-follow.per O O B-follow.dest
+B-find B-find.per O O B-find.dest I-find.dest B-follow B-follow.per O B-take B-take.per O
+B-go O O B-go.dest I-go.dest B-find B-find.per O B-follow B-follow.per
+B-follow B-follow.per O O B-follow.dest O O B-follow.dest
+B-say B-say.per O O O O O O O B-say.dest
 B-take O B-take.obj O O B-take.dest
-O O B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-go O O B-go.dest I-go.dest
-O O O B-go O O B-go.dest B-find O O B-take B-take.pro O O B-take.dest
-B-find B-find.per O O B-find.dest O B-follow B-follow.pro O O B-follow.dest I-follow.dest
+O O B-find B-find.per O O B-find.dest B-follow B-follow.per O B-go O O B-go.dest I-go.dest
+O O O B-go O O B-go.dest B-find B-find.per O B-take B-take.per O O B-take.dest
+B-find B-find.per O O B-find.dest O B-follow B-follow.per O O B-follow.dest I-follow.dest
 B-follow B-follow.per
-B-say B-say.pro O O O O O O O B-say.dest
-O O B-find B-find.per O O B-find.dest O B-follow B-follow.pro
-B-go O O B-go.dest B-find B-find.per O B-take B-take.pro
-O O O B-take O B-take.obj O B-take.pro
-B-find B-find.per O O B-find.dest O B-say B-say.pro O O
-B-go O O B-go.dest B-find O O B-follow B-follow.pro
-B-find B-find.per O O O B-find.dest O B-say B-say.pro O B-say.per O O B-say.dest I-say.dest
+B-say B-say.per O O O O O O O B-say.dest
+O O B-find B-find.per O O B-find.dest O B-follow B-follow.per
+B-go O O B-go.dest B-find B-find.per O B-take B-take.per
+O O O B-take O B-take.obj O B-take.per
+B-find B-find.per O O B-find.dest O B-say B-say.per O O
+B-go O O B-go.dest B-find B-find.per O B-follow B-follow.per
+B-find B-find.per O O B-find.dest I-find.dest O B-say B-say.obj O B-say.per O O B-say.dest I-say.dest
 B-find O O O O O O B-find.dest O B-say O O
-B-take B-take.pro O O O O O B-take.dest
-B-take B-take.per O O B-take.dest B-take.pro O B-find B-find.pro O O B-find.dest
+B-take B-take.per O O O O O B-take.dest
+B-take B-take.per O O B-take.dest B-take.per B-take.per B-find B-find.per O O B-find.dest
 O O B-find O O O O B-find.dest
-B-take B-take.pro O O
-O O O B-take B-take.pro O O
-O B-take O O B-take.obj O O B-take.dest O B-take B-take.pro O O B-take.dest
-B-go O O B-go.dest B-find O B-find.obj O B-put B-put.pro O O B-put.dest I-put.dest
-O O O B-say B-say.pro O O O O O O O B-say.dest
+B-take B-take.per O O
+O O O B-take B-take.per O O
+O B-take O O B-take.obj O O B-take.dest O B-take B-take.obj O O B-take.dest
+B-go O O B-go.dest B-find O B-find.obj O B-put B-put.obj O O B-put.dest I-put.dest
+O O O B-say B-say.per O O O O O O O B-say.dest
 O O B-say O O O O O O O O O O O B-say.dest I-say.dest
-B-say B-say.pro O O O O O B-say.obj O O B-say.dest
-O B-take O O B-take.obj O O B-take.dest O B-put B-put.pro O O O B-put.dest
-B-say B-say.pro O O O O O O O B-say.dest
+B-say B-say.per O O O O O B-say.obj O O B-say.dest
+O B-take O O B-take.obj O O B-take.dest O B-put B-put.obj O O B-put.dest I-put.dest
+B-say B-say.per O O O O O O O B-say.dest
 O O O O O O
-B-say B-say.pro O O O O O O O B-say.dest
-O B-take B-take.per O O O B-take.pro O B-find B-find.pro O O B-find.dest I-find.dest
-B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-go O O B-go.dest
-B-say B-say.pro O O O O O O O B-say.dest
+B-say B-say.per O O O O O O O B-say.dest
+O B-take B-take.per O O B-take.dest B-take.per O B-find B-find.per O O B-find.dest I-find.dest
+B-find B-find.per O O B-find.dest B-follow B-follow.per O B-go O O B-go.dest
+B-say B-say.per O O O O O O O B-say.dest
 O O B-take O B-take.obj O O B-take.dest
-B-take B-take.per O O O O O O B-take.dest
-B-take O O B-take.pro
-B-say B-say.pro O O O O O O O O B-say.dest
+B-take B-take.per O O B-take.dest O O B-take.dest I-take.dest
+B-take B-take.obj O B-take.per
+B-say B-say.per O O O O O O O B-say.dest I-say.dest
 B-find O O O O B-find.dest
 O O O O O O
 B-go O O B-go.dest B-find O O O B-say O O
-B-find B-find.per O O B-find.dest O B-say B-say.pro O O
-O O B-find B-find.per O O B-find.dest I-find.dest O B-say B-say.pro O B-say.per O O B-say.dest
-O O B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-go O O B-go.dest
-O B-take O B-take.obj O O O O O B-take.dest
-B-say B-say.pro O O B-say.obj O O O O B-say.dest
-O O B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-go O O B-go.dest
-O O O B-say B-say.pro O O O O O O O B-say.dest I-say.dest
-O B-take O B-take.obj O O B-take.dest I-take.dest O B-put B-put.pro O O B-put.dest I-put.dest
+B-find B-find.per O O B-find.dest O B-say B-say.per O O
+O O B-find B-find.per O O B-find.dest I-find.dest O B-say B-say.obj O B-say.per O O B-say.dest
+O O B-find B-find.per O O B-find.dest B-follow B-follow.per O B-go O O B-go.dest
+O B-take O B-take.obj O O B-take.dest O O B-take.dest
+B-say B-say.per O O B-say.obj O O O O B-say.dest
+O O B-find B-find.per O O B-find.dest B-follow B-follow.per O B-go O O B-go.dest
+O O O B-say B-say.per O O O O O O O B-say.dest I-say.dest
+O B-take O B-take.obj O O B-take.dest I-take.dest O B-put B-put.obj O O B-put.dest I-put.dest
 O O O O O
-B-go O O B-go.dest I-go.dest B-find B-find.per O B-take B-take.pro
-O B-go O O B-go.dest B-find B-find.per O B-follow B-follow.pro
-B-find B-find.per O O B-find.dest O B-take B-take.pro O O B-take.dest
-B-find B-find.per O O B-find.dest I-find.dest B-follow B-follow.pro O B-go O O B-go.dest I-go.dest
+B-go O O B-go.dest I-go.dest B-find B-find.per O B-take B-take.per
+O B-go O O B-go.dest B-find B-find.per O B-follow B-follow.per
+B-find B-find.per O O B-find.dest O B-take B-take.per O O B-take.dest
+B-find B-find.per O O B-find.dest I-find.dest B-follow B-follow.per O B-go O O B-go.dest I-go.dest
 B-find O O O O B-find.dest
-B-take B-take.per O O B-take.dest I-take.dest B-take.pro O B-find B-find.pro O O B-find.dest
-B-take O O O O O O B-take.dest
-B-take B-take.pro O O
-B-find B-find.per O O B-find.dest O B-take B-take.pro O O B-take.dest
-B-say B-say.pro O O O O O O O B-say.dest I-say.dest
-B-find B-find.per O O O B-find.dest O B-say B-say.pro O O O O O O B-say.dest
-O O B-find B-find.per O O B-find.dest O B-say B-say.pro O B-say.per O O B-say.dest
-B-follow B-follow.per O O O O O B-follow.dest I-follow.dest
-B-find B-find.per O O B-find.dest I-find.dest O B-follow B-follow.pro
-O B-find B-find.per O O B-find.dest O B-take B-take.pro O O O
-B-find B-find.per O O B-find.dest O B-say B-say.pro O B-say.per O O B-say.dest
-O O B-take O B-take.obj O O B-take.dest O B-take B-take.pro O B-take.per O O O B-take.dest
-B-say B-say.pro O O O O O O O B-say.dest
-O O B-find O O O B-find.dest O B-follow B-follow.pro O O B-follow.dest
-B-find B-find.per O B-take B-take.pro
+B-take B-take.per O O B-take.dest I-take.dest B-take.per O B-find B-find.per O O B-find.dest
+B-take B-take.per O O B-take.dest O O B-take.dest
+B-take B-take.per O O
+B-find B-find.per O O B-find.dest O B-take B-take.per O O B-take.dest
+B-say B-say.per O O O O O O O B-say.dest I-say.dest
+B-find B-find.per O O O B-find.dest O B-say B-say.per O O O O O O B-say.dest
+O O B-find B-find.per O O B-find.dest O B-say B-say.obj O B-say.per O O B-say.dest
+B-follow B-follow.per O O B-follow.dest O O B-follow.dest I-follow.dest
+B-find B-find.per O O B-find.dest I-find.dest O B-follow B-follow.per
+O B-find B-find.per O O B-find.dest O B-take B-take.per O O O
+B-find B-find.per O O B-find.dest O B-say B-say.obj O B-say.per O O B-say.dest
+O O B-take O B-take.obj O O B-take.dest O B-take B-take.obj O B-take.per O O B-take.dest I-take.dest
+B-say B-say.per O O O O O O O B-say.dest
+O O B-find B-find.per O O B-find.dest O B-follow B-follow.per O O B-follow.dest
+B-find B-find.per O B-take B-take.per
 B-follow B-follow.per
-O O B-say B-say.pro O O O O O O O B-say.dest I-say.dest
+O O B-say B-say.per O O O O O O O B-say.dest I-say.dest
 O O
-B-say B-say.pro O O O O O O O B-say.dest I-say.dest
-B-take O O B-take.obj O O B-take.dest I-take.dest O B-take B-take.pro O O
-B-take B-take.per O O O B-take.dest O O O
-B-go O O B-go.dest B-find B-find.per O B-follow B-follow.pro
+B-say B-say.per O O O O O O O B-say.dest I-say.dest
+B-take O O B-take.obj O O B-take.dest I-take.dest O B-take B-take.obj O B-take.per
+B-take B-take.per O O B-take.dest I-take.dest O O B-take.dest
+B-go O O B-go.dest B-find B-find.per O B-follow B-follow.per
 B-follow B-follow.per
-B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-go O O B-go.dest
-O B-go O O B-go.dest B-find B-find.per O B-take B-take.pro
-B-find B-find.per O O O B-find.dest O B-say B-say.pro O O
+B-find B-find.per O O B-find.dest B-follow B-follow.per O B-go O O B-go.dest
+O B-go O O B-go.dest B-find B-find.per O B-take B-take.per
+B-find B-find.per O O B-find.dest I-find.dest O B-say B-say.per O O
 O O B-go O O B-go.dest B-find O O O O O O O B-say O O
-B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-go O O B-go.dest
-B-say B-say.pro O O O O O O O B-say.dest I-say.dest
-B-say B-say.pro O O O O O O O O B-say.dest
-B-say B-say.pro O O B-say.obj O O O O B-say.dest
+B-find B-find.per O O B-find.dest B-follow B-follow.per O B-go O O B-go.dest
+B-say B-say.per O O O O O O O B-say.dest I-say.dest
+B-say B-say.per O O O O O O O O B-say.dest
+B-say B-say.per O O B-say.obj O O O O B-say.dest
 O O B-find O O O O B-find.dest O B-say O O
-B-find B-find.per O O O B-find.dest O B-take B-take.pro O O O
-O O B-take O O O O O O B-take.dest
-B-find B-find.per O O B-find.dest O B-say B-say.pro O B-say.per O O B-say.dest
-O B-follow B-follow.per O O O O O B-follow.dest I-follow.dest
-B-find B-find.per O O B-find.dest O B-follow B-follow.pro
+B-find B-find.per O O B-find.dest I-find.dest O B-take B-take.per O O O
+O O B-take B-take.per O O B-take.dest O O B-take.dest
+B-find B-find.per O O B-find.dest O B-say B-say.obj O B-say.per O O B-say.dest
+O B-follow B-follow.per O O B-follow.dest O O B-follow.dest I-follow.dest
+B-find B-find.per O O B-find.dest O B-follow B-follow.per
 O O B-go O O B-go.dest B-find O O O O O B-say O O
-O B-find O O O B-find.dest O B-take B-take.pro O O O
+O B-find B-find.per O O B-find.dest O B-take B-take.per O O O
 B-find O O O O O B-find.dest I-find.dest
-O O O B-go O O B-go.dest B-find B-find.per O B-take B-take.pro
-B-find B-find.per O O B-find.dest O B-take B-take.pro O O O
-B-find B-find.per O O B-find.dest O B-take B-take.pro O O O
+O O O B-go O O B-go.dest B-find B-find.per O B-take B-take.per
+B-find B-find.per O O B-find.dest O B-take B-take.per O O B-take.dest
+B-find B-find.per O O B-find.dest O B-take B-take.per O O O
 O O O B-go O O B-go.dest I-go.dest B-find O O O O B-say O O
 B-take O O O O B-take.dest I-take.dest
 B-take B-take.per O O B-take.dest
-O B-go O O B-go.dest I-go.dest B-find B-find.per O B-follow B-follow.pro
-B-find B-find.per O O O B-find.dest O B-say B-say.pro O O O O B-say.dest
-B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-take B-take.pro O
-B-find B-find.per O B-take B-take.pro
-O O B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-go O O B-go.dest I-go.dest
-B-find B-find.per O O B-find.dest I-find.dest B-follow B-follow.pro O B-go O O B-go.dest
-O O B-take B-take.per O O B-take.dest B-take.pro B-take.obj B-find B-find.pro O O B-find.dest
-O B-go O O B-go.dest B-find B-find.per O B-take B-take.pro
-O O O B-find O O O B-find.dest I-find.dest O B-follow B-follow.pro O O B-follow.dest
-O B-go O O O B-find O O B-take B-take.pro O O B-take.dest I-take.dest
-O O O B-take O B-take.obj O B-take B-take.pro O O B-take.dest
-O O O B-find B-find.per O O O B-follow B-follow.pro O B-take B-take.pro O
-O O B-go O O O B-find B-find.per O B-follow B-follow.pro
+O B-go O O B-go.dest I-go.dest B-find B-find.per O B-follow B-follow.per
+B-find B-find.per O O O B-find.dest O B-say B-say.per O O O O B-say.dest
+B-find B-find.per O O B-find.dest B-follow B-follow.per O B-take B-take.per O
+B-find B-find.per O B-take B-take.per
+O O B-find B-find.per O O B-find.dest B-follow B-follow.per O B-go O O B-go.dest I-go.dest
+B-find B-find.per O O B-find.dest I-find.dest B-follow B-follow.per O B-go O O B-go.dest
+O O B-take B-take.per O O B-take.dest B-take.per B-take.obj B-find B-find.per O O B-find.dest
+O B-go O O B-go.dest B-find B-find.per O B-take B-take.per
+O O O B-find B-find.per O O B-find.dest I-find.dest O B-follow B-follow.per O O B-follow.dest
+O B-go O O B-go.dest B-find B-find.per O B-take B-take.per O O B-take.dest I-take.dest
+O O O B-take O B-take.obj O B-take B-take.obj O O B-take.dest
+O O O B-find B-find.per O O B-find.dest B-follow B-follow.per O B-take B-take.per O
+O O B-go O O B-go.dest B-find B-find.per O B-follow B-follow.per
 O O O B-find O O O O O B-find.dest
 B-take O O O O O
 O O O B-take O B-take.obj O O O O O O O O O B-take.dest
-O O B-say B-say.pro O O B-say.obj O O O O B-say.dest I-say.dest
-O O O B-take B-take.pro O O O O O O B-take.obj O O B-take.dest I-take.dest
-B-find O O B-take B-take.pro
+O O B-say B-say.per O O B-say.obj O O O O B-say.dest I-say.dest
+O O O B-take B-take.per O O O O O O B-take.obj O O B-take.dest I-take.dest
+B-find B-find.per O B-take B-take.per
 O O O
-O O O B-go O O B-go.dest B-find B-find.per O B-take B-take.pro O O B-take.dest
-B-take O B-take.obj O O B-take.dest O B-put B-put.pro O O B-put.dest I-put.dest
-B-take B-take.pro O B-take.obj
-O B-take B-take.pro O B-take.obj
-B-go O O B-go.dest B-find B-find.per O B-take B-take.pro O O O
-B-find B-find.per O O O O B-take B-take.pro O O B-take.dest
-B-find B-find.per O O O B-find.dest B-follow B-follow.pro O B-go O O B-go.dest
-B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-take B-take.pro O
+O O O B-go O O B-go.dest B-find B-find.per O B-take B-take.per O O B-take.dest
+B-take O B-take.obj O O B-take.dest O B-put B-put.obj O O B-put.dest I-put.dest
+B-take B-take.per O B-take.obj
+O B-take B-take.per O B-take.obj
+B-go O O B-go.dest B-find B-find.per O B-take B-take.per O O B-take.dest
+B-find B-find.per O O B-find.dest O B-take B-take.per O O B-take.dest
+B-find B-find.per O O B-find.dest I-find.dest B-follow B-follow.per O B-go O O B-go.dest
+B-find B-find.per O O B-find.dest B-follow B-follow.per O B-take B-take.per O
 O O B-take O O O
-B-find B-find.per O O O B-find.dest O B-follow B-follow.pro
-O B-take B-take.per O O B-take.dest O O O
-O B-find B-find.per O O O B-find.dest O B-say B-say.pro O O O O O O B-say.dest
-O O B-take B-take.pro O O
-B-say B-say.pro O O B-say.obj O O O O B-say.dest
-B-go O O B-go.dest B-find B-find.per O B-take B-take.pro
-B-take O B-take.obj O O O B-take.dest O B-take B-take.pro O B-take.per O O B-take.dest I-take.dest
+B-find B-find.per O O B-find.dest I-find.dest O B-follow B-follow.per
+O B-take B-take.per O O B-take.dest O O B-take.dest
+O B-find B-find.per O O O B-find.dest O B-say B-say.per O O O O O O B-say.dest
+O O B-take B-take.per O O
+B-say B-say.per O O B-say.obj O O O O B-say.dest
+B-go O O B-go.dest B-find B-find.per O B-take B-take.per
+B-take O B-take.obj O O B-take.dest I-take.dest O B-take B-take.obj O B-take.per O O B-take.dest I-take.dest
 B-find O O B-find.obj O O B-find.dest I-find.dest
-O B-find B-find.per O O B-find.dest O B-take B-take.pro O O B-take.dest
+O B-find B-find.per O O B-find.dest O B-take B-take.per O O B-take.dest
 O O B-take O B-take.obj O O B-take.dest
-O O O B-find B-find.per O O B-find.dest O B-say B-say.pro O O
-B-say B-say.pro O O O O O O O O B-say.dest
-B-follow B-follow.per O O O O O B-follow.dest I-follow.dest
-B-go O O B-go.dest B-find B-find.per O B-follow B-follow.pro
-B-find B-find.per O O O B-find.dest O B-say B-say.pro O O O O O O B-say.dest I-say.dest
-B-take O O B-take.pro
+O O O B-find B-find.per O O B-find.dest O B-say B-say.per O O
+B-say B-say.per O O O O O O O O B-say.dest
+B-follow B-follow.per O O B-follow.dest O O B-follow.dest I-follow.dest
+B-go O O B-go.dest B-find B-find.per O B-follow B-follow.per
+B-find B-find.per O O O B-find.dest O B-say B-say.per O O O O O O B-say.dest I-say.dest
+B-take O O B-take.per
 O B-find O B-find.obj O O B-find.dest
-O O B-find B-find.per O O O B-find.dest O B-say B-say.pro O O O O B-say.dest I-say.dest
-B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-take B-take.pro O
-B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-take B-take.pro O
-O O B-take O B-take.obj O O O B-take.dest I-take.dest
-B-find B-find.per O O O B-find.dest O B-say B-say.pro O O O O O O B-say.dest I-say.dest
-B-take O O B-take.obj O O O B-take.dest
-B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-go O O B-go.dest
-O O B-find B-find.per O O B-find.dest O B-take B-take.pro O O B-take.dest
-B-go O O B-go.dest B-find B-find.per O B-follow B-follow.pro
-B-take B-take.pro O B-take.obj O O B-take.dest
-B-find B-find.per O O O B-find.dest O B-take B-take.pro O O O
-B-take B-take.pro O B-take.obj
-B-go O O B-go.dest B-find O O B-follow B-follow.pro
-B-find B-find.per O O B-find.dest I-find.dest B-follow B-follow.pro O B-go O O B-go.dest I-go.dest
-O O O B-say B-say.pro O O B-say.obj O O O O B-say.dest I-say.dest
-B-take B-take.pro O O O O O O B-take.dest
-O O B-take B-take.per O O O O O B-take.dest
-B-take B-take.pro O O O O O B-take.obj O O B-take.dest I-take.dest
-O O O B-say B-say.pro O O O O O O O O B-say.dest I-say.dest
-B-follow B-follow.per
-B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-go O O B-go.dest
-B-take O O O O O
-B-find B-find.per O O B-find.dest O B-take B-take.pro O O O
-B-find B-find.per O O B-find.dest O B-take B-take.pro O O O
-B-take O B-take.obj O O B-take.dest I-take.dest
-B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-take B-take.pro O
-O O O B-follow B-follow.per O O O O O B-follow.dest I-follow.dest
-B-find B-find.per O O B-find.dest O B-take B-take.pro O O O
-B-take O O O O O O O B-take.dest I-take.dest
-B-go O O O B-go.dest B-find B-find.per O B-take B-take.pro O O O
-O B-take O O O O O
-B-take B-take.per O O O B-take.pro O B-find B-find.pro O O B-find.dest
-B-find B-find.per O O B-find.dest O B-take B-take.pro O O B-take.dest
-O B-find B-find.per O O O B-find.dest O B-say B-say.pro O O O O O O B-say.dest I-say.dest
-B-take O O B-take.obj O O B-take.dest O B-put B-put.pro O O B-put.dest I-put.dest
-O O B-find B-find.per O O O B-follow B-follow.pro O B-take B-take.pro O
-B-go O O B-go.dest B-find B-find.per O B-follow B-follow.pro
-B-take B-take.pro O O O O O O B-take.dest I-take.dest
-B-take O O B-take.pro
-B-take B-take.per O O B-take.dest B-take.pro O B-find B-find.pro O O B-find.dest
-O O B-find O O B-find.obj O O B-find.dest
-O B-say B-say.pro O O O O O B-say.dest O O
-B-say B-say.pro O O O O B-say.obj O O B-say.dest
-B-find O B-find.obj O O B-find.dest I-find.dest
-O O O B-go O O B-go.dest B-find O O B-take B-take.pro
-O B-find B-find.per O O B-find.dest O B-say B-say.pro O B-say.per O O O B-say.dest
-B-take B-take.per O O O B-take.dest
-B-go O O B-go.dest B-find O O O O B-say O O
-B-find O O O B-find.dest B-follow B-follow.pro O B-go O O B-go.dest
-B-go O O B-go.dest B-find B-find.per O B-take B-take.pro
-O O B-find B-find.per O O B-find.dest O B-take B-take.pro O O O
-B-follow O O O B-follow.dest I-follow.dest O O O
-B-take O O B-take.obj O O B-take.dest
-O O B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-go O O B-go.dest
-B-take B-take.pro O O
-B-take O B-take.obj O O O O O O B-take.dest
-B-find B-find.per O O B-find.dest O B-follow B-follow.pro O O B-follow.dest I-follow.dest
-B-take O B-take.obj O O B-take.dest
-O O O B-take O O O O O B-take.dest
-B-go O O B-go.dest B-find B-find.per O B-follow B-follow.pro
-B-take B-take.per O O B-take.dest B-take.pro B-take.obj B-find B-find.pro O O B-find.dest
-B-go O O B-go.dest B-find O B-find.obj O B-take B-take.pro O O B-take.dest
-O O B-say O O O O O O O O O O O B-say.dest
-B-find O O O B-find.dest B-follow B-follow.pro O B-go O O B-go.dest
-B-find B-find.per O O O B-follow B-follow.pro O B-take B-take.pro O
-O O O B-find B-find.per O O B-find.dest O B-say B-say.pro O B-say.per O O B-say.dest
-B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-go O O B-go.dest
-O O O B-take O O O
-B-find B-find.per O O B-find.dest O B-follow B-follow.pro O O B-follow.dest
-B-find B-find.per O O O B-find.dest O B-say B-say.pro O O O O B-say.dest
-B-take O O O O O O O O O O B-take.dest
-B-find O O O B-find.dest O B-take B-take.pro O O O
-O O B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-take B-take.pro O
-B-find B-find.per O O B-find.dest O B-say B-say.pro O O
-O O B-find B-find.per O B-take B-take.pro
-B-find O O O B-find.dest B-follow B-follow.pro O B-take B-take.pro O
-O O B-take B-take.pro O O
-O O B-find O O O B-find.dest O B-take B-take.pro O O B-take.dest
-B-follow B-follow.per O O O O O B-follow.dest
-B-find O O O O O B-find.dest I-find.dest O B-say O O
-B-go O O B-go.dest B-find B-find.per O B-follow B-follow.pro
-O B-take B-take.pro O B-take.obj O O B-take.dest
-B-find B-find.per O O O B-find.dest B-follow B-follow.pro O B-go O O B-go.dest
-O O B-take B-take.pro O O
-O O O B-say B-say.pro O O O O O B-say.dest O O
-O O B-take B-take.pro O O O O O O B-take.dest
-O O B-say B-say.pro O O O O O O O B-say.dest I-say.dest
-B-take O O O O O B-take.dest
-B-find B-find.per O O O B-find.dest B-follow B-follow.pro O B-go O O B-go.dest
-B-say B-say.pro O O O O O B-say.obj O O B-say.dest I-say.dest
-B-find B-find.per O O B-find.dest I-find.dest B-follow B-follow.pro O B-take B-take.pro O
-O O B-go O O B-go.dest I-go.dest B-find O O B-find.obj O B-put B-put.pro O O B-put.dest
-B-take B-take.pro O O O O B-take.obj O O B-take.dest
-B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-take B-take.pro O
-B-say B-say.pro O O O O O O O B-say.dest I-say.dest
-B-find B-find.per O O B-find.dest O B-follow B-follow.pro O O B-follow.dest
-O O B-take B-take.pro O O
-O O B-find O O O B-find.dest I-find.dest B-follow B-follow.pro O B-go O O B-go.dest I-go.dest
-B-find O O O B-find.dest I-find.dest O B-follow B-follow.pro
-B-take O B-take.obj O B-take.pro
-B-say B-say.pro O O O O O B-say.dest O O
-O O B-find B-find.per O O O B-find.dest B-follow B-follow.pro O B-go O O B-go.dest I-go.dest
-O B-take B-take.per O O B-take.dest B-take.pro B-take.obj B-find B-find.pro O O B-find.dest
-O O
-B-take O O O O O
-O O B-go O O B-go.dest B-find O O B-find.obj O B-put B-put.pro O O B-put.dest
-B-follow B-follow.per O O B-follow.dest O O O
-B-find O O O O O B-find.dest
-B-follow B-follow.per O O B-follow.dest O O O
-O O B-find B-find.per O O B-find.dest O B-follow B-follow.pro
-O B-say B-say.pro O O O O O O O B-say.dest
-O O O B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-go O O B-go.dest
-B-say B-say.pro O O O O O O O B-say.dest I-say.dest
-B-find O O O O B-find.dest O B-say B-say.pro O O O O O O B-say.dest
-B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-go O O B-go.dest
-B-find B-find.per O O O B-follow B-follow.pro O B-go O O B-go.dest I-go.dest
-B-find O B-find.obj O O B-find.dest
-B-go O O B-go.dest B-find B-find.per O B-take B-take.pro
-B-say B-say.pro O O O O O O O B-say.dest
-O B-take B-take.pro O O O O O O B-take.obj O O O B-take.dest
-O B-say B-say.pro O O O O O O O B-say.dest I-say.dest
-O O O B-find O O O B-find.dest I-find.dest O B-follow B-follow.pro O O B-follow.dest
-O B-find O O O O B-find.dest I-find.dest
-B-find O O O B-find.dest O B-take B-take.pro O O O
-B-say B-say.pro O O O O O O O O B-say.dest
-B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-take B-take.pro O
-O B-go O O B-go.dest B-find B-find.per O B-take B-take.pro O O O B-take.dest
-O O B-find O O O B-find.dest O B-take B-take.pro O O B-take.dest I-take.dest
-O O B-take O B-take.obj O O B-take.dest O B-take B-take.pro O O B-take.dest I-take.dest
-O O B-find O O O B-find.dest O B-take B-take.pro O O O
-O O B-find O O O O B-find.dest
-B-find B-find.per O B-take B-take.pro
-O O O B-take B-take.per O O B-take.dest O O O
-B-go O O B-go.dest B-find B-find.per O B-follow B-follow.pro
-B-take B-take.per O O B-take.dest O O O
-O O O B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-take B-take.pro O
-O O B-take B-take.per O O O O O B-take.dest
-O O B-find B-find.per O O B-find.dest O B-take B-take.pro O O O
-B-find B-find.per O O B-find.dest O B-follow B-follow.pro O O B-follow.dest
-B-find B-find.per O O O B-follow B-follow.pro O B-go O O B-go.dest I-go.dest
-B-find B-find.per O O B-find.dest O B-say B-say.pro O B-say.per O O O
-O B-find O O O B-find.dest I-find.dest B-follow B-follow.pro O B-take B-take.pro O
-B-say B-say.pro O O O O O B-say.dest O O
+O O B-find B-find.per O O O B-find.dest O B-say B-say.per O O O O B-say.dest I-say.dest
+B-find B-find.per O O B-find.dest B-follow B-follow.per O B-take B-take.per O
+B-find B-find.per O O B-find.dest B-follow B-follow.per O B-take B-take.per O
+O O B-take O B-take.obj I-take.obj O O B-take.dest I-take.dest
+B-find B-find.per O O O B-find.dest O B-say B-say.per O O O O O O B-say.dest I-say.dest
+B-take O B-take.obj I-take.obj O O B-take.dest I-take.dest
+B-find B-find.per O O B-find.dest B-follow B-follow.per O B-go O O B-go.dest
+O O B-find B-find.per O O B-find.dest O B-take B-take.per O O B-take.dest
+B-go O O B-go.dest B-find B-find.per O B-follow B-follow.per
+B-take B-take.per O B-take.obj O O B-take.dest
+B-find B-find.per O O B-find.dest I-find.dest O B-take B-take.per O O O
+B-take B-take.per O B-take.obj
+B-go O O B-go.dest B-find B-find.per O B-follow B-follow.per
+B-find B-find.per O O B-find.dest I-find.dest B-follow B-follow.per O B-go O O B-go.dest I-go.dest
+O O O B-say B-say.per O O B-say.obj O O O O B-say.dest I-say.dest
 B-take B-take.per O O O O O B-take.dest I-take.dest
-B-find B-find.per O O B-find.dest O B-follow B-follow.pro O O B-follow.dest
-O O B-take B-take.pro O O O O O O O B-take.dest
+O O B-take B-take.per O O B-take.dest O O B-take.dest
+B-take B-take.per O O O O B-take.obj I-take.obj O O B-take.dest I-take.dest
+O O O B-say B-say.per O O O O O B-say.obj O O B-say.dest I-say.dest
+B-follow B-follow.per
+B-find B-find.per O O B-find.dest B-follow B-follow.per O B-go O O B-go.dest
+B-take O O O O O
+B-find B-find.per O O B-find.dest O B-take B-take.per O O O
+B-find B-find.per O O B-find.dest O B-take B-take.per O O B-take.dest
+B-take O B-take.obj O O B-take.dest I-take.dest
+B-find B-find.per O O B-find.dest B-follow B-follow.per O B-take B-take.per O
+O O O B-follow B-follow.per O O B-follow.dest O O B-follow.dest I-follow.dest
+B-find B-find.per O O B-find.dest O B-take B-take.per O O O
+B-take B-take.obj O O O O O O B-take.dest I-take.dest
+B-go O O B-go.dest I-go.dest B-find B-find.per O B-take B-take.per O O B-take.dest
+O B-take O B-take.obj O O O
+B-take B-take.per O O B-take.dest B-take.per O B-find B-find.per O O B-find.dest
+B-find B-find.per O O B-find.dest O B-take B-take.per O O B-take.dest
+O B-find B-find.per O O O B-find.dest O B-say B-say.per O O O O O O B-say.dest I-say.dest
+B-take O O B-take.obj O O B-take.dest O B-put B-put.obj O O B-put.dest I-put.dest
+O O B-find B-find.per O O B-find.dest B-follow B-follow.per O B-take B-take.per O
+B-go O O B-go.dest B-find B-find.per O B-follow B-follow.per
+B-take B-take.per O O O O O O B-take.dest I-take.dest
+B-take O O B-take.per
+B-take B-take.per O O B-take.dest B-take.per B-take.per B-find B-find.per O O B-find.dest
+O O B-find O O B-find.obj O O B-find.dest
+O B-say B-say.per O O O O O B-say.dest O O
+B-say B-say.per O O O O B-say.obj O O B-say.dest
+B-find O B-find.obj O O B-find.dest I-find.dest
+O O O B-go O O B-go.dest B-find B-find.per O B-take B-take.per
+O B-find B-find.per O O B-find.dest O B-say B-say.obj O B-say.per O O B-say.dest I-say.dest
+B-take B-take.per O O B-take.dest I-take.dest
+B-go O O B-go.dest B-find O O O O B-say O O
+B-find B-find.per O O B-find.dest B-follow B-follow.per O B-go O O B-go.dest
+B-go O O B-go.dest B-find B-find.per O B-take B-take.per
+O O B-find B-find.per O O B-find.dest O B-take B-take.per O O O
+B-follow B-follow.per O O B-follow.dest I-follow.dest O O B-follow.dest
+B-take O B-take.obj I-take.obj O O B-take.dest
+O O B-find B-find.per O O B-find.dest B-follow B-follow.per O B-go O O B-go.dest
+B-take B-take.per O O
+B-take O B-take.obj O O O O O O B-take.dest
+B-find B-find.per O O B-find.dest O B-follow B-follow.per O O B-follow.dest I-follow.dest
+B-take O B-take.obj O O B-take.dest
+O O O B-take O B-take.obj I-take.obj O O B-take.dest
+B-go O O B-go.dest B-find B-find.per O B-follow B-follow.per
+B-take B-take.per O O B-take.dest B-take.per B-take.obj B-find B-find.per O O B-find.dest
+B-go O O B-go.dest B-find O B-find.obj O B-take B-take.obj O O B-take.dest
+O O B-say O O O O O O O O O O O B-say.dest
+B-find B-find.per O O B-find.dest B-follow B-follow.per O B-go O O B-go.dest
+B-find B-find.per O O B-find.dest B-follow B-follow.per O B-take B-take.per O
+O O O B-find B-find.per O O B-find.dest O B-say B-say.obj O B-say.per O O B-say.dest
+B-find B-find.per O O B-find.dest B-follow B-follow.per O B-go O O B-go.dest
+O O O B-take O O O
+B-find B-find.per O O B-find.dest O B-follow B-follow.per O O B-follow.dest
+B-find B-find.per O O O B-find.dest O B-say B-say.per O O O O B-say.dest
+B-take O O O O O O O O O O B-take.dest
+B-find B-find.per O O B-find.dest O B-take B-take.per O O O
+O O B-find B-find.per O O B-find.dest B-follow B-follow.per O B-take B-take.per O
+B-find B-find.per O O B-find.dest O B-say B-say.per O O
+O O B-find B-find.per O B-take B-take.per
+B-find B-find.per O O B-find.dest B-follow B-follow.per O B-take B-take.per O
+O O B-take B-take.per O O
+O O B-find B-find.per O O B-find.dest O B-take B-take.per O O B-take.dest
+B-follow B-follow.per O O B-follow.dest O O B-follow.dest
+B-find O O O O O B-find.dest I-find.dest O B-say O O
+B-go O O B-go.dest B-find B-find.per O B-follow B-follow.per
+O B-take B-take.per O B-take.obj O O B-take.dest
+B-find B-find.per O O B-find.dest I-find.dest B-follow B-follow.per O B-go O O B-go.dest
+O O B-take B-take.per O O
+O O O B-say B-say.per O O O O O B-say.dest O O
+O O B-take B-take.per O O O O O O B-take.dest
+O O B-say B-say.per O O O O O O O B-say.dest I-say.dest
+B-take B-take.obj O O O O B-take.dest
+B-find B-find.per O O B-find.dest I-find.dest B-follow B-follow.per O B-go O O B-go.dest
+B-say B-say.per O O O O O B-say.obj O O B-say.dest I-say.dest
+B-find B-find.per O O B-find.dest I-find.dest B-follow B-follow.per O B-take B-take.per O
+O O B-go O O B-go.dest I-go.dest B-find O O B-find.obj O B-put B-put.obj O O B-put.dest
+B-take B-take.per O O O O B-take.obj O O B-take.dest
+B-find B-find.per O O B-find.dest B-follow B-follow.per O B-take B-take.per O
+B-say B-say.per O O O O O O O B-say.dest I-say.dest
+B-find B-find.per O O B-find.dest O B-follow B-follow.per O O B-follow.dest
+O O B-take B-take.per O O
+O O B-find B-find.per O O B-find.dest I-find.dest B-follow B-follow.per O B-go O O B-go.dest I-go.dest
+B-find B-find.per O O B-find.dest I-find.dest O B-follow B-follow.per
+B-take O B-take.obj O B-take.per
+B-say B-say.per O O O O O B-say.dest O O
+O O B-find B-find.per O O B-find.dest I-find.dest B-follow B-follow.per O B-go O O B-go.dest I-go.dest
+O B-take B-take.per O O B-take.dest B-take.per B-take.obj B-find B-find.per O O B-find.dest
+O O
+B-take O B-take.obj O O O
+O O B-go O O B-go.dest B-find O O B-find.obj O B-put B-put.obj O O B-put.dest
+B-follow B-follow.per O O B-follow.dest O O B-follow.dest
+B-find O O O O O B-find.dest
+B-follow B-follow.per O O B-follow.dest O O B-follow.dest
+O O B-find B-find.per O O B-find.dest O B-follow B-follow.per
+O B-say B-say.per O O O O B-say.obj O O B-say.dest
+O O O B-find B-find.per O O B-find.dest B-follow B-follow.per O B-go O O B-go.dest
+B-say B-say.per O O O O O O O B-say.dest I-say.dest
+B-find B-find.per O O O B-find.dest O B-say B-say.per O O O O O O B-say.dest
+B-find B-find.per O O B-find.dest B-follow B-follow.per O B-go O O B-go.dest
+B-find B-find.per O O B-find.dest B-follow B-follow.per O B-go O O B-go.dest I-go.dest
+B-find O B-find.obj O O B-find.dest
+B-go O O B-go.dest B-find B-find.per O B-take B-take.per
+B-say B-say.per O O O O O O O B-say.dest
+O B-take B-take.per O O O O O O B-take.obj O O B-take.dest I-take.dest
+O B-say B-say.per O O O O O O O B-say.dest I-say.dest
+O O O B-find B-find.per O O B-find.dest I-find.dest O B-follow B-follow.per O O B-follow.dest
+O B-find O O O O B-find.dest I-find.dest
+B-find B-find.per O O B-find.dest O B-take B-take.per O O O
+B-say B-say.per O O O O O O O O B-say.dest
+B-find B-find.per O O B-find.dest B-follow B-follow.per O B-take B-take.per O
+O B-go O O B-go.dest B-find B-find.per O B-take B-take.per O O B-take.dest I-take.dest
+O O B-find B-find.per O O B-find.dest O B-take B-take.per O O B-take.dest I-take.dest
+O O B-take O B-take.obj O O B-take.dest O B-take B-take.obj O O B-take.dest I-take.dest
+O O B-find B-find.per O O B-find.dest O B-take B-take.per O O O
+O O B-find O B-find.obj O O B-find.dest
+B-find B-find.per O B-take B-take.per
+O O O B-take B-take.per O O B-take.dest O O B-take.dest
+B-go O O B-go.dest B-find B-find.per O B-follow B-follow.per
+B-take B-take.per O O B-take.dest O O B-take.dest
+O O O B-find B-find.per O O B-find.dest B-follow B-follow.per O B-take B-take.per O
+O O B-take B-take.per O O B-take.dest O O B-take.dest
+O O B-find B-find.per O O B-find.dest O B-take B-take.per O O O
+B-find B-find.per O O B-find.dest O B-follow B-follow.per O O B-follow.dest
+B-find B-find.per O O B-find.dest B-follow B-follow.per O B-go O O B-go.dest I-go.dest
+B-find B-find.per O O B-find.dest O B-say B-say.obj O B-say.per O O B-say.dest
+O B-find B-find.per O O B-find.dest I-find.dest B-follow B-follow.per O B-take B-take.per O
+B-say B-say.per O O O O O B-say.dest O O
+B-take B-take.per O O B-take.dest O O B-take.dest I-take.dest
+B-find B-find.per O O B-find.dest O B-follow B-follow.per O O B-follow.dest
+O O B-take B-take.per O O O O O O B-take.dest I-take.dest
 O O O B-take O B-take.obj O O O O O O O O O B-take.dest
-B-take O B-take.obj O O B-take.dest O B-put B-put.pro O O B-put.dest I-put.dest
+B-take O B-take.obj O O B-take.dest O B-put B-put.obj O O B-put.dest I-put.dest
 O O B-find O O O O O B-find.dest O B-say O O
-O O O B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-take B-take.pro O
-B-find B-find.per O B-take B-take.pro
-B-find B-find.per O O B-find.dest O B-take B-take.pro O O O
-B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-go O O B-go.dest
+O O O B-find B-find.per O O B-find.dest B-follow B-follow.per O B-take B-take.per O
+B-find B-find.per O B-take B-take.per
+B-find B-find.per O O B-find.dest O B-take B-take.per O O O
+B-find B-find.per O O B-find.dest B-follow B-follow.per O B-go O O B-go.dest
 O O O B-say O O O O O O O O B-say.dest
-B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-go O O B-go.dest I-go.dest
-O B-take B-take.per O O B-take.dest O O O
-B-find B-find.per O O O B-find.dest B-follow B-follow.pro O B-take B-take.pro O
-O O B-find B-find.per O O B-find.dest O B-say B-say.pro O B-say.per O O B-say.dest
-B-take O O B-take.obj O O B-take.dest O B-take B-take.pro O B-take.per O O B-take.dest
+B-find B-find.per O O B-find.dest B-follow B-follow.per O B-go O O B-go.dest I-go.dest
+O B-take B-take.per O O B-take.dest O O B-take.dest
+B-find B-find.per O O B-find.dest I-find.dest B-follow B-follow.per O B-take B-take.per O
+O O B-find B-find.per O O B-find.dest O B-say B-say.obj O B-say.per O O B-say.dest
+B-take O O B-take.obj O O B-take.dest O B-take B-take.obj O B-take.per O O B-take.dest
 B-say O O O O O O O O O O O O B-say.dest
-B-find B-find.per O O B-find.dest O B-say B-say.pro O O
-O O B-take B-take.pro O B-take.obj O O B-take.dest
-B-say B-say.pro O O O O B-say.obj O O B-say.dest I-say.dest
-B-take B-take.pro O O O O B-take.obj O O B-take.dest I-take.dest
-O O O B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-go O O B-go.dest
-B-take B-take.pro O O O
+B-find B-find.per O O B-find.dest O B-say B-say.per O O
+O O B-take B-take.per O B-take.obj O O B-take.dest
+B-say B-say.per O O O O B-say.obj O O B-say.dest I-say.dest
+B-take B-take.per O O O O B-take.obj O O B-take.dest I-take.dest
+O O O B-find B-find.per O O B-find.dest B-follow B-follow.per O B-go O O B-go.dest
+B-take B-take.per O O O
 B-follow B-follow.per
-B-say B-say.pro O O O O O O O B-say.dest
-B-say B-say.pro O O O O O O O B-say.dest I-say.dest
-O B-say B-say.pro O O O O O O O O B-say.dest I-say.dest
-B-find B-find.per O O O B-find.dest O B-say B-say.pro O O
-B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-take B-take.pro O
-B-take O O O O O O B-take.dest I-take.dest
-B-go O O B-go.dest B-find B-find.per O B-take B-take.pro O O B-take.dest
-B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-go O O B-go.dest
-B-take B-take.pro O B-take.obj
-O B-take O B-take.obj O O O B-take.dest O B-take B-take.pro O O B-take.dest I-take.dest
-O B-find B-find.per O O O B-find.dest O B-say B-say.pro O O O O B-say.dest I-say.dest
-O O O B-take B-take.pro O B-take.obj O O O B-take.dest
-B-take B-take.pro O O O O O B-take.dest
-O O O B-find O O O O B-follow B-follow.pro O B-go O O B-go.dest
-B-find B-find.per O B-take B-take.pro
-B-take O B-take.obj O O B-take.dest O B-put B-put.pro O O B-put.dest
-B-find B-find.per O B-take B-take.pro
-B-say B-say.pro O O O O O O O O B-say.dest
+B-say B-say.per O O B-say.obj O O O O B-say.dest
+B-say B-say.per O O O O O O O B-say.dest I-say.dest
+O B-say B-say.per O O O O O O O O B-say.dest I-say.dest
+B-find B-find.per O O B-find.dest I-find.dest O B-say B-say.per O O
+B-find B-find.per O O B-find.dest B-follow B-follow.per O B-take B-take.per O
+B-take B-take.per O O B-take.dest O O B-take.dest I-take.dest
+B-go O O B-go.dest B-find B-find.per O B-take B-take.per O O B-take.dest
+B-find B-find.per O O B-find.dest B-follow B-follow.per O B-go O O B-go.dest
+B-take B-take.per O B-take.obj
+O B-take O B-take.obj O O B-take.dest I-take.dest O B-take B-take.obj O O B-take.dest I-take.dest
+O B-find B-find.per O O O B-find.dest O B-say B-say.per O O O O B-say.dest I-say.dest
+O O O B-take B-take.per O B-take.obj O O B-take.dest I-take.dest
+B-take B-take.per O O B-take.obj O O B-take.dest
+O O O B-find B-find.per O O B-find.dest B-follow B-follow.per O B-go O O B-go.dest
+B-find B-find.per O B-take B-take.per
+B-take O B-take.obj O O B-take.dest O B-put B-put.obj O O B-put.dest
+B-find B-find.per O B-take B-take.per
+B-say B-say.per O O O O O O O B-say.dest I-say.dest
 B-find O O B-find.obj O O B-find.dest I-find.dest
-B-take B-take.pro O O O O O O O B-take.dest
-B-find B-find.per O O B-find.dest I-find.dest B-follow B-follow.pro O B-go O O B-go.dest I-go.dest
-B-find B-find.per O O B-find.dest I-find.dest O B-say B-say.pro O O
-O O B-find B-find.per O O O B-find.dest O B-say B-say.pro O O O O O O B-say.dest
-B-say B-say.pro O O O O O O O O B-say.dest
-O B-go O O B-go.dest B-find O O B-find.obj O B-take B-take.pro O O B-take.dest I-take.dest
-B-take B-take.pro O O B-take.obj O O B-take.dest I-take.dest
-B-go O O B-go.dest B-find B-find.per O B-follow B-follow.pro
-O O B-take B-take.pro O O O O O O B-take.dest
-O O B-take B-take.per O O O O O B-take.dest
-B-take B-take.pro O O O O O O B-take.dest I-take.dest
-B-say B-say.pro O O O O O O O B-say.dest
-B-take O O O O B-take.dest O O O
-B-go O O B-go.dest B-find B-find.per O B-follow B-follow.pro
-B-say B-say.pro O O O O O O O B-say.dest
-O B-say B-say.pro O O O O O O O B-say.dest
-B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-take B-take.pro O
-B-go O O B-go.dest B-find B-find.per O B-take B-take.pro O O B-take.dest
-B-say B-say.pro O O O O O B-say.dest O O O
-O B-find B-find.per O O B-find.dest I-find.dest O B-take B-take.pro O O O
+B-take B-take.per O O O O O O B-take.dest I-take.dest
+B-find B-find.per O O B-find.dest I-find.dest B-follow B-follow.per O B-go O O B-go.dest I-go.dest
+B-find B-find.per O O B-find.dest I-find.dest O B-say B-say.per O O
+O O B-find B-find.per O O O B-find.dest O B-say B-say.per O O O O O O B-say.dest
+B-say B-say.per O O O O O O O O B-say.dest
+O B-go O O B-go.dest B-find O O B-find.obj O B-take B-take.obj O O B-take.dest I-take.dest
+B-take B-take.per O O B-take.obj O O B-take.dest I-take.dest
+B-go O O B-go.dest B-find B-find.per O B-follow B-follow.per
+O O B-take B-take.per O O O O O O B-take.dest
+O O B-take B-take.per O O B-take.dest O O B-take.dest
+B-take B-take.per O O O O O O B-take.dest I-take.dest
+B-say B-say.per O O O O O O O B-say.dest
+B-take B-take.per O O B-take.dest I-take.dest O O B-take.dest
+B-go O O B-go.dest B-find B-find.per O B-follow B-follow.per
+B-say B-say.per O O O O O O O B-say.dest
+O B-say B-say.per O O O O O O O B-say.dest
+B-find B-find.per O O B-find.dest B-follow B-follow.per O B-take B-take.per O
+B-go O O B-go.dest B-find B-find.per O B-take B-take.per O O B-take.dest
+B-say B-say.per O O O O O B-say.dest O O O
+O B-find B-find.per O O B-find.dest I-find.dest O B-take B-take.per O O O
 B-follow B-follow.per
-O O B-take B-take.pro O O B-take.obj O O B-take.dest I-take.dest
-B-take B-take.pro O O O O B-take.obj O O B-take.dest
-B-find B-find.per O O O O B-take B-take.pro O O B-take.dest
-B-go O O B-go.dest B-find B-find.per O B-follow B-follow.pro
+O O B-take B-take.per O O B-take.obj O O B-take.dest I-take.dest
+B-take B-take.per O O O O B-take.obj O O B-take.dest
+B-find B-find.per O O B-find.dest O B-take B-take.per O O B-take.dest
+B-go O O B-go.dest B-find B-find.per O B-follow B-follow.per
 O O O B-put O O
-O O B-take O O B-take.obj O O O B-take.dest
-O O B-take B-take.per O O O
-B-find B-find.per O O B-find.dest O B-say B-say.pro O O
-O O B-find B-find.per O B-take B-take.pro
-B-go O O B-go.dest B-find B-find.per O B-take B-take.pro O O B-take.dest
-B-take B-take.pro O O B-take.obj O O B-take.dest
-B-take O O B-take.obj O O B-take.dest O B-put B-put.pro O O B-put.dest I-put.dest
-B-say B-say.pro O O O O O O O B-say.dest I-say.dest
-B-take B-take.per O O B-take.dest O O O
-B-find B-find.per O B-take B-take.pro
-B-find B-find.per O O O B-find.dest B-follow B-follow.pro O B-take B-take.pro O
+O O B-take O B-take.obj I-take.obj O O B-take.dest I-take.dest
+O O B-take B-take.per O O B-take.dest
+B-find B-find.per O O B-find.dest O B-say B-say.per O O
+O O B-find B-find.per O B-take B-take.per
+B-go O O B-go.dest B-find B-find.per O B-take B-take.per O O B-take.dest
+B-take B-take.per O O B-take.obj O O B-take.dest
+B-take O B-take.obj I-take.obj O O B-take.dest O B-put B-put.obj O O B-put.dest I-put.dest
+B-say B-say.per O O O O O O O B-say.dest I-say.dest
+B-take B-take.per O O B-take.dest O O B-take.dest
+B-find B-find.per O B-take B-take.per
+B-find B-find.per O O B-find.dest I-find.dest B-follow B-follow.per O B-take B-take.per O
 O O
 B-find O O O O B-find.dest
 B-take O B-take.obj O O O O O O O O O B-take.dest I-take.dest
 B-take O B-take.obj O O O O O O O O O B-take.dest I-take.dest
-B-take O B-take.obj O B-put B-put.pro O O O B-put.dest
-O O B-find B-find.per O O O B-find.dest B-follow B-follow.pro O B-go O O B-go.dest I-go.dest
+B-take O B-take.obj O B-put B-put.obj O O B-put.dest I-put.dest
+O O B-find B-find.per O O B-find.dest I-find.dest B-follow B-follow.per O B-go O O B-go.dest I-go.dest
 B-take O B-take.obj O O B-take.dest I-take.dest
-O O B-take B-take.pro O B-take.obj
-O O B-go O O B-go.dest B-find O O B-find.obj O B-put B-put.pro O O O B-put.dest
-B-follow B-follow.per O O O O O B-follow.dest I-follow.dest
+O O B-take B-take.per O B-take.obj
+O O B-go O O B-go.dest B-find O O B-find.obj O B-put B-put.obj O O B-put.dest I-put.dest
+B-follow B-follow.per O O B-follow.dest O O B-follow.dest I-follow.dest
 O O O B-take O B-take.obj O O B-take.dest I-take.dest
-B-follow B-follow.per O O O O O O B-follow.dest
-B-say B-say.pro O O O O O O O O B-say.dest
-B-take O O O O O B-take.dest
-O O B-say B-say.pro O O O O O O O B-say.dest I-say.dest
-O B-take B-take.per O O O O O B-take.dest
-O O B-take B-take.pro O O O O B-take.obj O O B-take.dest I-take.dest
-B-find O O O B-find.obj O O B-find.dest
-B-go O O O B-find B-find.per O B-take B-take.pro O O B-take.dest
-B-find B-find.per O O B-find.dest O B-take B-take.pro O O O
+B-follow B-follow.per O O B-follow.dest I-follow.dest O O B-follow.dest
+B-say B-say.per O O O O O O O O B-say.dest
+B-take O B-take.obj I-take.obj O O B-take.dest
+O O B-say B-say.per O O O O O O O B-say.dest I-say.dest
+O B-take B-take.per O O B-take.dest O O B-take.dest
+O O B-take B-take.per O O O O B-take.obj O O B-take.dest I-take.dest
+B-find O O B-find.obj I-find.obj O O B-find.dest
+B-go O O B-go.dest B-find B-find.per O B-take B-take.per O O B-take.dest
+B-find B-find.per O O B-find.dest O B-take B-take.per O O O
 B-say O O O O O O O O B-say.dest
 O O O B-find O O O O O B-find.dest O B-say O O
-B-find B-find.per O O B-find.dest O B-follow B-follow.pro O O B-follow.dest I-follow.dest
-O B-find B-find.per O O B-find.dest O B-take B-take.pro O O O
-B-find B-find.per O O B-find.dest O B-say B-say.pro O O O O B-say.dest
+B-find B-find.per O O B-find.dest O B-follow B-follow.per O O B-follow.dest I-follow.dest
+O B-find B-find.per O O B-find.dest O B-take B-take.per O O O
+B-find B-find.per O O B-find.dest O B-say B-say.obj O B-say.per O O B-say.dest
 O O O B-find O O O O O B-find.dest O B-say O O
 B-find O O B-find.obj O O B-find.dest
-O B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-take B-take.pro O
-B-find B-find.per O O B-find.dest I-find.dest O B-follow B-follow.pro O O B-follow.dest
-B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-take B-take.pro O
-B-take B-take.pro O B-take.obj O O B-take.dest
-O O O B-take B-take.per O O B-take.dest B-take.pro O B-find B-find.pro O O B-find.dest
-B-go O O B-go.dest B-find B-find.per O B-follow B-follow.pro
-O B-take B-take.pro O O O O O O B-take.dest
-B-find O O O B-find.dest I-find.dest O B-follow B-follow.pro
-B-say B-say.pro O O O O O O O B-say.dest
+O B-find B-find.per O O B-find.dest B-follow B-follow.per O B-take B-take.per O
+B-find B-find.per O O B-find.dest I-find.dest O B-follow B-follow.per O O B-follow.dest
+B-find B-find.per O O B-find.dest B-follow B-follow.per O B-take B-take.per O
+B-take B-take.per O B-take.obj O O B-take.dest
+O O O B-take B-take.per O O B-take.dest B-take.per O B-find B-find.per O O B-find.dest
+B-go O O B-go.dest B-find B-find.per O B-follow B-follow.per
+O B-take B-take.per O O O O O O B-take.dest
+B-find B-find.per O O B-find.dest I-find.dest O B-follow B-follow.per
+B-say B-say.per O O O O O O O B-say.dest
 B-take B-take.per O O B-take.dest
-O O B-take O O O O
-B-find B-find.per O O B-find.dest O B-follow B-follow.pro O O B-follow.dest
-O B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-take B-take.pro O
+O O B-take B-take.per O O B-take.dest
+B-find B-find.per O O B-find.dest O B-follow B-follow.per O O B-follow.dest
+O B-find B-find.per O O B-find.dest B-follow B-follow.per O B-take B-take.per O
 B-find O O O O O O O O B-find.dest O B-say O O
-B-find B-find.per O O B-find.dest O B-say B-say.pro O B-say.per O O B-say.dest
+B-find B-find.per O O B-find.dest O B-say B-say.obj O B-say.per O O B-say.dest
 O O
-O O B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-go O O B-go.dest
-O O B-find B-find.per O O B-find.dest O B-follow B-follow.pro O O B-follow.dest I-follow.dest
-B-follow B-follow.per O O B-follow.dest O O O
+O O B-find B-find.per O O B-find.dest B-follow B-follow.per O B-go O O B-go.dest
+O O B-find B-find.per O O B-find.dest O B-follow B-follow.per O O B-follow.dest I-follow.dest
+B-follow B-follow.per O O B-follow.dest O O B-follow.dest
 O O B-find O O O O O O B-find.dest I-find.dest
-O B-take B-take.pro O O O O O O B-take.dest
-B-find B-find.per O O B-find.dest O B-take B-take.pro O O O
-O O B-say B-say.pro O O O O O B-say.dest O O
-O O O B-find B-find.per O O B-find.dest O B-take B-take.pro O O B-take.dest
-O O O B-find B-find.per O O B-find.dest O B-take B-take.pro O O B-take.dest
-B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-take B-take.pro O
-O O O B-find B-find.per O O B-find.dest O B-follow B-follow.pro
-B-say B-say.pro O O O O O O O B-say.dest
-B-find B-find.per O O B-find.dest I-find.dest O B-follow B-follow.pro
-O O B-say B-say.pro O O O O O O O B-say.dest
-B-take O O B-take.pro
-O O O B-go O O B-go.dest B-find B-find.per O B-take B-take.pro
-B-take B-take.pro O O
+O B-take B-take.per O O O O O O B-take.dest
+B-find B-find.per O O B-find.dest O B-take B-take.per O O O
+O O B-say B-say.per O O O O O B-say.dest O O
+O O O B-find B-find.per O O B-find.dest O B-take B-take.per O O B-take.dest
+O O O B-find B-find.per O O B-find.dest O B-take B-take.per O O B-take.dest
+B-find B-find.per O O B-find.dest B-follow B-follow.per O B-take B-take.per O
+O O O B-find B-find.per O O B-find.dest O B-follow B-follow.per
+B-say B-say.per O O O O O O O B-say.dest
+B-find B-find.per O O B-find.dest I-find.dest O B-follow B-follow.per
+O O B-say B-say.per O O O O O O O B-say.dest
+B-take O O B-take.per
+O O O B-go O O B-go.dest B-find B-find.per O B-take B-take.per
+B-take B-take.per O B-take.obj
 B-take O O O
-B-say B-say.pro O O O O O O O B-say.dest I-say.dest
-B-say B-say.pro O O O O O B-say.dest O O O
-O O O B-take B-take.pro O O O O O O B-take.dest
-O O O B-follow B-follow.per O O B-follow.dest O O O
-O B-take B-take.pro O O
-O B-go O O B-go.dest B-find B-find.per O B-follow B-follow.pro
-O O B-go O O B-go.dest B-find B-find.per O B-follow B-follow.pro
-B-follow O
-B-take B-take.per O O O B-take.pro O B-find B-find.pro O O B-find.dest I-find.dest
-O O B-take B-take.pro O O O O O O B-take.dest
-O O B-take B-take.per O O O B-take.dest
-O O B-find B-find.per O O B-find.dest O B-follow B-follow.pro O O B-follow.dest
-B-go O O B-go.dest B-find O O B-take B-take.pro O O B-take.dest
-O O B-follow O
-B-find O O O O B-find.dest O B-say B-say.pro O B-say.per O O B-say.dest
-B-take B-take.pro O O
-B-find B-find.per O O O B-find.dest O B-say B-say.pro O O O O O O B-say.dest I-say.dest
-O O B-take B-take.pro O O
-O O B-go O O B-go.dest B-find B-find.per O B-take B-take.pro
-B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-go O O B-go.dest
+B-say B-say.per O O O O O O O B-say.dest I-say.dest
+B-say B-say.per O O O O O B-say.dest O O O
+O O O B-take B-take.per O O O O O O B-take.dest
+O O O B-follow B-follow.per O O B-follow.dest O O B-follow.dest
+O B-take B-take.per O O
+O B-go O O B-go.dest B-find B-find.per O B-follow B-follow.per
+O O B-go O O B-go.dest B-find B-find.per O B-follow B-follow.per
+B-follow B-follow.per
+B-take B-take.per O O B-take.dest B-take.per O B-find B-find.per O O B-find.dest I-find.dest
+O O B-take B-take.per O O O O O O B-take.dest
+O O B-take B-take.per O O B-take.dest I-take.dest
+O O B-find B-find.per O O B-find.dest O B-follow B-follow.per O O B-follow.dest
+B-go O O B-go.dest B-find B-find.per O B-take B-take.per O O B-take.dest
+O O B-follow B-follow.per
+B-find B-find.per O O B-find.dest I-find.dest O B-say B-say.obj O B-say.per O O B-say.dest
+B-take B-take.per O O
+B-find B-find.per O O O B-find.dest O B-say B-say.per O O O O O O B-say.dest I-say.dest
+O O B-take B-take.per O B-take.obj
+O O B-go O O B-go.dest B-find B-find.per O B-take B-take.per
+B-find B-find.per O O B-find.dest B-follow B-follow.per O B-go O O B-go.dest
 B-find O B-find.obj O O B-find.dest
-O B-find B-find.per O O B-find.dest O B-take B-take.pro O O O
-B-take B-take.per O O B-take.dest B-take.pro O B-find B-find.pro O O B-find.dest
-B-take B-take.pro O O O O O O B-take.dest
-B-say B-say.pro O O O O O B-say.dest I-say.dest O O O
-B-say B-say.pro O O O O O O O B-say.dest
-B-go O O B-go.dest I-go.dest B-find O B-find.obj O B-put B-put.pro O O B-put.dest
-B-find B-find.per O O O B-find.dest O B-say B-say.pro O B-say.per O O O
-B-take B-take.pro O O O O O B-take.dest
-B-take B-take.pro O O
-B-say B-say.pro O O B-say.obj O O O O B-say.dest
-B-take B-take.pro O B-take.obj O O B-take.dest
-O O B-find B-find.per O O O B-find.dest B-follow B-follow.pro O B-go O O B-go.dest
-B-find B-find.per O O B-find.dest O B-follow B-follow.pro
-B-go O O B-go.dest B-find B-find.per O B-take B-take.pro O O B-take.dest
-O O B-say B-say.pro O O O O O O O O B-say.dest I-say.dest
-B-find B-find.per O O B-find.dest O B-say B-say.pro O O
-B-find B-find.per O B-take B-take.pro
-B-take B-take.pro O O
-B-find O O O O O B-say B-say.pro O B-say.per O O B-say.dest
-B-find B-find.per O O B-find.dest O B-say B-say.pro O O
+O B-find B-find.per O O B-find.dest O B-take B-take.per O O O
+B-take B-take.per O O B-take.dest B-take.per O B-find B-find.per O O B-find.dest
+B-take B-take.per O O O O O B-take.dest I-take.dest
+B-say B-say.per O O O O O B-say.dest I-say.dest O O O
+B-say B-say.per O O O O O O O B-say.dest
+B-go O O B-go.dest I-go.dest B-find O B-find.obj O B-put B-put.obj O O B-put.dest
+B-find B-find.per O O B-find.dest I-find.dest O B-say B-say.obj O B-say.per O O B-say.dest
+B-take B-take.per O O O O O B-take.dest
+B-take B-take.per O O
+B-say B-say.per O O B-say.obj O O O O B-say.dest
+B-take B-take.per O B-take.obj O O B-take.dest
+O O B-find B-find.per O O B-find.dest I-find.dest B-follow B-follow.per O B-go O O B-go.dest
+B-find B-find.per O O B-find.dest O B-follow B-follow.per
+B-go O O B-go.dest B-find B-find.per O B-take B-take.per O O B-take.dest
+O O B-say B-say.per O O O O O O O O B-say.dest I-say.dest
+B-find B-find.per O O B-find.dest O B-say B-say.per O O
+B-find B-find.per O B-take B-take.per
+B-take B-take.per O B-take.obj
+B-find B-find.per O O B-find.dest O B-say B-say.obj O B-say.per O O B-say.dest
+B-find B-find.per O O B-find.dest O B-say B-say.per O O
 O O O B-say O O O O O O O O O O O O O O B-say.dest
-O O O B-take O B-take.obj O O B-take.dest I-take.dest O O O
+O O O B-take O B-take.obj O O B-take.dest I-take.dest O O B-take.dest
 B-say O O O O O O O O O O O B-say.dest
-B-take B-take.per O O B-take.dest B-take.pro B-take.obj B-find B-find.pro O O B-find.dest
-O O O B-take B-take.per O O O B-take.dest B-take.pro O B-find B-find.pro O O B-find.dest
-O B-go O O B-go.dest B-find O B-find.obj O B-put B-put.pro O O B-put.dest
-B-take O O O O O B-take.dest I-take.dest O B-take B-take.pro O O B-take.dest I-take.dest
-O O B-take B-take.pro O B-take.obj O O O B-take.dest
-O O O B-say B-say.pro O O O O O O O B-say.dest
-O O B-say B-say.pro O O O O O O O B-say.dest
-B-find B-find.per O O B-find.dest I-find.dest B-follow B-follow.pro O B-take B-take.pro O
-B-take B-take.pro O B-take.obj
-B-take O O O B-take.dest B-take.pro B-take.obj B-find B-find.pro O O O B-find.dest
-B-go O O O B-find B-find.per O B-take B-take.pro O O B-take.dest
-B-take B-take.per O O B-take.dest O O O
+B-take B-take.per O O B-take.dest B-take.per B-take.obj B-find B-find.per O O B-find.dest
+O O O B-take B-take.per O O B-take.dest I-take.dest B-take.per O B-find B-find.per O O B-find.dest
+O B-go O O B-go.dest B-find O B-find.obj O B-put B-put.obj O O B-put.dest
+B-take O B-take.obj I-take.obj O O B-take.dest I-take.dest O B-take B-take.obj O O B-take.dest I-take.dest
+O O B-take B-take.per O B-take.obj O O B-take.dest I-take.dest
+O O O B-say B-say.per O O O O O O O B-say.dest
+O O B-say B-say.per O O O O O O O B-say.dest
+B-find B-find.per O O B-find.dest I-find.dest B-follow B-follow.per O B-take B-take.per O
+B-take B-take.per O B-take.obj
+B-take B-take.per O O B-take.dest B-take.per B-take.obj B-find B-find.per O O B-find.dest I-find.dest
+B-go O O B-go.dest B-find B-find.per O B-take B-take.per O O B-take.dest
+B-take B-take.per O O B-take.dest O O B-take.dest
 O O O B-take B-take.per O O B-take.dest
-B-take O O O O O
-B-take O O B-take.obj O O B-take.dest I-take.dest
-B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-go O O B-go.dest I-go.dest
-B-say B-say.pro O O O O O B-say.dest I-say.dest O O O
+B-take O B-take.obj O O O
+B-take O B-take.obj I-take.obj O O B-take.dest I-take.dest
+B-find B-find.per O O B-find.dest B-follow B-follow.per O B-go O O B-go.dest I-go.dest
+B-say B-say.per O O O O O B-say.dest I-say.dest O O O
 O O B-find O B-find.obj O O B-find.dest
-O O O B-take B-take.pro O O
-B-follow B-follow.per O O B-follow.dest O O O
-O O O B-go O O B-go.dest B-find B-find.per O B-take B-take.pro O O B-take.dest
-O O O B-find B-find.per O O O B-find.dest O B-say B-say.pro O B-say.per O O B-say.dest
-O B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-take B-take.pro O
-O O O B-take B-take.pro O B-take.obj
-B-say B-say.pro O O O O O O O B-say.dest I-say.dest
+O O O B-take B-take.per O B-take.obj
+B-follow B-follow.per O O B-follow.dest O O B-follow.dest
+O O O B-go O O B-go.dest B-find B-find.per O B-take B-take.per O O B-take.dest
+O O O B-find B-find.per O O B-find.dest I-find.dest O B-say B-say.obj O B-say.per O O B-say.dest
+O B-find B-find.per O O B-find.dest B-follow B-follow.per O B-take B-take.per O
+O O O B-take B-take.per O B-take.obj
+B-say B-say.per O O O O O O O B-say.dest I-say.dest
 O B-follow B-follow.per
-O O B-say B-say.pro O O O O O O O B-say.dest
-B-follow B-follow.per O O O O O O B-follow.dest
-O O O B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-go O O B-go.dest I-go.dest
-B-say B-say.pro O O O O O O O B-say.dest
+O O B-say B-say.per O O O O O O O B-say.dest
+B-follow B-follow.per O O B-follow.dest I-follow.dest O O B-follow.dest
+O O O B-find B-find.per O O B-find.dest B-follow B-follow.per O B-go O O B-go.dest I-go.dest
+B-say B-say.per O O B-say.obj O O O O B-say.dest
 B-take O B-take.obj O O B-take.dest
-B-find B-find.per O O B-find.dest I-find.dest B-follow B-follow.pro O B-take B-take.pro O
-O O B-take B-take.per O O O O O B-take.dest
-B-find B-find.per O O O B-follow B-follow.pro O B-take B-take.pro O
-O O B-say B-say.pro O O B-say.obj O O O O O B-say.dest
-O O O B-take O O O O O O O B-take.dest
-O O B-say B-say.pro O O O O O O O O B-say.dest
+B-find B-find.per O O B-find.dest I-find.dest B-follow B-follow.per O B-take B-take.per O
+O O B-take B-take.per O O B-take.dest O O B-take.dest
+B-find B-find.per O O B-find.dest B-follow B-follow.per O B-take B-take.per O
+O O B-say B-say.per O O B-say.obj O O O O B-say.dest I-say.dest
+O O O B-take B-take.obj O O O O O O B-take.dest
+O O B-say B-say.per O O O O O O O B-say.dest I-say.dest
 O O O B-find O O O O O B-find.dest
-B-find B-find.per O O O B-follow B-follow.pro O B-go O O B-go.dest
-O B-take B-take.pro O O O O O B-take.dest I-take.dest
-O O B-take B-take.pro O O B-take.obj O O B-take.dest
-O O B-find B-find.per O O B-find.dest O B-take B-take.pro O O B-take.dest
-B-find B-find.per O O O O B-follow B-follow.pro
-B-say B-say.pro O O O O B-say.obj O O B-say.dest I-say.dest
-B-find O O O O B-find.dest O B-take B-take.pro O O B-take.dest
+B-find B-find.per O O B-find.dest B-follow B-follow.per O B-go O O B-go.dest
+O B-take B-take.per O O O O O B-take.dest I-take.dest
+O O B-take B-take.per O O B-take.obj O O B-take.dest
+O O B-find B-find.per O O B-find.dest O B-take B-take.per O O B-take.dest
+B-find B-find.per O O B-find.dest O B-follow B-follow.per
+B-say B-say.per O O O O B-say.obj O O B-say.dest I-say.dest
+B-find B-find.per O O B-find.dest I-find.dest O B-take B-take.per O O B-take.dest
 O B-take B-take.per O O B-take.dest
-O O O B-find B-find.per O O B-find.dest O B-follow B-follow.pro O O B-follow.dest I-follow.dest
-B-follow B-follow.per O O O O O O B-follow.dest I-follow.dest
-O B-find O O O B-find.dest B-follow B-follow.pro O B-take B-take.pro O
-O B-find B-find.per O O B-find.dest O B-say B-say.pro O B-say.per O O O B-say.dest
-O B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-take B-take.pro O
+O O O B-find B-find.per O O B-find.dest O B-follow B-follow.per O O B-follow.dest I-follow.dest
+B-follow B-follow.per O O B-follow.dest I-follow.dest O O B-follow.dest I-follow.dest
+O B-find B-find.per O O B-find.dest B-follow B-follow.per O B-take B-take.per O
+O B-find B-find.per O O B-find.dest O B-say B-say.obj O B-say.per O O B-say.dest I-say.dest
+O B-find B-find.per O O B-find.dest B-follow B-follow.per O B-take B-take.per O
 B-say O O O O O O O O O O O B-say.dest
-B-find O O O O O B-find.dest I-find.dest
+B-find O O B-find.obj O O B-find.dest I-find.dest
 O O
-O O O B-find O O O B-find.dest O B-follow B-follow.pro O O B-follow.dest I-follow.dest
-B-find B-find.per O O B-find.dest O B-say B-say.pro O O
+O O O B-find B-find.per O O B-find.dest O B-follow B-follow.per O O B-follow.dest I-follow.dest
+B-find B-find.per O O B-find.dest O B-say B-say.per O O
 B-take O O O O O
-O B-take B-take.pro O O O O O O O B-take.dest
-B-go O O B-go.dest B-find O O B-follow B-follow.pro
-O B-find B-find.per O O B-find.dest O B-say B-say.pro O O
-B-take O B-take.obj O O B-take.dest O B-put B-put.pro O O O B-put.dest
-B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-go O O B-go.dest I-go.dest
+O B-take B-take.per O O O O B-take.obj O O B-take.dest
+B-go O O B-go.dest B-find B-find.per O B-follow B-follow.per
+O B-find B-find.per O O B-find.dest O B-say B-say.per O O
+B-take O B-take.obj O O B-take.dest O B-put B-put.obj O O B-put.dest I-put.dest
+B-find B-find.per O O B-find.dest B-follow B-follow.per O B-go O O B-go.dest I-go.dest
 B-put O O
-O O B-find B-find.per O O B-find.dest O B-take B-take.pro O O O
+O O B-find B-find.per O O B-find.dest O B-take B-take.per O O O
 O O B-take O B-take.obj O O B-take.dest I-take.dest
-O O O B-take B-take.pro O B-take.obj
-O O O B-take O B-take.obj O O O B-take.dest
-O O O B-take B-take.per O O O O O B-take.dest
-O O B-find B-find.per O O O B-find.dest O B-say B-say.pro O O O O O O B-say.dest I-say.dest
-B-take B-take.pro O O O O O O B-take.dest
-B-say B-say.pro O O B-say.obj O O O O B-say.dest I-say.dest
+O O O B-take B-take.per O B-take.obj
+O O O B-take O B-take.obj O O B-take.dest I-take.dest
+O O O B-take B-take.per O O B-take.dest O O B-take.dest
+O O B-find B-find.per O O O B-find.dest O B-say B-say.per O O O O O O B-say.dest I-say.dest
+B-take B-take.per O O O O O O B-take.dest
+B-say B-say.per O O B-say.obj O O O O B-say.dest I-say.dest
 O O O O
 B-follow B-follow.per
-O O B-follow B-follow.per O O O O O B-follow.dest
-O O B-say B-say.pro O O O O O O O B-say.dest
-B-say B-say.pro O O O O O O O B-say.dest
-B-find B-find.per O O B-find.dest O B-follow B-follow.pro
-B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-take B-take.pro O
-O O O B-find B-find.per O O O B-find.dest O B-say B-say.pro O O O O B-say.dest I-say.dest
-O B-find B-find.per O O B-find.dest O B-follow B-follow.pro O O B-follow.dest
-B-take O B-take.obj O O O O O B-take.dest I-take.dest
-O O B-say B-say.pro O O O O O B-say.dest O O
-B-take B-take.pro O O O O O B-take.dest
-B-take O O O B-take.pro
-B-find B-find.per O O B-find.dest O B-take B-take.pro O O B-take.dest
-B-take B-take.per O O O B-take.dest
-B-go O O B-go.dest B-find B-find.per O B-follow B-follow.pro
+O O B-follow B-follow.per O O B-follow.dest O O B-follow.dest
+O O B-say B-say.per O O O O O O O B-say.dest
+B-say B-say.per O O O O O O O B-say.dest
+B-find B-find.per O O B-find.dest O B-follow B-follow.per
+B-find B-find.per O O B-find.dest B-follow B-follow.per O B-take B-take.per O
+O O O B-find B-find.per O O O B-find.dest O B-say B-say.per O O O O B-say.dest I-say.dest
+O B-find B-find.per O O B-find.dest O B-follow B-follow.per O O B-follow.dest
+B-take O B-take.obj O O B-take.dest O O B-take.dest I-take.dest
+O O B-say B-say.per O O O O O B-say.dest O O
+B-take B-take.per O O O O O B-take.dest
+B-take O B-take.obj O B-take.per
+B-find B-find.per O O B-find.dest O B-take B-take.per O O B-take.dest
+B-take B-take.per O O B-take.dest I-take.dest
+B-go O O B-go.dest B-find B-find.per O B-follow B-follow.per
 O B-find O B-find.obj O O B-find.dest I-find.dest
-B-take B-take.per O O O O O B-take.dest I-take.dest
+B-take B-take.per O O B-take.dest O O B-take.dest I-take.dest
 O O O B-take O O O
 O O O B-take B-take.obj O O O O O O B-take.dest I-take.dest
-O B-find B-find.per O O B-find.dest I-find.dest O B-take B-take.pro O O B-take.dest
-B-find B-find.per O O B-find.dest O B-follow B-follow.pro
-B-find B-find.per O O O B-find.dest O B-follow B-follow.pro O O B-follow.dest
+O B-find B-find.per O O B-find.dest I-find.dest O B-take B-take.per O O B-take.dest
+B-find B-find.per O O B-find.dest O B-follow B-follow.per
+B-find B-find.per O O B-find.dest I-find.dest O B-follow B-follow.per O O B-follow.dest
 B-say O O O O O O O O O O O O O B-say.dest
-O O O B-go O O B-go.dest B-find O O B-find.obj O B-take B-take.pro O O B-take.dest
-B-take O O B-take.pro
-B-find B-find.per O O O B-find.dest O B-say B-say.pro O O O O O O B-say.dest
+O O O B-go O O B-go.dest B-find O O B-find.obj O B-take B-take.obj O O B-take.dest
+B-take O O B-take.per
+B-find B-find.per O O O B-find.dest O B-say B-say.per O O O O O O B-say.dest
 O O B-find O O O O B-find.dest I-find.dest
-B-take B-take.per O O O O O B-take.dest
-B-take O O O O B-take.dest
-B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-take B-take.pro O
+B-take B-take.per O O B-take.dest O O B-take.dest
+B-take O B-take.obj O O B-take.dest
+B-find B-find.per O O B-find.dest B-follow B-follow.per O B-take B-take.per O
 B-put O B-put.obj O O B-put.dest
-B-take B-take.pro O O O O O B-take.dest
-B-take B-take.per O O B-take.dest O O O
-B-say B-say.pro O O O O O B-say.dest O O
-O B-say B-say.pro O O O O O O O B-say.dest
-B-follow B-follow.per O O O O O B-follow.dest I-follow.dest
-B-take B-take.per O O O O O O B-take.dest I-take.dest
-B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-take B-take.pro O
-B-go O O B-go.dest B-find B-find.per O B-take B-take.pro
-B-follow B-follow.per O O B-follow.dest O O O
+B-take B-take.per O O B-take.obj O O B-take.dest
+B-take B-take.per O O B-take.dest O O B-take.dest
+B-say B-say.per O O O O O B-say.dest O O
+O B-say B-say.per O O O O O O O B-say.dest
+B-follow B-follow.per O O B-follow.dest O O B-follow.dest I-follow.dest
+B-take B-take.per O O B-take.dest I-take.dest O O B-take.dest I-take.dest
+B-find B-find.per O O B-find.dest B-follow B-follow.per O B-take B-take.per O
+B-go O O B-go.dest B-find B-find.per O B-take B-take.per
+B-follow B-follow.per O O B-follow.dest O O B-follow.dest
 O B-go O O B-go.dest I-go.dest B-find O O O O B-say O O
-O O O B-take B-take.pro O O O O O O B-take.dest
+O O O B-take B-take.per O O O O O O B-take.dest
 B-find O B-find.obj O O B-find.dest
-B-go O O B-go.dest B-find O B-find.obj O B-put B-put.pro O O B-put.dest
-O B-take B-take.pro O O O O O B-take.dest I-take.dest
-B-say B-say.pro O O O O O O O O B-say.dest
-B-go O O B-go.dest B-find B-find.per O B-follow B-follow.pro
-O B-find B-find.per O O O B-find.dest O B-take B-take.pro O O B-take.dest I-take.dest
-O B-say B-say.pro O O O O B-say.obj O O B-say.dest I-say.dest
-B-find O O O B-find.dest B-follow B-follow.pro O B-go O O B-go.dest
-B-find B-find.per O O B-find.dest I-find.dest O B-take B-take.pro O O O
-B-say B-say.pro O O B-say.obj O O O O B-say.dest
-O O O B-take B-take.per O O B-take.dest B-take.pro O B-find B-find.pro O O B-find.dest
-B-say B-say.pro O O O O O O O B-say.dest
+B-go O O B-go.dest B-find O B-find.obj O B-put B-put.obj O O B-put.dest
+O B-take B-take.per O O B-take.obj O O B-take.dest I-take.dest
+B-say B-say.per O O O O O O O O B-say.dest
+B-go O O B-go.dest B-find B-find.per O B-follow B-follow.per
+O B-find B-find.per O O B-find.dest I-find.dest O B-take B-take.per O O B-take.dest I-take.dest
+O B-say B-say.per O O O O B-say.obj O O B-say.dest I-say.dest
+B-find B-find.per O O B-find.dest B-follow B-follow.per O B-go O O B-go.dest
+B-find B-find.per O O B-find.dest I-find.dest O B-take B-take.per O O O
+B-say B-say.per O O B-say.obj O O O O B-say.dest
+O O O B-take B-take.per O O B-take.dest B-take.per B-take.per B-find B-find.per O O B-find.dest
+B-say B-say.per O O O O O O O B-say.dest
 B-go O O B-go.dest B-find O O O O B-say O O O O
-B-take B-take.pro O O O O O O B-take.dest
-B-find B-find.per O O O B-find.dest O B-say B-say.pro O O
-B-go O O B-go.dest B-find B-find.per O B-take B-take.pro
-B-go O O B-go.dest B-find B-find.per O B-take B-take.pro
-O O O B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-go O O B-go.dest I-go.dest
+B-take B-take.per O O O O O B-take.dest I-take.dest
+B-find B-find.per O O B-find.dest I-find.dest O B-say B-say.per O O
+B-go O O B-go.dest B-find B-find.per O B-take B-take.per
+B-go O O B-go.dest B-find B-find.per O B-take B-take.per
+O O O B-find B-find.per O O B-find.dest B-follow B-follow.per O B-go O O B-go.dest I-go.dest
 O O B-take O B-take.obj O O B-take.dest
-B-find O O O B-find.dest B-follow B-follow.pro O B-take B-take.pro O
-B-find B-find.per O O B-find.dest I-find.dest B-follow B-follow.pro O B-go O O B-go.dest
-B-take B-take.pro O O O O O O B-take.dest I-take.dest
-B-find B-find.per O O O B-find.dest B-follow B-follow.pro O B-take B-take.pro O
-O O O B-follow B-follow.per O O O O O B-follow.dest
-B-take B-take.pro O O O
-B-follow B-follow.per O O O O O B-follow.dest
+B-find B-find.per O O B-find.dest B-follow B-follow.per O B-take B-take.per O
+B-find B-find.per O O B-find.dest I-find.dest B-follow B-follow.per O B-go O O B-go.dest
+B-take B-take.per O O O O O O B-take.dest I-take.dest
+B-find B-find.per O O B-find.dest I-find.dest B-follow B-follow.per O B-take B-take.per O
+O O O B-follow B-follow.per O O B-follow.dest O O B-follow.dest
+B-take B-take.per O O O
+B-follow B-follow.per O O B-follow.dest O O B-follow.dest
 O O O
 O O B-take B-take.per O O B-take.dest
-B-take B-take.per O O B-take.dest I-take.dest B-take.pro O B-find B-find.pro O O B-find.dest
-B-follow B-follow.per O O B-follow.dest I-follow.dest O O O O
+B-take B-take.per O O B-take.dest I-take.dest B-take.per O B-find B-find.per O O B-find.dest
+B-follow B-follow.per O O B-follow.dest I-follow.dest O O O B-follow.dest
 B-find O O O O O B-find.dest
-B-find B-find.per O O B-find.dest O B-say B-say.pro O B-say.per O O O B-say.dest
-O O B-go O O B-go.dest B-find B-find.per O B-follow B-follow.pro
-O O B-say B-say.pro O O O O O O O B-say.dest
+B-find B-find.per O O B-find.dest O B-say B-say.obj O B-say.per O O B-say.dest I-say.dest
+O O B-go O O B-go.dest B-find B-find.per O B-follow B-follow.per
+O O B-say B-say.per O O O O O O O B-say.dest
 B-take O O O O O
 B-take O O O
-B-find B-find.per O B-take B-take.pro
+B-find B-find.per O B-take B-take.per
 B-take B-take.obj O O O O O O O O O B-take.dest
 B-take O O O O O O O O O O O B-take.dest
 B-take B-take.obj O O O O O O B-take.dest
-B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-take B-take.pro O
-B-take B-take.pro O O O O O O B-take.dest
+B-find B-find.per O O B-find.dest B-follow B-follow.per O B-take B-take.per O
+B-take B-take.per O O O O O O B-take.dest
 B-say O O O O O O O O B-say.dest
-B-take B-take.pro O O O O O O B-take.dest
-B-take O O O O B-take.pro B-take.per B-find B-find.pro O O B-find.dest
-B-take O O B-take.obj O O B-take.dest I-take.dest
-O B-find B-find.per O O B-find.dest O B-take B-take.pro O O O
-B-find O O O B-find.dest I-find.dest O B-take B-take.pro O O O
-O O B-find B-find.per O O B-find.dest I-find.dest O B-take B-take.pro O O B-take.dest
-B-say B-say.pro O O O O B-say.obj O O B-say.dest I-say.dest
-B-go O O B-go.dest B-find B-find.per O B-take B-take.pro O O O B-take.dest
+B-take B-take.per O O O O O O B-take.dest
+B-take B-take.per O O B-take.dest B-take.per B-take.per B-find B-find.per O O B-find.dest
+B-take O B-take.obj I-take.obj O O B-take.dest I-take.dest
+O B-find B-find.per O O B-find.dest O B-take B-take.per O O O
+B-find B-find.per O O B-find.dest I-find.dest O B-take B-take.per O O O
+O O B-find B-find.per O O B-find.dest I-find.dest O B-take B-take.per O O B-take.dest
+B-say B-say.per O O O O B-say.obj O O B-say.dest I-say.dest
+B-go O O B-go.dest B-find B-find.per O B-take B-take.per O O B-take.dest I-take.dest
 O O B-take B-take.obj O O O O O O B-take.dest
-O B-take B-take.pro O O O O B-take.obj O O B-take.dest
-B-say B-say.pro O O O O O B-say.dest O O
+O B-take B-take.per O O O O B-take.obj O O B-take.dest
+B-say B-say.per O O O O O B-say.dest O O
 B-find O B-find.obj O O B-find.dest
 B-say O O O O O O O O O O O B-say.dest I-say.dest
 B-find O O O O O O B-find.dest O B-say O O O
-O B-find O O O O B-find.dest O B-say B-say.pro O O O O B-say.dest I-say.dest
-O O B-take B-take.pro O O
-B-take B-take.pro O O
-B-find B-find.per O O O O B-take B-take.pro O O B-take.dest
-B-take B-take.per O O O B-take.dest
+O B-find B-find.per O O O B-find.dest O B-say B-say.per O O O O B-say.dest I-say.dest
+O O B-take B-take.per O O
+B-take B-take.per O O
+B-find B-find.per O O B-find.dest O B-take B-take.per O O B-take.dest
+B-take B-take.per O O B-take.dest I-take.dest
 B-take O B-take.obj O O O O O O O O O B-take.dest
-O B-say B-say.pro O O O O O O O B-say.dest
-O O B-take O B-take.obj O O O O O B-take.dest
-O O B-take B-take.pro O O O O B-take.obj O O B-take.dest
-B-say B-say.pro O O O O O O O B-say.dest
-O O B-take O O B-take.obj O O B-take.dest O B-take B-take.pro O O
-B-say B-say.pro O O O O O O O B-say.dest
-B-take B-take.pro O O O O O O B-take.dest I-take.dest
+O B-say B-say.per O O O O B-say.obj O O B-say.dest
+O O B-take O B-take.obj O O B-take.dest O O B-take.dest
+O O B-take B-take.per O O O O B-take.obj O O B-take.dest
+B-say B-say.per O O O O O O O B-say.dest
+O O B-take O O B-take.obj O O B-take.dest O B-take B-take.obj O B-take.per
+B-say B-say.per O O O O O O O B-say.dest
+B-take B-take.per O O O O O O B-take.dest I-take.dest
 O O B-find O O O O O B-find.dest
-B-go O O B-go.dest B-find O O B-follow B-follow.pro
+B-go O O B-go.dest B-find B-find.per O B-follow B-follow.per
 B-find O O O O O B-find.dest I-find.dest
 O B-put O O
-B-find O O O B-find.dest O B-say B-say.pro O O
+B-find B-find.per O O B-find.dest O B-say B-say.per O O
 O B-say O O O O O O O O O O O O O B-say.dest
-B-say B-say.pro O O O O O B-say.dest O O
+B-say B-say.per O O O O O B-say.dest O O
 O B-say O O O O O O O O B-say.dest I-say.dest
-B-say B-say.pro O O O O O O O B-say.dest
-B-take B-take.per O O O O O B-take.dest I-take.dest
-O O B-find B-find.per O O O O B-take B-take.pro O O O
+B-say B-say.per O O O O O O O B-say.dest
+B-take B-take.per O O B-take.dest O O B-take.dest I-take.dest
+O O B-find B-find.per O O B-find.dest O B-take B-take.per O O O
 O B-take B-take.per O O B-take.dest
-B-take B-take.pro O O O O B-take.obj O O O B-take.dest
+B-take B-take.per O O O O B-take.obj O O B-take.dest I-take.dest
 B-find O O O O B-find.dest
-O O O B-go O O B-go.dest B-find B-find.per O B-take B-take.pro O O B-take.dest
-B-take O B-take.obj O O O O O O B-take.dest I-take.dest
-B-take O O O O O B-take.dest
-B-find B-find.per O O B-find.dest B-follow B-follow.pro O B-take B-take.pro O
-B-take B-take.pro O O O O O O O O O O O B-take.dest I-take.dest
-O O B-go O O O B-find B-find.per O B-take B-take.pro O O O B-take.dest
-O O B-find B-find.per O B-take B-take.pro
+O O O B-go O O B-go.dest B-find B-find.per O B-take B-take.per O O B-take.dest
+B-take O B-take.obj O O B-take.dest I-take.dest O O B-take.dest I-take.dest
+B-take B-take.obj O O O O B-take.dest
+B-find B-find.per O O B-find.dest B-follow B-follow.per O B-take B-take.per O
+B-take B-take.per O O O O O O O B-take.obj I-take.obj O O B-take.dest I-take.dest
+O O B-go O O B-go.dest B-find B-find.per O B-take B-take.per O O B-take.dest I-take.dest
+O O B-find B-find.per O B-take B-take.per
 B-find O B-find.obj O O B-find.dest
-O O O B-follow B-follow.per O O O O O B-follow.dest
-B-follow B-follow.per O O O O O B-follow.dest
-B-take O B-take.obj O O B-take.dest I-take.dest O B-take B-take.pro O O B-take.dest
+O O O B-follow B-follow.per O O B-follow.dest O O B-follow.dest
+B-follow B-follow.per O O B-follow.dest O O B-follow.dest
+B-take O B-take.obj O O B-take.dest I-take.dest O B-take B-take.obj O O B-take.dest
 B-take O B-take.obj O O B-take.dest
