@@ -1,7 +1,7 @@
+B-take
 B-say
 B-find
-B-go
+UNK
 B-follow
 B-put
-UNK
-B-take
+B-go
