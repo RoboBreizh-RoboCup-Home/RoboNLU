@@ -7,9 +7,9 @@ B-follow B-follow.per O O B-follow.dest O O B-follow.dest
 B-find B-find.per O O B-find.dest O B-take B-take.per O O B-take.dest
 O B-go O O B-go.dest I-go.dest B-find O O B-find.obj O B-take B-take.obj O B-take.per O O B-take.dest
 B-say B-say.per O O O O O B-say.dest O O
-B-take B-take.per O O B-take.dest B-take.per B-take.per B-find B-find.per O O B-find.dest
+B-take B-take.per O O O O O B-find B-find.per O O B-find.dest
 B-find B-find.per O O B-find.dest B-follow B-follow.per O B-go O O B-go.dest I-go.dest
-B-take B-take.per O O B-take.dest B-take.per B-take.per B-find B-find.per O O B-find.dest I-find.dest
+B-take O O B-take.dest I-take.dest O O B-find B-find.per O O B-find.dest I-find.dest
 B-take B-take.obj O O O O O O B-take.dest I-take.dest
 O O B-find B-find.per O O B-find.dest O B-follow B-follow.per O O B-follow.dest
 B-find B-find.per O O B-find.dest I-find.dest O B-follow B-follow.per O O B-follow.dest I-follow.dest
@@ -332,7 +332,7 @@ B-go O O B-go.dest B-find B-find.per O B-follow B-follow.per
 B-find B-find.per O O B-find.dest I-find.dest O B-say B-say.obj O B-say.per O O B-say.dest I-say.dest
 B-find O O O O O O B-find.dest O B-say O O
 B-take B-take.per O O O O O B-take.dest
-B-take B-take.per O O B-take.dest B-take.per B-take.per B-find B-find.per O O B-find.dest
+B-take B-take.per O O O O O B-find B-find.per O O B-find.dest
 O O B-find O O O O B-find.dest
 B-take B-take.per O O
 O O O B-take B-take.per O O
@@ -500,7 +500,7 @@ O O B-find B-find.per O O B-find.dest B-follow B-follow.per O B-take B-take.per 
 B-go O O B-go.dest B-find B-find.per O B-follow B-follow.per
 B-take B-take.per O O O O O O B-take.dest I-take.dest
 B-take O O B-take.per
-B-take B-take.per O O B-take.dest B-take.per B-take.per B-find B-find.per O O B-find.dest
+B-take O O B-take.per O O O B-find B-find.per O O B-find.dest
 O O B-find O O B-find.obj O O B-find.dest
 O B-say B-say.per O O O O O B-say.dest O O
 B-say B-say.per O O O O B-say.obj O O B-say.dest
@@ -913,7 +913,7 @@ O B-say B-say.per O O O O B-say.obj O O B-say.dest I-say.dest
 B-find B-find.per O O B-find.dest B-follow B-follow.per O B-go O O B-go.dest
 B-find B-find.per O O B-find.dest I-find.dest O B-take B-take.per O O O
 B-say B-say.per O O B-say.obj O O O O B-say.dest
-O O O B-take B-take.per O O B-take.dest B-take.per B-take.per B-find B-find.per O O B-find.dest
+O O O B-take B-take.per O O B-take.obj O O B-find B-find.per B-take.dest O B-find.dest
 B-say B-say.per O O O O O O O B-say.dest
 B-go O O B-go.dest B-find O O O O B-say O O O O
 B-take B-take.per O O O O O B-take.dest I-take.dest
@@ -947,7 +947,7 @@ B-find B-find.per O O B-find.dest B-follow B-follow.per O B-take B-take.per O
 B-take B-take.per O O O O O O B-take.dest
 B-say O O O O O O O O B-say.dest
 B-take B-take.per O O O O O O B-take.dest
-B-take B-take.per O O B-take.dest B-take.per B-take.per B-find B-find.per O O B-find.dest
+B-take B-take.per O O O O O B-find B-find.per O O B-find.dest
 B-take O B-take.obj I-take.obj O O B-take.dest I-take.dest
 O B-find B-find.per O O B-find.dest O B-take B-take.per O O O
 B-find B-find.per O O B-find.dest I-find.dest O B-take B-take.per O O O
