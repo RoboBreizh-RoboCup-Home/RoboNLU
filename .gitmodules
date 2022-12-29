@@ -1,0 +1,3 @@
+[submodule "JointBERT-snips"]
+	path = JointBERT-snips
+	url = https://huggingface.co/databuzzword/JointBERT-snips
