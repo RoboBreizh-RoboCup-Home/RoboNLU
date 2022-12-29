@@ -10,7 +10,7 @@ Find the tray in the corridor please
 Please grasp the fruits from the cupboard find Skyler in the kitchen and go after her
 Please offer something to eat to all the children in the bedroom
 Pinpoint Linda pinpoint Skyler at the bed and set cascade pod on the storage table
-Give me the right-most cutlery from the sink please
+Give me the cutlery from the sink please
 Please pinpoint Elizabeth look for Patricia at the desk and guide her to the exit
 Accompany the person at the exit please
 Could you tell me how many cleaning stuff items are in the end table
@@ -59,10 +59,10 @@ Robot please look for a paprika pinpoint Robert at the dining table and conduct 
 Could you please locate a orange leave cloth on the cupboard and grasp the paprika from the counter
 Could you enter to the kitchen locate Jennifer and pinpoint Skyler in the bedroom
 Follow the fattest man in the dining room
-Accompany the person at the couch to the exit B_guide_dest-
+Accompany the person at the couch to the exit
 Navigate to the dining room locate the orange and place it to the kitchen please
-Could you lead the person at the desk to the exit B_guide_dest-
-Could you accompany the person at the couch to the dining B_guide_dest- table I_guide_dest-
+Could you lead the person at the desk to the exit
+Could you accompany the person at the couch to the dining table
 Enter to the dining room find the fruits and give it to Jennifer at the desk
 Pinpoint the paprika pick up the apple from the side table and answer a question please
 Accompany the fattest man in the living room
@@ -120,7 +120,7 @@ Offer something to drink to all the people in the living room
 Count the containers items at the side table and report to me
 Tell me how many elders in the corridor are sitting
 Salute the slimmest person in the corridor please
-Take the person at the sink to the bed B_guide_dest- please
+Take the person at the sink to the bed please
 Pinpoint a potato chips in the dining room get the apple from the cupboard and pinpoint Robin
 Could you please find the orange spot Francis in the bedroom and go after her
 Navigate to the dining room look for the fruits and hand it to me
@@ -166,7 +166,7 @@ Robot please say hello to the smallest woman in the dining room
 Tell me how many women are wearing orange in the dining room
 Say hello to the child in the living room please
 Deliver to me some containers from the microwave
-Could you please guide the person at the end table to the exit B_guide_dest-
+Could you please guide the person at the end table to the exit
 Could you describe the objects in the side table to me
 Could you please deliver to me some snacks from the oven
 Bring me some containers from the microwave
@@ -190,7 +190,7 @@ Spot a orange in the living room look for Francis and pinpoint a apple in the ki
 Pick up a drinks from the sink and put it into the fridge please
 Could you deliver to me some snacks from the basket on the desk
 Look for the tray in the bedroom please
-Please take the person at the dining table to the exit B_guide_dest-
+Please take the person at the dining table to the exit
 Spot James at the sink find John at the dishwasher and say something
 Handshake the tallest man in the dining room
 Spot Jennifer in the corridor spot Robin and spot Francis at the sink please
@@ -214,7 +214,7 @@ Offer something to drink to all the people wearing sweaters in the kitchen
 Bring me the smallest tableware from the bookcase please
 Place a bowl on the side table and a spoon in it please
 Bring the bowl to the woman waving in the kitchen please
-Robot please offer something to drink to all the men wearing T-shirts in the corridor
+Robot please offer something to drink to all the men wearing in the corridor
 Get to know Francis at the end table then greet her please
 Tell me how many people are raising their right arm in the bedroom please
 Describe the person sitting at the end table to me please
@@ -257,9 +257,9 @@ Spot Robin in the dining room look for Charlie and take him to the bedroom pleas
 Please take the fruits from the end table give it to me and pinpoint John at the dishwasher
 Take the man raising their right arm in the bedroom to the living room
 Pinpoint the bag in the living room please
-Take the person at the dishwasher to the desk B_guide_dest-
+Take the person at the dishwasher to the desk
 Describe the person lying down at the sink to me
-Robot please take the person at the dining table to the exit B_guide_dest-
+Robot please take the person at the dining table to the exit
 Give me some snacks from the oven please
 Leave a bowl on the desk and a fork on its right please
 Could you please offer something to eat to all the elders raising their right arm in the corridor
@@ -421,7 +421,7 @@ Put the apple into the bag on the counter
 Pour some chocolate drink in a cup
 Could you please pick up a tableware from the counter and put it into the fridge
 Contact John at the bookcase then greet him
-Lead the person at the dishwasher to the desk B_guide_dest- please
+Lead the person at the dishwasher to the desk please
 Please get acquainted with Patricia at the dining table then greet her
 Tell me how many women in the bedroom are wearing shoes
 Could you please tell me how many women in the corridor are raising their left arm
@@ -442,7 +442,7 @@ Please follow the child in the kitchen
 Tell me how many people dressed in gray there are in the kitchen please
 Spot the bag in the bedroom please
 Find Charlie in the dining room accompany him say something
-Bring the scrubby to the person dressed in a yellow T-shirt in the dining room please
+Bring the scrubby to the person dressed in a yellow in the dining room please
 Tell me how many people are pointing to the left in the kitchen
 Pick up the fruits from the cupboard spot Robert at the entrance and say what day is today please
 Could you please go behind the person at the dining table
@@ -457,13 +457,13 @@ Please look for Skyler follow her and say your team's country
 Please take the tableware at the cupboard's right to the end table
 Enter to the living room spot Skyler say something
 Accompany the child in the corridor please
-Take the left-most cutlery from the end table to the dining table please
+Take the cutlery from the end table to the dining table please
 Leave a bowl on the storage table and a knife in it
 Introduce yourself to the fattest woman in the kitchen please
 Hand me some chocolate drink in a cup
 Could you tell me how many sitting women there are in the living room
 Robot please hand me something in a cup
-Take the person at the exit to the exit B_guide_dest- please
+Take the person at the exit to the exit please
 Could you offer something to eat to all the men pointing to the left in the dining room
 Navigate to the kitchen look for the food and put it on the bookcase please
 Tell me how many men in the bedroom are sitting
@@ -512,7 +512,7 @@ Could you give me some snacks from the basket on the counter
 Hand me some fruits from the basket on the bookcase please
 Robot please pinpoint a cereal spot Francis in the living room and answer a question
 Enter to the bedroom pinpoint John look for William please
-Take the right-most object from the cupboard to the storage table please
+Take the object from the cupboard to the storage table please
 Robot please tell me how many children are pointing to the left in the corridor
 Pinpoint William at the dishwasher pinpoint Mary in the dining room and say something please
 Describe the objects in the dining table to me
@@ -551,7 +551,7 @@ Tell me how many children there are in the kitchen
 Take the apple from the dining table find Skyler and follow her please
 Bring me some tableware from the microwave please
 Greet the person waving in the kitchen please
-Tell me how many children in the corridor are wearing T-shirts please
+Tell me how many children in the corridor are wearing please
 Tell me how many black paprika are in the sink please
 Tell me how many women are wearing red in the living room
 Robot please guide the child in the corridor to the dining room
@@ -574,7 +574,7 @@ Meet Skyler at the end table then greet him please
 Count the blue apple at the sink and inform me please
 Please pinpoint Robert in the kitchen locate Alex at the dishwasher and escort him
 Please serve some chocolate drink in a bowl
-Bring the paprika to the person dressed in a blue T-shirt in the bedroom please
+Bring the paprika to the person dressed in a blue in the bedroom please
 Tell me how the person lying down at the entrance looks like please
 Tell me how many lying down elders there are in the bedroom please
 Place fork on the counter find William and accompany him
@@ -598,7 +598,7 @@ Describe the objects in the bookcase to me
 Spot James at the couch escort it to the exit spot Charlie
 Tell me how many people are pointing to the right in the corridor
 Tell me how many elders are wearing red in the bedroom please
-Lead the person at the couch to the desk B_guide_dest- please
+Lead the person at the couch to the desk please
 Could you bring the orange to the man pointing to the left in the dining room
 Could you salute the child in the living room
 Describe the person sitting at the entrance to the person at the end table please
@@ -630,7 +630,7 @@ Bring the apple to the slimmest man in the corridor please
 Could you please tell me how many men are raising their left arm in the kitchen
 Navigate to the bedroom find the fruits and bring it to me please
 Bring the sprite to the person pointing to the right in the living room please
-Tell me how many elders are wearing T-shirts in the bedroom please
+Tell me how many elders are wearing in the bedroom please
 Robot please go to the bedroom look for the cloth and bring it to James
 Look for James lead him to the couch and tell something about yourself please
 Put fork on the dining table place paprika on the end table and say something please
@@ -670,7 +670,7 @@ Enter to the bedroom look for the fruits and give it to Patricia at the exit ple
 Could you please leave a bowl on the side table and a spoon on its right
 Offer something to drink to all the people pointing to the right in the living room
 Could you describe the objects in the desk to me
-Take the person at the sink to the end B_guide_dest- table I_guide_dest-
+Take the person at the sink to the end table
 Please spot the basket in the kitchen
 Could you pick up a food from the sink and put it into the oven
 Pour some chocolate drink in a cup please
@@ -700,7 +700,7 @@ Spot James in the kitchen go after him place the coke in the dining room please
 Offer something to eat to all the elders pointing to the right in the bedroom
 Bring the orange to the person pointing to the right in the living room please
 Tell me how many women are raising their right arm in the kitchen please
-Robot please give me the left-most cutlery from the desk
+Robot please give me the cutlery from the desk
 Find Linda leave paprika on the counter and find Jennifer in the dining room please
 Could you locate the tray in the bedroom
 Describe to me the person sitting at the entrance
@@ -720,7 +720,7 @@ Could you please pick up a cleaning stuff from the bookcase and put it into the 
 Find Skyler at the sink pinpoint Francis and put dish on the storage table please
 Take the paprika from the dining table put it on the counter pick up the fruits from the sink please
 Take the fruits from the sink put it on the dining table and find William in the dining room please
-Accompany the person dressed in an orange T-shirt in the dining room to the living room please
+Accompany the person dressed in an orange in the dining room to the living room please
 Offer something to drink to all the women pointing to the right in the dining room
 Could you tell me how many women are raising their left arm in the bedroom
 Could you please tell me how many people in the living room are wearing blouses
@@ -762,7 +762,7 @@ Please find James at the dining table pinpoint William in the kitchen and pinpoi
 Robot please offer something to eat to all the elders wearing blouses in the kitchen
 Tell me how many elders wearing sweaters there are in the living room please
 Describe the objects in the end table to me please
-Escort the person at the bookcase to the exit B_guide_dest-
+Escort the person at the bookcase to the exit
 Offer something to eat to all the elders raising their left arm in the corridor
 Get the apple from the end table pick up the orange and tell a joke please
 Offer something to eat to all the women pointing to the left in the corridor please
@@ -781,7 +781,7 @@ Find Alex come behind him and answer a question please
 Navigate to the kitchen find the cleaning stuff and put it on the bookcase please
 Meet Robin at the bed then greet her please
 Bring me some fruits from the bag on the sink please
-Could you take the right-most object from the cupboard to the end table
+Could you take the object from the cupboard to the end table
 Could you please tell me how many children wearing shoes there are in the living room
 Take the apple from the dining table deliver to it to Alex at the desk retrieve the fruits from the storage table please
 Robot please tell me how many people in the kitchen are wearing shirts
@@ -813,7 +813,7 @@ Could you spot the bag in the dining room
 Enter to the bedroom pinpoint Skyler find a orange please
 Locate Charlie locate a potato chips in the kitchen and leave coke on the end table
 Offer something to eat to all the children waving in the living room please
-Accompany the person at the bookcase to the exit B_guide_dest-
+Accompany the person at the bookcase to the exit
 Follow the man raising their left arm in the kitchen
 Look for Linda at the exit pinpoint Robin and answer a question
 Hand me some grape juice in a bowl
@@ -894,7 +894,7 @@ Tell me how many elders are standing in the kitchen please
 Describe the person lying down at the bed to the person at the bookcase
 Locate Skyler at the couch escort him and answer a question please
 Say hello to the child in the living room
-Could you escort the person at the couch to the exit B_guide_dest-
+Could you escort the person at the couch to the exit
 Offer something to eat to all the men wearing pants in the corridor please
 Describe the person standing at the dining table to me please
 Please leave a bowl on the desk and a fork in it
@@ -952,7 +952,7 @@ Tell me how many elders are pointing to the left in the dining room please
 Locate the tray in the living room please
 Please enter to the corridor pinpoint the apple say something
 Pick up the apple pinpoint Charlie at the couch and look for a coke in the dining room please
-Take the person at the dining table to the exit B_guide_dest-
+Take the person at the dining table to the exit
 Describe the objects in the storage table to me
 Meet Linda at the end table then greet her
 Handshake the woman dressed in a yellow sweater in the dining room please
@@ -961,7 +961,7 @@ Count the cutlery items at the bookcase and report to me
 Locate William at the end table lead him to the exit speak please
 Could you place a dish on the dining table and a knife on its left
 Describe the person sitting at the dishwasher to me
-Could you please tell me how many people are wearing T-shirts in the living room
+Could you please tell me how many people are wearing in the living room
 Tell me how many men are raising their left arm in the bedroom please
 Tell me how many women are raising their left arm in the corridor please
 Could you please bring the apple to the smallest person in the living room
@@ -1004,7 +1004,7 @@ Robot please offer something to drink to all the men waving in the living room
 Locate Alex in the bedroom place orange on the storage table and pinpoint Skyler please
 Find a coke in the kitchen look for Robert at the end table and escort him
 Tell me how many men are pointing to the left in the dining room please
-Conduct the person at the dishwasher to the exit B_guide_dest- please
+Conduct the person at the dishwasher to the exit please
 Could you spot Skyler in the bedroom accompany it look for Francis
 Could you get to know Charlie at the dining table then greet him
 Introduce yourself to the man waving in the corridor please
@@ -1012,7 +1012,7 @@ Please tell me how many men are pointing to the left in the kitchen
 Robot please look for Skyler come after him and pick up the paprika from the end table
 Robot please get acquainted with William at the desk then greet him
 Robot please offer something to drink to all the elders pointing to the left in the corridor
-Accompany the person at the dining table to the bed B_guide_dest- please
+Accompany the person at the dining table to the bed please
 Tell me how many children are wearing pants in the living room
 Locate the bag in the bedroom
 Robot please offer something to eat to all the men dressed in gray in the corridor
@@ -1080,11 +1080,11 @@ Please bring the apple to the man pointing to the right in the living room
 Enter to the dining room spot the knife look for the orange please
 Describe to me the person lying down at the desk please
 Give me some tableware from the basket on the sink
-Lead the person at the dishwasher to the exit B_guide_dest- please
+Lead the person at the dishwasher to the exit please
 Robot please get acquainted with Francis at the desk then greet her
 Pinpoint a paprika in the corridor locate Jennifer in the kitchen and put a fruits on the desk please
 Could you take the paprika look for Elizabeth at the couch and escort her to the dishwasher
-Hand me the right-most object from the storage table please
+Hand me the object from the storage table please
 Offer something to eat to all the elders pointing to the right in the bedroom
 Robot please spot Linda at the dishwasher grasp the paprika from the counter and speak
 Introduce yourself to the man dressed in a white coat in the dining room please
@@ -1104,12 +1104,12 @@ Please locate Skyler in the corridor spot Charlie and accompany him
 Could you tell me how many tableware items are in the counter
 Say hello to the child in the corridor please
 Tell me how many women wearing shoes there are in the living room
-Take the person at the bed to the exit B_guide_dest- please
+Take the person at the bed to the exit please
 Get the paprika from the storage table leave it on the end table say something
 Put the apple in the kitchen take the paprika from the bookcase and put it on the end table please
 Please find Robin retrieve the apple from the end table and set paprika on the side table
 Bring the orange to the child in the living room please
-Guide the person at the desk to the entrance B_guide_dest-
+Guide the person at the desk to the entrance
 Go to the bedroom pinpoint Mary and escort her please
 Locate the bag in the bedroom
 Robot please bring the dish to the woman pointing to the left in the bedroom
@@ -1173,7 +1173,7 @@ Please enter to the kitchen look for the potato chips speak
 Get acquainted with Linda at the dining table then greet her please
 Tell me how many men are wearing coats in the kitchen please
 Enter to the dining room locate the snacks and place it on the end table please
-Take the left-most object from the counter to the bookcase
+Take the object from the counter to the bookcase
 Could you look for a apple look for Skyler in the kitchen and come behind her
 Get the orange from the end table spot the apple and pick up the paprika from the storage table
 Enter to the living room spot Elizabeth spot Michael please
@@ -1199,7 +1199,7 @@ Could you retrieve the fruits from the bookcase get the paprika from the storage
 Tell me how many women are wearing coats in the kitchen
 Robot please bring the grape juice to the youngest person in the living room
 Could you please tell me how the person lying down at the end table looks like
-Guide the person at the bed to the dishwasher B_guide_dest- please
+Guide the person at the bed to the dishwasher please
 Could you please introduce yourself to the woman wearing orange shoes in the dining room
 Offer something to eat to all the men dressed in red in the kitchen
 Tell me how many people in the kitchen are sitting
@@ -1213,9 +1213,9 @@ Look for the orange find Michael at the bed and look for Alex at the bed
 Could you tell me how many men are pointing to the left in the living room
 Could you please look for Michael accompany him and get the paprika from the cupboard
 Guide the man dressed in an orange shirt in the dining room to the exit please
-Accompany the person at the end table to the end B_guide_dest- table I_guide_dest- please
+Accompany the person at the end table to the end table please
 Bring the scrubby to the child in the dining room please
-Lead the person at the desk to the bed B_guide_dest-
+Lead the person at the desk to the bed
 Find Linda lead her to the kitchen and answer a question please
 Could you please hand me the fruits at the left cupboard
 Please locate Jennifer in the kitchen accompany her speak
@@ -1256,7 +1256,7 @@ Locate Michael at the dining table take the apple from the counter and speak ple
 Set a bowl on the sink and a spoon on its right please
 Please locate the bag in the corridor
 Describe the person sitting at the bookcase to the person at the exit
-Take the left-most object from the sink to the dining table
+Take the object from the sink to the dining table
 Robot please look for the tray in the corridor
 Please pick up a drinks from the counter and put it into the fridge
 Pick up the orange from the bookcase bring it to me speak
@@ -1349,12 +1349,12 @@ Could you please spot the bag in the living room
 Spot the orange locate Francis at the sink and take him to the bedroom please
 Give me some fruits from the microwave
 Navigate to the bedroom spot Mary say something please
-Please tell me how many children are wearing T-shirts in the kitchen
+Please tell me how many children are wearing in the kitchen
 Could you please retrieve the fruits from the bookcase find Alex at the dishwasher and say something about yourself
 Follow the person at the desk
 Locate the bag in the bedroom
 Tell me how many women are sitting in the kitchen
-Guide the person at the entrance to the exit B_guide_dest-
+Guide the person at the entrance to the exit
 Contact Charlie at the exit then greet her
 Robot please grasp the orange from the bookcase look for Francis and come after him
 Could you please tell me how many women are wearing blouses in the bedroom
@@ -1400,7 +1400,7 @@ Could you put a dish on the dining table and a knife in it
 Get the orange from the counter leave apple on the cupboard and look for James
 Robot please spot Patricia retrieve the orange from the end table and answer a question
 Robot please pick up a snacks from the side table and put it into the fridge
-Take the person at the desk to the exit B_guide_dest-
+Take the person at the desk to the exit
 Place orange on the end table pinpoint Linda at the bed and speak please
 Could you please get to know Mary at the couch then greet her
 Please enter to the corridor find Mary and put orange on the storage table
@@ -1412,10 +1412,10 @@ Please give me some cutlery from the basket on the dining table
 Offer something to eat to all the men pointing to the right in the living room please
 Robot please tell me how many elders are lying down in the bedroom
 Enter to the bedroom locate Robin say something please
-Accompany the person at the dishwasher to the exit B_guide_dest-
+Accompany the person at the dishwasher to the exit
 Hand me some grape juice in a cup
 Escort the tallest man in the corridor to the living room
-Robot please say hello to the woman dressed in an orange T-shirt in the bedroom
+Robot please say hello to the woman dressed in an orange in the bedroom
 Pinpoint James at the exit look for Robin and retrieve the orange from the storage table
 Serve some coke in a bowl please
 Deliver to me some chocolate drink in a bowl
@@ -1442,7 +1442,7 @@ Deliver to me some fruits from the microwave please
 Could you please enter to the corridor spot Charlie and follow him
 Give me some tableware from the oven
 Retrieve the apple from the sink put it on the cupboard look for Robert please
-Bring me the right-most drinks from the dining table
+Bring me the drinks from the dining table
 Offer something to eat to all the women raising their right arm in the bedroom
 Robot please navigate to the kitchen find the fruits and answer a question
 Bring the orange to the oldest man in the living room please
@@ -1543,10 +1543,10 @@ Robot please count the containers items at the storage table and report to me
 Put the apple into the fridge
 Could you look for the bag in the dining room
 Pinpoint John grasp the orange from the counter and set it on the sink
-Robot please take the right-most object from the sink to the cupboard
+Robot please take the object from the sink to the cupboard
 Spot Mary accompany it to the exit and pinpoint Charlie at the exit please
 Count the tableware items at the dining table and inform me please
-Offer something to eat to all the elders wearing T-shirts in the bedroom
+Offer something to eat to all the elders wearing in the bedroom
 Please spot the basket in the corridor
 Put a bowl on the side table and a fork on its right
 Could you tell me how many children are raising their right arm in the corridor
@@ -1595,14 +1595,14 @@ Go to the kitchen find Charlie and escort her to the dining room
 Could you please count the white fruits objects at the counter and inform me
 Hand me something in a cup please
 Please serve some grape juice in a cup
-Conduct the person at the dishwasher to the end B_guide_dest- table I_guide_dest- please
+Conduct the person at the dishwasher to the end table please
 Could you take the paprika from the side table find Skyler and follow him
 Could you please bring me something in a bowl
 Pinpoint Robin at the dishwasher spot a apple in the bedroom and look for a paprika please
 Offer something to drink to all the women pointing to the right in the dining room
 Grasp the orange from the bookcase locate John and look for a scrubby in the living room
 Spot a orange in the corridor set sprite on the storage table and get the apple
-Lead the person at the dishwasher to the exit B_guide_dest- please
+Lead the person at the dishwasher to the exit please
 Accompany the person at the dining table
 Meet Robert at the dining table then greet him
 Tell me how many children are pointing to the right in the kitchen please
@@ -1661,7 +1661,7 @@ Please pour some chocolate drink in a bowl
 Set a bowl on the bookcase and a fork on its left please
 Please look for James at the desk locate Skyler and lead her to the sink
 Pinpoint William pick up the paprika from the bookcase and set it on the storage table
-Accompany the person at the sink to the bookcase B_guide_dest- please
+Accompany the person at the sink to the bookcase please
 Offer something to eat to all the women raising their right arm in the living room
 Tell me how many elders are wearing coats in the kitchen
 Tell me how many men are wearing orange in the dining room please
@@ -1770,8 +1770,8 @@ Robot please spot Robin at the dining table retrieve the paprika from the cupboa
 Please locate Elizabeth in the corridor spot Robert in the kitchen and say something
 Handshake the child in the corridor
 Could you please give me some orange juice in a bowl
-Accompany the person at the exit to the end B_guide_dest- table I_guide_dest- please
-Could you please guide the person at the desk to the bookcase B_guide_dest-
+Accompany the person at the exit to the end table please
+Could you please guide the person at the desk to the bookcase
 Get acquainted with Patricia at the sink then greet her please
 Describe the person sitting at the end table to the person at the couch
 Look for the tray in the bedroom please
@@ -1786,7 +1786,7 @@ Could you look for Mary grasp the apple from the dining table and place it on th
 Accompany the person at the dishwasher please
 Offer something to drink to all the women dressed in yellow in the dining room
 Bring the orange to the smallest person in the dining room
-Deliver to me the left-most food from the desk
+Deliver to me the food from the desk
 Please accompany the slimmest person in the kitchen
 Could you please accompany the person at the desk
 Leave a dish on the bookcase and a knife in it please
@@ -1802,7 +1802,7 @@ Tell me how many children are waving in the dining room
 Offer something to drink to all the elders pointing to the left in the corridor
 Please take the apple from the cupboard locate Charlie and conduct her to the exit
 Place a tableware on the desk take the orange from the counter and leave it on the side table
-Tell me how many people wearing T-shirts there are in the dining room please
+Tell me how many people wearing there are in the dining room please
 Tell me how many people wearing shoes there are in the kitchen please
 Set sponge on the bookcase locate Jennifer at the sink and say something
 Navigate to the corridor find the drinks and set it on the sink please
@@ -1875,7 +1875,7 @@ Tell me how many elders are pointing to the right in the bedroom please
 Please describe the objects in the end table to me
 Give me something in a bowl
 Could you please describe the objects in the dining table to me
-Lead the person at the entrance to the exit B_guide_dest- please
+Lead the person at the entrance to the exit please
 Pick up the orange from the sink find Skyler in the kitchen and get the fruits from the storage table please
 Could you please describe the objects in the storage table to me
 Greet the child in the living room
@@ -1910,7 +1910,7 @@ Tell me how many women in the corridor are wearing jackets
 Get the paprika pinpoint Charlie at the couch and accompany him to the desk please
 Robot please retrieve the orange from the sink get the apple from the dining table and speak
 Tell me how many women in the living room are wearing shoes please
-Please bring me the right-most object from the sink
+Please bring me the object from the sink
 Please offer something to drink to all the elders raising their left arm in the dining room
 Describe the objects in the bookcase to me
 Put apple on the bookcase retrieve the fruits from the counter and spot Skyler at the sink please
@@ -1941,8 +1941,8 @@ Tell me how many elders are wearing gray in the bedroom please
 Could you please bring the potato chips to the slimmest person in the bedroom
 Look for the crackers look for Francis at the entrance and conduct him to the living room please
 Please give me some tableware from the microwave
-Guide the person at the bookcase to the exit B_guide_dest- please
-Could you escort the person at the dishwasher to the bed B_guide_dest-
+Guide the person at the bookcase to the exit please
+Could you escort the person at the dishwasher to the bed
 Could you leave a cup on the side table and a knife in it
 Spot Alex in the kitchen retrieve the paprika from the counter and leave it to the kitchen
 Pinpoint the bag in the kitchen
@@ -1993,7 +1993,7 @@ Could you give me some orange juice in a cup
 Place the orange in the living room pick up the paprika from the desk and place it on the storage table
 Grasp the orange bring it to me and spot Charlie in the corridor please
 Locate Alex accompany him and tell something about yourself please
-Guide the person at the sink to the end B_guide_dest- table I_guide_dest- please
+Guide the person at the sink to the end table please
 Bring the dish to the woman pointing to the right in the dining room
 Pick up the paprika from the counter leave it on the counter speak please
 Bring me some drinks from the microwave please
@@ -2019,7 +2019,7 @@ Enter to the dining room locate Jennifer and say a joke please
 Please deliver to me some orange juice in a cup
 Take the tallest person in the bedroom to the exit please
 Offer something to eat to all the men wearing shoes in the kitchen
-Accompany the person at the desk to the exit B_guide_dest-
+Accompany the person at the desk to the exit
 Tell me how many children are sitting in the living room please
 Pick up a containers from the sink and put it into the microwave
 Offer something to drink to all the children in the kitchen
@@ -2034,7 +2034,7 @@ Could you spot a sponge in the kitchen pick up the orange from the dining table 
 Describe the objects in the desk to me please
 Could you please put the orange into the bag on the side table
 Tell me how many people are raising their right arm in the kitchen
-Lead the person at the end table to the exit B_guide_dest-
+Lead the person at the end table to the exit
 Contact Jennifer at the dining table then greet her
 Tell me how many women are standing in the corridor please
 Please tell me how many men are raising their left arm in the dining room
@@ -2112,7 +2112,7 @@ Could you please tell me how many men are raising their left arm in the bedroom
 Describe the objects in the storage table to me please
 Grasp the apple retrieve the paprika from the cupboard and put it on the counter
 Describe the objects in the cupboard to me please
-Tell me how many children in the living room are wearing T-shirts please
+Tell me how many children in the living room are wearing please
 Look for Alex at the end table pinpoint Jennifer and come after her
 Bring the apple to the man raising their right arm in the kitchen please
 Go to the desk find Charlie and escort him
@@ -2157,7 +2157,7 @@ Could you please greet the person dressed in a yellow jacket in the bedroom
 Locate Francis get the apple from the counter and deliver to it to Skyler at the desk please
 Hand me some grape juice in a bowl
 Please deliver to me the cutlery at the left storage table
-Could you take the person at the dining table to the exit B_guide_dest-
+Could you take the person at the dining table to the exit
 Hand me some tableware from the oven
 Find the basket in the kitchen please
 Please tell me how many elders are waving in the living room
@@ -2167,7 +2167,7 @@ Please tell me how many people in the dining room are raising their left arm
 Robot please describe the objects in the counter to me
 Could you accompany the man pointing to the left in the corridor
 Pick up a snacks from the dining table and put it into the basket on the bookcase
-Escort the person at the dishwasher to the exit B_guide_dest- please
+Escort the person at the dishwasher to the exit please
 Please offer something to drink to all the women dressed in blue in the bedroom
 Put a cup on the bookcase and a spoon on it
 Robot please deliver to me something in a cup
@@ -2246,7 +2246,7 @@ Describe the objects in the side table to me
 Put the scrubby into the oven
 Describe the objects in the counter to me please
 Describe the objects in the storage table to me please
-Lead the person at the dining table to the exit B_guide_dest- please
+Lead the person at the dining table to the exit please
 Could you please follow the person at the couch
 Enter to the living room find Charlie and guide her to the bedroom
 Could you please tell me how many elders are lying down in the kitchen
@@ -2355,7 +2355,7 @@ Could you serve some coke in a cup
 Pour some coke in a cup
 Navigate to the corridor spot the cloth and deliver to it to Alex please
 Go after the man pointing to the right in the dining room please
-Accompany the person at the end table to the bookcase B_guide_dest-
+Accompany the person at the end table to the bookcase
 Robot please pick up a tableware from the dining table and put it into the basket on the bookcase
 Offer something to drink to all the women wearing jackets in the bedroom please
 Tell me how many children in the dining room are wearing jackets please
@@ -2431,7 +2431,7 @@ Robot please locate Elizabeth find Robin at the couch and conduct him to the des
 Could you please tell me how many children are waving in the corridor
 Could you please hand me some cleaning stuff from the oven
 Could you count the red food objects at the bookcase and inform me
-Guide the person at the bed to the bookcase B_guide_dest- please
+Guide the person at the bed to the bookcase please
 Could you please count the blue food objects at the side table and inform me
 Tell me how many men are waving in the bedroom please
 Could you please pick up the paprika from the dining table bring it to me pick up the fruits from the end table
@@ -2454,8 +2454,8 @@ Bring the apple to the woman raising their left arm in the kitchen
 Bring the cloth to the fattest woman in the corridor please
 Could you please bring me some grape juice in a cup
 Robot please accompany the person at the couch
-Could you please lead the person at the exit to the sink B_guide_dest-
-Please accompany the person at the desk to the exit B_guide_dest-
+Could you please lead the person at the exit to the sink
+Please accompany the person at the desk to the exit
 Robot please describe the objects in the desk to me
 Put apple on the end table get the paprika and set it on the dining table please
 Offer something to drink to all the children waving in the dining room
@@ -2471,7 +2471,7 @@ Please offer something to eat to all the people dressed in yellow in the bedroom
 Could you please go to the living room look for Mary and accompany her
 Put the apple into the microwave
 Go to the kitchen find the tableware and set it on the bookcase
-Tell me how many elders in the kitchen are wearing T-shirts
+Tell me how many elders in the kitchen are wearing
 Tell me how many women in the kitchen are pointing to the right please
 Bring the fork to the person pointing to the left in the kitchen
 Deliver to me some containers from the bag on the end table
@@ -2493,7 +2493,7 @@ Navigate to the dining table find Patricia and accompany her to the exit please
 Count the yellow apple at the counter and report to me please
 Pick up a tableware from the sink and put it into the bag on the dining table
 Please give me some sprite in a bowl
-Accompany the person at the entrance to the exit B_guide_dest- please
+Accompany the person at the entrance to the exit please
 Deliver to me the drinks at the right dining table please
 Bring the apple to the child in the dining room
 Could you bring the paprika to the woman pointing to the left in the living room
@@ -2531,7 +2531,7 @@ Put apple on the storage table spot a cup and tell whether you dream or not on e
 Could you please tell me how many children are pointing to the left in the dining room
 Could you please leave a dish on the side table and a knife in it
 Pick up the orange from the cupboard find Mary in the kitchen and say something please
-Escort the person at the dishwasher to the exit B_guide_dest-
+Escort the person at the dishwasher to the exit
 Locate the tray in the corridor please
 Tell me how many men are pointing to the left in the living room please
 Enter to the kitchen find Skyler and escort him please
@@ -2574,7 +2574,7 @@ Could you navigate to the bedroom locate the apple and deliver to it to Francis
 Leave a bowl on the sink and a fork on it
 Robot please retrieve the apple from the cupboard grasp the orange and give it to Francis at the bed
 Please get acquainted with Mary at the entrance then greet her
-Guide the person at the entrance to the exit B_guide_dest- please
+Guide the person at the entrance to the exit please
 Find Robin at the end table locate Alex and follow him
 Go to the bedroom find Francis and escort her
 Find Charlie find Patricia at the dining table and escort her to the entrance
@@ -2596,7 +2596,7 @@ Robot please serve some sprite in a cup
 Robot please put a bowl on the end table and a fork on it
 Could you please enter to the corridor pinpoint the cascade pod speak
 Could you say hello to the person raising their left arm in the kitchen
-Take the right-most object from the sink to the end table please
+Take the object from the sink to the end table please
 Count the white containers objects at the storage table and inform me please
 Give me some orange juice in a bowl
 Say hello to the man raising their left arm in the dining room please
@@ -2632,10 +2632,10 @@ Robot please tell me how the person lying down at the desk looks like
 Could you navigate to the bed locate Robin and lead her to the living room
 Spot Patricia at the sink locate Elizabeth at the couch and escort her please
 Put the cloth in the bedroom spot Alex in the dining room and go behind him please
-Could you please guide the person at the dining table to the bed B_guide_dest-
+Could you please guide the person at the dining table to the bed
 Introduce yourself to the slimmest person in the kitchen
-Take the right-most food from the cupboard to the sink
-Escort the person at the bookcase to the exit B_guide_dest- please
+Take the food from the cupboard to the sink
+Escort the person at the bookcase to the exit please
 Tell me how many people there are in the bedroom
 Follow the person at the exit please
 Deliver to me some cleaning stuff from the basket on the desk
@@ -2726,7 +2726,7 @@ Please bring me some fruits from the fridge
 Could you please put the orange in the kitchen grasp the paprika from the dining table and deliver to it to me
 Accompany the person at the couch please
 Put a dish on the dining table and a fork on its right
-Please lead the person at the bookcase to the exit B_guide_dest-
+Please lead the person at the bookcase to the exit
 Robot please navigate to the sink locate Skyler and guide him to the bed
 Could you place a bowl on the desk and a knife on it
 Leave a bowl on the end table and a fork on it please
@@ -2752,14 +2752,14 @@ Tell me how many elders are pointing to the right in the dining room please
 Enter to the corridor look for Charlie and escort him please
 Could you please put the paprika into the oven
 Find William at the desk spot Francis at the dining table and escort her
-Could you bring me the left-most object from the desk
+Could you bring me the object from the desk
 Describe the objects in the cupboard to me please
 Could you grasp the orange from the end table get the paprika from the cupboard and place a tableware on the end table
 Bring the noodles to the person waving in the dining room please
 Tell me how many men in the corridor are sitting please
 Take the apple from the cupboard pinpoint Michael and look for a paprika in the dining room please
 Could you please describe the objects in the storage table to me
-Could you escort the person at the bookcase to the exit B_guide_dest-
+Could you escort the person at the bookcase to the exit
 Follow the child in the dining room please
 Could you please look for the bag in the kitchen
 Robot please tell me how many women in the corridor are pointing to the right
@@ -2772,8 +2772,8 @@ Robot please find Charlie pinpoint Robin at the sink and answer a question
 Could you please get acquainted with Francis at the desk then greet him
 Accompany the person at the sink please
 Spot a apple in the dining room take the orange from the sink and hand it to John
-Accompany the person at the entrance to the exit B_guide_dest- please
-Offer something to eat to all the men wearing T-shirts in the kitchen please
+Accompany the person at the entrance to the exit please
+Offer something to eat to all the men wearing in the kitchen please
 Could you please follow the child in the bedroom
 Describe the person standing at the entrance to the person at the end table
 Take the apple from the counter hand it to me say something please
@@ -2810,7 +2810,7 @@ Please find Skyler guide it to the dining room and pinpoint Mary in the corridor
 Robot please look for the cereal find James in the bedroom and come after him
 Tell me how many children in the corridor are wearing black
 Tell me how many black orange are in the desk
-Could you accompany the person at the couch to the desk B_guide_dest-
+Could you accompany the person at the couch to the desk
 Please offer something to drink to all the people dressed in red in the corridor
 Could you please grasp the fruits from the side table put it on the end table and answer a question
 Robot please go to the dining room find Robin locate Francis
@@ -2849,7 +2849,7 @@ Look for the tray in the living room
 Could you describe to me the person standing at the bed
 Look for James at the dining table escort it and look for Mary in the living room
 Describe to me the person sitting at the desk
-Escort the person at the sink to the dishwasher B_guide_dest- please
+Escort the person at the sink to the dishwasher please
 Robot please spot Skyler take the apple from the bookcase and set it on the storage table
 Describe the objects in the sink to me
 Could you please get acquainted with Robin at the dishwasher then greet her
@@ -2897,7 +2897,7 @@ Could you please bring the orange to the child in the kitchen
 Robot please offer something to eat to all the people raising their right arm in the bedroom
 Could you please place a dish on the desk and a knife in it
 Could you please tell me how many women are raising their left arm in the dining room
-Could you please take the left-most fruits from the desk to the storage table
+Could you please take the fruits from the desk to the storage table
 Get acquainted with Alex at the bed then greet him
 Please find Charlie at the couch locate Alex at the couch and escort him
 Spot the tray in the living room
@@ -2923,14 +2923,14 @@ Please locate Mary come after her and take the apple from the sink
 Robot please offer something to eat to all the people in the corridor
 Robot please tell me how many orange cleaning stuff objects are in the bookcase
 Tell me how many men are wearing red in the dining room
-Escort the person at the bookcase to the sink B_guide_dest-
+Escort the person at the bookcase to the sink
 Navigate to the bedroom locate the cloth grasp the fruits from the sink please
 Robot please offer something to drink to all the children pointing to the left in the living room
-Deliver to me the left-most object from the end table please
+Deliver to me the object from the end table please
 Robot please get acquainted with Linda at the desk then greet her
 Pinpoint Michael in the living room pick up the paprika and leave it on the storage table please
 Serve some coke in a cup
-Conduct the person at the end table to the sink B_guide_dest- please
+Conduct the person at the end table to the sink please
 Go to the kitchen find the sponge and give it to Mary
 Could you please set a bowl on the cupboard and a knife on its right
 Locate Linda at the bed pinpoint a paprika in the kitchen and speak
@@ -3066,10 +3066,10 @@ Introduce yourself to the youngest man in the corridor
 Escort the child in the bedroom to the kitchen
 Navigate to the bedroom find John and answer a question
 Please hand me some containers from the fridge
-Could you lead the person at the couch to the sink B_guide_dest-
+Could you lead the person at the couch to the sink
 Could you please spot the tray in the kitchen
 Robot please contact Francis at the exit then greet her
-Say hello to the person dressed in a black T-shirt in the kitchen please
+Say hello to the person dressed in a black in the kitchen please
 Pinpoint the basket in the living room
 Spot a scrubby find a apple in the bedroom and locate Alex at the end table please
 Count the cleaning stuff items at the end table and report to me please
@@ -3093,7 +3093,7 @@ Spot a paprika in the living room spot Robin and find William in the bedroom ple
 Place dish on the bookcase pinpoint Alex and leave paprika on the counter please
 Tell me how many men there are in the living room please
 Tell me how many children there are in the living room
-Escort the person at the desk to the exit B_guide_dest- please
+Escort the person at the desk to the exit please
 Please meet Charlie at the entrance then greet him
 Please pinpoint Charlie put apple on the desk and tell a joke
 Accompany the person at the bookcase
@@ -3111,7 +3111,7 @@ Take the fruits from the side table locate Michael in the bedroom and place saus
 Set paprika on the desk locate a orange and answer a question
 Could you please go to the dining room pinpoint the spoon and set it to the bedroom
 Accompany the person at the end table
-Take the right-most object from the cupboard to the bookcase
+Take the object from the cupboard to the bookcase
 Put a cup on the cupboard and a spoon in it please
 Find a paprika in the living room grasp the orange and deliver to it to me
 Tell me how many children there are in the dining room
@@ -3123,7 +3123,7 @@ Go to the bed find Robin and conduct her to the exit
 Follow the man raising their right arm in the corridor please
 Bring the cup to the man pointing to the right in the dining room
 Put the paprika into the oven please
-Accompany the person at the desk to the entrance B_guide_dest- please
+Accompany the person at the desk to the entrance please
 Bring the orange to the child in the dining room please
 Look for James at the exit spot a apple and tell your team's name
 Pick up a tableware from the end table and put it into the oven please
@@ -3191,7 +3191,7 @@ Come after the man raising their left arm in the kitchen please
 Look for Linda at the exit place grape juice on the sink and put a fruits on the bookcase
 Could you please pinpoint Mary spot Alex in the bedroom and follow her
 Could you please follow the slimmest woman in the bedroom
-Accompany the person at the sink to the desk B_guide_dest- please
+Accompany the person at the sink to the desk please
 Robot please hand me some containers from the oven
 Pinpoint Michael locate Skyler at the couch and guide her to the dining room please
 Pinpoint a apple locate Jennifer at the dishwasher and lead her to the exit please
@@ -3216,7 +3216,7 @@ Guide the tallest man in the living room to the exit
 Tell me how many children in the dining room are raising their left arm
 Look for a spoon in the bedroom pinpoint Francis and follow him
 Locate a dish in the kitchen pick up the apple and pinpoint a potato chips in the corridor
-Please guide the person at the bookcase to the desk B_guide_dest-
+Please guide the person at the bookcase to the desk
 Tell me how many children are wearing white in the bedroom please
 Please describe the objects in the end table to me
 Please find a sausages in the bedroom leave grape juice on the desk and find James
@@ -3235,7 +3235,7 @@ Tell me how many children are wearing yellow in the living room please
 Bring the paprika to the child in the corridor please
 Offer something to eat to all the men raising their left arm in the corridor
 Get to know Skyler at the end table then greet him please
-Could you bring the knife to the man dressed in a black T-shirt in the dining room
+Could you bring the knife to the man dressed in a black in the dining room
 Bring me the tallest object from the cupboard please
 Locate Charlie at the exit grasp the orange from the side table and speak
 Offer something to drink to all the men raising their left arm in the bedroom
@@ -3260,7 +3260,7 @@ Could you please introduce yourself to the child in the living room
 Robot please locate the bag in the dining room
 Could you please spot a apple in the kitchen pinpoint James and take him to the exit
 Describe the person sitting at the desk to me
-Robot please conduct the person at the bookcase to the sink B_guide_dest-
+Robot please conduct the person at the bookcase to the sink
 Pick up a cutlery from the dining table and put it into the oven
 Could you please find the basket in the bedroom
 Bring the apple to the person raising their left arm in the living room
@@ -3268,7 +3268,7 @@ Robot please locate Charlie in the dining room retrieve the apple from the stora
 Offer something to drink to all the people pointing to the left in the bedroom
 Tell me how many women are wearing yellow in the corridor please
 Find John find William in the bedroom and answer a question please
-Tell me how many men are wearing T-shirts in the corridor
+Tell me how many men are wearing in the corridor
 Follow the person at the dining table
 Deliver to me some cleaning stuff from the fridge
 Could you count the black tableware objects at the side table and report to me
@@ -3295,11 +3295,11 @@ Tell me how many people there are in the corridor
 Give me some chocolate drink in a bowl please
 Find Skyler at the dining table look for Francis and guide her to the end table
 Pour some orange juice in a cup please
-Guide the person at the desk to the exit B_guide_dest-
+Guide the person at the desk to the exit
 Count the red paprika at the storage table and inform me
 Could you please tell me how many men are wearing blouses in the living room
 Please tell me how many people are wearing shoes in the living room
-Accompany the man dressed in an orange T-shirt in the bedroom to the exit please
+Accompany the man dressed in an orange in the bedroom to the exit please
 Offer something to eat to all the women waving in the kitchen please
 Say hello to the child in the bedroom please
 Locate a apple retrieve the paprika from the bookcase and deliver to it to Elizabeth at the end table
@@ -3322,7 +3322,7 @@ Please look for a apple in the living room get the paprika from the sink and giv
 Contact Skyler at the bed then greet him
 Pinpoint the tray in the corridor
 Offer something to drink to all the men wearing pants in the kitchen
-Lead the person at the sink to the exit B_guide_dest-
+Lead the person at the sink to the exit
 Tell me how many children are standing in the living room please
 Please leave the paprika in the kitchen spot Jennifer at the bed and pick up the apple from the side table
 Put a bowl on the dining table and a spoon on it please
@@ -3359,7 +3359,7 @@ Could you please tell me how many people there are in the kitchen
 Could you please place a bowl on the bookcase and a knife on it
 Count the cleaning stuff items at the end table and inform me please
 Set a bowl on the storage table and a spoon in it please
-Bring the bowl to the woman dressed in a red T-shirt in the bedroom please
+Bring the bowl to the woman dressed in a red in the bedroom please
 Pinpoint Skyler at the desk escort him and say a joke
 Tell me how the person lying down at the end table looks like please
 Look for Robin in the corridor find John and guide him to the exit please
@@ -3379,7 +3379,7 @@ Count the red dish at the cupboard and report to me
 Find a apple in the bedroom look for Alex and lead her to the exit please
 Robot please describe the objects in the end table to me
 Please tell me how many men are sitting in the bedroom
-Take the right-most drinks from the counter to the counter please
+Take the drinks from the counter to the counter please
 Robot please tell me how many people are pointing to the right in the living room
 Count the black apple at the dining table and report to me please
 Tell me how many people are pointing to the right in the living room
@@ -3416,7 +3416,7 @@ Navigate to the dining table find Mary and accompany her to the exit
 Offer something to eat to all the women raising their right arm in the dining room please
 Tell me how many children in the kitchen are pointing to the left
 Could you navigate to the dining table look for Elizabeth and conduct her to the corridor
-Tell me how many men wearing T-shirts there are in the corridor
+Tell me how many men wearing there are in the corridor
 Describe the person standing at the end table to the person at the dishwasher
 Locate Michael at the dining table take the apple and pinpoint a coke in the dining room
 Offer something to drink to all the men waving in the bedroom
@@ -3483,7 +3483,7 @@ Describe the objects in the storage table to me
 Set a bowl on the sink and a spoon in it
 Go to the dining room pinpoint Robert and get the apple from the storage table please
 Please describe the objects in the side table to me
-Could you please tell me how many elders are wearing T-shirts in the living room
+Could you please tell me how many elders are wearing in the living room
 Find Patricia take the apple from the bookcase and leave it on the storage table please
 Could you find the tray in the bedroom
 Robot please retrieve the apple from the bookcase look for Alex and escort her to the exit
@@ -3530,7 +3530,7 @@ Put potato chips on the dining table pinpoint Jennifer and follow her please
 Describe the objects in the end table to me please
 Put the apple into the microwave
 Find William get the paprika from the storage table and say your team's name please
-Give me the left-most object from the sink
+Give me the object from the sink
 Tell me how many elders dressed in yellow there are in the bedroom please
 Tell me how many children in the bedroom are pointing to the left please
 Could you look for Mary look for Skyler in the dining room and answer a question
@@ -3539,7 +3539,7 @@ Could you spot Francis pinpoint Robert in the bedroom and accompany him
 Could you describe the objects in the bookcase to me
 Give me some fruits from the microwave please
 Could you please offer something to drink to all the people wearing pants in the living room
-Guide the person at the desk to the exit B_guide_dest-
+Guide the person at the desk to the exit
 Pick up a tableware from the bookcase and put it into the oven please
 Meet Elizabeth at the entrance then greet her
 Say hello to the woman dressed in a white jacket in the kitchen please
@@ -3583,7 +3583,7 @@ Please find the bag in the living room
 Robot please tell me how many children are pointing to the left in the bedroom
 Leave a dish on the storage table and a spoon on its left
 Could you please look for a paprika spot Charlie in the bedroom and answer a question
-Could you take the left-most fruits from the storage table to the sink
+Could you take the fruits from the storage table to the sink
 Could you please pick up a snacks from the side table and put it into the oven
 Pinpoint Elizabeth at the bookcase pick up the fruits from the end table and hand it to me please
 Bring the apple to the person dressed in a white shirt in the kitchen please
@@ -3624,7 +3624,7 @@ Please guide the child in the kitchen to the exit
 Tell me how many children are raising their right arm in the dining room
 Get to know John at the couch then greet him
 Spot a dish in the kitchen spot Robin and follow him please
-Take the person at the dishwasher to the exit B_guide_dest-
+Take the person at the dishwasher to the exit
 Tell me how many lying down elders there are in the kitchen please
 Follow the child in the corridor
 Locate Francis at the sink locate John and say the day of the week please
@@ -3671,7 +3671,7 @@ Describe to me the person sitting at the end table please
 Robot please look for Alex locate Francis at the couch and take him to the dining room
 Tell me how many men are raising their right arm in the kitchen
 Please pinpoint the bag in the dining room
-Robot please accompany the person at the exit to the exit B_guide_dest-
+Robot please accompany the person at the exit to the exit
 Please find the bag in the kitchen
 Go to the entrance look for Francis and escort her
 Count the tableware items at the dining table and inform me
@@ -3707,7 +3707,7 @@ Give me some cleaning stuff from the oven please
 Count the cutlery items at the bookcase and report to me
 Tell me how many elders wearing shirts there are in the kitchen
 Offer something to eat to all the people raising their left arm in the corridor please
-Please tell me how many elders in the living room are wearing T-shirts
+Please tell me how many elders in the living room are wearing
 Enter to the living room find the fruits and give it to Mary at the couch please
 Introduce yourself to the person raising their left arm in the dining room
 Accompany the person at the exit please
@@ -3754,7 +3754,7 @@ Count the drinks items at the end table and inform me please
 Pick up a tableware from the sink and put it into the basket on the dining table please
 Could you describe the person standing at the end table to the person at the exit
 Escort the person pointing to the left in the kitchen to the exit please
-Could you please tell me how many elders in the kitchen are wearing T-shirts
+Could you please tell me how many elders in the kitchen are wearing
 Please describe the objects in the counter to me
 Grasp the fruits from the side table spot Charlie at the bed and look for Robin at the sink please
 Please get to know Skyler at the exit then greet him
@@ -3888,11 +3888,11 @@ Deliver to me some containers from the oven please
 Pinpoint Mary at the end table retrieve the paprika from the storage table and give it to Jennifer please
 Please take the orange from the end table set it on the sink spot Francis
 Tell me how many elders in the dining room are wearing red
-Accompany the person at the entrance to the bed B_guide_dest-
+Accompany the person at the entrance to the bed
 Go to the dining room locate Skyler and escort her please
 Robot please take the fruits from the sink bring it to Skyler at the end table and answer a question
 Handshake the man pointing to the right in the dining room
-Escort the person at the dishwasher to the bookcase B_guide_dest- please
+Escort the person at the dishwasher to the bookcase please
 Could you please introduce yourself to the man pointing to the left in the kitchen
 Offer something to drink to all the women pointing to the left in the kitchen please
 Tell me how many sitting elders there are in the living room please
@@ -3907,7 +3907,7 @@ Pick up a drinks from the desk and put it into the oven
 Could you please greet the person wearing orange pants in the kitchen
 Place scrubby on the end table leave the sprite in the living room and answer a question please
 Count the orange paprika at the end table and inform me please
-Lead the person at the bookcase to the exit B_guide_dest-
+Lead the person at the bookcase to the exit
 Tell me how many women in the corridor are wearing red please
 Conduct the child in the dining room to the exit please
 Offer something to drink to all the women pointing to the left in the living room
@@ -3925,7 +3925,7 @@ Could you please navigate to the sink look for Robin and guide him to the corrid
 Give me some grape juice in a cup please
 Please get the paprika from the cupboard set the orange in the bedroom and leave pringles on the bookcase
 Place cup on the cupboard find Mary and accompany her
-Conduct the person at the desk to the dining B_guide_dest- table I_guide_dest- please
+Conduct the person at the desk to the dining table please
 Enter to the corridor look for Michael and tell what day is today
 Tell me how many cutlery items are in the sink
 Get acquainted with Charlie at the entrance then greet him please
@@ -3975,7 +3975,7 @@ Take the man wearing blue shoes in the dining room to the bedroom please
 Please offer something to drink to all the women in the kitchen
 Find Skyler look for Francis in the corridor and follow her please
 Say hello to the child in the bedroom please
-Robot please offer something to drink to all the women wearing T-shirts in the corridor
+Robot please offer something to drink to all the women wearing in the corridor
 Could you bring the paprika to the man wearing an orange shirt in the living room
 Could you describe to me the person standing at the entrance
 Tell me how many men in the dining room are wearing jackets
@@ -3989,7 +3989,7 @@ Could you tell me how many people are raising their right arm in the kitchen
 Offer something to eat to all the children dressed in red in the living room
 Put the fork into the bag on the counter please
 Could you please enter to the corridor pinpoint Michael take the paprika
-Robot please hand me the right-most tableware from the bookcase
+Robot please hand me the tableware from the bookcase
 Please bring the pringles to the child in the corridor
 Spot a knife in the living room find Skyler in the dining room and say something
 Deliver to me some orange juice in a bowl
@@ -4010,7 +4010,7 @@ Enter to the corridor pinpoint the dish say something please
 Offer something to eat to all the people in the bedroom
 Spot Jennifer in the corridor find Robin and answer a question
 Could you please put the apple into the microwave
-Please guide the person at the sink to the dining B_guide_dest- table I_guide_dest-
+Please guide the person at the sink to the dining table
 Describe the objects in the bookcase to me please
 Handshake the youngest man in the bedroom
 Find Skyler at the dishwasher guide her to the exit retrieve the apple please
@@ -4022,7 +4022,7 @@ Place a bowl on the sink and a spoon on its left
 Could you please put the dish into the fridge
 Pour some grape juice in a bowl please
 Robot please look for Jennifer at the dishwasher get the apple and say whether you dream or not on electric sheep
-Offer something to eat to all the children wearing T-shirts in the corridor
+Offer something to eat to all the children wearing in the corridor
 Salute the child in the corridor
 Put the spoon into the fridge please
 Robot please take the paprika find Skyler at the bed and lead her to the exit
@@ -4036,7 +4036,7 @@ Pinpoint Jennifer at the dishwasher locate Elizabeth and answer a question pleas
 Pinpoint a sprite in the dining room spot Linda and follow her
 Could you please go to the bookcase spot Michael and take him to the exit
 Offer something to eat to all the men wearing shirts in the bedroom please
-Lead the person at the end table to the end B_guide_dest- table I_guide_dest-
+Lead the person at the end table to the end table
 Could you please meet Linda at the end table then greet her
 Could you please spot the apple locate Alex in the dining room and follow him
 Tell me how many men are wearing yellow in the corridor
@@ -4048,7 +4048,7 @@ Could you please pour some chocolate drink in a cup
 Please tell me how many people are wearing white in the living room
 Robot please offer something to eat to all the elders in the corridor
 Locate John at the end table spot Robin in the dining room and say something please
-Accompany the person at the entrance to the exit B_guide_dest- please
+Accompany the person at the entrance to the exit please
 Describe the person sitting at the exit to the person at the sink
 Could you describe the objects in the desk to me
 Please retrieve the apple from the desk spot Alex in the living room and get the fruits from the end table
@@ -4086,7 +4086,7 @@ Enter to the bedroom spot William find Robin
 Spot the bag in the kitchen please
 Could you look for Robin pinpoint John at the couch and escort him to the couch
 Count the food items at the sink and inform me
-Lead the person at the entrance to the bed B_guide_dest-
+Lead the person at the entrance to the bed
 Set the paprika in the bedroom locate Robin in the kitchen and come behind her
 Could you please bring the apple to the child in the kitchen
 Pinpoint Mary in the living room find Francis and conduct her to the kitchen
@@ -4095,9 +4095,9 @@ Could you please offer something to drink to all the men raising their left arm 
 Offer something to drink to all the women raising their left arm in the kitchen please
 Accompany the person at the entrance
 Please pour some orange juice in a cup
-Accompany the person at the exit to the dishwasher B_guide_dest-
+Accompany the person at the exit to the dishwasher
 Look for Alex at the entrance conduct him to the bookcase say something
-Offer something to drink to all the elders wearing T-shirts in the kitchen
+Offer something to drink to all the elders wearing in the kitchen
 Pinpoint Linda in the kitchen look for Mary and say whether you dream or not on electric sheep
 Could you please locate the tray in the kitchen
 Grasp the orange put it on the cupboard and tell what day is tomorrow
@@ -4167,7 +4167,7 @@ Could you put cascade pod on the storage table look for a knife and tell somethi
 Put a dish on the dining table and a spoon on its left
 Handshake the man pointing to the right in the kitchen please
 Robot please lead the child in the bedroom to the kitchen
-Could you please accompany the person at the desk to the bed B_guide_dest-
+Could you please accompany the person at the desk to the bed
 Bring me some grape juice in a bowl
 Describe the objects in the end table to me please
 Tell me how many yellow cutlery objects are in the desk please
@@ -4200,7 +4200,7 @@ Contact Linda at the dining table then greet her
 Say hello to the child in the kitchen please
 Put the paprika into the oven please
 Robot please put a bowl on the sink and a knife on it
-Could you take the person at the couch to the exit B_guide_dest-
+Could you take the person at the couch to the exit
 Pick up a tableware from the bookcase and put it into the fridge
 Could you tell me how many women wearing sweaters there are in the bedroom
 Describe the objects in the storage table to me please
@@ -4284,10 +4284,10 @@ Could you locate the basket in the living room
 Robot please retrieve the paprika pinpoint Linda at the couch and say something about yourself
 Could you please tell me how many people in the bedroom are pointing to the right
 Could you please serve some orange juice in a bowl
-Accompany the person at the entrance to the entrance B_guide_dest-
+Accompany the person at the entrance to the entrance
 Robot please tell me how many children are raising their left arm in the living room
 Pick up the fruits from the bookcase retrieve the paprika from the cupboard and leave it on the cupboard please
-Accompany the person at the couch to the exit B_guide_dest- please
+Accompany the person at the couch to the exit please
 Follow the person at the bookcase
 Bring the apple to the smallest person in the kitchen please
 Could you please offer something to drink to all the men raising their left arm in the kitchen
@@ -4330,7 +4330,7 @@ Say hello to the woman pointing to the right in the living room please
 Tell me how many elders are wearing coats in the corridor
 Introduce yourself to the child in the corridor
 Tell me how many people are pointing to the left in the living room
-Escort the person at the dishwasher to the bed B_guide_dest- please
+Escort the person at the dishwasher to the bed please
 Navigate to the bed look for William and escort him
 Please tell me how many women are waving in the corridor
 Could you describe the objects in the bookcase to me
@@ -4356,7 +4356,7 @@ Please go behind the woman waving in the bedroom
 Robot please introduce yourself to the child in the corridor
 Please tell me how many women are raising their left arm in the dining room
 Robot please tell me how many children dressed in gray there are in the bedroom
-Take the person at the bed to the exit B_guide_dest- please
+Take the person at the bed to the exit please
 Grasp the fruits from the desk hand it to William at the couch and tell your team's affiliation please
 Could you describe the objects in the cupboard to me
 Find Elizabeth at the bed pinpoint Robin and say what day is tomorrow please
@@ -4381,14 +4381,14 @@ Pinpoint Charlie at the desk place the paprika in the kitchen and answer a quest
 Could you pinpoint Robin pick up the apple from the bookcase and hand it to me
 Please spot Robin in the living room look for Francis in the bedroom and pick up the paprika
 Robot please grasp the apple spot Patricia in the kitchen and accompany her
-Conduct the person at the dining table to the exit B_guide_dest- please
+Conduct the person at the dining table to the exit please
 Grasp the apple put fork on the desk and find a grape juice in the kitchen
 Please tell me how many yellow apple are in the side table
 Robot please set dish on the storage table put orange on the dining table and pick up the apple
 Tell me how many orange grape juice are in the dining table please
 Tell me how many people in the corridor are standing
 Get the paprika from the cupboard locate a scrubby and say the day of the week please
-Offer something to drink to all the women wearing T-shirts in the bedroom
+Offer something to drink to all the women wearing in the bedroom
 Robot please bring the orange to the fattest man in the bedroom
 Place a bowl on the counter and a fork on it
 Find James take the orange from the counter and bring it to me
@@ -4423,7 +4423,7 @@ Could you please pick up the paprika from the end table place it on the cupboard
 Could you please enter to the corridor pinpoint Linda pinpoint James
 Please spot a orange juice in the bedroom grasp the fruits from the dining table and hand it to me
 Could you please describe the objects in the counter to me
-Could you please conduct the person at the end table to the sink B_guide_dest-
+Could you please conduct the person at the end table to the sink
 Could you please spot the basket in the living room
 Put a fruits on the cupboard place scrubby on the cupboard and find William at the entrance
 Tell me how many elders there are in the bedroom please
@@ -4470,14 +4470,14 @@ Hand me some tableware from the oven
 Grasp the fruits from the end table leave orange on the dining table and find Michael in the kitchen
 Locate a paprika in the dining room look for Robert and grasp the orange from the dining table
 Find Skyler at the end table spot Mary at the bookcase and escort her
-Take the person at the sink to the exit B_guide_dest-
+Take the person at the sink to the exit
 Please describe the person sitting at the entrance to the person at the sink
 Please place spoon on the dining table take the fruits from the counter and give it to Elizabeth at the dining table
 Bring the crackers to the fattest man in the living room please
 Could you come after the person wearing orange pants in the dining room
 Navigate to the dining room find the paprika locate Jennifer
 Give me some food from the basket on the desk
-Escort the person at the dining table to the exit B_guide_dest- please
+Escort the person at the dining table to the exit please
 Offer something to drink to all the people pointing to the left in the living room
 Spot a sponge in the dining room retrieve the apple and leave it on the sink
 Tell me how many women in the bedroom are wearing blouses please
@@ -4492,7 +4492,7 @@ Could you bring the cup to the man dressed in a gray coat in the bedroom
 Robot please describe the objects in the bookcase to me
 Offer something to drink to all the elders wearing shirts in the corridor
 Please deliver to me some sprite in a cup
-Accompany the person at the dishwasher to the dining B_guide_dest- table I_guide_dest- please
+Accompany the person at the dishwasher to the dining table please
 Handshake the woman pointing to the right in the corridor
 Pour some sprite in a cup please
 Please meet Charlie at the couch then greet her
@@ -4522,7 +4522,7 @@ Look for Skyler in the corridor grasp the orange from the end table and put it t
 Enter to the dining room locate Elizabeth say something
 Look for Alex at the desk pinpoint a noodles in the dining room and pinpoint a sponge
 Navigate to the corridor find Robin and escort him
-Escort the person at the bookcase to the exit B_guide_dest-
+Escort the person at the bookcase to the exit
 Follow the person at the dining table please
 Bring the noodles to the man wearing an orange blouse in the corridor
 Find the tray in the living room
@@ -4530,15 +4530,15 @@ Offer something to drink to all the standing men in the bedroom
 Could you describe the objects in the end table to me
 Could you please greet the man wearing a hat in the living room
 Deliver to me some drinks from the bag on the end table please
-Lead the person at the desk to the bed B_guide_dest- please
+Lead the person at the desk to the bed please
 Deliver to me some cleaning stuff from the microwave
 Pinpoint Charlie in the corridor get the orange and say a joke please
 Tell me how many food items are in the cupboard please
 Robot please offer something to drink to all the children wearing jackets in the dining room
 Please describe the person sitting at the end table to me
 Robot please describe the objects in the counter to me
-Conduct the person at the dishwasher to the exit B_guide_dest- please
-Could you please accompany the person at the dining table to the exit B_guide_dest-
+Conduct the person at the dishwasher to the exit please
+Could you please accompany the person at the dining table to the exit
 Could you greet the woman wearing a black shirt in the living room
 Robot please locate the basket in the living room
 Count the snacks items at the cupboard and inform me please
@@ -4578,7 +4578,7 @@ Locate James look for Francis in the corridor and follow her please
 Bring the apple to the woman dressed in an orange sweater in the bedroom please
 Hand me some coke in a bowl please
 Bring me some drinks from the bag on the sink
-Robot please bring me the left-most object from the desk
+Robot please bring me the object from the desk
 Could you please pick up the fruits from the cupboard find Charlie at the exit and spot Robert in the bedroom
 Put a cup on the counter and a fork on its right
 Could you hand me some drinks from the oven
@@ -4606,7 +4606,7 @@ Tell me how many men in the dining room are standing please
 Could you please pinpoint Robert in the dining room come behind him say something
 Pinpoint the tray in the kitchen please
 Could you please count the gray food objects at the side table and report to me
-Could you take the person at the entrance to the exit B_guide_dest-
+Could you take the person at the entrance to the exit
 Say hello to the youngest person in the corridor
 Tell me how many elders are lying down in the corridor please
 Navigate to the bedroom find James and escort him to the kitchen please
@@ -4623,7 +4623,7 @@ Robot please accompany the person at the sink
 Could you find the tray in the living room
 Go to the corridor find Elizabeth and escort her please
 Enter to the living room locate Linda and tell your team's affiliation please
-Escort the person at the sink to the desk B_guide_dest- please
+Escort the person at the sink to the desk please
 Offer something to drink to all the men raising their left arm in the living room
 Leave apple on the end table pinpoint Robert and accompany him
 Give me some containers from the oven please
@@ -4640,7 +4640,7 @@ Could you please describe the person sitting at the end table to me
 Tell me how many elders in the dining room are wearing coats
 Could you please deliver to me some containers from the basket on the desk
 Spot Robin in the bedroom look for Robert in the living room and look for Mary please
-Offer something to drink to all the children wearing T-shirts in the kitchen
+Offer something to drink to all the children wearing in the kitchen
 Robot please get acquainted with Linda at the dining table then greet her
 Pick up a containers from the side table and put it into the fridge
 Guide the man raising their left arm in the living room to the exit please
@@ -4710,7 +4710,7 @@ Contact Jennifer at the bed then greet her please
 Take the child in the kitchen to the corridor
 Could you navigate to the bookcase pinpoint James and conduct him to the corridor
 Follow the person at the sink
-Could you please take the person at the couch to the exit B_guide_dest-
+Could you please take the person at the couch to the exit
 Tell me how many children in the kitchen are wearing shoes please
 Please spot Jennifer pick up the paprika from the dining table and look for a orange in the kitchen
 Bring the scrubby to the child in the living room please
@@ -4718,14 +4718,14 @@ Get acquainted with Alex at the bookcase then greet her please
 Hand me some cleaning stuff from the bag on the storage table
 Count the red tableware objects at the dining table and report to me
 Guide the child in the living room to the bedroom please
-Lead the person at the desk to the dishwasher B_guide_dest-
+Lead the person at the desk to the dishwasher
 Enter to the corridor locate Alex and accompany him please
 Offer something to drink to all the men wearing sweaters in the kitchen please
 Put the cereal into the microwave please
 Place orange on the end table spot the apple and say what day is tomorrow
 Could you please look for the bag in the kitchen
 Robot please look for the tray in the kitchen
-Tell me how many children wearing T-shirts there are in the dining room
+Tell me how many children wearing there are in the dining room
 Please spot Robin spot Elizabeth at the couch and take her to the corridor
 Say hello to the man waving in the dining room please
 Contact Elizabeth at the dining table then greet her
@@ -4733,9 +4733,9 @@ Find Alex at the bed guide it to the exit look for Francis
 Could you spot Linda in the living room follow it locate James
 Spot the coke spot Alex at the sink and accompany him to the exit please
 Tell me how many people are pointing to the right in the corridor
-Please conduct the person at the dining table to the dishwasher B_guide_dest-
+Please conduct the person at the dining table to the dishwasher
 Pinpoint a orange in the living room pick up the paprika from the sink and set it to the dining room
-Robot please lead the person at the bookcase to the exit B_guide_dest-
+Robot please lead the person at the bookcase to the exit
 Could you pinpoint the cascade pod spot Robin in the living room and accompany her
 Tell me how many children in the dining room are wearing pants
 Tell me how many yellow dish are in the side table please
@@ -4749,14 +4749,14 @@ Serve some sprite in a bowl please
 Could you please tell me how many women are pointing to the right in the living room
 Could you please tell me how many elders are raising their left arm in the bedroom
 Look for Robin at the bed escort her and leave sponge on the end table please
-Could you please guide the person at the end table to the dishwasher B_guide_dest-
+Could you please guide the person at the end table to the dishwasher
 Could you please pick up a fruits from the desk and put it into the fridge
 Describe the objects in the dining table to me please
 Tell me how many people in the kitchen are wearing shoes
 Offer something to drink to all the standing children in the living room
 Could you please put the orange into the fridge
 Offer something to eat to all the people raising their right arm in the bedroom
-Please conduct the person at the dishwasher to the entrance B_guide_dest-
+Please conduct the person at the dishwasher to the entrance
 Grasp the apple from the counter find a orange and tell your team's name please
 Please locate Skyler in the living room pick up the orange from the side table and retrieve the paprika
 Offer something to eat to all the women wearing coats in the living room please
@@ -4829,9 +4829,9 @@ Could you greet the man wearing a black shirt in the bedroom
 Describe to me the person standing at the end table
 Could you locate a apple in the bedroom find William and look for a paprika in the corridor
 Pour some orange juice in a bowl
-Robot please accompany the person at the bookcase to the exit B_guide_dest-
+Robot please accompany the person at the bookcase to the exit
 Could you bring the sprite to the child in the corridor
-Could you give me the right-most object from the desk
+Could you give me the object from the desk
 Please bring the sausages to the child in the corridor
 Please pinpoint Alex at the desk spot the spoon and look for a paprika in the dining room
 Tell me how many men wearing coats there are in the corridor
@@ -4863,8 +4863,8 @@ Could you please find Linda at the desk locate Robert in the kitchen and put the
 Tell me how many fruits items are in the desk
 Please meet Michael at the dishwasher then greet him
 Please go to the dishwasher spot William and escort him
-Take the person at the entrance to the exit B_guide_dest-
-Conduct the person at the dishwasher to the exit B_guide_dest- please
+Take the person at the entrance to the exit
+Conduct the person at the dishwasher to the exit please
 Could you pick up the paprika locate Charlie at the bed and escort him to the dining room
 Set a cup on the dining table and a knife on it please
 Tell me how many people are waving in the dining room please
@@ -4948,8 +4948,8 @@ Could you leave a cup on the sink and a spoon in it
 Retrieve the paprika from the bookcase spot Skyler at the entrance and look for a orange please
 Tell me how many gray orange are in the storage table
 Lead the child in the corridor to the living room
-Guide the person at the bookcase to the exit B_guide_dest-
-Accompany the person at the end table to the exit B_guide_dest-
+Guide the person at the bookcase to the exit
+Accompany the person at the end table to the exit
 Robot please get acquainted with Francis at the bed then greet her
 Robot please describe the person sitting at the desk to me
 Could you please introduce yourself to the person wearing black pants in the living room
@@ -4980,7 +4980,7 @@ Locate Alex in the living room put the cascade pod in the living room and tell y
 Could you hand me some cutlery from the oven
 Could you pinpoint William at the couch take the orange and find Mary in the living room
 Please describe the person standing at the end table to me
-Accompany the person at the bookcase to the sink B_guide_dest-
+Accompany the person at the bookcase to the sink
 Find Patricia at the dishwasher look for a paprika and pinpoint James in the dining room please
 Could you tell me how many women wearing coats there are in the living room
 Describe the objects in the desk to me
@@ -5000,11 +5000,11 @@ Follow the woman raising their right arm in the corridor please
 Could you bring the paprika to the smallest woman in the kitchen
 Could you please describe the objects in the desk to me
 Could you please offer something to drink to all the children dressed in blue in the living room
-Escort the person at the dining table to the dishwasher B_guide_dest-
+Escort the person at the dining table to the dishwasher
 Offer something to eat to all the children in the corridor
 Please describe to me the person sitting at the dishwasher
 Grasp the orange locate Robin in the kitchen and grasp the apple from the bookcase please
-Could you take the person at the dining table to the desk B_guide_dest-
+Could you take the person at the dining table to the desk
 Put the apple into the fridge
 Navigate to the corridor pinpoint Skyler and follow her please
 Put a cup on the end table and a spoon on its left please
@@ -5022,7 +5022,7 @@ Say hello to the man wearing white pants in the dining room
 Robot please get acquainted with Francis at the dishwasher then greet her
 Describe the objects in the bookcase to me please
 Greet the person dressed in an orange sweater in the bedroom
-Conduct the person at the couch to the entrance B_guide_dest-
+Conduct the person at the couch to the entrance
 Put the grape juice into the bag on the sink
 Describe the person standing at the end table to the person at the entrance please
 Pinpoint the tray in the kitchen please
@@ -5038,8 +5038,8 @@ Tell me how many women in the dining room are wearing white please
 Describe the person sitting at the bookcase to the person at the end table please
 Spot Michael in the kitchen go behind it look for Patricia
 Tell me how many children are lying down in the kitchen please
-Could you take the person at the sink to the exit B_guide_dest-
-Escort the person at the end table to the exit B_guide_dest-
+Could you take the person at the sink to the exit
+Escort the person at the end table to the exit
 Robot please tell me how many children are pointing to the right in the dining room
 Offer something to drink to all the children pointing to the right in the kitchen
 Locate the basket in the dining room please
@@ -5118,14 +5118,14 @@ Please accompany the person at the sink
 Take the child in the living room to the kitchen
 Bring the chocolate drink to the child in the living room
 Pinpoint Mary leave orange juice on the desk and answer a question
-Take the person at the sink to the desk B_guide_dest-
+Take the person at the sink to the desk
 Could you please locate Francis in the bedroom accompany him say something
 Tell me how many people wearing blouses there are in the dining room
-Could you guide the person at the bookcase to the exit B_guide_dest-
+Could you guide the person at the bookcase to the exit
 Robot please offer something to eat to all the men pointing to the right in the bedroom
 Pour some grape juice in a bowl please
 Could you please spot Robin take the apple from the sink and hand it to me
-Lead the person at the bed to the exit B_guide_dest- please
+Lead the person at the bed to the exit please
 Navigate to the sink pinpoint Robin and escort her please
 Locate Michael in the bedroom locate Skyler at the sink and escort him
 Please tell me how many people are raising their right arm in the kitchen
@@ -5157,7 +5157,7 @@ Find the bag in the kitchen please
 Look for the bag in the corridor please
 Describe the person sitting at the couch to me please
 Pick up a snacks from the end table and put it into the oven please
-Escort the person at the sink to the exit B_guide_dest-
+Escort the person at the sink to the exit
 Describe the person lying down at the entrance to the person at the end table please
 Could you please enter to the bedroom look for the sausages and bring it to John
 Follow the person at the dining table please
@@ -5201,7 +5201,7 @@ Locate the basket in the bedroom please
 Please locate James in the corridor get the orange from the desk and leave it to the kitchen
 Retrieve the orange from the counter pinpoint a pringles in the bedroom and spot a dish please
 Please describe the person sitting at the end table to the person at the exit
-Please escort the person at the dishwasher to the exit B_guide_dest-
+Please escort the person at the dishwasher to the exit
 Offer something to eat to all the men wearing blouses in the bedroom please
 Bring me some coke in a bowl please
 Could you locate the tray in the corridor
@@ -5244,14 +5244,14 @@ Could you please tell me how many people in the bedroom are wearing shirts
 Robot please tell me how many children wearing sweaters there are in the bedroom
 Please navigate to the living room spot Alex and escort her
 Pinpoint Mary at the end table find Skyler and grasp the apple from the desk
-Could you please take the person at the bookcase to the exit B_guide_dest-
+Could you please take the person at the bookcase to the exit
 Serve some chocolate drink in a cup
 Robot please pinpoint the tray in the living room
 Robot please go to the dining room find the tableware and tell whether you dream or not on electric sheep
 Robot please count the yellow drinks objects at the sink and inform me
 Could you put a cup on the end table and a knife on it
 Take the snacks at the desk's left to the storage table please
-Could you lead the person at the desk to the exit B_guide_dest-
+Could you lead the person at the desk to the exit
 Retrieve the orange from the storage table set a tableware on the counter and answer a question
 Enter to the bedroom spot the tableware and place it on the end table
 Find Francis at the entrance guide him to the exit locate a apple please
@@ -5263,7 +5263,7 @@ Please offer something to drink to all the elders dressed in black in the dining
 Offer something to eat to all the elders waving in the kitchen please
 Tell me how many elders in the corridor are wearing coats
 Could you please go behind the fattest woman in the corridor
-Offer something to eat to all the men wearing T-shirts in the dining room
+Offer something to eat to all the men wearing in the dining room
 Put orange on the desk pinpoint a paprika and answer a question
 Count the red fruits objects at the bookcase and report to me please
 Tell me how many elders in the bedroom are wearing blue
@@ -5284,7 +5284,7 @@ Could you please go to the bookcase find Skyler and escort him to the dining roo
 Set paprika on the end table look for Jennifer and accompany her
 Grasp the orange from the counter look for a grape juice and say your team's country please
 Go to the living room pinpoint Patricia and accompany her to the exit
-Please deliver to me the right-most object from the storage table
+Please deliver to me the object from the storage table
 Spot the sprite spot Jennifer in the dining room and answer a question please
 Follow the youngest woman in the corridor
 Please count the orange apple at the side table and report to me
@@ -5305,7 +5305,7 @@ Robot please bring the pringles to the fattest man in the bedroom
 Robot please pour some grape juice in a cup
 Spot a paprika grasp the apple from the counter and answer a question
 Set a bowl on the side table and a fork in it please
-Please bring the pringles to the person dressed in a yellow T-shirt in the bedroom
+Please bring the pringles to the person dressed in a yellow in the bedroom
 Robot please tell me how the person sitting at the exit looks like
 Retrieve the fruits from the dining table look for Robert in the bedroom and go after him please
 Robot please retrieve the apple from the sink set it on the storage table speak
@@ -5334,7 +5334,7 @@ Greet the slimmest woman in the kitchen
 Tell me how many people in the kitchen are pointing to the left
 Leave dish on the end table grasp the apple and put it on the side table please
 Enter to the living room locate Skyler and lead her to the bedroom
-Tell me how many children wearing T-shirts there are in the living room
+Tell me how many children wearing there are in the living room
 Tell me how many children there are in the kitchen
 Look for Charlie in the corridor leave apple on the sink and say something please
 Robot please tell me how many women in the dining room are lying down
@@ -5366,7 +5366,7 @@ Offer something to eat to all the people in the kitchen please
 Spot Charlie in the bedroom spot John and tell whether you dream or not on electric sheep
 Could you please offer something to drink to all the elders dressed in black in the corridor
 Robot please pick up a containers from the desk and put it into the fridge
-Introduce yourself to the woman dressed in a gray T-shirt in the corridor please
+Introduce yourself to the woman dressed in a gray in the corridor please
 Introduce yourself to the person wearing a necklace in the corridor please
 Set chocolate drink on the dining table retrieve the paprika from the dining table and speak please
 Could you please retrieve the paprika from the end table retrieve the orange from the sink and leave the apple in the kitchen
@@ -5377,7 +5377,7 @@ Tell me how many gray drinks objects are in the side table
 Give me some drinks from the microwave
 Deliver to me some drinks from the basket on the dining table
 Get acquainted with Jennifer at the exit then greet her
-Hand me the right-most cutlery from the sink
+Hand me the cutlery from the sink
 Hand me some cutlery from the oven
 Spot the basket in the bedroom
 Could you please accompany the person at the end table
@@ -5390,7 +5390,7 @@ Pour some chocolate drink in a cup
 Could you find the basket in the corridor
 Tell me how many children in the corridor are wearing blouses
 Find the basket in the bedroom
-Deliver to me the right-most cutlery from the dining table please
+Deliver to me the cutlery from the dining table please
 Could you accompany the tallest woman in the living room
 Could you say hello to the person pointing to the right in the bedroom
 Tell me how many people are lying down in the dining room please
@@ -5437,14 +5437,14 @@ Get the orange locate Charlie in the living room and follow him
 Could you please set scrubby on the desk put apple on the storage table and locate Francis
 Could you pick up a drinks from the counter and put it into the bag on the bookcase
 Place a bowl on the dining table and a knife in it
-Tell me how many children wearing T-shirts there are in the dining room
+Tell me how many children wearing there are in the dining room
 Find Charlie in the corridor place bowl on the counter and say something
 Robot please leave a cup on the counter and a fork on it
 Serve some orange juice in a bowl please
 Place a dish on the desk and a fork in it
 Robot please tell me how the person standing at the end table looks like
 Could you lead the person wearing a necklace in the corridor to the exit
-Robot please lead the person at the sink to the entrance B_guide_dest-
+Robot please lead the person at the sink to the entrance
 Leave a dish on the storage table and a fork on its left please
 Could you please put the grape juice into the microwave
 Get the apple from the storage table find Jennifer and guide her to the bedroom please
@@ -5483,9 +5483,9 @@ Robot please spot the basket in the kitchen
 Tell me how many women wearing sweaters there are in the bedroom please
 Could you please tell me how many women are wearing blue in the dining room
 Bring the paprika to the person pointing to the left in the living room
-Bring the coke to the man dressed in an orange T-shirt in the living room please
+Bring the coke to the man dressed in an orange in the living room please
 Please spot the tray in the corridor
-Follow the woman dressed in an orange T-shirt in the bedroom please
+Follow the woman dressed in an orange in the bedroom please
 Look for a paprika retrieve the apple from the dining table and spot Charlie at the entrance
 Put cereal on the dining table look for Patricia and follow her
 Could you please navigate to the living room pinpoint the bowl say something
@@ -5535,7 +5535,7 @@ Pinpoint Robert in the bedroom grasp the fruits from the bookcase and deliver to
 Could you offer something to drink to all the lying down men in the living room
 Tell me how many elders in the kitchen are wearing black
 Tell me how many people are pointing to the left in the corridor
-Take the person at the couch to the end B_guide_dest- table I_guide_dest-
+Take the person at the couch to the end table
 Tell me how many people are standing in the dining room
 Describe to me the person standing at the end table
 Set a cup on the sink and a fork on its right please
@@ -5586,7 +5586,7 @@ Describe the objects in the sink to me
 Please bring me some snacks from the basket on the side table
 Could you bring me some cutlery from the microwave
 Please meet Jennifer at the entrance then greet her
-Escort the person at the end table to the exit B_guide_dest- please
+Escort the person at the end table to the exit please
 Look for a sprite in the bedroom find John and spot a apple in the corridor please
 Robot please hand me the tallest fruits from the counter
 Offer something to drink to all the men dressed in blue in the kitchen
@@ -5670,7 +5670,7 @@ Could you please tell me how many children there are in the dining room
 Could you greet the man pointing to the right in the bedroom
 Set a fruits on the counter retrieve the orange from the bookcase and give it to Skyler at the couch please
 Look for Michael at the dishwasher put the paprika in the bedroom and get the orange from the desk please
-Accompany the man dressed in an orange T-shirt in the corridor
+Accompany the man dressed in an orange in the corridor
 Find Linda spot Francis at the entrance and put orange on the side table please
 Tell me how many children are pointing to the right in the living room
 Could you tell me how many red containers objects are in the dining table
@@ -5699,10 +5699,10 @@ Place the orange in the living room spot Elizabeth in the living room and accomp
 Tell me how the person lying down at the sink looks like please
 Could you please bring the paprika to the fattest person in the bedroom
 Describe the objects in the cupboard to me
-Bring me the left-most tableware from the cupboard
+Bring me the tableware from the cupboard
 Could you pick up the paprika from the counter put it on the storage table say something
 Please offer something to drink to all the women raising their left arm in the bedroom
-Robot please take the person at the dishwasher to the exit B_guide_dest-
+Robot please take the person at the dishwasher to the exit
 Could you deliver to me some tableware from the microwave
 Take the orange from the storage table leave the sprite in the kitchen and pick up the paprika from the dining table
 Deliver to me some chocolate drink in a cup please
@@ -5725,13 +5725,13 @@ Handshake the person dressed in a gray shirt in the dining room please
 Could you please get the apple from the storage table bring it to Robert and pinpoint Skyler in the bedroom
 Go to the dining table look for Michael and lead him to the desk please
 Enter to the dining room find William and go after him
-Conduct the person at the end table to the exit B_guide_dest-
+Conduct the person at the end table to the exit
 Could you bring the noodles to the tallest man in the bedroom
 Place dish on the end table find Linda at the dishwasher and escort her
 Locate the basket in the bedroom please
 Please get the paprika from the end table leave a cleaning stuff on the counter and spot a cloth in the kitchen
 Take the fruits from the cupboard spot Robert at the exit and guide him to the kitchen
-Lead the person at the entrance to the exit B_guide_dest-
+Lead the person at the entrance to the exit
 Serve some grape juice in a cup please
 Robot please take the containers at the storage table's middle bottom to the sink
 Say hello to the man dressed in a yellow sweater in the corridor
@@ -5768,7 +5768,7 @@ Offer something to drink to all the men raising their right arm in the living ro
 Tell me how many women are pointing to the left in the dining room please
 Describe the objects in the storage table to me please
 Could you please pick up the orange look for Alex in the living room and follow her
-Could you please accompany the person at the desk to the entrance B_guide_dest-
+Could you please accompany the person at the desk to the entrance
 Tell me how many elders are pointing to the right in the dining room please
 Tell me how many men wearing shoes there are in the dining room please
 Please get to know Linda at the dishwasher then greet her
@@ -5832,7 +5832,7 @@ Tell me how many elders are raising their right arm in the bedroom please
 Describe to me the person standing at the dining table please
 Could you bring me some drinks from the microwave
 Tell me how many snacks items are in the end table please
-Accompany the person at the bookcase to the bookcase B_guide_dest- please
+Accompany the person at the bookcase to the bookcase please
 Robot please bring me some fruits from the fridge
 Could you please pinpoint a coke in the corridor pick up the fruits from the counter and place it on the dining table
 Find Skyler in the kitchen pick up the orange and give it to me please
@@ -5975,20 +5975,20 @@ Please describe the objects in the end table to me
 Look for a pringles in the kitchen pick up the fruits from the end table and set apple on the side table please
 Tell me how many elders in the dining room are waving
 Tell me how many people in the bedroom are raising their right arm
-Offer something to eat to all the women wearing T-shirts in the living room
+Offer something to eat to all the women wearing in the living room
 Could you please offer something to eat to all the children pointing to the right in the dining room
 Spot the bag in the corridor
 Please pinpoint Francis locate Robin in the living room and answer a question
 Contact Michael at the sink then greet him
 Get to know Skyler at the couch then greet her
-Accompany the man dressed in an orange T-shirt in the living room
+Accompany the man dressed in an orange in the living room
 Robot please give me the containers at the top cupboard
 Tell me how many black apple are in the storage table please
 Accompany the man dressed in a black blouse in the corridor please
 Offer something to drink to all the men in the corridor please
 Robot please offer something to drink to all the men pointing to the left in the dining room
 Contact Robin at the bookcase then greet her please
-Could you please guide the person at the bookcase to the bed B_guide_dest-
+Could you please guide the person at the bookcase to the bed
 Look for the tray in the bedroom
 Accompany the child in the dining room
 Bring the apple to the woman dressed in an orange blouse in the bedroom
@@ -6013,7 +6013,7 @@ Bring the paprika to the man raising their right arm in the living room please
 Describe the person standing at the bed to the person at the couch please
 Follow the person at the desk
 Tell me how many elders are wearing blue in the kitchen please
-Lead the person at the exit to the exit B_guide_dest- please
+Lead the person at the exit to the exit please
 Describe the objects in the bookcase to me please
 Locate Patricia in the living room spot Linda and say what day is today please
 Robot please tell me how many lying down elders there are in the corridor
@@ -6050,10 +6050,10 @@ Set a fruits on the counter retrieve the paprika from the storage table and pinp
 Find Alex in the kitchen locate a paprika in the dining room and pick up the fruits from the storage table
 Pour some grape juice in a cup
 Offer something to eat to all the lying down women in the kitchen please
-Take the person at the sink to the bookcase B_guide_dest-
+Take the person at the sink to the bookcase
 Please look for a noodles in the living room grasp the apple and retrieve the paprika from the dining table
 Robot please offer something to drink to all the men pointing to the right in the corridor
-Could you take the left-most fruits from the side table to the counter
+Could you take the fruits from the side table to the counter
 Put a bowl on the side table and a spoon on its left please
 Please offer something to drink to all the women pointing to the left in the kitchen
 Pick up the paprika from the counter locate Michael and set cereal on the desk
@@ -6087,11 +6087,11 @@ Could you please pinpoint Skyler at the bed get the orange from the side table a
 Get acquainted with Patricia at the exit then greet her please
 Bring the coke to the child in the corridor
 Lead the man wearing an orange blouse in the dining room to the bedroom
-Conduct the person at the desk to the couch B_guide_dest- please
+Conduct the person at the desk to the couch please
 Tell me how many women wearing jackets there are in the dining room
 Deliver to me some food from the microwave
 Pinpoint Robin spot Elizabeth in the living room and go behind her
-Please tell me how many children are wearing T-shirts in the dining room
+Please tell me how many children are wearing in the dining room
 Follow the person at the exit please
 Pinpoint Skyler in the dining room pick up the fruits from the bookcase and place sprite on the dining table please
 Offer something to drink to all the women dressed in red in the corridor please
@@ -6109,10 +6109,10 @@ Robot please bring the sausages to the child in the kitchen
 Could you take the orange from the bookcase find Skyler at the dishwasher and say something
 Salute the oldest man in the living room
 Go to the dining room look for Linda and tell something about yourself
-Escort the person at the sink to the desk B_guide_dest-
+Escort the person at the sink to the desk
 Could you count the cutlery items at the storage table and inform me
 Accompany the person raising their left arm in the kitchen please
-Could you please bring me the left-most drinks from the dining table
+Could you please bring me the drinks from the dining table
 Leave a bowl on the storage table and a knife on its right
 Give me some containers from the oven please
 Could you please meet Francis at the end table then greet him
@@ -6129,7 +6129,7 @@ Salute the man dressed in a red jacket in the bedroom please
 Hand me the black cleaning stuff from the bookcase please
 Could you please find Charlie at the dining table spot Robin in the corridor and take the orange
 Go behind the person at the dining table
-Tell me how many men are wearing T-shirts in the kitchen please
+Tell me how many men are wearing in the kitchen please
 Please enter to the corridor look for Francis spot the apple
 Describe the objects in the storage table to me please
 Set a dish on the side table and a knife in it
@@ -6146,7 +6146,7 @@ Please find Robin pick up the paprika from the bookcase and find Michael in the 
 Could you please grasp the apple from the bookcase spot Skyler and come after him
 Robot please get the orange from the storage table pinpoint Elizabeth in the corridor and look for the paprika
 Could you please put the pringles into the fridge
-Guide the person at the entrance to the exit B_guide_dest- please
+Guide the person at the entrance to the exit please
 Tell me how many women are sitting in the kitchen
 Please tell me how many people are raising their right arm in the kitchen
 Robot please deliver to me the food at the top desk
@@ -6276,8 +6276,8 @@ Robot please meet Robin at the bed then greet her
 Tell me how many cleaning stuff items are in the end table
 Please tell me how many women are wearing shoes in the dining room
 Get the fruits from the dining table locate Skyler in the bedroom and follow him
-Hand me the right-most object from the cupboard please
-Take the left-most object from the cupboard to the dining table
+Hand me the object from the cupboard please
+Take the object from the cupboard to the dining table
 Look for Elizabeth accompany it and look for William at the desk please
 Place a bowl on the bookcase and a fork on its right please
 Robot please offer something to eat to all the people in the dining room
@@ -6306,7 +6306,7 @@ Tell me how many men are waving in the dining room
 Could you give me the fruits at the center counter
 Meet Alex at the bed then greet her
 Greet the person waving in the living room
-Tell me how many elders in the dining room are wearing T-shirts
+Tell me how many elders in the dining room are wearing
 Go behind the child in the bedroom please
 Accompany the man dressed in an orange sweater in the corridor
 Describe the person lying down at the bed to me please
@@ -6354,7 +6354,7 @@ Describe the person lying down at the bookcase to the person at the desk please
 Navigate to the living room look for the cutlery and hand it to Charlie at the dishwasher
 Could you offer something to eat to all the children wearing shirts in the kitchen
 Put the dish into the basket on the storage table
-Conduct the person at the entrance to the entrance B_guide_dest-
+Conduct the person at the entrance to the entrance
 Set coke on the cupboard spot Francis and put cereal on the side table please
 Offer something to drink to all the elders wearing jackets in the kitchen
 Could you bring the cup to the slimmest woman in the corridor
@@ -6366,7 +6366,7 @@ Locate Jennifer pinpoint a cup in the dining room and answer a question
 Look for Michael in the corridor locate Skyler and tell something about yourself
 Bring me some orange juice in a cup
 Look for Robin take the paprika from the cupboard and tell a joke
-Take the person at the couch to the exit B_guide_dest-
+Take the person at the couch to the exit
 Pinpoint Linda at the bed leave a fruits on the dining table and tell what day is today please
 Tell me how many people are pointing to the right in the bedroom please
 Hand me something in a cup
@@ -6391,7 +6391,7 @@ Set dish on the desk spot a coke and pick up the orange from the counter please
 Go after the person at the couch
 Spot a paprika in the corridor pinpoint Alex at the dishwasher and escort her please
 Describe the objects in the counter to me
-Say hello to the person dressed in a black T-shirt in the kitchen
+Say hello to the person dressed in a black in the kitchen
 Please lead the child in the bedroom to the kitchen
 Bring the cup to the fattest woman in the corridor
 Tell me how many women are wearing white in the corridor please
@@ -6410,7 +6410,7 @@ Describe the objects in the end table to me please
 Come behind the oldest person in the living room
 Tell me how many children wearing pants there are in the bedroom please
 Offer something to eat to all the men wearing coats in the dining room please
-Bring the cloth to the man dressed in a blue T-shirt in the bedroom please
+Bring the cloth to the man dressed in a blue in the bedroom please
 Please tell me how many people are sitting in the dining room
 Bring me some coke in a bowl
 Locate Skyler in the bedroom pinpoint a bowl and answer a question
@@ -6432,14 +6432,14 @@ Could you give me some grape juice in a cup
 Offer something to drink to all the people raising their left arm in the dining room please
 Could you please pinpoint James leave cup on the desk and pinpoint a orange in the corridor
 Could you please enter to the living room locate Jennifer and escort her
-Guide the person at the desk to the exit B_guide_dest-
+Guide the person at the desk to the exit
 Could you please locate Alex at the dishwasher find John at the exit and spot a paprika
 Describe the person lying down at the dishwasher to me please
 Tell me how many standing women there are in the dining room please
 Spot Francis look for a coke in the bedroom and answer a question
 Please locate Charlie at the exit get the fruits from the desk and answer a question
 Robot please look for John look for a paprika in the corridor and set sprite on the cupboard
-Take the person at the couch to the sink B_guide_dest- please
+Take the person at the couch to the sink please
 Please offer something to drink to all the elders in the living room
 Spot Skyler locate James in the dining room and follow him
 Pour some grape juice in a bowl please
@@ -6601,7 +6601,7 @@ Pinpoint Patricia pinpoint Linda in the kitchen and say what day is today please
 Set apple on the storage table get the orange from the end table and speak
 Could you describe the person sitting at the bed to me
 Escort the child in the living room to the corridor
-Take the person at the entrance to the exit B_guide_dest- please
+Take the person at the entrance to the exit please
 Please describe the person standing at the end table to me
 Tell me how many men in the corridor are pointing to the left please
 Could you give me some grape juice in a cup
@@ -6649,8 +6649,8 @@ Pick up a containers from the dining table and put it into the oven
 Please offer something to drink to all the people raising their left arm in the corridor
 Place a fruits on the end table look for Skyler in the kitchen and go after her please
 Robot please leave a dish on the counter and a knife on its right
-Could you take the person at the dishwasher to the entrance B_guide_dest-
-Hand me the right-most object from the desk please
+Could you take the person at the dishwasher to the entrance
+Hand me the object from the desk please
 Tell me how many men are waving in the kitchen
 Offer something to eat to all the women wearing shirts in the kitchen
 Follow the person at the dishwasher please
@@ -6658,7 +6658,7 @@ Tell me how many people are raising their left arm in the dining room please
 Navigate to the bookcase pinpoint Skyler and escort him please
 Could you please tell me how many elders are pointing to the right in the living room
 Go to the bedroom pinpoint Skyler pick up the paprika
-Take the person at the couch to the entrance B_guide_dest-
+Take the person at the couch to the entrance
 Tell me how many men in the bedroom are sitting
 Place a dish on the cupboard and a spoon on its right
 Get to know Charlie at the bookcase then greet him please
@@ -6699,8 +6699,8 @@ Describe the objects in the end table to me please
 Could you please get acquainted with Michael at the exit then greet him
 Get the fruits from the dining table grasp the paprika from the bookcase and deliver to it to me
 Place a cup on the side table and a spoon on it please
-Could you guide the woman dressed in a white T-shirt in the kitchen to the exit
-Escort the person at the end table to the exit B_guide_dest- please
+Could you guide the woman dressed in a white in the kitchen to the exit
+Escort the person at the end table to the exit please
 Navigate to the corridor pinpoint Alex spot John
 Hand me some containers from the oven please
 Tell me how many women are pointing to the right in the bedroom please
@@ -6741,11 +6741,11 @@ Describe to me the person sitting at the desk please
 Handshake the man waving in the corridor please
 Pour some coke in a cup
 Please tell me how many men in the dining room are wearing red
-Robot please escort the person at the bed to the exit B_guide_dest-
+Robot please escort the person at the bed to the exit
 Please describe the person lying down at the entrance to the person at the bookcase
 Pinpoint a apple in the dining room look for Skyler in the bedroom and say something please
 Please spot William in the living room take the apple from the end table and hand it to John
-Escort the person at the end table to the couch B_guide_dest-
+Escort the person at the end table to the couch
 Could you please go to the kitchen locate the fruits and answer a question
 Deliver to me some grape juice in a bowl please
 Find a cloth in the dining room look for the apple and tell what day is tomorrow
@@ -6798,7 +6798,7 @@ Could you please pinpoint Francis in the living room get the orange from the sto
 Put a cup on the side table and a knife in it please
 Find William locate Francis in the bedroom and follow him
 Tell me how many children dressed in red there are in the kitchen
-Accompany the person at the dining table to the desk B_guide_dest-
+Accompany the person at the dining table to the desk
 Retrieve the paprika from the desk place it on the storage table say something please
 Could you please leave a cup on the dining table and a knife on it
 Offer something to drink to all the men pointing to the right in the corridor please
@@ -6871,7 +6871,7 @@ Tell me how the person standing at the exit looks like please
 Tell me how many people there are in the bedroom
 Put the sponge into the microwave
 Spot the fork pinpoint Jennifer at the bed and say your team's affiliation please
-Take the person at the entrance to the exit B_guide_dest-
+Take the person at the entrance to the exit
 Please locate Linda at the dining table escort her and pinpoint a sausages in the dining room
 Bring the apple to the child in the corridor please
 Say hello to the man pointing to the right in the bedroom
@@ -6884,7 +6884,7 @@ Could you salute the person dressed in an orange sweater in the dining room
 Robot please contact William at the dining table then greet him
 Deliver to me some tableware from the oven
 Could you please contact Jennifer at the dishwasher then greet her
-Bring the bowl to the person dressed in an orange T-shirt in the living room please
+Bring the bowl to the person dressed in an orange in the living room please
 Pick up a cleaning stuff from the end table and put it into the microwave
 Spot a coke locate a paprika in the dining room and say whether you dream or not on electric sheep
 Robot please greet the woman raising their left arm in the kitchen
@@ -6913,13 +6913,13 @@ Robot please accompany the person at the dining table
 Find Patricia at the sink guide it to the dining table pinpoint Robert
 Describe the objects in the dining table to me
 Get the paprika from the dining table retrieve the fruits from the end table and set chocolate drink on the sink
-Conduct the person at the sink to the exit B_guide_dest- please
+Conduct the person at the sink to the exit please
 Tell me how many people are sitting in the corridor please
 Tell me how many men are pointing to the left in the kitchen please
 Look for Robin at the couch locate James in the corridor and speak
 Tell me how many men are raising their left arm in the dining room please
 Tell me how many children are waving in the bedroom
-Could you please deliver to me the left-most object from the counter
+Could you please deliver to me the object from the counter
 Put the cloth into the microwave please
 Could you please count the snacks items at the side table and report to me
 Describe the person standing at the exit to the person at the bookcase
@@ -6960,7 +6960,7 @@ Robot please pick up the paprika from the cupboard hand it to James at the entra
 Please place orange on the end table spot Patricia at the sink and grasp the fruits from the sink
 Describe the objects in the end table to me please
 Could you please find the basket in the kitchen
-Offer something to drink to all the men wearing T-shirts in the living room please
+Offer something to drink to all the men wearing in the living room please
 Please follow the woman dressed in an orange blouse in the dining room
 Robot please spot Charlie grasp the paprika from the storage table and answer a question
 Put a cup on the side table and a spoon on its left please
@@ -6970,7 +6970,7 @@ Offer something to eat to all the elders raising their right arm in the kitchen
 Tell me how many women are wearing white in the bedroom
 Leave a cup on the dining table and a knife on its left please
 Locate Patricia spot Linda in the kitchen and say something about yourself
-Follow the man dressed in a black T-shirt in the kitchen please
+Follow the man dressed in a black in the kitchen please
 Bring the orange to the slimmest man in the corridor please
 Could you please offer something to drink to all the elders pointing to the left in the bedroom
 Place sprite on the dining table grasp the fruits from the sink and deliver to it to me please
@@ -7025,7 +7025,7 @@ Look for Robin follow him and locate a spoon in the living room please
 Contact Charlie at the bookcase then greet him
 Could you pinpoint Alex at the dining table pinpoint Alex at the couch and pinpoint Jennifer
 Get to know Alex at the entrance then greet her
-Robot please tell me how many women are wearing T-shirts in the kitchen
+Robot please tell me how many women are wearing in the kitchen
 Please tell me how many black sprite are in the storage table
 Offer something to eat to all the people in the kitchen
 Could you locate the bag in the bedroom
@@ -7093,7 +7093,7 @@ Take the tableware at the counter's middle bottom to the dining table please
 Please put the paprika in the bedroom pinpoint John in the bedroom and accompany him
 Tell me how many people in the dining room are wearing yellow please
 Navigate to the corridor look for Alex and guide her to the exit
-Lead the person at the bookcase to the exit B_guide_dest- please
+Lead the person at the bookcase to the exit please
 Tell me how many sitting people there are in the bedroom please
 Spot a sausages find Skyler in the kitchen and pinpoint William in the bedroom please
 Locate a grape juice in the corridor pinpoint Linda and locate Michael at the couch please
@@ -7107,7 +7107,7 @@ Take the paprika deliver to it to Jennifer at the end table and grasp the orange
 Place a bowl on the desk and a spoon in it please
 Put the knife into the fridge please
 Count the fruits items at the storage table and inform me
-Could you guide the person at the dishwasher to the entrance B_guide_dest-
+Could you guide the person at the dishwasher to the entrance
 Spot Patricia in the bedroom put knife on the counter and say something please
 Serve some coke in a bowl please
 Robot please enter to the living room pinpoint Francis and escort him
@@ -7141,7 +7141,7 @@ Describe the objects in the desk to me please
 Pick up a drinks from the desk and put it into the bag on the sink please
 Enter to the bedroom spot the apple speak please
 Get to know Skyler at the end table then greet him please
-Introduce yourself to the person dressed in an orange T-shirt in the dining room please
+Introduce yourself to the person dressed in an orange in the dining room please
 Could you offer something to drink to all the women in the bedroom
 Tell me how many food items are in the end table please
 Describe the objects in the desk to me please
@@ -7154,7 +7154,7 @@ Describe to me the person sitting at the dining table please
 Tell me how many women dressed in gray there are in the kitchen
 Tell me how many standing men there are in the kitchen
 Set a cup on the dining table and a spoon on its left
-Accompany the person at the exit to the exit B_guide_dest-
+Accompany the person at the exit to the exit
 Get the orange from the side table place it to the kitchen and say what day is tomorrow
 Describe to me the person lying down at the exit please
 Get the apple from the sink find Alex and answer a question please
@@ -7168,7 +7168,7 @@ Pick up the paprika from the dining table spot Francis and accompany her please
 Count the tableware items at the end table and inform me please
 Look for a cup in the living room pick up the orange from the storage table and leave it to the dining room please
 Please pour some sprite in a cup
-Conduct the person at the bookcase to the sink B_guide_dest-
+Conduct the person at the bookcase to the sink
 Navigate to the dishwasher spot Skyler and lead him to the entrance please
 Tell me how the person lying down at the bookcase looks like please
 Look for a potato chips in the living room get the paprika from the desk and locate a orange please
@@ -7192,7 +7192,7 @@ Handshake the woman pointing to the left in the living room
 Spot a apple in the living room leave a fruits on the cupboard and say your team's country please
 Put paprika on the end table leave apple on the storage table and look for William
 Could you place a fruits on the side table place cereal on the desk and look for Patricia in the dining room
-Please accompany the person at the desk to the sink B_guide_dest-
+Please accompany the person at the desk to the sink
 Describe the objects in the sink to me please
 Describe the objects in the dining table to me please
 Describe the objects in the sink to me please
@@ -7212,7 +7212,7 @@ Tell me how many sitting elders there are in the corridor please
 Locate a cup in the corridor grasp the fruits from the storage table and set it on the side table
 Go after the child in the living room please
 Spot Mary at the end table find Robert at the dining table and escort him
-Escort the person at the dishwasher to the exit B_guide_dest-
+Escort the person at the dishwasher to the exit
 Could you please get acquainted with Elizabeth at the dining table then greet her
 Robot please get acquainted with Alex at the exit then greet her
 Could you please look for Skyler follow it and locate Robert at the entrance
@@ -7228,8 +7228,8 @@ Could you please offer something to drink to all the people in the corridor
 Could you give me some fruits from the oven
 Tell me how many lying down people there are in the corridor
 Offer something to eat to all the people wearing shirts in the bedroom
-Please take the right-most object from the desk to the end table
-Bring the paprika to the woman dressed in a blue T-shirt in the living room
+Please take the object from the desk to the end table
+Bring the paprika to the woman dressed in a blue in the living room
 Robot please tell me how many children are pointing to the right in the living room
 Offer something to eat to all the elders pointing to the left in the dining room
 Place a tableware on the dining table look for Francis at the entrance and guide him to the exit please
@@ -7305,7 +7305,7 @@ Bring the sprite to the child in the corridor please
 Could you please tell me how many children are raising their left arm in the corridor
 Bring the chocolate drink to the man waving in the living room please
 Go to the bed spot Alex and conduct her to the living room
-Lead the person at the entrance to the sink B_guide_dest- please
+Lead the person at the entrance to the sink please
 Contact William at the dining table then greet him
 Tell me how many elders in the dining room are pointing to the left please
 Please give me some cutlery from the fridge
@@ -7317,10 +7317,10 @@ Leave a dish on the end table and a fork on its left
 Describe the person sitting at the entrance to the person at the bed please
 Could you please serve some coke in a cup
 Could you look for Jennifer pinpoint William in the dining room and answer a question
-Robot please escort the person at the bed to the exit B_guide_dest-
+Robot please escort the person at the bed to the exit
 Find the tray in the kitchen please
 Get to know Alex at the desk then greet him please
-Please take the person at the dining table to the exit B_guide_dest-
+Please take the person at the dining table to the exit
 Locate the tray in the bedroom please
 Pinpoint the bag in the kitchen please
 Offer something to drink to all the women pointing to the right in the corridor
@@ -7365,7 +7365,7 @@ Describe the objects in the sink to me
 Bring the apple to the oldest person in the kitchen please
 Introduce yourself to the tallest woman in the bedroom please
 Describe the person standing at the dining table to me
-Could you please escort the person at the couch to the exit B_guide_dest-
+Could you please escort the person at the couch to the exit
 Put the dish into the fridge please
 Put apple on the desk get the paprika and set it on the end table please
 Robot please bring the orange to the child in the corridor
@@ -7385,7 +7385,7 @@ Tell me how many men there are in the bedroom
 Robot please describe the objects in the sink to me
 Count the black drinks objects at the end table and inform me
 Robot please hand me some cleaning stuff from the microwave
-Could you please introduce yourself to the woman dressed in a white T-shirt in the bedroom
+Could you please introduce yourself to the woman dressed in a white in the bedroom
 Please find the basket in the kitchen
 Please tell me how many standing children there are in the corridor
 Offer something to eat to all the elders wearing coats in the bedroom please
@@ -7415,7 +7415,7 @@ Could you please go to the dining table pinpoint James and conduct him to the si
 Look for Skyler in the living room spot James in the kitchen and say something please
 Could you tell me how many elders in the kitchen are standing
 Locate James find Charlie in the living room and go after her
-Escort the person at the couch to the exit B_guide_dest- please
+Escort the person at the couch to the exit please
 Could you tell me how many women are pointing to the left in the living room
 Pour some grape juice in a cup
 Could you please describe to me the person standing at the bookcase
@@ -7439,11 +7439,11 @@ Locate the basket in the kitchen
 Leave orange juice on the sink find Alex in the bedroom and find a apple
 Offer something to eat to all the lying down people in the corridor
 Robot please locate Skyler in the corridor spot Francis and come after him
-Tell me how many women are wearing T-shirts in the bedroom please
+Tell me how many women are wearing in the bedroom please
 Tell me how many people in the bedroom are wearing sweaters please
-Please lead the person at the dishwasher to the dining B_guide_dest- table I_guide_dest-
-Could you tell me how many people are wearing T-shirts in the corridor
-Conduct the person at the sink to the exit B_guide_dest- please
+Please lead the person at the dishwasher to the dining table
+Could you tell me how many people are wearing in the corridor
+Conduct the person at the sink to the exit please
 Greet the smallest man in the bedroom
 Robot please find a orange in the bedroom spot Linda and answer a question
 Introduce yourself to the child in the corridor
@@ -7470,7 +7470,7 @@ Offer something to eat to all the people pointing to the left in the living room
 Set apple on the dining table place fork on the bookcase and say something please
 Spot Alex at the bookcase set the cup in the kitchen and answer a question please
 Robot please look for the basket in the kitchen
-Escort the person at the desk to the exit B_guide_dest- please
+Escort the person at the desk to the exit please
 Offer something to drink to all the people raising their right arm in the bedroom
 Please navigate to the bed pinpoint Robert and lead him to the desk
 Robot please tell me how many men dressed in black there are in the kitchen
@@ -7491,7 +7491,7 @@ Put the paprika into the microwave
 Tell me how many women are pointing to the right in the kitchen
 Robot please meet William at the bed then greet him
 Get acquainted with Alex at the desk then greet him
-Take the person at the exit to the dining B_guide_dest- table I_guide_dest-
+Take the person at the exit to the dining table
 Robot please hand me the cleaning stuff at the middle bottom desk
 Serve some chocolate drink in a cup please
 Tell me how many food items are in the dining table please
@@ -7510,7 +7510,7 @@ Take the food at the bookcase's right to the cupboard please
 Accompany the person at the desk please
 Tell me how the person standing at the entrance looks like please
 Accompany the woman raising their right arm in the dining room to the kitchen
-Conduct the woman wearing an orange T-shirt in the bedroom to the dining room please
+Conduct the woman wearing an orange in the bedroom to the dining room please
 Could you offer something to drink to all the elders raising their right arm in the dining room
 Could you spot James in the kitchen find Robert and retrieve the paprika from the bookcase
 Could you describe the person standing at the dining table to me
@@ -7539,7 +7539,7 @@ Take the containers at the end table's middle bottom to the desk
 Please tell me how many women are raising their right arm in the dining room
 Please offer something to eat to all the standing women in the kitchen
 Tell me how many standing elders there are in the kitchen please
-Could you please accompany the person at the sink to the entrance B_guide_dest-
+Could you please accompany the person at the sink to the entrance
 Could you please tell me how many elders wearing shirts there are in the living room
 Bring the cloth to the person waving in the kitchen
 Navigate to the sink find Alex and accompany her to the exit please
@@ -7565,7 +7565,7 @@ Tell me how the person standing at the entrance looks like
 Tell me how many children are wearing black in the living room
 Find Robert at the desk pinpoint a orange in the corridor and say something
 Robot please tell me how many people are pointing to the right in the dining room
-Escort the person at the couch to the bed B_guide_dest-
+Escort the person at the couch to the bed
 Go to the bed find Skyler and conduct her to the exit
 Meet Robin at the exit then greet him please
 Serve some coke in a bowl please
@@ -7573,14 +7573,14 @@ Look for Patricia grasp the paprika from the cupboard and place it on the counte
 Pour some grape juice in a bowl please
 Go to the exit find Charlie and escort him please
 Follow the child in the dining room
-Robot please give me the left-most object from the side table
+Robot please give me the object from the side table
 Pinpoint Jennifer come after her and say a joke please
 Accompany the smallest woman in the living room to the bedroom please
 Set paprika on the sink grasp the apple from the end table and look for Francis please
 Bring me the cutlery at the right end table please
 Pinpoint Linda grasp the paprika from the storage table and locate Mary in the bedroom
 Find James at the end table escort him and pinpoint a orange in the corridor
-Could you please deliver to me the right-most object from the storage table
+Could you please deliver to me the object from the storage table
 Describe the objects in the end table to me
 Find the bag in the corridor please
 Look for Michael in the kitchen go after him grasp the fruits from the sink
@@ -7597,7 +7597,7 @@ Set a bowl on the counter and a spoon on it please
 Deliver to me the red containers from the sink please
 Spot Linda pinpoint a chocolate drink in the living room and locate Michael at the bed please
 Could you tell me how many white cup are in the side table
-Could you escort the person at the dishwasher to the sink B_guide_dest-
+Could you escort the person at the dishwasher to the sink
 Give me the tableware at the middle bottom end table
 Could you please look for a orange in the living room place a tableware on the side table and grasp the apple from the cupboard
 Could you hand me some cutlery from the basket on the desk
@@ -7635,7 +7635,7 @@ Spot William at the couch escort him and say the time please
 Describe the objects in the storage table to me
 Accompany the child in the bedroom to the exit please
 Leave a bowl on the end table and a fork on it please
-Take the left-most object from the end table to the desk
+Take the object from the end table to the desk
 Tell me how many women in the living room are sitting please
 Tell me how many women are raising their right arm in the bedroom
 Greet the person pointing to the right in the corridor please
@@ -7707,7 +7707,7 @@ Spot Robin at the bookcase guide him to the couch say something please
 Could you please hand me the food at the center bookcase
 Tell me how many people in the dining room are pointing to the left
 Robot please enter to the corridor find the fruits and put apple on the desk
-Could you please conduct the person at the couch to the sink B_guide_dest-
+Could you please conduct the person at the couch to the sink
 Could you tell me how many orange orange are in the side table
 Please offer something to drink to all the women pointing to the left in the dining room
 Place a dish on the bookcase and a fork on its right
@@ -7776,7 +7776,7 @@ Deliver to me some containers from the oven
 Put the fork into the microwave please
 Please find the bag in the bedroom
 Contact Skyler at the dishwasher then greet him
-Guide the person at the dishwasher to the end B_guide_dest- table I_guide_dest- please
+Guide the person at the dishwasher to the end table please
 Enter to the kitchen locate Alex and put apple on the cupboard
 Pinpoint the tray in the kitchen please
 Robot please look for Elizabeth pinpoint Francis at the bookcase and lead her to the exit
@@ -7797,7 +7797,7 @@ Get acquainted with Alex at the dishwasher then greet her
 Please spot Elizabeth find Alex in the corridor and accompany him
 Could you spot Alex pinpoint Robin in the corridor and accompany her
 Count the snacks items at the cupboard and report to me please
-Bring the knife to the person dressed in a blue T-shirt in the dining room please
+Bring the knife to the person dressed in a blue in the dining room please
 Give me some snacks from the oven
 Could you please tell me how many women in the bedroom are wearing white
 Robot please describe the objects in the side table to me
@@ -7936,7 +7936,7 @@ Offer something to drink to all the women wearing jackets in the living room ple
 Navigate to the bedroom find the orange say something
 Please put a fruits on the cupboard spot John at the dishwasher and escort him to the entrance
 Lead the child in the living room to the exit
-Robot please lead the person at the exit to the exit B_guide_dest-
+Robot please lead the person at the exit to the exit
 Robot please look for Robert pick up the paprika from the dining table and leave it on the sink
 Locate John at the exit escort him and answer a question please
 Please look for the basket in the kitchen
@@ -7944,7 +7944,7 @@ Put scrubby on the end table find a orange in the living room and find Mary
 Find the basket in the corridor please
 Offer something to eat to all the elders pointing to the left in the bedroom please
 Meet Francis at the entrance then greet her
-Tell me how many children wearing T-shirts there are in the dining room
+Tell me how many children wearing there are in the dining room
 Could you please tell me how many children are lying down in the kitchen
 Pour some grape juice in a bowl please
 Tell me how many black cutlery objects are in the dining table
@@ -7953,7 +7953,7 @@ Bring the orange to the child in the dining room please
 Please put a dish on the storage table and a spoon on its right
 Tell me how many men are raising their left arm in the kitchen
 Could you please describe the person standing at the sink to me
-Lead the person at the entrance to the dining B_guide_dest- table I_guide_dest- please
+Lead the person at the entrance to the dining table please
 Offer something to drink to all the people raising their left arm in the kitchen please
 Pinpoint the bag in the bedroom
 Tell me how many men are waving in the living room please
@@ -7976,7 +7976,7 @@ Please tell me how many children are wearing black in the living room
 Retrieve the paprika locate a coke in the living room and answer a question please
 Bring the orange to the man dressed in a blue sweater in the corridor please
 Pinpoint the bag in the dining room
-Take the left-most drinks from the desk to the end table please
+Take the drinks from the desk to the end table please
 Find the tray in the bedroom please
 Tell me how many people are standing in the dining room
 Pick up a drinks from the dining table and put it into the fridge
@@ -8010,7 +8010,7 @@ Tell me how the person lying down at the desk looks like
 Look for Alex at the sink set fork on the side table and say something
 Navigate to the end table find Mary and take her to the corridor please
 Tell me how many elders in the bedroom are wearing gray
-Take the left-most cutlery from the side table to the bookcase please
+Take the cutlery from the side table to the bookcase please
 Could you count the blue food objects at the storage table and inform me
 Tell me how many men in the bedroom are pointing to the right please
 Leave apple on the storage table retrieve the orange from the storage table and speak please
@@ -8038,8 +8038,8 @@ Could you count the gray drinks objects at the cupboard and report to me
 Tell me how many snacks items are in the desk please
 Could you please bring me something in a bowl
 Put a drinks on the sink pick up the apple from the bookcase and set it on the cupboard please
-Conduct the person at the bed to the exit B_guide_dest-
-Tell me how many children wearing T-shirts there are in the dining room
+Conduct the person at the bed to the exit
+Tell me how many children wearing there are in the dining room
 Describe the objects in the side table to me
 Find Robert in the bedroom locate Francis at the sink and escort her
 Robot please tell me how many orange fruits objects are in the storage table
@@ -8048,7 +8048,7 @@ Could you please take the drinks at the side table's middle bottom to the dining
 Take the child in the kitchen to the exit please
 Could you please tell me how many children wearing shirts there are in the dining room
 Offer something to drink to all the elders raising their left arm in the corridor please
-Accompany the person at the desk to the exit B_guide_dest- please
+Accompany the person at the desk to the exit please
 Contact Elizabeth at the dishwasher then greet her
 Could you describe to me the person sitting at the exit
 Meet James at the bookcase then greet him
@@ -8063,7 +8063,7 @@ Take the food at the cupboard's center to the dining table
 Find the tray in the corridor
 Bring me some drinks from the oven
 Pick up the orange from the side table place it to the living room and answer a question please
-Could you please accompany the person at the desk to the end B_guide_dest- table I_guide_dest-
+Could you please accompany the person at the desk to the end table
 Look for a paprika locate William in the living room and go after him
 Contact Francis at the sink then greet him please
 Could you please tell me how many elders are wearing pants in the living room
@@ -8133,7 +8133,7 @@ Put a dish on the side table and a fork in it
 Please tell me how many women wearing coats there are in the bedroom
 Take the fruits at the cupboard's middle bottom to the sink please
 Could you please tell me how many people are wearing shirts in the corridor
-Could you take the person at the desk to the bookcase B_guide_dest-
+Could you take the person at the desk to the bookcase
 Robot please offer something to eat to all the men pointing to the left in the bedroom
 Put the orange into the microwave please
 Robot please go to the kitchen find the cleaning stuff and leave it on the cupboard
@@ -8146,7 +8146,7 @@ Robot please bring me some orange juice in a cup
 Tell me how many men are sitting in the living room please
 Offer something to drink to all the lying down elders in the bedroom please
 Robot please hand me some cutlery from the fridge
-Please guide the person at the bookcase to the exit B_guide_dest-
+Please guide the person at the bookcase to the exit
 Count the white bowl at the desk and inform me please
 Count the cleaning stuff items at the dining table and inform me
 Describe the objects in the bookcase to me please
@@ -8157,7 +8157,7 @@ Please offer something to drink to all the children dressed in gray in the corri
 Could you grasp the apple from the counter retrieve the fruits from the sink and give it to me
 Pinpoint a apple find James at the end table and take him to the corridor please
 Offer something to drink to all the people pointing to the left in the dining room
-Take the person at the bed to the exit B_guide_dest-
+Take the person at the bed to the exit
 Accompany the person dressed in a blue jacket in the dining room to the exit
 Spot Michael at the desk pinpoint a paprika and tell a joke please
 Get to know Robin at the sink then greet her please
@@ -8173,7 +8173,7 @@ Accompany the person at the desk please
 Could you please accompany the woman raising their left arm in the bedroom to the exit
 Could you bring me something in a bowl
 Guide the man raising their right arm in the kitchen to the exit
-Could you accompany the woman dressed in a gray T-shirt in the dining room to the exit
+Could you accompany the woman dressed in a gray in the dining room to the exit
 Please go to the living room spot Skyler take the orange
 Say hello to the man raising their right arm in the dining room please
 Robot please look for Patricia at the dining table grasp the fruits from the cupboard and set it on the storage table
@@ -8269,7 +8269,7 @@ Get to know Skyler at the dishwasher then greet him
 Could you please pinpoint William at the exit escort it and locate Robin at the couch
 Could you please accompany the person at the bookcase
 Get to know James at the sink then greet him
-Accompany the person at the exit to the exit B_guide_dest-
+Accompany the person at the exit to the exit
 Place a dish on the end table and a knife on it please
 Could you please go after the woman raising their left arm in the corridor
 Put the cup in the living room locate Robin in the bedroom and come behind her please
@@ -8326,7 +8326,7 @@ Hand me some food from the oven please
 Navigate to the dishwasher pinpoint Michael and escort him please
 Put the cascade pod into the oven please
 Retrieve the apple from the cupboard leave it on the side table leave the dish in the kitchen please
-Could you please accompany the person at the entrance to the exit B_guide_dest-
+Could you please accompany the person at the entrance to the exit
 Offer something to eat to all the women waving in the bedroom please
 Look for John conduct him to the living room and answer a question
 Pick up a containers from the side table and put it into the oven
@@ -8336,7 +8336,7 @@ Locate William pinpoint Robin at the exit and guide her to the exit please
 Offer something to eat to all the men waving in the kitchen
 Find a chocolate drink in the dining room take the paprika from the storage table and place it to the bedroom
 Could you please serve some grape juice in a bowl
-Conduct the person at the couch to the exit B_guide_dest-
+Conduct the person at the couch to the exit
 Go to the kitchen pinpoint Michael say something please
 Could you pick up a cutlery from the sink and put it into the bag on the counter
 Tell me how many standing women there are in the corridor
@@ -8362,7 +8362,7 @@ Offer something to eat to all the women raising their left arm in the kitchen
 Give me the biggest object from the dining table please
 Please tell me how many children are standing in the corridor
 Please describe the objects in the bookcase to me
-Escort the person at the entrance to the exit B_guide_dest-
+Escort the person at the entrance to the exit
 Bring me some sprite in a bowl please
 Robot please describe to me the person lying down at the couch
 Tell me how many elders are wearing blue in the dining room please
@@ -8380,7 +8380,7 @@ Pour some grape juice in a bowl
 Locate the basket in the bedroom please
 Bring the paprika to the man pointing to the right in the living room please
 Go to the kitchen find Skyler and say what day is tomorrow
-Escort the woman dressed in a black T-shirt in the bedroom to the exit
+Escort the woman dressed in a black in the bedroom to the exit
 Retrieve the paprika from the cupboard place it to the kitchen and answer a question please
 Set a cup on the storage table and a spoon on it please
 Could you please spot Linda in the corridor accompany her say something
@@ -8418,7 +8418,7 @@ Enter to the corridor pinpoint Elizabeth and follow her please
 Grasp the apple from the desk pinpoint James at the exit and put a cleaning stuff on the sink
 Please set noodles on the desk place a fruits on the dining table and answer a question
 Tell me how many blue fruits objects are in the side table please
-Bring the orange to the woman dressed in an orange T-shirt in the bedroom please
+Bring the orange to the woman dressed in an orange in the bedroom please
 Could you count the drinks items at the end table and report to me
 Navigate to the dining room find Patricia and escort her please
 Robot please find the bag in the bedroom
@@ -8426,7 +8426,7 @@ Set a dish on the cupboard and a fork on its left
 Could you please describe the objects in the bookcase to me
 Could you please spot John find Francis at the exit and conduct her to the exit
 Locate Alex in the kitchen accompany her speak
-Accompany the person at the couch to the exit B_guide_dest-
+Accompany the person at the couch to the exit
 Could you describe the objects in the storage table to me
 Hand me some cleaning stuff from the oven
 Could you please leave dish on the dining table retrieve the orange from the bookcase and give it to Alex
@@ -8436,7 +8436,7 @@ Robot please find Robin follow her and say the time
 Robot please leave apple on the desk pinpoint James and place knife on the counter
 Could you please tell me how many children are pointing to the right in the bedroom
 Robot please describe the person standing at the dishwasher to the person at the desk
-Lead the person at the bookcase to the exit B_guide_dest-
+Lead the person at the bookcase to the exit
 Could you find Michael in the kitchen follow him speak
 Locate Jennifer at the exit escort her and answer a question
 Tell me how many children in the dining room are sitting
@@ -8444,7 +8444,7 @@ Count the orange fruits objects at the side table and report to me please
 Bring me some orange juice in a cup please
 Pick up the orange from the bookcase grasp the apple from the desk and hand it to Michael
 Offer something to drink to all the elders dressed in black in the kitchen
-Robot please take the right-most drinks from the end table to the side table
+Robot please take the drinks from the end table to the side table
 Could you please bring me some snacks from the basket on the desk
 Could you please deliver to me some tableware from the fridge
 Tell me how many men dressed in red there are in the living room
@@ -8489,9 +8489,9 @@ Spot Charlie at the desk escort her and answer a question please
 Please retrieve the apple from the sink place it on the side table speak
 Tell me how many men are lying down in the bedroom please
 Put a cleaning stuff on the sink look for a orange in the corridor and find Robin at the desk please
-Robot please conduct the person at the bookcase to the end B_guide_dest- table I_guide_dest-
+Robot please conduct the person at the bookcase to the end table
 Place a bowl on the side table and a spoon in it please
-Tell me how many elders are wearing T-shirts in the living room please
+Tell me how many elders are wearing in the living room please
 Enter to the dining room look for Robert and lead him to the exit
 Find James find Alex at the dining table and guide him to the end table please
 Describe the objects in the side table to me please
@@ -8504,7 +8504,7 @@ Say hello to the smallest man in the bedroom
 Offer something to eat to all the children pointing to the left in the kitchen
 Place a cup on the cupboard and a spoon on it
 Look for Michael at the dishwasher find Charlie at the dishwasher and escort her
-Take the person at the bed to the desk B_guide_dest-
+Take the person at the bed to the desk
 Greet the man dressed in a blue jacket in the corridor
 Could you pour some orange juice in a bowl
 Tell me how many people in the dining room are wearing pants please
@@ -8531,7 +8531,7 @@ Robot please tell me how many elders in the living room are sitting
 Could you please place scrubby on the sink put the sprite in the living room and pinpoint Skyler at the bed
 Deliver to me some cleaning stuff from the fridge
 Look for a paprika in the bedroom pinpoint Skyler and answer a question
-Take the right-most object from the bookcase to the desk
+Take the object from the bookcase to the desk
 Pick up the apple set orange on the cupboard and answer a question
 Get the apple from the sink grasp the paprika from the counter and say something please
 Hand me some sprite in a bowl please
@@ -8544,7 +8544,7 @@ Please describe the person sitting at the dishwasher to the person at the bookca
 Give me some snacks from the microwave
 Offer something to drink to all the children waving in the bedroom
 Look for Francis in the kitchen locate the scrubby and pinpoint Patricia in the bedroom
-Accompany the person at the dining table to the exit B_guide_dest-
+Accompany the person at the dining table to the exit
 Find Skyler go behind it and look for Patricia in the kitchen
 Robot please describe the person lying down at the dining table to me
 Could you please put the apple into the fridge
@@ -8559,7 +8559,7 @@ Tell me how many elders in the corridor are raising their right arm please
 Could you find Alex pinpoint William in the corridor and follow him
 Pinpoint a orange pick up the paprika from the cupboard and hand it to me please
 Offer something to drink to all the elders dressed in yellow in the living room
-Tell me how many children wearing T-shirts there are in the corridor
+Tell me how many children wearing there are in the corridor
 Please put a dish on the sink and a fork on it
 Tell me how many women in the kitchen are sitting please
 Count the gray fruits objects at the side table and inform me
@@ -8594,7 +8594,7 @@ Describe the objects in the counter to me
 Look for the basket in the bedroom please
 Please spot a orange in the corridor grasp the apple from the dining table and pick up the fruits from the bookcase
 Please salute the slimmest person in the kitchen
-Tell me how many women in the bedroom are wearing T-shirts please
+Tell me how many women in the bedroom are wearing please
 Please tell me how many people in the kitchen are lying down
 Describe the objects in the end table to me
 Look for Alex spot Robin in the bedroom and follow him
@@ -8607,7 +8607,7 @@ Could you enter to the corridor locate Jennifer and spot Skyler in the living ro
 Robot please tell me how many men are pointing to the right in the bedroom
 Describe the person sitting at the dishwasher to the person at the entrance please
 Please tell me how many men in the corridor are lying down
-Take the person at the end table to the exit B_guide_dest- please
+Take the person at the end table to the exit please
 Tell me how the person standing at the bookcase looks like
 Contact James at the sink then greet him please
 Please place the apple in the kitchen find Mary at the exit and lead her to the living room
@@ -8709,7 +8709,7 @@ Locate a spoon locate Charlie at the bookcase and accompany him to the corridor 
 Could you please find a orange in the dining room look for Michael at the desk and escort him
 Follow the person dressed in a red blouse in the kitchen please
 Tell me how many women are raising their right arm in the bedroom
-Accompany the person at the desk to the exit B_guide_dest- please
+Accompany the person at the desk to the exit please
 Go to the bedroom find the cloth spot Skyler
 Locate Mary at the bookcase pinpoint the sprite and tell a joke please
 Enter to the dining room find the pringles and hand it to Linda
@@ -8754,7 +8754,7 @@ Please take the tableware at the end table's left to the bookcase
 Hand me some sprite in a bowl
 Robot please pinpoint Jennifer go behind it and locate John at the dishwasher
 Please contact Charlie at the exit then greet him
-Escort the person at the bed to the entrance B_guide_dest- please
+Escort the person at the bed to the entrance please
 Tell me how many men are pointing to the left in the living room please
 Could you please tell me how many men there are in the bedroom
 Get the apple from the dining table find Alex and pinpoint Patricia at the exit
@@ -8777,7 +8777,7 @@ Salute the woman pointing to the left in the living room
 Pinpoint Jennifer in the dining room get the fruits from the counter and give it to me
 Hand me some coke in a bowl please
 Please accompany the child in the kitchen
-Take the person at the exit to the dining B_guide_dest- table I_guide_dest-
+Take the person at the exit to the dining table
 Tell me how many men are waving in the bedroom please
 Offer something to drink to all the sitting women in the bedroom
 Introduce yourself to the man pointing to the left in the kitchen
@@ -8785,7 +8785,7 @@ Put a dish on the dining table and a spoon on it please
 Pinpoint the bag in the kitchen
 Retrieve the orange grasp the apple from the sink and answer a question
 Say hello to the man raising their right arm in the dining room
-Take the person at the bed to the exit B_guide_dest-
+Take the person at the bed to the exit
 Locate Linda in the bedroom locate Francis and answer a question please
 Robot please take the fruits from the storage table look for John in the corridor and leave sprite on the dining table
 Please describe the objects in the desk to me
@@ -8815,7 +8815,7 @@ Robot please pinpoint Skyler spot Francis in the kitchen and pick up the apple f
 Locate Elizabeth find Alex in the living room and look for a potato chips in the corridor
 Hand me some tableware from the microwave
 Please tell me how many people are wearing black in the bedroom
-Guide the person at the bookcase to the exit B_guide_dest-
+Guide the person at the bookcase to the exit
 Contact Alex at the bookcase then greet her please
 Describe the objects in the side table to me
 Find the tray in the living room please
@@ -8835,7 +8835,7 @@ Could you please grasp the orange from the bookcase find Elizabeth and follow he
 Could you describe to me the person standing at the sink
 Locate Elizabeth at the entrance look for Robert at the bookcase and look for a dish please
 Bring me the fruits at the center cupboard please
-Please guide the person at the sink to the end B_guide_dest- table I_guide_dest-
+Please guide the person at the sink to the end table
 Please offer something to drink to all the men wearing shirts in the corridor
 Get to know Robert at the end table then greet him please
 Look for Francis look for Robin at the end table and answer a question
@@ -8869,14 +8869,14 @@ Pinpoint Alex place cascade pod on the cupboard and leave chocolate drink on the
 Accompany the youngest man in the bedroom
 Locate a apple in the dining room pinpoint Charlie and accompany her please
 Locate the tray in the corridor please
-Conduct the person at the dishwasher to the exit B_guide_dest- please
+Conduct the person at the dishwasher to the exit please
 Put fork on the side table pinpoint Charlie at the exit and escort him
 Tell me how many children in the living room are standing
 Look for Charlie at the entrance escort him and take the paprika from the storage table please
 Offer something to drink to all the people pointing to the right in the corridor
 Could you please go to the dishwasher find Elizabeth and escort her
 Place a bowl on the bookcase and a spoon in it
-Please tell me how many children in the bedroom are wearing T-shirts
+Please tell me how many children in the bedroom are wearing
 Tell me how many people dressed in white there are in the kitchen please
 Robot please find Robert accompany him and answer a question
 Tell me how many men dressed in red there are in the kitchen
@@ -8885,9 +8885,9 @@ Give me some cutlery from the oven please
 Describe the objects in the side table to me
 Please look for a cup in the dining room look for Skyler and follow her
 Could you please locate Mary in the living room retrieve the orange from the storage table and put a tableware on the desk
-Could you please salute the person dressed in a gray T-shirt in the corridor
+Could you please salute the person dressed in a gray in the corridor
 Robot please leave a dish on the cupboard and a knife on its right
-Take the left-most object from the sink to the end table please
+Take the object from the sink to the end table please
 Tell me how the person sitting at the dishwasher looks like
 Tell me how many children in the living room are wearing white
 Could you spot Linda at the couch look for Jennifer and guide her to the living room
@@ -8989,7 +8989,7 @@ Robot please offer something to drink to all the men wearing shoes in the dining
 Tell me how many people wearing blouses there are in the bedroom please
 Offer something to drink to all the men in the dining room
 Offer something to drink to all the children raising their right arm in the bedroom
-Lead the person at the dishwasher to the end B_guide_dest- table I_guide_dest- please
+Lead the person at the dishwasher to the end table please
 Accompany the youngest person in the living room
 Accompany the person at the dining table
 Get to know Jennifer at the dining table then greet her
@@ -9035,7 +9035,7 @@ Pour some sprite in a bowl
 Go to the dining room find Skyler and escort him to the living room
 Offer something to eat to all the standing women in the dining room please
 Robot please describe to me the person sitting at the dishwasher
-Offer something to eat to all the children wearing T-shirts in the dining room
+Offer something to eat to all the children wearing in the dining room
 Deliver to me some orange juice in a bowl
 Tell me how the person lying down at the entrance looks like please
 Please place a fruits on the dining table spot a orange in the dining room and retrieve the paprika from the desk
@@ -9100,7 +9100,7 @@ Get the apple from the end table look for a orange in the corridor and speak
 Please enter to the dining room look for the cutlery and leave paprika on the side table
 Bring me some containers from the microwave
 Locate Robert in the corridor accompany him say something
-Could you please take the left-most containers from the storage table to the desk
+Could you please take the containers from the storage table to the desk
 Locate James escort him to the dining table and answer a question please
 Robot please come after the person at the sink
 Salute the person dressed in an orange sweater in the living room please
@@ -9113,7 +9113,7 @@ Tell me how many lying down men there are in the living room please
 Please accompany the person at the couch
 Offer something to drink to all the standing people in the corridor
 Tell me how many children are pointing to the left in the corridor please
-Please conduct the person at the dining table to the exit B_guide_dest-
+Please conduct the person at the dining table to the exit
 Please come after the child in the bedroom
 Please go after the child in the corridor
 Could you please spot the basket in the corridor
@@ -9135,7 +9135,7 @@ Salute the person pointing to the left in the living room
 Robot please tell me how many men wearing jackets there are in the corridor
 Tell me how many tableware items are in the dining table
 Could you please tell me how many children are wearing shoes in the dining room
-Conduct the person at the dishwasher to the end B_guide_dest- table I_guide_dest-
+Conduct the person at the dishwasher to the end table
 Navigate to the bedroom spot the cutlery and bring it to me please
 Could you go to the bedroom locate Jennifer and come behind her
 Robot please describe the objects in the side table to me
@@ -9159,7 +9159,7 @@ Put orange on the cupboard pinpoint a apple and locate William in the dining roo
 Offer something to eat to all the people pointing to the left in the kitchen
 Tell me how many women are raising their right arm in the living room please
 Please say hello to the woman dressed in a black sweater in the living room
-Accompany the person at the entrance to the exit B_guide_dest- please
+Accompany the person at the entrance to the exit please
 Take the smallest food from the storage table to the side table please
 Describe the person standing at the couch to me please
 Describe the objects in the desk to me please
@@ -9188,7 +9188,7 @@ Contact Michael at the sink then greet him
 Robot please take the man dressed in a red sweater in the bedroom to the exit
 Pinpoint Robin at the sink leave cascade pod on the storage table and say something
 Grasp the apple from the cupboard set fork on the desk and grasp the orange
-Escort the person at the end table to the entrance B_guide_dest-
+Escort the person at the end table to the entrance
 Grasp the paprika leave potato chips on the side table and say the time
 Look for the tray in the kitchen please
 Could you describe the objects in the side table to me
@@ -9235,7 +9235,7 @@ Give me the fruits at the middle bottom desk please
 Guide the woman dressed in a yellow coat in the dining room to the exit please
 Could you navigate to the exit find Elizabeth and guide her to the living room
 Pour some orange juice in a cup
-Tell me how many elders wearing T-shirts there are in the living room please
+Tell me how many elders wearing there are in the living room please
 Bring the sprite to the woman dressed in an orange jacket in the corridor please
 Spot Elizabeth accompany it to the bedroom and look for Robin at the exit
 Could you please pick up a cutlery from the end table and put it into the basket on the dining table
@@ -9320,7 +9320,7 @@ Please locate Charlie in the corridor put cascade pod on the desk and speak
 Introduce yourself to the woman pointing to the left in the bedroom please
 Could you please navigate to the sink spot James and accompany him to the corridor
 Tell me how many standing people there are in the kitchen please
-Take the person at the exit to the bookcase B_guide_dest-
+Take the person at the exit to the bookcase
 Please retrieve the paprika from the sink deliver to it to Mary and answer a question
 Leave a bowl on the bookcase and a spoon on its left please
 Serve some coke in a cup
@@ -9358,7 +9358,7 @@ Robot please put a cleaning stuff on the cupboard spot Charlie at the entrance a
 Please bring the chocolate drink to the slimmest woman in the bedroom
 Tell me how many women are pointing to the left in the dining room please
 Could you offer something to eat to all the men in the corridor
-Greet the woman dressed in an orange T-shirt in the kitchen
+Greet the woman dressed in an orange in the kitchen
 Describe the person standing at the entrance to me
 Retrieve the orange from the dining table look for a crackers in the kitchen and take the paprika please
 Spot a cereal pinpoint Robert at the bookcase and lead him to the living room please
@@ -9385,7 +9385,7 @@ Could you please count the tableware items at the end table and inform me
 Pick up the orange from the storage table give it to Michael and tell your team's name
 Could you please offer something to drink to all the people waving in the dining room
 Go behind the child in the living room
-Take the left-most object from the counter to the bookcase
+Take the object from the counter to the bookcase
 Tell me how many men are standing in the bedroom please
 Bring me the snacks at the middle bottom bookcase please
 Tell me how many elders are raising their left arm in the dining room please
@@ -9400,7 +9400,7 @@ Please locate Alex at the bed retrieve the apple from the cupboard and leave it 
 Tell me how many women in the bedroom are wearing blouses please
 Could you please locate Skyler in the dining room look for Charlie and accompany him
 Put the cascade pod into the fridge please
-Tell me how many men wearing T-shirts there are in the dining room
+Tell me how many men wearing there are in the dining room
 Introduce yourself to the person wearing white pants in the dining room please
 Could you please tell me how many women in the dining room are lying down
 Follow the person at the bookcase please
@@ -9502,7 +9502,7 @@ Robot please place knife on the desk set paprika on the storage table and place 
 Bring me some cutlery from the basket on the cupboard please
 Pinpoint Linda in the bedroom look for Patricia and answer a question please
 Please hand me some containers from the fridge
-Robot please tell me how many children are wearing T-shirts in the bedroom
+Robot please tell me how many children are wearing in the bedroom
 Could you tell me how the person standing at the desk looks like
 Go to the dining room look for Robin and escort him
 Get the orange put it on the counter and pick up the apple from the sink please
@@ -9562,7 +9562,7 @@ Please pick up a cleaning stuff from the dining table and put it into the bag on
 Meet Charlie at the desk then greet him
 Spot Michael in the corridor follow him say something please
 Tell me how many women are waving in the living room please
-Lead the person at the entrance to the exit B_guide_dest-
+Lead the person at the entrance to the exit
 Navigate to the exit locate Francis and guide her to the exit
 Could you please count the blue paprika at the storage table and report to me
 Put a bowl on the dining table and a spoon on its right
@@ -9612,7 +9612,7 @@ Set apple on the cupboard pinpoint Linda and tell your team's country please
 Please offer something to drink to all the children dressed in orange in the corridor
 Count the black apple at the sink and report to me
 Say hello to the woman waving in the corridor please
-Could you please take the person at the bookcase to the exit B_guide_dest-
+Could you please take the person at the bookcase to the exit
 Put the paprika into the fridge please
 Tell me how many women in the bedroom are lying down
 Look for Elizabeth pick up the paprika from the side table and deliver to it to me
@@ -9744,14 +9744,14 @@ Please count the orange food objects at the desk and inform me
 Please bring me the cleaning stuff at the top cupboard
 Get acquainted with Skyler at the sink then greet her please
 Please set cloth on the end table find Michael and say something about yourself
-Offer something to eat to all the people wearing T-shirts in the corridor
+Offer something to eat to all the people wearing in the corridor
 Robot please find a paprika in the kitchen place noodles on the bookcase and speak
 Locate Skyler find James at the bookcase and take him to the exit please
-Conduct the person at the exit to the exit B_guide_dest-
+Conduct the person at the exit to the exit
 Leave a bowl on the dining table and a spoon on its left
-Accompany the person at the bed to the dishwasher B_guide_dest-
+Accompany the person at the bed to the dishwasher
 Robot please pinpoint Robin at the dining table get the apple from the counter and give it to Patricia
-Go after the man dressed in a white T-shirt in the kitchen
+Go after the man dressed in a white in the kitchen
 Enter to the kitchen pinpoint the fruits and place it on the end table please
 Meet Patricia at the dishwasher then greet her please
 Offer something to drink to all the women waving in the kitchen please
@@ -9794,7 +9794,7 @@ Could you offer something to eat to all the children in the kitchen
 Describe the objects in the side table to me please
 Tell me how many women dressed in white there are in the corridor please
 Could you please enter to the corridor spot William and escort him to the dining room
-Could you take the person at the entrance to the bed B_guide_dest-
+Could you take the person at the entrance to the bed
 Deliver to me some snacks from the fridge
 Describe the objects in the storage table to me
 Robot please enter to the corridor locate the cup and give it to Patricia
@@ -9820,7 +9820,7 @@ Describe to me the person lying down at the bookcase please
 Offer something to drink to all the women pointing to the left in the living room please
 Please get to know Charlie at the end table then greet her
 Could you pick up a drinks from the sink and put it into the oven
-Greet the person dressed in a blue T-shirt in the living room please
+Greet the person dressed in a blue in the living room please
 Please describe the person sitting at the bed to me
 Follow the person at the entrance
 Put the orange into the microwave please
@@ -9884,17 +9884,17 @@ Offer something to eat to all the people raising their right arm in the bedroom 
 Could you tell me how many sitting children there are in the living room
 Could you put the cascade pod into the microwave
 Describe the objects in the desk to me
-Lead the person at the entrance to the entrance B_guide_dest-
+Lead the person at the entrance to the entrance
 Put the sprite into the microwave
-Could you bring me the left-most object from the dining table
-Robot please lead the person at the end table to the exit B_guide_dest-
+Could you bring me the object from the dining table
+Robot please lead the person at the end table to the exit
 Tell me how many standing people there are in the kitchen
 Could you spot Mary locate William at the entrance and tell whether you dream or not on electric sheep
 Could you tell me how many women are pointing to the right in the corridor
 Could you please hand me some fruits from the fridge
 Could you bring the dish to the person raising their left arm in the living room
 Could you please describe the objects in the storage table to me
-Bring the orange to the man dressed in an orange T-shirt in the kitchen please
+Bring the orange to the man dressed in an orange in the kitchen please
 Come after the person at the sink
 Could you please pinpoint the tray in the dining room
 Put a cup on the counter and a knife on its left please
@@ -9945,7 +9945,7 @@ Pour some orange juice in a cup
 Leave apple on the end table take the paprika and place it on the cupboard
 Locate the bag in the bedroom
 Retrieve the orange from the counter take the paprika and leave it on the desk
-Accompany the person at the end table to the dining B_guide_dest- table I_guide_dest- please
+Accompany the person at the end table to the dining table please
 Could you get the apple from the counter put pringles on the desk and say something
 Tell me how the person standing at the couch looks like
 Put the pringles into the oven
@@ -9994,7 +9994,7 @@ Pick up the paprika spot Alex at the desk and locate Alex in the kitchen please
 Retrieve the paprika from the counter put it on the cupboard place the apple in the bedroom
 Please describe the objects in the cupboard to me
 Tell me how many men in the bedroom are wearing blouses
-Introduce yourself to the person wearing a black T-shirt in the living room please
+Introduce yourself to the person wearing a black in the living room please
 Robot please locate the tray in the living room
 Offer something to eat to all the men in the kitchen please
 Find the bag in the living room please

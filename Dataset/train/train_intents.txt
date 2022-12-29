@@ -1,6 +1,11 @@
-B-take
-B-find
-B-follow
-B-say
-B-go
-B-put
+B_find
+B_take
+I_find
+B_follow
+B_go
+B_know
+B_greet
+I_follow
+B_guide
+I_greet
+I_take
