@@ -15,14 +15,14 @@ Could you bring the dish to the person raising their left arm in the living room
 Enter to the kitchen spot Charlie and accompany her please
 Meet Linda at the entrance then greet her
 Look for Francis spot Patricia at the dining table and conduct her to the desk please
-Take the object from the counter to the bookcase
+Take the left-most object from the counter to the bookcase
 Navigate to the dining table find Mary and accompany her to the exit
 Contact Elizabeth at the dining table then greet her
 Pick up the apple locate William at the exit and locate Michael in the bedroom please
 Get the fruits from the dining table locate Robin at the entrance and look for Skyler in the living room
 Please get the paprika from the dining table locate Charlie at the entrance and escort him
-Could you escort the person at the bookcase to the exit
-Robot please bring me the object from the desk
+Could you escort the person at the bookcase to the exit B_guide_dest-
+Robot please bring me the left-most object from the desk
 Navigate to the sink find Alex and accompany her to the exit please
 Retrieve the fruits from the bookcase deliver to it to me and pick up the apple from the desk please
 Place a dish on the dining table and a fork on its left
@@ -42,8 +42,8 @@ Deliver to me some drinks from the bag on the storage table
 Locate a paprika in the dining room put spoon on the end table and find Skyler
 Offer something to eat to all the men wearing shirts in the bedroom please
 Put the apple into the microwave please
-Could you please guide the person at the end table to the exit
-Robot please give me the cutlery from the desk
+Could you please guide the person at the end table to the exit B_guide_dest-
+Robot please give me the left-most cutlery from the desk
 Please put the apple into the bag on the bookcase
 Robot please find a orange in the dining room pinpoint Linda at the entrance and place a food on the bookcase
 Could you pick up a cutlery from the end table and put it into the bag on the cupboard
@@ -62,7 +62,7 @@ Locate a crackers in the corridor take the apple from the cupboard and set it to
 Please offer something to eat to all the standing men in the dining room
 Find a crackers retrieve the paprika from the bookcase and deliver to it to William at the entrance please
 Find the tray in the kitchen please
-Lead the person at the entrance to the entrance
+Lead the person at the entrance to the entrance B_guide_dest-
 Look for the basket in the corridor please
 Could you take the biggest snacks from the bookcase to the counter
 Accompany the child in the dining room please
@@ -165,7 +165,7 @@ Please go after the child in the corridor
 Please follow the person at the end table
 Put the apple into the oven please
 Locate the tray in the corridor please
-Offer something to eat to all the men wearing in the kitchen please
+Offer something to eat to all the men wearing T-shirts in the kitchen please
 Pick up a tableware from the end table and put it into the oven
 Deliver to me some snacks from the oven
 Place a bowl on the dining table and a spoon on its left please
@@ -228,17 +228,17 @@ Bring me some fruits from the bag on the sink please
 Could you please spot the basket in the living room
 Could you come behind the oldest person in the kitchen
 Take the orange from the dining table locate James at the end table and find Skyler
-Escort the woman dressed in a black in the bedroom to the exit
+Escort the woman dressed in a black T-shirt in the bedroom to the exit
 Could you introduce yourself to the slimmest woman in the dining room
 Offer something to eat to all the sitting men in the living room
 Could you hand me the white drinks from the counter
-Could you lead the person at the desk to the exit
+Could you lead the person at the desk to the exit B_guide_dest-
 Please offer something to drink to all the standing men in the bedroom
 Bring the paprika to the person dressed in an orange shirt in the bedroom please
 Come after the woman pointing to the right in the bedroom please
 Robot please spot Alex at the sink lead her to the exit take the fruits from the bookcase
-Introduce yourself to the person dressed in an orange in the dining room please
-Please conduct the person at the dining table to the dishwasher
+Introduce yourself to the person dressed in an orange T-shirt in the dining room please
+Please conduct the person at the dining table to the dishwasher B_guide_dest-
 Put the apple into the microwave
 Could you please offer something to eat to all the men pointing to the left in the kitchen
 Robot please say hello to the child in the bedroom
@@ -251,13 +251,13 @@ Pick up the apple from the end table spot Francis and escort her to the exit
 Spot the basket in the bedroom please
 Robot please accompany the person at the dining table
 Offer something to drink to all the men pointing to the right in the corridor please
-Robot please accompany the person at the bookcase to the exit
+Robot please accompany the person at the bookcase to the exit B_guide_dest-
 Take the apple from the sink leave it on the bookcase take the fruits from the cupboard
 Please accompany the person at the dishwasher
 Pinpoint Skyler at the couch grasp the paprika from the counter and bring it to William please
-Could you please conduct the person at the end table to the sink
+Could you please conduct the person at the end table to the sink B_guide_dest-
 Give me some tableware from the microwave
-Robot please offer something to drink to all the women wearing in the corridor
+Robot please offer something to drink to all the women wearing T-shirts in the corridor
 Could you bring me some tableware from the fridge
 Could you please offer something to eat to all the elders wearing coats in the living room
 Leave paprika on the cupboard place apple on the end table and spot Skyler
@@ -273,7 +273,7 @@ Bring the apple to the woman waving in the kitchen
 Pinpoint John in the living room pinpoint Robin at the sink and escort her please
 Robot please offer something to drink to all the men raising their left arm in the dining room
 Enter to the bedroom find Mary and conduct her to the exit please
-Could you take the object from the cupboard to the end table
+Could you take the right-most object from the cupboard to the end table
 Robot please get acquainted with Linda at the desk then greet her
 Pick up the apple from the desk get the orange from the side table and leave it to the living room
 Offer something to eat to all the men in the kitchen please
@@ -285,7 +285,7 @@ Hand me some tableware from the fridge
 Put the cup in the living room locate Robin in the bedroom and come behind her please
 Robot please offer something to eat to all the people in the dining room
 Locate Alex in the corridor retrieve the apple and bring it to me
-Conduct the person at the desk to the couch please
+Conduct the person at the desk to the couch B_guide_dest- please
 Hand me something in a bowl please
 Could you please offer something to drink to all the people in the living room
 Grasp the apple retrieve the paprika from the cupboard and put it on the counter
@@ -316,7 +316,7 @@ Hand me the black object from the cupboard please
 Bring the knife to the child in the bedroom please
 Please pinpoint the tray in the bedroom
 Get the orange from the bookcase spot Robin in the living room and look for Mary
-Robot please take the person at the dining table to the exit
+Robot please take the person at the dining table to the exit B_guide_dest-
 Bring me the cutlery at the center sink please
 Offer something to drink to all the women waving in the living room
 Robot please offer something to eat to all the men pointing to the right in the kitchen
@@ -324,7 +324,7 @@ Accompany the man pointing to the right in the dining room to the exit please
 Hand me some containers from the oven
 Offer something to eat to all the women wearing coats in the dining room please
 Meet Charlie at the desk then greet him
-Escort the person at the desk to the exit please
+Escort the person at the desk to the exit B_guide_dest- please
 Could you put the paprika into the microwave
 Robot please get acquainted with Francis at the bookcase then greet her
 Could you pinpoint the tray in the bedroom
@@ -351,8 +351,8 @@ Could you please contact John at the couch then greet him
 Robot please go to the corridor pinpoint Charlie and guide her to the kitchen
 Bring me some grape juice in a cup please
 Contact Robin at the exit then greet him please
-Conduct the person at the desk to the dining table please
-Take the person at the exit to the bookcase
+Conduct the person at the desk to the dining B_guide_dest- table I_guide_dest- please
+Take the person at the exit to the bookcase B_guide_dest-
 Put a food on the end table take the apple from the counter and bring it to me please
 Put apple on the storage table pinpoint Robin at the dining table and escort her
 Robot please pick up the orange from the cupboard put it to the living room and take the paprika from the sink
@@ -375,9 +375,9 @@ Pick up a snacks from the bookcase and put it into the microwave please
 Find William at the desk spot Francis at the dining table and escort her
 Look for Michael get the apple from the side table and find Mary in the kitchen please
 Bring the cereal to the man pointing to the left in the bedroom please
-Offer something to drink to all the elders wearing in the kitchen
+Offer something to drink to all the elders wearing T-shirts in the kitchen
 Place bowl on the sink spot Linda and accompany her please
-Say hello to the person dressed in a black in the kitchen
+Say hello to the person dressed in a black T-shirt in the kitchen
 Robot please conduct the person raising their right arm in the dining room to the bedroom
 Get to know Robert at the sink then greet him
 Locate the basket in the corridor
@@ -422,16 +422,16 @@ Locate the bag in the corridor please
 Could you grasp the paprika take the orange from the end table and place it on the bookcase
 Locate Mary at the end table retrieve the fruits from the counter and set it on the sink please
 Could you please offer something to drink to all the people pointing to the right in the living room
-Guide the person at the bed to the bookcase please
+Guide the person at the bed to the bookcase B_guide_dest- please
 Offer something to eat to all the elders waving in the kitchen please
 Hand me some fruits from the fridge
 Spot Skyler locate James in the dining room and follow him
-Accompany the person at the bookcase to the sink
+Accompany the person at the bookcase to the sink B_guide_dest-
 Get to know Francis at the entrance then greet him please
 Pick up a tableware from the desk and put it into the oven
 Pinpoint Elizabeth pinpoint Patricia at the dishwasher and take her to the kitchen please
 Salute the slimmest person in the corridor please
-Take the person at the sink to the exit
+Take the person at the sink to the exit B_guide_dest-
 Could you accompany the person at the bookcase
 Could you please deliver to me some containers from the basket on the desk
 Put the sponge into the fridge please
@@ -453,7 +453,7 @@ Place a fruits on the counter put paprika on the desk and locate Charlie in the 
 Take the child in the dining room to the exit
 Please spot a orange in the corridor grasp the apple from the dining table and pick up the fruits from the bookcase
 Offer something to drink to all the elders dressed in blue in the kitchen
-Please take the object from the desk to the end table
+Please take the right-most object from the desk to the end table
 Could you please leave paprika on the side table locate the orange and spot Charlie in the living room
 Robot please bring me some drinks from the basket on the sink
 Find a apple in the bedroom look for Alex and lead her to the exit please
@@ -477,7 +477,7 @@ Could you please pinpoint Mary spot Alex in the bedroom and follow her
 Please put the orange in the kitchen spot Alex at the couch and guide him to the living room
 Please offer something to drink to all the children raising their left arm in the dining room
 Follow the smallest person in the bedroom please
-Lead the person at the entrance to the exit please
+Lead the person at the entrance to the exit B_guide_dest- please
 Get acquainted with Mary at the exit then greet her
 Introduce yourself to the person wearing white pants in the dining room please
 Offer something to eat to all the people in the living room
@@ -488,7 +488,7 @@ Bring me something in a cup
 Put the spoon into the fridge please
 Offer something to drink to all the women pointing to the left in the kitchen please
 Say hello to the child in the living room
-Conduct the person at the sink to the exit please
+Conduct the person at the sink to the exit B_guide_dest- please
 Could you please serve some grape juice in a bowl
 Bring the knife to the person waving in the living room
 Look for the basket in the bedroom please
@@ -519,13 +519,13 @@ Could you take the smallest woman in the bedroom to the kitchen
 Follow the person at the bookcase please
 Hand me some grape juice in a bowl
 Deliver to me some cleaning stuff from the oven
-Please accompany the person at the desk to the exit
+Please accompany the person at the desk to the exit B_guide_dest-
 Say hello to the woman dressed in an orange blouse in the living room please
 Give me the cutlery at the right end table please
 Robot please contact Alex at the bookcase then greet him
 Could you retrieve the fruits from the bookcase get the paprika from the storage table and put it on the storage table
 Look for Patricia at the dining table grasp the apple and give it to me please
-Take the person at the entrance to the exit please
+Take the person at the entrance to the exit B_guide_dest- please
 Accompany the person at the exit
 Bring the pringles to the man waving in the kitchen
 Salute the child in the corridor please
@@ -542,7 +542,7 @@ Get acquainted with Mary at the bed then greet her please
 Could you offer something to drink to all the people pointing to the right in the dining room
 Bring me some cutlery from the fridge please
 Find the basket in the bedroom
-Could you take the person at the sink to the exit
+Could you take the person at the sink to the exit B_guide_dest-
 Look for Alex locate Alex in the corridor and go after him
 Place the paprika in the dining room pinpoint Jennifer in the living room and accompany her please
 Find a orange grasp the apple from the end table and grasp the paprika from the bookcase please
@@ -609,18 +609,18 @@ Could you retrieve the fruits from the desk give it to Charlie at the bed and sp
 Go to the dining room locate the orange find Robert
 Give me something in a bowl please
 Spot Patricia place paprika on the sink and spot Linda at the exit please
-Accompany the person at the entrance to the exit please
+Accompany the person at the entrance to the exit B_guide_dest- please
 Please place paprika on the cupboard locate Elizabeth and find John in the corridor
 Put the grape juice into the bag on the sink
 Could you spot the paprika locate a orange in the living room and pinpoint a cloth in the corridor
 Enter to the living room pinpoint the snacks and leave it on the end table
 Bring the apple to the person raising their right arm in the corridor please
 Give me the snacks at the top bookcase
-Conduct the person at the exit to the exit
+Conduct the person at the exit to the exit B_guide_dest-
 Robot please go to the bedroom pinpoint the pringles and put it to the kitchen
 Robot please deliver to me some tableware from the microwave
 Bring the cup to the oldest person in the kitchen
-Give me the object from the sink
+Give me the left-most object from the sink
 Could you find the basket in the corridor
 Could you please bring me some containers from the microwave
 Bring the paprika to the person pointing to the left in the living room
@@ -628,7 +628,7 @@ Offer something to drink to all the men dressed in blue in the kitchen
 Look for the bag in the kitchen please
 Bring the apple to the man raising their right arm in the kitchen please
 Offer something to drink to all the lying down elders in the bedroom
-Take the cutlery from the end table to the dining table please
+Take the left-most cutlery from the end table to the dining table please
 Accompany the person at the desk please
 Could you place a fruits on the side table place cereal on the desk and look for Patricia in the dining room
 Take the drinks at the end table's top to the side table please
@@ -661,7 +661,7 @@ Robot please go to the end table spot John and escort him
 Place a dish on the bookcase and a fork on its right
 Robot please grasp the apple pick up the orange from the dining table and look for Charlie in the kitchen
 Accompany the person at the couch
-Robot please escort the person at the bed to the exit
+Robot please escort the person at the bed to the exit B_guide_dest-
 Set a dish on the end table and a fork in it
 Robot please pour some grape juice in a bowl
 Take the drinks at the storage table's center to the storage table
@@ -672,7 +672,7 @@ Get to know Charlie at the exit then greet him please
 Serve some grape juice in a bowl
 Look for the basket in the living room please
 Offer something to drink to all the women waving in the kitchen please
-Robot please say hello to the woman dressed in an orange in the bedroom
+Robot please say hello to the woman dressed in an orange T-shirt in the bedroom
 Look for Charlie find Michael at the dishwasher and place coke on the counter
 Enter to the corridor look for the fruits and deliver to it to Robin at the dining table
 Put the orange juice into the microwave
@@ -696,7 +696,7 @@ Please accompany the slimmest person in the kitchen
 Could you deliver to me some sprite in a cup
 Pinpoint the bag in the kitchen please
 Please navigate to the bed pinpoint Robert and lead him to the desk
-Take the object from the sink to the end table please
+Take the left-most object from the sink to the end table please
 Serve some chocolate drink in a bowl
 Could you please hand me something in a bowl
 Bring me some sprite in a cup
@@ -737,10 +737,10 @@ Take the smallest snacks from the counter to the storage table
 Set the potato chips in the kitchen locate Michael in the dining room and accompany him please
 Pinpoint the spoon find Francis in the bedroom and accompany her
 Follow the man dressed in an orange sweater in the kitchen
-Accompany the person at the exit to the dishwasher
-Could you take the person at the couch to the exit
+Accompany the person at the exit to the dishwasher B_guide_dest-
+Could you take the person at the couch to the exit B_guide_dest-
 Spot Michael in the living room grasp the orange from the end table and locate a grape juice please
-Conduct the person at the dishwasher to the exit please
+Conduct the person at the dishwasher to the exit B_guide_dest- please
 Get to know John at the couch then greet him
 Put the dish into the oven
 Could you spot Linda in the living room follow it locate James
@@ -777,11 +777,11 @@ Escort the woman dressed in a red blouse in the corridor to the exit
 Come after the person at the desk
 Please take the fruits at the sink's middle bottom to the cupboard
 Enter to the dining room locate Francis and take him to the exit please
-Take the person at the bed to the exit please
+Take the person at the bed to the exit B_guide_dest- please
 Place the paprika in the kitchen pinpoint Elizabeth in the bedroom and leave apple on the sink please
 Could you please navigate to the sink look for Robin and guide him to the corridor
 Locate Francis in the corridor accompany it pinpoint Charlie
-Could you please guide the person at the end table to the dishwasher
+Could you please guide the person at the end table to the dishwasher B_guide_dest-
 Give me some drinks from the oven please
 Offer something to eat to all the men in the bedroom please
 Put the orange juice into the oven please
@@ -794,7 +794,7 @@ Could you please enter to the corridor pinpoint Michael take the paprika
 Leave a bowl on the bookcase and a spoon on its left please
 Retrieve the fruits from the cupboard pinpoint Linda in the kitchen and take the apple from the storage table
 Could you put a bowl on the desk and a knife in it
-Guide the person at the desk to the exit
+Guide the person at the desk to the exit B_guide_dest-
 Enter to the dining room look for Mary and spot Elizabeth in the corridor please
 Robot please take the child in the living room to the exit
 Accompany the person at the end table
@@ -808,7 +808,7 @@ Put the paprika into the fridge please
 Could you please pinpoint a coke in the corridor pick up the fruits from the counter and place it on the dining table
 Say hello to the man waving in the dining room please
 Could you please spot the tray in the kitchen
-Accompany the person at the bookcase to the bookcase please
+Accompany the person at the bookcase to the bookcase B_guide_dest- please
 Lead the smallest man in the dining room to the living room please
 Greet the person dressed in an orange jacket in the bedroom please
 Go behind the person raising their right arm in the living room please
@@ -830,7 +830,7 @@ Please spot the basket in the corridor
 Put a fruits on the cupboard place scrubby on the cupboard and find William at the entrance
 Please offer something to drink to all the people raising their left arm in the corridor
 Introduce yourself to the child in the corridor please
-Escort the person at the end table to the exit
+Escort the person at the end table to the exit B_guide_dest-
 Pinpoint Francis in the bedroom pinpoint the paprika and spot Charlie at the couch
 Accompany the fattest man in the kitchen please
 Bring me the white containers from the end table
@@ -892,11 +892,11 @@ Say hello to the woman wearing an orange jacket in the living room
 Get to know Francis at the bookcase then greet her please
 Pick up the fruits from the bookcase retrieve the paprika from the cupboard and leave it on the cupboard please
 Please leave apple on the sink find Jennifer and look for John at the dishwasher
-Could you take the fruits from the side table to the counter
+Could you take the left-most fruits from the side table to the counter
 Robot please enter to the living room look for Mary and accompany her to the exit
 Please deliver to me some sprite in a cup
 Offer something to drink to all the women wearing shirts in the bedroom
-Take the person at the couch to the sink please
+Take the person at the couch to the sink B_guide_dest- please
 Find William locate Francis in the bedroom and follow him
 Put a dish on the storage table and a fork in it
 Get the apple from the side table take the fruits from the dining table and grasp the paprika from the storage table
@@ -951,7 +951,7 @@ Please look for James spot Charlie at the dining table and spot Patricia at the 
 Could you please put the sponge into the basket on the storage table
 Could you get acquainted with Michael at the entrance then greet him
 Could you please greet the person wearing orange pants in the kitchen
-Could you please deliver to me the object from the counter
+Could you please deliver to me the left-most object from the counter
 Put orange on the counter get the apple from the desk and leave it to the kitchen
 Please pinpoint a sausages in the dining room pinpoint Robin at the bookcase and locate Skyler
 Pour some orange juice in a cup please
@@ -964,7 +964,7 @@ Could you offer something to eat to all the people wearing shoes in the bedroom
 Put a cup on the end table and a spoon on its left please
 Follow the person dressed in a red blouse in the kitchen please
 Pinpoint Elizabeth grasp the paprika from the bookcase and deliver to it to Francis at the exit please
-Conduct the person at the bed to the exit
+Conduct the person at the bed to the exit B_guide_dest-
 Offer something to eat to all the elders raising their left arm in the dining room
 Robot please look for Alex locate Francis at the couch and take him to the dining room
 Could you please come after the person at the end table
@@ -980,16 +980,16 @@ Offer something to drink to all the people pointing to the left in the living ro
 Put sponge on the cupboard look for Francis and come behind her
 Deliver to me the containers at the top counter
 Robot please pick up a drinks from the cupboard and put it into the oven
-Guide the person at the bed to the dishwasher please
+Guide the person at the bed to the dishwasher B_guide_dest- please
 Put the cereal into the oven
 Could you please put crackers on the counter leave a snacks on the side table and spot a orange in the bedroom
 Please offer something to eat to all the elders raising their left arm in the corridor
 Handshake the man waving in the corridor please
 Could you offer something to eat to all the women waving in the corridor
-Escort the person at the entrance to the exit
+Escort the person at the entrance to the exit B_guide_dest-
 Get acquainted with Skyler at the sink then greet her please
 Robot please bring me some tableware from the microwave
-Conduct the person at the dishwasher to the exit please
+Conduct the person at the dishwasher to the exit B_guide_dest- please
 Enter to the dining room look for Charlie and follow him please
 Place a bowl on the end table and a spoon on its left
 Follow the woman dressed in an orange coat in the living room
@@ -1008,7 +1008,7 @@ Go behind the child in the kitchen
 Enter to the dining room find the crackers and deliver to it to Charlie please
 Get to know Francis at the desk then greet him
 Put apple on the desk spot William in the dining room and grasp the fruits from the cupboard please
-Escort the person at the dishwasher to the bed please
+Escort the person at the dishwasher to the bed B_guide_dest- please
 Lead the tallest person in the dining room to the living room
 Robot please accompany the man wearing an orange sweater in the dining room
 Handshake the woman pointing to the left in the living room
@@ -1059,7 +1059,7 @@ Offer something to drink to all the elders wearing pants in the kitchen
 Look for the apple get the paprika from the dining table and hand it to Jennifer at the dishwasher
 Please pinpoint a crackers in the corridor find Mary and take her to the couch
 Put a snacks on the storage table take the orange from the side table and put it on the side table
-Could you please take the person at the bookcase to the exit
+Could you please take the person at the bookcase to the exit B_guide_dest-
 Look for the basket in the corridor
 Place a bowl on the counter and a spoon in it please
 Robot please put a cup on the end table and a spoon on its left
@@ -1086,7 +1086,7 @@ Offer something to eat to all the people in the kitchen please
 Get to know Francis at the end table then greet her please
 Please place a cup on the dining table and a fork on its left
 Robot please pick up a drinks from the side table and put it into the fridge
-Could you escort the person at the dishwasher to the bed
+Could you escort the person at the dishwasher to the bed B_guide_dest-
 Offer something to eat to all the elders pointing to the left in the dining room please
 Could you please locate Skyler in the dining room look for Charlie and accompany him
 Set a dish on the sink and a fork on its left
@@ -1107,12 +1107,12 @@ Deliver to me something in a cup please
 Offer something to drink to all the women in the corridor please
 Could you navigate to the sink look for William and take him to the dining room
 Bring the apple to the child in the bedroom please
-Bring the cloth to the man dressed in a blue in the bedroom please
+Bring the cloth to the man dressed in a blue T-shirt in the bedroom please
 Bring me some cutlery from the basket on the side table please
 Salute the woman dressed in an orange blouse in the dining room
 Accompany the person at the entrance please
 Get to know Mary at the couch then greet her please
-Could you please take the person at the couch to the exit
+Could you please take the person at the couch to the exit B_guide_dest-
 Could you bring me some drinks from the oven
 Locate Mary at the desk escort her and pinpoint a apple in the dining room please
 Could you please deliver to me some cutlery from the oven
@@ -1170,7 +1170,7 @@ Look for Francis at the desk locate Jennifer and take her to the bookcase please
 Take the containers at the dining table's middle bottom to the end table
 Offer something to drink to all the children in the kitchen
 Put a bowl on the dining table and a spoon on its right
-Take the person at the exit to the exit please
+Take the person at the exit to the exit B_guide_dest- please
 Please grasp the orange from the dining table set the paprika in the living room and take the apple from the cupboard
 Give me the smallest object from the desk
 Could you say hello to the woman waving in the kitchen
@@ -1192,10 +1192,10 @@ Deliver to me some fruits from the basket on the storage table please
 Could you escort the fattest woman in the bedroom to the living room
 Go to the kitchen look for the cleaning stuff and give it to Michael at the bed
 Please pinpoint the basket in the bedroom
-Escort the person at the end table to the exit please
+Escort the person at the end table to the exit B_guide_dest- please
 Bring me some tableware from the microwave please
-Take the person at the bed to the exit please
-Accompany the person at the dining table to the exit
+Take the person at the bed to the exit B_guide_dest- please
+Accompany the person at the dining table to the exit B_guide_dest-
 Locate Elizabeth in the bedroom spot Francis and go after her
 Get to know James at the bed then greet him please
 Offer something to eat to all the people raising their right arm in the bedroom
@@ -1208,14 +1208,14 @@ Could you enter to the kitchen spot Francis locate Alex
 Bring me the fruits at the center cupboard please
 Robot please pinpoint Jennifer go behind it and locate John at the dishwasher
 Take the food at the bookcase's right to the cupboard please
-Take the person at the sink to the bed please
+Take the person at the sink to the bed B_guide_dest- please
 Get acquainted with Mary at the couch then greet her please
 Could you say hello to the child in the kitchen
 Navigate to the dining room locate Skyler and get the paprika from the side table
 Look for a apple in the dining room find Skyler at the entrance and escort him please
 Find Patricia at the bed find Mary and conduct her to the exit
 Give me the gray object from the side table please
-Please take the person at the dining table to the exit
+Please take the person at the dining table to the exit B_guide_dest-
 Get acquainted with Alex at the bed then greet him
 Hand me some cleaning stuff from the oven
 Deliver to me some containers from the microwave
