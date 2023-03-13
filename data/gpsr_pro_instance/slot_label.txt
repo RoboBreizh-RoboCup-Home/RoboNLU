@@ -1,0 +1,10 @@
+PAD
+O
+B-obj
+B-dest
+I-sour
+I-obj
+I-dest
+B-per
+B-sour
+I-per

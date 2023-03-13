@@ -1,0 +1,16 @@
+PAD
+O
+B-greet
+I-greet
+B-guide
+I-guide
+B-follow
+I-follow
+B-find
+I-find
+B-take
+I-take
+B-go
+I-go
+B-know
+I-know

@@ -1,0 +1,2093 @@
+﻿###############################################################################
+#
+# Example 1
+#
+###############################################################################
+
+Could you describe -B_say- the person lying -i- down at the couch to me -I_say-
+
+
+###############################################################################
+#
+# Example 2
+#
+###############################################################################
+
+Could you please leave -B_take- a dish -B_take_obj- on the side -i- table -B_take_dest- and a fork -B_take_obj- on -B_take_dest- it -I_take_dest- _178-it_
+
+
+###############################################################################
+#
+# Example 3
+#
+###############################################################################
+
+Offer -B_take- something -B_take_obj- to -I_take_obj- drink -I_take_obj- to all -B_take_dest- the -I_take_dest- children -i- waving -I_take_dest- in the dining -i- room -B_take_dest- please
+
+dining -i- room
+	 At least three people must be here
+
+###############################################################################
+#
+# Example 4
+#
+###############################################################################
+
+Robot please put -B_take- a bowl -B_take_obj- on the bookcase -B_take_dest- and a fork -B_take_obj- in -B_take_dest- it -I_take_dest- _178-it_
+
+
+###############################################################################
+#
+# Example 5
+#
+###############################################################################
+
+Could you grasp -B_take- the apple -B_take_obj-, spot -B_find- Patricia -B_find_per- in the corridor -B_find_dest-, and come -B_follow- after -I_follow- her -B_follow_per-
+
+apple
+	 Robot will find i-t on the end -i- table 
+
+###############################################################################
+#
+# Example 6
+#
+###############################################################################
+
+Deliver -B_take- to me -B_take_dest- some chocolate -i- drink -B_take_obj- in -I_take_obj- a -I_take_obj- cup -I_take_obj- please
+
+
+###############################################################################
+#
+# Example 7
+#
+###############################################################################
+
+Could you please tell -B_say- me how many women -i- are -i- raising -i- their -i- left -i- arm in the -i- corridor -I_say-
+
+corridor
+	 At least three people must be here
+
+###############################################################################
+#
+# Example 8
+#
+###############################################################################
+
+Introduce -B_greet- yourself to the person -i- wearing -i- a -i- white -i- sweater -i- -i- -B_greet_per- in the kitchen -B_greet_dest- please
+
+kitchen
+	 At least three people must be here
+
+###############################################################################
+#
+# Example 9
+#
+###############################################################################
+
+Go -B_go- to the living -i- room -B_go_dest-, spot -B_find- Robin -B_find_per-, and escort -B_guide- her -B_guide_per- please
+
+Remarks
+	 Escort to the exit
+
+###############################################################################
+#
+# Example 10
+#
+###############################################################################
+
+Robot please pick -B_take- up a food -B_take_obj- from the desk -B_take_sour- and put -B_take- it -B_take_obj- into the oven -B_take_dest- _95-it_
+
+
+###############################################################################
+#
+# Example 11
+#
+###############################################################################
+
+Could you please look -B_find- for -I_find- Francis -B_find_per- in the corridor -B_find_dest-, get -B_take- the fruits -B_take_obj- from the storage -i- table -B_take_sour-, and tell -B_say- a joke -I_say-
+
+fruits
+	 Place to
+	apple
+
+###############################################################################
+#
+# Example 12
+#
+###############################################################################
+
+Enter -B_go- to the dining -i- room -B_go_dest-, spot -B_find- the fruits -B_find_obj-, and say -B_say- a joke -I_say- please
+
+fruits
+	paprika
+
+###############################################################################
+#
+# Example 13
+#
+###############################################################################
+
+Please enter -B_go- to the kitchen -B_go_dest-, find -B_find- the fruits -B_find_obj-, and set -B_take- it -B_take_obj- on the dining -i- table -B_take_dest- _226-it_
+
+fruits
+	apple
+
+###############################################################################
+#
+# Example 14
+#
+###############################################################################
+
+Put -B_take- the chocolate -i- drink -B_take_obj- into the microwave -B_take_dest-
+
+
+###############################################################################
+#
+# Example 15
+#
+###############################################################################
+
+Could you please deliver -B_take- to me -B_take_dest- some food -B_take_obj- from the oven -B_take_sour-
+
+
+###############################################################################
+#
+# Example 16
+#
+###############################################################################
+
+Follow -B_follow- the person -B_follow_per- at the bed -B_follow_sour-
+
+Remarks
+	 The Professional Walker must leave the arena and walk through a crowd of at least 5 people who must not let the robot pass. Once the robot has re-encountered i-t-s operator, the Professional Walker must lead the robot to dining -i- room 
+
+###############################################################################
+#
+# Example 17
+#
+###############################################################################
+
+Leave -B_take- a dish -B_take_obj- on the dining -i- table -B_take_dest- and a fork -B_take_obj- on its -B_take_dest- right -I_take_dest- _179-its_
+
+
+###############################################################################
+#
+# Example 18
+#
+###############################################################################
+
+Find -B_find- Elizabeth -B_find_per- in the kitchen -B_find_dest-, find -B_find- Jennifer -B_find_per-, and spot -B_find- Alex -B_find_per- at the bed -B_find_dest- please
+
+Jennifer
+	 is waving at the bookcase
+
+###############################################################################
+#
+# Example 19
+#
+###############################################################################
+
+Find -B_find- Patricia -B_find_per- in the bedroom -B_find_dest-, find -B_find- James -B_find_per-, and accompany -B_follow- him -B_follow_per- please
+
+James
+	 is standing at the -I_find_per- living -i- room
+
+###############################################################################
+#
+# Example 20
+#
+###############################################################################
+
+Follow -B_follow- the person -B_follow_per- at the sink -B_follow_sour- please
+
+Remarks
+	 The Professional Walker must leave the arena and walk through a crowd of at least 5 people who must not let the robot pass. Once the robot has re-encountered i-t-s operator, the Professional Walker must lead the robot to kitchen 
+
+###############################################################################
+#
+# Example 21
+#
+###############################################################################
+
+Please offer -B_take- something -B_take_obj- to -I_take_obj- drink -I_take_obj- to all -B_take_dest- the -I_take_dest- women -i- -I_take_dest- in the corridor -B_take_dest-
+
+corridor
+	 At least three people must be here
+
+###############################################################################
+#
+# Example 22
+#
+###############################################################################
+
+Go -B_go- to the corridor -B_go_dest-, pinpoint -B_find- the noodles -B_find_obj-, and deliver -B_take- to it -B_take_obj- to John -B_take_dest- _286-it_ please
+
+John
+	 is standing at the desk 
+
+###############################################################################
+#
+# Example 23
+#
+###############################################################################
+
+Take -B_take- the orange -B_take_obj-, place -B_take- paprika -B_take_obj- on the sink -B_take_dest-, and answer -B_say- a question -I_say- please
+
+orange
+	 Robot will find i-t on the desk 
+question
+	Q: How big is Canada's only desert?
+	A: The British Columbia desert is only 15 miles long.
+
+###############################################################################
+#
+# Example 24
+#
+###############################################################################
+
+Robot please go -B_go- to the sink -B_go_dest-, pinpoint -B_find- John -B_find_per-, and escort -B_guide- him -B_guide_per-
+
+Remarks
+	 Escort to the kitchen
+
+###############################################################################
+#
+# Example 25
+#
+###############################################################################
+
+Offer -B_take- something -B_take_obj- to -I_take_obj- drink -I_take_obj- to all -B_take_dest- the -I_take_dest- people -i- raising -i- their -i- right -i- arm -I_take_dest- in the dining -i- room -B_take_dest- please
+
+dining -i- room
+	 At least three people must be here
+
+###############################################################################
+#
+# Example 26
+#
+###############################################################################
+
+Robot please bring -B_take- the scrubby -B_take_obj- to the person -i- waving -B_take_dest- in the bedroom -B_take_dest-
+
+bedroom
+	 At least three people must be here
+
+###############################################################################
+#
+# Example 27
+#
+###############################################################################
+
+Could you pinpoint -B_find- Skyler -B_find_per- in the corridor -B_find_dest-, come -B_follow- behind -I_follow- it -B_follow_per-, pinpoint -B_find- Robin -B_find_per-
+
+Robin
+	 is waving at the -I_find_per- living -i- room
+
+###############################################################################
+#
+# Example 28
+#
+###############################################################################
+
+Retrieve -B_take- the orange -B_take_obj- from the storage -i- table -B_take_sour-, set -B_take- it -B_take_obj- on the desk -B_take_dest- _226-it_, say -B_say- something -I_say-
+
+Remarks
+	 When asked, reply to the robot: "what day is tomorrow -I_say-" 
+
+###############################################################################
+#
+# Example 29
+#
+###############################################################################
+
+Enter -B_go- to the kitchen -B_go_dest-, find -B_find- the spoon -B_find_obj-, say -B_say- something -I_say- please
+
+Remarks
+	 When asked, reply to the robot: "whether you dream or not on electric sheep -I_say-" 
+
+###############################################################################
+#
+# Example 30
+#
+###############################################################################
+
+Bring -B_take- the orange -B_take_obj- to the child -B_take_dest- in the bedroom -B_take_dest-
+
+bedroom
+	 At least three people must be here
+
+###############################################################################
+#
+# Example 31
+#
+###############################################################################
+
+Could you set -B_take- a dish -B_take_obj- on the dining -i- table -B_take_dest- and a spoon -B_take_obj- on its -B_take_dest- right -I_take_dest- _179-its_
+
+
+###############################################################################
+#
+# Example 32
+#
+###############################################################################
+
+Describe -B_say- the objects in the sink to me -I_say-
+
+
+###############################################################################
+#
+# Example 33
+#
+###############################################################################
+
+Tell -B_say- me how many men -i- are -i- waving in the dining -i- room -I_say- please
+
+dining -i- room
+	 At least three people must be here
+
+###############################################################################
+#
+# Example 34
+#
+###############################################################################
+
+Could you deliver -B_take- to me -B_take_dest- some coke -B_take_obj- in -I_take_obj- a -I_take_obj- bowl -I_take_obj-
+
+
+###############################################################################
+#
+# Example 35
+#
+###############################################################################
+
+Locate -B_find- the basket -B_find_obj- in the corridor -B_find_dest-
+
+
+###############################################################################
+#
+# Example 36
+#
+###############################################################################
+
+Could you please put -B_take- cup -B_take_obj- on the cupboard -B_take_dest-, look -B_find- for -I_find- Charlie -B_find_per-, and accompany -B_guide- him -B_guide_per- to the exit -B_guide_dest-
+
+Charlie
+	 is lying at the dishwasher
+
+###############################################################################
+#
+# Example 37
+#
+###############################################################################
+
+Say -B_greet- hello -I_greet- to the youngest -i- woman -B_greet_per- in the bedroom -B_greet_dest- please
+
+bedroom
+	 At least three people must be here
+
+###############################################################################
+#
+# Example 38
+#
+###############################################################################
+
+Look -B_find- for -I_find- Charlie -B_find_per- at the bed -B_find_dest-, retrieve -B_take- the paprika -B_take_obj-, and put -B_take- orange -B_take_obj- on the side -i- table -B_take_dest-
+
+paprika
+	 Robot will find i-t on the end -i- table 
+
+###############################################################################
+#
+# Example 39
+#
+###############################################################################
+
+Robot please place -B_take- a dish -B_take_obj- on the desk -B_take_dest- and a knife -B_take_obj- in -B_take_dest- it -I_take_dest- _178-it_
+
+
+###############################################################################
+#
+# Example 40
+#
+###############################################################################
+
+Robot please offer -B_take- something -B_take_obj- to -I_take_obj- eat -I_take_obj- to all -B_take_dest- the -I_take_dest- children -i- raising -i- their -i- left -i- arm -I_take_dest- in the living -i- room -B_take_dest-
+
+living -i- room
+	 At least three people must be here
+
+###############################################################################
+#
+# Example 41
+#
+###############################################################################
+
+Could you describe -B_say- the person lying -i- down at the exit to the person at the exit -I_say-
+
+
+###############################################################################
+#
+# Example 42
+#
+###############################################################################
+
+Tell -B_say- me how many children -i- are -i- standing in the -i- dining -i- room -I_say- please
+
+dining -i- room
+	 At least three people must be here
+
+###############################################################################
+#
+# Example 43
+#
+###############################################################################
+
+Put -B_take- a fruits -B_take_obj- on the counter -B_take_dest-, find -B_find- Robin -B_find_per- at the couch -B_find_dest-, and escort -B_guide- him -B_guide_per- to the entrance -B_guide_dest- please
+
+fruits
+	 place 3 objects of the same category at counter
+	apple
+
+###############################################################################
+#
+# Example 44
+#
+###############################################################################
+
+Offer -B_take- something -B_take_obj- to -I_take_obj- eat -I_take_obj- to all -B_take_dest- the -I_take_dest- standing -i- women -I_take_dest- in the kitchen -B_take_dest- please
+
+kitchen
+	 At least three people must be here
+
+###############################################################################
+#
+# Example 45
+#
+###############################################################################
+
+Pick -B_take- up a tableware -B_take_obj- from the cupboard -B_take_sour- and put -B_take- it -B_take_obj- into the basket -i- on -i- the -i- sink -B_take_dest- _95-it_
+
+
+###############################################################################
+#
+# Example 46
+#
+###############################################################################
+
+Grasp -B_take- the paprika -B_take_obj-, leave -B_take- apple -B_take_obj- on the storage -i- table -B_take_dest-, and say -B_say- the day of the week -I_say-
+
+paprika
+	 Robot will find i-t on the bookcase 
+
+###############################################################################
+#
+# Example 47
+#
+###############################################################################
+
+Could you look -B_find- for -I_find- Patricia -B_find_per-, find -B_find- a cup -B_find_obj- in the kitchen -B_find_dest-, and pinpoint -B_find- a grape -i- juice -B_find_obj- in the living -i- room -B_find_dest-
+
+Patricia
+	 is lying at the dining -i- table
+
+###############################################################################
+#
+# Example 48
+#
+###############################################################################
+
+Go -B_go- to the corridor -B_go_dest-, find -B_find- the orange -B_find_obj-, and hand -B_take- it -B_take_obj- to Robin -B_take_dest- _286-it_ please
+
+Robin
+	 is standing at the dishwasher 
+
+###############################################################################
+#
+# Example 49
+#
+###############################################################################
+
+Go -B_go- to the corridor -B_go_dest-, look -B_find- for -I_find- Charlie -B_find_per-, and say -B_say- whether you dream or not on electric sheep -I_say-
+
+Charlie
+	 is waving. Place three people in the room
+
+###############################################################################
+#
+# Example 50
+#
+###############################################################################
+
+Get -B_know- acquainted -I_know- with James -B_find_per- at the dishwasher -B_find_dest-, then greet -B_greet- him -B_greet_per-
+
+Remarks
+	There is only one person at dishwasher
+
+###############################################################################
+#
+# Example 51
+#
+###############################################################################
+
+Pinpoint -B_find- Michael -B_find_per- at the end -i- table -B_find_dest-, escort -B_guide- him -B_guide_per-, and answer -B_say- a question -I_say-
+
+question
+	Q: What does Moravec's paradox state?
+	A: Moravec's paradox states that a computer can crunch numbers like Bernoulli, but lacks a toddler's motor skills.
+Remarks
+	 Escort to the exit
+
+###############################################################################
+#
+# Example 52
+#
+###############################################################################
+
+Find -B_find- the fork -B_find_obj-, pinpoint -B_find- William -B_find_per- in the living -i- room -B_find_dest-, and follow -B_follow- him -B_follow_per-
+
+fork
+	 Robot must place i-t on the counter
+
+###############################################################################
+#
+# Example 53
+#
+###############################################################################
+
+Tell -B_say- me how many fruits items are in the desk -I_say-
+
+
+###############################################################################
+#
+# Example 54
+#
+###############################################################################
+
+Place -B_take- a fruits -B_take_obj- on the desk -B_take_dest-, pick -B_take- up -I_take- the apple -B_take_obj- from the sink -B_take_sour-, and set -B_take- it -B_take_obj- on the cupboard -B_take_dest- _226-it_ please
+
+fruits
+	 place 3 objects of the same category at desk
+	paprika
+
+###############################################################################
+#
+# Example 55
+#
+###############################################################################
+
+Pick -B_take- up -I_take- the orange -B_take_obj-, locate -B_find- Jennifer -B_find_per- at the sink -B_find_dest-, and take -B_guide- her -B_guide_per- to the kitchen -B_guide_dest- please
+
+orange
+	 Robot will find i-t on the side -i- table 
+
+###############################################################################
+#
+# Example 56
+#
+###############################################################################
+
+Tell -B_say- me how many orange -i- apple are in the bookcase -I_say-
+
+
+###############################################################################
+#
+# Example 57
+#
+###############################################################################
+
+Count -B_say- the cleaning -i- stuff items at the desk and inform -B_say- me -I_say-
+
+
+###############################################################################
+#
+# Example 58
+#
+###############################################################################
+
+Hand -B_take- me -B_take_dest- some fruits -B_take_obj- from the fridge -B_take_sour-
+
+
+###############################################################################
+#
+# Example 59
+#
+###############################################################################
+
+Deliver -B_take- to me -B_take_dest- some orange -i- juice -B_take_obj- in -I_take_obj- a -I_take_obj- bowl -I_take_obj-
+
+
+###############################################################################
+#
+# Example 60
+#
+###############################################################################
+
+Spot -B_find- Alex -B_find_per-, look -B_find- for -I_find- a noodles -B_find_obj- in the corridor -B_find_dest-, and spot -B_find- Jennifer -B_find_per- at the dining -i- table -B_find_dest- please
+
+Alex
+	 is standing at the dishwasher
+
+###############################################################################
+#
+# Example 61
+#
+###############################################################################
+
+Describe -B_say- the objects in the sink to me -I_say- please
+
+
+###############################################################################
+#
+# Example 62
+#
+###############################################################################
+
+Put -B_take- a cup -B_take_obj- on the dining -i- table -B_take_dest- and a knife -B_take_obj- on its -B_take_dest- right -I_take_dest- _179-its_
+
+
+###############################################################################
+#
+# Example 63
+#
+###############################################################################
+
+Pick -B_take- up a containers -B_take_obj- from the end -i- table -B_take_sour- and put -B_take- it -B_take_obj- into the fridge -B_take_dest- _95-it_
+
+
+###############################################################################
+#
+# Example 64
+#
+###############################################################################
+
+Tell -B_say- me how many lying -i- down -i- people there are in the living -i- room -I_say- please
+
+living -i- room
+	 At least three people must be here
+
+###############################################################################
+#
+# Example 65
+#
+###############################################################################
+
+Locate -B_find- the basket -B_find_obj- in the corridor -B_find_dest-
+
+
+###############################################################################
+#
+# Example 66
+#
+###############################################################################
+
+Offer -B_take- something -B_take_obj- to -I_take_obj- drink -I_take_obj- to all -B_take_dest- the -I_take_dest- men -i- pointing -i- to -i- the -i- right -I_take_dest- in the kitchen -B_take_dest- please
+
+kitchen
+	 At least three people must be here
+
+###############################################################################
+#
+# Example 67
+#
+###############################################################################
+
+Leave -B_take- a bowl -B_take_obj- on the side -i- table -B_take_dest- and a knife -B_take_obj- in -B_take_dest- it -I_take_dest- _178-it_ please
+
+
+###############################################################################
+#
+# Example 68
+#
+###############################################################################
+
+Say -B_greet- hello -I_greet- to the youngest -i- woman -B_greet_per- in the living -i- room -B_greet_dest-
+
+living -i- room
+	 At least three people must be here
+
+###############################################################################
+#
+# Example 69
+#
+###############################################################################
+
+Look -B_find- for -I_find- the paprika -B_find_obj-, locate -B_find- Francis -B_find_per- at the couch -B_find_dest-, and conduct -B_guide- him -B_guide_per- to the corridor -B_guide_dest-
+
+paprika
+	 Robot must place i-t on the counter
+
+###############################################################################
+#
+# Example 70
+#
+###############################################################################
+
+Find -B_find- Charlie -B_find_per-, set -B_take- scrubby -B_take_obj- on the storage -i- table -B_take_dest-, and say -B_say- a joke -I_say- please
+
+Charlie
+	 is standing at the -I_find_per- corridor
+
+###############################################################################
+#
+# Example 71
+#
+###############################################################################
+
+Describe -B_say- the objects in the end -i- table to me -I_say-
+
+
+###############################################################################
+#
+# Example 72
+#
+###############################################################################
+
+Could you leave -B_take- a dish -B_take_obj- on the storage -i- table -B_take_dest- and a fork -B_take_obj- on its -B_take_dest- right -I_take_dest- _179-its_
+
+
+###############################################################################
+#
+# Example 73
+#
+###############################################################################
+
+Say -B_greet- hello -I_greet- to the man -i- pointing -i- to -i- the -i- right -B_greet_per- in the dining -i- room -B_greet_dest-
+
+dining -i- room
+	 At least three people must be here
+
+###############################################################################
+#
+# Example 74
+#
+###############################################################################
+
+Tell -B_say- me how many people -i- dressed -i- in -i- black there are in the corridor -I_say-
+
+corridor
+	 At least three people must be here
+
+###############################################################################
+#
+# Example 75
+#
+###############################################################################
+
+Could you please tell -B_say- me how the person sitting at the dishwasher looks like -I_say-
+
+
+###############################################################################
+#
+# Example 76
+#
+###############################################################################
+
+Please get to know -B_know- Mary -B_find_per- at the desk -B_find_dest-, then greet -B_greet- her -B_greet_per-
+
+Remarks
+	There is only one person at desk
+
+###############################################################################
+#
+# Example 77
+#
+###############################################################################
+
+Describe -B_say- the person sitting at the desk to me -I_say-
+
+
+###############################################################################
+#
+# Example 78
+#
+###############################################################################
+
+Get -B_take- the apple -B_take_obj-, pinpoint -B_find- William -B_find_per- in the bedroom -B_find_dest-, and accompany -B_follow- him -B_follow_per-
+
+apple
+	 Robot will find i-t on the sink 
+
+###############################################################################
+#
+# Example 79
+#
+###############################################################################
+
+Follow -B_follow- the person -B_follow_per- at the bed -B_follow_sour-
+
+Remarks
+	 The Professional Walker must leave the arena and walk through a crowd of at least 5 people who must not let the robot pass. Once the robot has re-encountered i-t-s operator, the Professional Walker must lead the robot to dining -i- room 
+
+###############################################################################
+#
+# Example 80
+#
+###############################################################################
+
+Robot please look -B_find- for -I_find- Jennifer -B_find_per-, accompany -B_guide- it -B_guide_per- to the desk -B_guide_dest-, and pinpoint -B_find- Charlie -B_find_per- at the sink -B_find_dest-
+
+Jennifer
+	 is sitting at the entrance
+
+###############################################################################
+#
+# Example 81
+#
+###############################################################################
+
+Robot please go -B_go- to the dining -i- room -B_go_dest-, pinpoint -B_find- Linda -B_find_per-, and accompany -B_follow- her -B_follow_per-
+
+Linda
+	 is waving. Place three people in the room
+
+###############################################################################
+#
+# Example 82
+#
+###############################################################################
+
+Put -B_take- a bowl -B_take_obj- on the end -i- table -B_take_dest- and a knife -B_take_obj- on its -B_take_dest- left -I_take_dest- _179-its_ please
+
+
+###############################################################################
+#
+# Example 83
+#
+###############################################################################
+
+Please grasp -B_take- the paprika -B_take_obj-, find -B_find- Mary -B_find_per- at the couch -B_find_dest-, and guide -B_guide- her -B_guide_per- to the exit -B_guide_dest-
+
+paprika
+	 Robot will find i-t on the end -i- table 
+
+###############################################################################
+#
+# Example 84
+#
+###############################################################################
+
+Could you please set -B_take- a fruits -B_take_obj- on the sink -B_take_dest-, look -B_find- for -I_find- Elizabeth -B_find_per- in the corridor -B_find_dest-, and say -B_say- your team's affiliation -I_say-
+
+fruits
+	 place 3 objects of the same category at sink
+	paprika
+
+###############################################################################
+#
+# Example 85
+#
+###############################################################################
+
+Could you please spot -B_find- the bag -B_find_obj- in the kitchen -B_find_dest-
+
+
+###############################################################################
+#
+# Example 86
+#
+###############################################################################
+
+Pick -B_take- up -I_take- the apple -B_take_obj-, take -B_take- the paprika -B_take_obj- from the sink -B_take_sour-, and place -B_take- it -B_take_obj- on the cupboard -B_take_dest- _226-it_
+
+apple
+	 Robot will find i-t on the counter 
+
+###############################################################################
+#
+# Example 87
+#
+###############################################################################
+
+Please introduce -B_greet- yourself to the woman -i- dressed -i- in -i- an -i- orange -i- coat -i- -i- -B_greet_per- in the dining -i- room -B_greet_dest-
+
+dining -i- room
+	 At least three people must be here
+
+###############################################################################
+#
+# Example 88
+#
+###############################################################################
+
+Robot please give -B_take- me -B_take_dest- some cleaning -i- stuff -B_take_obj- from the bag -i- on -i- the -i- cupboard -B_take_sour-
+
+
+###############################################################################
+#
+# Example 89
+#
+###############################################################################
+
+Count -B_say- the drinks items at the desk and inform -B_say- me -I_say-
+
+
+###############################################################################
+#
+# Example 90
+#
+###############################################################################
+
+Could you set -B_take- a cup -B_take_obj- on the sink -B_take_dest- and a knife -B_take_obj- in -B_take_dest- it -I_take_dest- _178-it_
+
+
+###############################################################################
+#
+# Example 91
+#
+###############################################################################
+
+Contact -B_find- Skyler -B_find_per- at the couch -B_find_dest-, then greet -B_greet- him -B_greet_per-
+
+Remarks
+	There is only one person at couch
+
+###############################################################################
+#
+# Example 92
+#
+###############################################################################
+
+Guide -B_guide- the person -B_guide_per- at the end -i- table -B_guide_sour- to the dishwasher -B_guide_dest- please
+
+Remarks
+	 All doors between end -i- table and the target location are closed, as well as all paths to get there are blocked. 
+
+###############################################################################
+#
+# Example 93
+#
+###############################################################################
+
+Leave -B_take- a tableware -B_take_obj- on the end -i- table -B_take_dest-, look -B_find- for -I_find- Alex -B_find_per- in the dining -i- room -B_find_dest-, and find -B_find- Charlie -B_find_per- at the dishwasher -B_find_dest- please
+
+tableware
+	 place 3 objects of the same category at end -i- table
+	dish
+
+###############################################################################
+#
+# Example 94
+#
+###############################################################################
+
+Follow -B_follow- the person -i- wearing -i- white -i- pants -i- -i- -B_follow_per- in the dining -i- room -B_follow_sour- please
+
+dining -i- room
+	 At least three people must be here
+
+###############################################################################
+#
+# Example 95
+#
+###############################################################################
+
+Tell -B_say- me how many people in the kitchen are wearing -i- gray -I_say- please
+
+kitchen
+	 At least three people must be here
+
+###############################################################################
+#
+# Example 96
+#
+###############################################################################
+
+Take -B_take- the smallest -i- object -b_take_obj- from the sink -B_take_sour- to the end -i- table -B_take_dest- please
+
+
+###############################################################################
+#
+# Example 97
+#
+###############################################################################
+
+Place -B_take- a cup -B_take_obj- on the sink -B_take_dest- and a knife -B_take_obj- in -B_take_dest- it -I_take_dest- _178-it_
+
+
+###############################################################################
+#
+# Example 98
+#
+###############################################################################
+
+Pick -B_take- up -I_take- the apple -B_take_obj- from the end -i- table -B_take_sour-, locate -B_find- Skyler -B_find_per-, and tell -B_say- something about yourself -I_say- please
+
+Skyler
+	 is waving at the -I_find_per- kitchen
+
+###############################################################################
+#
+# Example 99
+#
+###############################################################################
+
+Could you please find -B_find- Mary -B_find_per- at the end -i- table -B_find_dest-, place -B_take- dish -B_take_obj- on the counter -B_take_dest-, and say -B_say- something -I_say-
+
+Remarks
+	 When asked, reply to the robot: "whether you dream or not on electric sheep -I_say-" 
+
+###############################################################################
+#
+# Example 100
+#
+###############################################################################
+
+Pick -B_take- up -I_take- the paprika -B_take_obj-, locate -B_find- Francis -B_find_per- in the corridor -B_find_dest-, and set -B_take- apple -B_take_obj- on the dining -i- table -B_take_dest-
+
+paprika
+	 Robot will find i-t on the counter 
+
+###############################################################################
+#
+# Example 101
+#
+###############################################################################
+
+Navigate -B_go- to the kitchen -B_go_dest-, pinpoint -B_find- the paprika -B_find_obj-, say -B_say- something -I_say- please
+
+Remarks
+	 When asked, reply to the robot: "something about yourself -I_say-" 
+
+###############################################################################
+#
+# Example 102
+#
+###############################################################################
+
+Count -B_say- the yellow fork at the cupboard and inform -B_say- me -I_say- please
+
+
+###############################################################################
+#
+# Example 103
+#
+###############################################################################
+
+Tell -B_say- me how many white cutlery objects are in the storage -i- table -I_say- please
+
+
+###############################################################################
+#
+# Example 104
+#
+###############################################################################
+
+Please look -B_find- for -I_find- Linda -B_find_per- at the end -i- table -B_find_dest-, grasp -B_take- the paprika -B_take_obj- from the storage -i- table -B_take_sour-, and take -B_take- the fruits -B_take_obj- from the desk -B_take_sour-
+
+fruits
+	 Place to
+	orange
+
+###############################################################################
+#
+# Example 105
+#
+###############################################################################
+
+Look -B_find- for -I_find- Charlie -B_find_per-, get -B_take- the apple -B_take_obj- from the storage -i- table -B_take_sour-, and deliver -B_take- to it -B_take_obj- to me -B_take_dest- _285-it_ please
+
+Charlie
+	 is waving at the -I_find_per- kitchen
+
+###############################################################################
+#
+# Example 106
+#
+###############################################################################
+
+Give -B_take- me -B_take_dest- some sprite -B_take_obj- in -I_take_obj- a -I_take_obj- bowl -I_take_obj-
+
+
+###############################################################################
+#
+# Example 107
+#
+###############################################################################
+
+Describe -B_say- the objects in the desk to me -I_say- please
+
+
+###############################################################################
+#
+# Example 108
+#
+###############################################################################
+
+Spot -B_find- Charlie -B_find_per- at the entrance -B_find_dest-, spot -B_find- Francis -B_find_per-, and tell -B_say- the day of the week -I_say- please
+
+Francis
+	 is sitting at the dishwasher
+
+###############################################################################
+#
+# Example 109
+#
+###############################################################################
+
+Give -B_take- me -B_take_dest- some containers -B_take_obj- from the microwave -B_take_sour- please
+
+
+###############################################################################
+#
+# Example 110
+#
+###############################################################################
+
+Pinpoint -B_find- the apple -B_find_obj-, spot -B_find- a grape -i- juice -B_find_obj- in the dining -i- room -B_find_dest-, and find -B_find- James -B_find_per- in the kitchen -B_find_dest- please
+
+apple
+	 Robot must place i-t on the dining -i- table
+
+###############################################################################
+#
+# Example 111
+#
+###############################################################################
+
+Spot -B_find- Patricia -B_find_per- in the kitchen -B_find_dest-, retrieve -B_take- the apple -B_take_obj- from the sink -B_take_sour-, and put -B_take- it -B_take_obj- to the kitchen -B_take_dest- _227-it_
+
+kitchen
+	storage -i- table
+
+###############################################################################
+#
+# Example 112
+#
+###############################################################################
+
+Robot please pour -B_take- some coke -B_take_obj- in a cup -B_take_dest-
+
+
+###############################################################################
+#
+# Example 113
+#
+###############################################################################
+
+Tell -B_say- me how many people -i- are -i- raising -i- their -i- right -i- arm in the bedroom -I_say- please
+
+bedroom
+	 At least three people must be here
+
+###############################################################################
+#
+# Example 114
+#
+###############################################################################
+
+Introduce -B_greet- yourself to the person -i- pointing -i- to -i- the -i- right -B_greet_per- in the dining -i- room -B_greet_dest-
+
+dining -i- room
+	 At least three people must be here
+
+###############################################################################
+#
+# Example 115
+#
+###############################################################################
+
+Robot please tell -B_say- me how many cutlery items are in the sink -I_say-
+
+
+###############################################################################
+#
+# Example 116
+#
+###############################################################################
+
+Go -B_follow- behind -I_follow- the person -B_follow_per- at the exit -B_follow_sour-
+
+Remarks
+	 The Professional Walker must leave the arena and walk through a crowd of at least 5 people who must not let the robot pass. Once the robot has re-encountered i-t-s operator, the Professional Walker must lead the robot to dining -i- room 
+
+###############################################################################
+#
+# Example 117
+#
+###############################################################################
+
+Could you tell -B_say- me how many women -i- dressed -i- in -i- red there are in the dining -i- room -I_say-
+
+dining -i- room
+	 At least three people must be here
+
+###############################################################################
+#
+# Example 118
+#
+###############################################################################
+
+Get -B_know- acquainted -I_know- with Charlie -B_find_per- at the dining -i- table -B_find_dest-, then greet -B_greet- her -B_greet_per-
+
+Remarks
+	There is only one person at dining -i- table
+
+###############################################################################
+#
+# Example 119
+#
+###############################################################################
+
+Could you leave -B_take- a bowl -B_take_obj- on the side -i- table -B_take_dest- and a spoon -B_take_obj- in -B_take_dest- it -I_take_dest- _178-it_
+
+
+###############################################################################
+#
+# Example 120
+#
+###############################################################################
+
+Offer -B_take- something -B_take_obj- to -I_take_obj- drink -I_take_obj- to all -B_take_dest- the -I_take_dest- women -i- pointing -i- to -i- the -i- left -I_take_dest- in the living -i- room -B_take_dest-
+
+living -i- room
+	 At least three people must be here
+
+###############################################################################
+#
+# Example 121
+#
+###############################################################################
+
+Bring -B_take- the knife -B_take_obj- to the child -B_take_dest- in the kitchen -B_take_dest- please
+
+kitchen
+	 At least three people must be here
+
+###############################################################################
+#
+# Example 122
+#
+###############################################################################
+
+Deliver -B_take- to me -B_take_dest- the right-most -i- food -B_take_obj- from the end -i- table -B_take_sour-
+
+
+###############################################################################
+#
+# Example 123
+#
+###############################################################################
+
+Find -B_find- the bag -B_find_obj- in the living -i- room -B_find_dest-
+
+
+###############################################################################
+#
+# Example 124
+#
+###############################################################################
+
+Could you tell -B_say- me how many elders -i- wearing -i- jackets -i- there are in the dining -i- room -I_say-
+
+dining -i- room
+	 At least three people must be here
+
+###############################################################################
+#
+# Example 125
+#
+###############################################################################
+
+Spot -B_find- James -B_find_per- at the dining -i- table -B_find_dest-, accompany -B_guide- him -B_guide_per- to the exit -B_guide_dest-, speak -B_say-
+
+Remarks
+	 When asked, reply to the robot: "your team's affiliation -I_say-" 
+
+###############################################################################
+#
+# Example 126
+#
+###############################################################################
+
+Enter -B_go- to the kitchen -B_go_dest-, pinpoint -B_find- the fork -B_find_obj-, say -B_say- something -I_say- please
+
+Remarks
+	 When asked, reply to the robot: "what day is today -I_say-" 
+
+###############################################################################
+#
+# Example 127
+#
+###############################################################################
+
+Locate -B_find- Michael -B_find_per- at the desk -B_find_dest-, pinpoint -B_find- Alex -B_find_per-, and answer -B_say- a question -I_say-
+
+Alex
+	 is waving at the bookcase
+question
+	Q: What's the origin of the Comic Sans font?
+	A: Comic Sans is based on Dave Gibbons' lettering in the Watchmen comic books.
+
+###############################################################################
+#
+# Example 128
+#
+###############################################################################
+
+Pinpoint -B_find- the basket -B_find_obj- in the corridor -B_find_dest- please
+
+
+###############################################################################
+#
+# Example 129
+#
+###############################################################################
+
+Tell -B_say- me how many women -i- wearing -i- coats -i- there are in the bedroom -I_say- please
+
+bedroom
+	 At least three people must be here
+
+###############################################################################
+#
+# Example 130
+#
+###############################################################################
+
+Find -B_find- Alex -B_find_per-, locate -B_find- a apple -B_find_obj- in the dining -i- room -B_find_dest-, and take -B_take- the paprika -B_take_obj- from the storage -i- table -B_take_sour-
+
+Alex
+	 is sitting at the -I_find_per- living -i- room
+
+###############################################################################
+#
+# Example 131
+#
+###############################################################################
+
+Offer -B_take- something -B_take_obj- to -I_take_obj- eat -I_take_obj- to all -B_take_dest- the -I_take_dest- people -i- pointing -i- to -i- the -i- left -I_take_dest- in the dining -i- room -B_take_dest- please
+
+dining -i- room
+	 At least three people must be here
+
+###############################################################################
+#
+# Example 132
+#
+###############################################################################
+
+Find -B_find- the basket -B_find_obj- in the dining -i- room -B_find_dest-
+
+
+###############################################################################
+#
+# Example 133
+#
+###############################################################################
+
+Hand -B_take- me -B_take_dest- some chocolate -i- drink -B_take_obj- in -I_take_obj- a -I_take_obj- cup -I_take_obj-
+
+
+###############################################################################
+#
+# Example 134
+#
+###############################################################################
+
+Go -B_go- to the dining -i- room -B_go_dest-, locate -B_find- Robin -B_find_per-, say -B_say- something -I_say-
+
+Remarks
+	 When asked, reply to the robot: "what day is tomorrow -I_say-" 
+
+###############################################################################
+#
+# Example 135
+#
+###############################################################################
+
+Handshake -B_greet- the slimmest -i- person -B_greet_per- in the corridor -B_greet_dest- please
+
+corridor
+	 At least three people must be here
+
+###############################################################################
+#
+# Example 136
+#
+###############################################################################
+
+Could you please accompany -B_guide- the child -B_follow_per- in the dining -i- room -B_follow_sour- to the living -i- room -B_guide_dest-
+
+dining -i- room
+	 At least three people must be here
+
+###############################################################################
+#
+# Example 137
+#
+###############################################################################
+
+Tell -B_say- me how many children in the bedroom are raising -i- their -i- left -i- arm -I_say-
+
+bedroom
+	 At least three people must be here
+
+###############################################################################
+#
+# Example 138
+#
+###############################################################################
+
+Robot please tell -B_say- me how many women in the dining -i- room are pointing -i- to -i- the -i- right -I_say-
+
+dining -i- room
+	 At least three people must be here
+
+###############################################################################
+#
+# Example 139
+#
+###############################################################################
+
+Pour -B_take- some chocolate -i- drink -B_take_obj- in a cup -B_take_dest-
+
+
+###############################################################################
+#
+# Example 140
+#
+###############################################################################
+
+Guide -B_guide- the child -B_follow_per- in the corridor -B_follow_sour- to the dining -i- room -B_guide_dest- please
+
+corridor
+	 At least three people must be here
+
+###############################################################################
+#
+# Example 141
+#
+###############################################################################
+
+Conduct -B_guide- the person -i- pointing -i- to -i- the -i- left -B_follow_per- in the kitchen -B_follow_sour- to the exit -B_guide_dest- please
+
+kitchen
+	 At least three people must be here
+
+###############################################################################
+#
+# Example 142
+#
+###############################################################################
+
+Robot please introduce -B_greet- yourself to the child -B_greet_per- in the kitchen -B_greet_dest-
+
+kitchen
+	 At least three people must be here
+
+###############################################################################
+#
+# Example 143
+#
+###############################################################################
+
+Could you bring -B_take- the apple -B_take_obj- to the man -i- raising -i- their -i- left -i- arm -B_take_dest- in the bedroom -B_take_dest-
+
+bedroom
+	 At least three people must be here
+
+###############################################################################
+#
+# Example 144
+#
+###############################################################################
+
+Could you please offer -B_take- something -B_take_obj- to -I_take_obj- drink -I_take_obj- to all -B_take_dest- the -I_take_dest- people -i- pointing -i- to -i- the -i- left -I_take_dest- in the corridor -B_take_dest-
+
+corridor
+	 At least three people must be here
+
+###############################################################################
+#
+# Example 145
+#
+###############################################################################
+
+Tell -B_say- me how the person standing at the dishwasher looks like -I_say- please
+
+
+###############################################################################
+#
+# Example 146
+#
+###############################################################################
+
+Hand -B_take- me -B_take_dest- some sprite -B_take_obj- in -I_take_obj- a -I_take_obj- cup -I_take_obj- please
+
+
+###############################################################################
+#
+# Example 147
+#
+###############################################################################
+
+Pinpoint -B_find- Robin -B_find_per- in the bedroom -B_find_dest-, leave -B_take- apple -B_take_obj- on the storage -i- table -B_take_dest-, and say -B_say- something -I_say- please
+
+Remarks
+	 When asked, reply to the robot: "whether you dream or not on electric sheep -I_say-" 
+
+###############################################################################
+#
+# Example 148
+#
+###############################################################################
+
+Put -B_take- a food -B_take_obj- on the storage -i- table -B_take_dest-, locate -B_find- William -B_find_per- in the dining -i- room -B_find_dest-, and answer -B_say- a question -I_say-
+
+food
+	 place 3 objects of the same category at storage -i- table
+	sausages
+question
+	Q: Who is the inventor of the Apple I microcomputer?
+	A: My lord and master Steve Wozniak.
+
+###############################################################################
+#
+# Example 149
+#
+###############################################################################
+
+Please take -B_take- the apple -B_take_obj- from the storage -i- table -B_take_sour-, leave -B_take- chocolate -i- drink -B_take_obj- on the cupboard -B_take_dest-, and speak -B_say-
+
+Remarks
+	 When asked, reply to the robot: "what day is today -I_say-" 
+
+###############################################################################
+#
+# Example 150
+#
+###############################################################################
+
+Pinpoint -B_find- William -B_find_per-, pinpoint -B_find- a paprika -B_find_obj- in the kitchen -B_find_dest-, and answer -B_say- a question -I_say- please
+
+William
+	 is waving at the -I_find_per- bedroom
+question
+	Q: Who's the most handsome person in Canada?
+	A: I that Justin Trudeau is very handsome.
+
+###############################################################################
+#
+# Example 151
+#
+###############################################################################
+
+Tell -B_say- me how many red paprika are in the sink -I_say-
+
+
+###############################################################################
+#
+# Example 152
+#
+###############################################################################
+
+Locate -B_find- a paprika -B_find_obj- in the bedroom -B_find_dest-, retrieve -B_take- the fruits -B_take_obj- from the storage -i- table -B_take_sour-, and answer -B_say- a question -I_say- please
+
+fruits
+	 Place to
+	orange
+question
+	Q: Which was the first computer with a hard disk drive?
+	A: The IBM 305 RAMAC.
+
+###############################################################################
+#
+# Example 153
+#
+###############################################################################
+
+Grasp -B_take- the fruits -B_take_obj- from the desk -B_take_sour-, set -B_take- it -B_take_obj- on the storage -i- table -B_take_dest- _226-it_, and answer -B_say- a question -I_say- please
+
+fruits
+	 Place to
+	paprika
+question
+	Q: Who created the C Programming Language?
+	A: C was invented by Dennis MacAlistair Ritchie.
+
+###############################################################################
+#
+# Example 154
+#
+###############################################################################
+
+Could you please put -B_take- the cascade -i- pod -B_take_obj- into the microwave -B_take_dest-
+
+
+###############################################################################
+#
+# Example 155
+#
+###############################################################################
+
+Locate -B_find- Skyler -B_find_per-, find -B_find- Jennifer -B_find_per- in the kitchen -B_find_dest-, and follow -B_follow- her -B_follow_per-
+
+Skyler
+	 is waving at the -I_find_per- living -i- room
+
+###############################################################################
+#
+# Example 156
+#
+###############################################################################
+
+Grasp -B_take- the apple -B_take_obj- from the sink -B_take_sour-, retrieve -B_take- the fruits -B_take_obj- from the desk -B_take_sour-, and locate -B_find- Skyler -B_find_per- at the dining -i- table -B_find_dest- please
+
+fruits
+	 Place to
+	orange
+
+###############################################################################
+#
+# Example 157
+#
+###############################################################################
+
+Robot please spot -B_find- Francis -B_find_per- at the dishwasher -B_find_dest-, get -B_take- the paprika -B_take_obj- from the dining -i- table -B_take_sour-, and say -B_say- something -I_say-
+
+Remarks
+	 When asked, reply to the robot: "something about yourself -I_say-" 
+
+###############################################################################
+#
+# Example 158
+#
+###############################################################################
+
+Tell -B_say- me how many sitting -i- elders there are in the living -i- room -I_say- please
+
+living -i- room
+	 At least three people must be here
+
+###############################################################################
+#
+# Example 159
+#
+###############################################################################
+
+Bring -B_take- the paprika -B_take_obj- to the woman -i- raising -i- their -i- left -i- arm -B_take_dest- in the living -i- room -B_take_dest-
+
+living -i- room
+	 At least three people must be here
+
+###############################################################################
+#
+# Example 160
+#
+###############################################################################
+
+Spot -B_find- Jennifer -B_find_per-, accompany -B_guide- it -B_guide_per- to the dishwasher -B_guide_dest-, and find -B_find- Robin -B_find_per- in the living -i- room -B_find_dest- please
+
+Jennifer
+	 is lying at the couch
+
+###############################################################################
+#
+# Example 161
+#
+###############################################################################
+
+Go -B_follow- behind -I_follow- the woman -i- waving -B_follow_per- in the living -i- room -B_follow_sour- please
+
+living -i- room
+	 At least three people must be here
+
+###############################################################################
+#
+# Example 162
+#
+###############################################################################
+
+Enter -B_go- to the dining -i- room -B_go_dest-, pinpoint -B_find- Mary -B_find_per-, and escort -B_guide- her -B_guide_per- please
+
+Remarks
+	 Escort to the corridor
+
+###############################################################################
+#
+# Example 163
+#
+###############################################################################
+
+Describe -B_say- to me the person sitting at the bookcase -I_say- please
+
+
+###############################################################################
+#
+# Example 164
+#
+###############################################################################
+
+Bring -B_take- the paprika -B_take_obj- to the man -i- wearing -i- orange -i- pants -i- -i- -B_take_dest- in the kitchen -B_take_dest- please
+
+kitchen
+	 At least three people must be here
+
+###############################################################################
+#
+# Example 165
+#
+###############################################################################
+
+Tell -B_say- me how many elders -i- are -i- wearing -i- blouses -i- in the -i- living -i- room -I_say-
+
+living -i- room
+	 At least three people must be here
+
+###############################################################################
+#
+# Example 166
+#
+###############################################################################
+
+Robot please tell -B_say- me how many women -i- there are in the living -i- room -I_say-
+
+living -i- room
+	 At least three people must be here
+
+###############################################################################
+#
+# Example 167
+#
+###############################################################################
+
+Bring -B_take- the orange -B_take_obj- to the woman -i- pointing -i- to -i- the -i- left -B_take_dest- in the kitchen -B_take_dest- please
+
+kitchen
+	 At least three people must be here
+
+###############################################################################
+#
+# Example 168
+#
+###############################################################################
+
+Please get -B_know- acquainted -I_know- with Francis -B_find_per- at the end -i- table -B_find_dest-, then greet -B_greet- him -B_greet_per-
+
+Remarks
+	There is only one person at end -i- table
+
+###############################################################################
+#
+# Example 169
+#
+###############################################################################
+
+Locate -B_find- the paprika -B_find_obj-, take -B_take- the orange -B_take_obj- from the sink -B_take_sour-, and set -B_take- it -B_take_obj- on the sink -B_take_dest- _226-it_
+
+paprika
+	 Robot must place i-t on the storage -i- table
+
+###############################################################################
+#
+# Example 170
+#
+###############################################################################
+
+Tell -B_say- me how many children -i- are -i- lying -i- down in the -i- kitchen -I_say- please
+
+kitchen
+	 At least three people must be here
+
+###############################################################################
+#
+# Example 171
+#
+###############################################################################
+
+Robot please follow -B_follow- the person -B_follow_per- at the exit -B_follow_sour-
+
+Remarks
+	 The Professional Walker must leave the arena and walk through a crowd of at least 5 people who must not let the robot pass. Once the robot has re-encountered i-t-s operator, the Professional Walker must lead the robot to dining -i- room 
+
+###############################################################################
+#
+# Example 172
+#
+###############################################################################
+
+Put -B_take- the cereal -B_take_obj- into the oven -B_take_dest- please
+
+
+###############################################################################
+#
+# Example 173
+#
+###############################################################################
+
+Pinpoint -B_find- the basket -B_find_obj- in the living -i- room -B_find_dest- please
+
+
+###############################################################################
+#
+# Example 174
+#
+###############################################################################
+
+Retrieve -B_take- the orange -B_take_obj- from the cupboard -B_take_sour-, get -B_take- the paprika -B_take_obj- from the sink -B_take_sour-, and speak -B_say- please
+
+Remarks
+	 When asked, reply to the robot: "what day is today -I_say-" 
+
+###############################################################################
+#
+# Example 175
+#
+###############################################################################
+
+Introduce -B_greet- yourself to the person -i- dressed -i- in -i- an -i- orange -i- T-shirt -i- -i- -B_greet_per- in the dining -i- room -B_greet_dest-
+
+dining -i- room
+	 At least three people must be here
+
+###############################################################################
+#
+# Example 176
+#
+###############################################################################
+
+Could you find -B_find- the bowl -B_find_obj-, spot -B_find- Robin -B_find_per- in the corridor -B_find_dest-, and follow -B_follow- her -B_follow_per-
+
+bowl
+	 Robot must place i-t on the end -i- table
+
+###############################################################################
+#
+# Example 177
+#
+###############################################################################
+
+Pour -B_take- some chocolate -i- drink -B_take_obj- in a bowl -B_take_dest- please
+
+
+###############################################################################
+#
+# Example 178
+#
+###############################################################################
+
+Bring -B_take- the orange -B_take_obj- to the man -i- wearing -i- orange -i- shoes -i- -i- -B_take_dest- in the bedroom -B_take_dest-
+
+bedroom
+	 At least three people must be here
+
+###############################################################################
+#
+# Example 179
+#
+###############################################################################
+
+Robot please look -B_find- for -I_find- Jennifer -B_find_per- in the kitchen -B_find_dest-, take -B_take- the orange -B_take_obj- from the counter -B_take_sour-, and deliver -B_take- to it -B_take_obj- to Francis -B_take_dest- _286-it_
+
+Francis
+	 is lying at the entrance 
+
+###############################################################################
+#
+# Example 180
+#
+###############################################################################
+
+Navigate -B_go- to the entrance -B_go_dest-, look -B_find- for -I_find- Mary -B_find_per-, and guide -B_guide- her -B_guide_per- to the exit -B_guide_dest-
+
+Mary
+	 is standing. Place three people there
+
+###############################################################################
+#
+# Example 181
+#
+###############################################################################
+
+Deliver -B_take- to me -B_take_dest- the blue -i- drinks -B_take_obj- from the storage -i- table -B_take_sour-
+
+
+###############################################################################
+#
+# Example 182
+#
+###############################################################################
+
+Could you please describe -B_say- the objects in the storage -i- table to me -I_say-
+
+
+###############################################################################
+#
+# Example 183
+#
+###############################################################################
+
+Accompany -B_follow- the person -B_follow_per- at the bookcase -B_follow_sour- please
+
+Remarks
+	 The Professional Walker must leave the arena and walk through a crowd of at least 5 people who must not let the robot pass. Once the robot has re-encountered i-t-s operator, the Professional Walker must lead the robot to corridor 
+
+###############################################################################
+#
+# Example 184
+#
+###############################################################################
+
+Accompany -B_follow- the person -B_follow_per- at the bed -B_follow_sour-
+
+Remarks
+	 The Professional Walker must leave the arena and walk through a crowd of at least 5 people who must not let the robot pass. Once the robot has re-encountered i-t-s operator, the Professional Walker must lead the robot to living -i- room 
+
+###############################################################################
+#
+# Example 185
+#
+###############################################################################
+
+Offer -B_take- something -B_take_obj- to -I_take_obj- eat -I_take_obj- to all -B_take_dest- the -I_take_dest- people -i- waving -I_take_dest- in the corridor -B_take_dest- please
+
+corridor
+	 At least three people must be here
+
+###############################################################################
+#
+# Example 186
+#
+###############################################################################
+
+Could you please take -B_take- the cleaning -i- stuff -B_take_obj- at the desk's -B_take_sour- center -I_take_sour- to the cupboard -B_take_dest-
+
+
+###############################################################################
+#
+# Example 187
+#
+###############################################################################
+
+Grasp -B_take- the apple -B_take_obj- from the storage -i- table -B_take_sour-, spot -B_find- Robin -B_find_per-, and pinpoint -B_find- a paprika -B_find_obj- in the dining -i- room -B_find_dest- please
+
+Robin
+	 is sitting at the dining -i- table
+
+###############################################################################
+#
+# Example 188
+#
+###############################################################################
+
+Count -B_say- the orange sponge at the storage -i- table and report -B_say- to me -I_say-
+
+
+###############################################################################
+#
+# Example 189
+#
+###############################################################################
+
+Hand -B_take- me -B_take_dest- some food -B_take_obj- from the bag -i- on -i- the -i- storage -i- table -B_take_sour-
+
+
+###############################################################################
+#
+# Example 190
+#
+###############################################################################
+
+Offer -B_take- something -B_take_obj- to -I_take_obj- drink -I_take_obj- to all -B_take_dest- the -I_take_dest- children -i- raising -i- their -i- left -i- arm -I_take_dest- in the corridor -B_take_dest-
+
+corridor
+	 At least three people must be here
+
+###############################################################################
+#
+# Example 191
+#
+###############################################################################
+
+Tell -B_say- me how the person standing at the entrance looks like -I_say- please
+
+
+###############################################################################
+#
+# Example 192
+#
+###############################################################################
+
+Describe -B_say- the objects in the sink to me -I_say- please
+
+
+###############################################################################
+#
+# Example 193
+#
+###############################################################################
+
+Set -B_take- a dish -B_take_obj- on the end -i- table -B_take_dest- and a knife -B_take_obj- on its -B_take_dest- left -I_take_dest- _179-its_
+
+
+###############################################################################
+#
+# Example 194
+#
+###############################################################################
+
+Tell -B_say- me how many women -i- are -i- pointing -i- to -i- the -i- right in the bedroom -I_say- please
+
+bedroom
+	 At least three people must be here
+
+###############################################################################
+#
+# Example 195
+#
+###############################################################################
+
+Tell -B_say- me how the person sitting at the sink looks like -I_say- please
+
+
+###############################################################################
+#
+# Example 196
+#
+###############################################################################
+
+Please pick -B_take- up a cutlery -B_take_obj- from the cupboard -B_take_sour- and put -B_take- it -B_take_obj- into the microwave -B_take_dest- _95-it_
+
+
+###############################################################################
+#
+# Example 197
+#
+###############################################################################
+
+Go -B_go- to the kitchen -B_go_dest-, find -B_find- the fruits -B_find_obj-, and deliver -B_take- to it -B_take_obj- to me -B_take_dest- _285-it_ please
+
+fruits
+	orange
+
+###############################################################################
+#
+# Example 198
+#
+###############################################################################
+
+Robot please tell -B_say- me how many elders -i- are -i- waving in the kitchen -I_say-
+
+kitchen
+	 At least three people must be here
+
+###############################################################################
+#
+# Example 199
+#
+###############################################################################
+
+Robot please bring -B_take- me -B_take_dest- the containers -B_take_obj- at the center -B_take_sour- desk -I_take_sour-
+
+
+###############################################################################
+#
+# Example 200
+#
+###############################################################################
+
+Spot -B_find- a paprika -B_find_obj- in the kitchen -B_find_dest-, look -B_find- for -I_find- Robert -B_find_per- at the end -i- table -B_find_dest-, and escort -B_guide- him -B_guide_per-
+
+Remarks
+	 Escort to the exit
+

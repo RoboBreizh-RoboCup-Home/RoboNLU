@@ -1,0 +1,9 @@
+PAD
+O
+go
+guide
+find
+know
+greet
+follow
+take
