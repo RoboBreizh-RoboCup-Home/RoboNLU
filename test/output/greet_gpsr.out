@@ -1,0 +1,2 @@
+Robot please greet Robin at the couch and ask him to leave
+    {'intent': 'greet', 'per': 'Robin', 'dest': 'couch'}

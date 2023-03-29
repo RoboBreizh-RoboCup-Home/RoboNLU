@@ -1,0 +1,24 @@
+Could you go to the dishwasher, meet Charlie, and accompany him to the desk
+    {'intent': 'go', 'dest': 'dishwasher,'}
+Please meet Linda at the end table, follow her, and go to the dining room
+    {'intent': 'go', 'dest': 'room'}
+Please go to the side table, look for the bowl, and place it on the sink
+    {'intent': 'go', 'dest': 'table,'}
+Navigate to the entrance, meet Skyler, and lead her
+    {'intent': 'go', 'dest': 'entrance,'}
+Navigate to the desk, meet William, and guide him to the end table
+    {'intent': 'go', 'dest': 'desk,'}
+Go to the entrance, meet Francis, and escort him to the dishwasher
+    {'intent': 'go', 'dest': 'entrance,'}
+Could you please navigate to the end table, locate the bowl, and bring it to Skyler at the sink
+    {'intent': 'go', 'dest': 'table,'}
+Meet Alex at the dishwasher, follow her, and go to the dining room
+    {'intent': 'go', 'dest': 'room'}
+Meet Elizabeth at the dishwasher, follow her, and navigate to the living room
+    {'intent': 'go', 'dest': 'room'}
+Could you go to the sink, meet Linda, and follow her
+    {'intent': 'go', 'dest': 'sink,'}
+Go to the living room, look for a male person, and say a joke
+    {'intent': 'go', 'dest': 'room,'}
+Go to the sink, meet Patricia, and follow her
+    {'intent': 'go', 'dest': 'sink,'}

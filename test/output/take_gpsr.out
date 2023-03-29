@@ -1,0 +1,52 @@
+Tell me what's the smallest drinks on the cupboard
+    {'intent': 'take', 'dest': 'me', 'obj': 'drinks', 'sour': 'cupboard'}
+Deliver fruits to me
+    {'intent': 'take', 'obj': 'fruits', 'dest': 'me'}
+Please go to the side table, look for the bowl, and place it on the sink
+    {'intent': 'take', 'obj': 'bowl,', 'dest': 'sink'}
+Robot please deliver snacks to everyone in the bedroom.
+    {'intent': 'take', 'obj': 'snacks', 'dest': 'everyone bedroom.'}
+Could you locate a person pointing to the right in the corridor and say a joke
+    {'intent': 'take', 'obj': 'joke'}
+Bring me the paprika from the counter
+    {'intent': 'take', 'dest': 'me', 'obj': 'paprika', 'sour': 'counter'}
+Tell me the gender of the person in the corridor
+    {'intent': 'take', 'dest': 'me corridor', 'per': 'person'}
+Could you please navigate to the end table, locate the bowl, and bring it to Skyler at the sink
+    {'intent': 'take', 'obj': 'bowl,', 'dest': 'Skyler sink'}
+Give me the object behind the apple from the dining table
+    {'intent': 'take', 'dest': 'me', 'obj': 'object apple', 'sour': 'table'}
+Bring the coke to the storage table
+    {'intent': 'take', 'obj': 'coke', 'dest': 'table'}
+Could you please take the bowl from the desk and bring it to Linda at the sink
+    {'intent': 'take', 'obj': 'bowl', 'sour': 'desk'}
+Could you please take the bowl from the desk and bring it to Linda at the sink
+    {'intent': 'take', 'obj': 'bowl', 'dest': 'Linda sink'}
+Bring me the object at the right of the orange from the sink
+    {'intent': 'take', 'dest': 'me', 'obj': 'object orange', 'sour': 'right sink'}
+Please Tell me the name of the person at the exit
+    {'intent': 'take', 'dest': 'me exit', 'per': 'person'}
+Tell a joke to the person waving in the living room
+    {'intent': 'take', 'obj': 'joke', 'dest': 'waving room'}
+Could you take the scrubby to the dining table
+    {'intent': 'take', 'obj': 'scrubby', 'dest': 'table'}
+Look for a person raising their left arm in the living room and answer a question
+    {'intent': 'take'}
+Give me the orange from the cupboard
+    {'intent': 'take', 'dest': 'me', 'obj': 'orange', 'sour': 'cupboard'}
+Dump the debris
+    {'intent': 'take', 'obj': 'debris'}
+Answer a question to the person waving in the bedroom
+    {'intent': 'take', 'obj': 'question', 'dest': 'waving bedroom'}
+Robot please give me the fruits
+    {'intent': 'take', 'dest': 'me', 'obj': 'fruits'}
+Go to the living room, look for a male person, and say a joke
+    {'intent': 'take', 'obj': 'joke'}
+Could you please provide snacks to everyone in the dining room.
+    {'intent': 'take', 'obj': 'snacks', 'dest': 'everyone room.'}
+Tell me which are the three lightest drinks on the desk
+    {'intent': 'take', 'dest': 'me', 'obj': 'lightest drinks', 'sour': 'desk'}
+Could you please give me the right most object from the cupboard
+    {'intent': 'take', 'dest': 'me', 'obj': 'object', 'sour': 'cupboard'}
+Tell me the gender of the person at the entrance
+    {'intent': 'take', 'dest': 'me entrance', 'per': 'person'}

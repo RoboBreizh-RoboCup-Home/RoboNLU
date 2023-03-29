@@ -1,0 +1,26 @@
+﻿Meet John at the dishwasher, follow him, and escort him back
+    {'intent': 'guide', 'per': 'John'}
+Could you go to the dishwasher, meet Charlie, and accompany him to the desk
+    {'intent': 'guide', 'per': 'Charlie,', 'dest': 'desk'}
+Meet Mary at the dining table, follow her, and escort her back
+    {'intent': 'guide', 'per': 'Mary'}
+Contact Robert at the bookcase and lead him to his taxi
+    {'intent': 'guide', 'per': 'Robert', 'dest': 'taxi'}
+Robot please face Francis at the dining table and escort him to his taxi
+    {'intent': 'guide', 'per': 'Francis', 'dest': 'taxi'}
+Navigate to the entrance, meet Skyler, and lead her
+    {'intent': 'guide', 'per': 'Skyler,'}
+Navigate to the desk, meet William, and guide him to the end table
+    {'intent': 'guide', 'per': 'William,', 'dest': 'table'}
+Go to the entrance, meet Francis, and escort him to the dishwasher
+    {'intent': 'guide', 'per': 'Francis,', 'dest': 'dishwasher'}
+Meet John at the bookcase and follow him to the living room
+    {'intent': 'guide', 'per': 'John', 'dest': 'room'}
+Meet William at the end table, follow him, and guide him back
+    {'intent': 'guide', 'per': 'William'}
+Robot please greet Robin at the couch and ask him to leave
+    {'intent': 'guide', 'per': 'Robin'}
+Meet William at the dining table and follow him to the living room
+    {'intent': 'guide', 'per': 'William', 'dest': 'room'}
+Please meet Michael at the end table, follow him, and escort him back
+    {'intent': 'guide', 'per': 'Michael'}

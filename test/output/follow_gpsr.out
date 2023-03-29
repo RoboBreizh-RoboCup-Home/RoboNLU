@@ -1,0 +1,30 @@
+﻿Meet John at the dishwasher, follow him, and escort him back
+    {'intent': 'follow', 'per': 'him,'}
+Meet Mary at the dining table, follow her, and escort her back
+    {'intent': 'follow', 'per': 'her,'}
+Follow Michael
+    {'intent': 'follow', 'per': 'Michael'}
+Please meet Linda at the end table, follow her, and go to the dining room
+    {'intent': 'follow', 'per': 'her,'}
+Please follow Francis from the dining table to the bedroom
+    {'intent': 'follow', 'per': 'Francis', 'sour': 'table', 'dest': 'bedroom'}
+Follow Charlie from the couch to the bedroom
+    {'intent': 'follow', 'per': 'Charlie', 'sour': 'couch', 'dest': 'bedroom'}
+Follow Robert from the desk to the bedroom
+    {'intent': 'follow', 'per': 'Robert', 'sour': 'desk', 'dest': 'bedroom'}
+Meet William at the end table, follow him, and guide him back
+    {'intent': 'follow', 'per': 'him,'}
+Meet Alex at the dishwasher, follow her, and go to the dining room
+    {'intent': 'follow', 'per': 'her,'}
+Meet Robert at the couch and follow him
+    {'intent': 'follow', 'per': 'Robert'}
+Meet Elizabeth at the dishwasher, follow her, and navigate to the living room
+    {'intent': 'follow', 'per': 'her,'}
+Could you go to the sink, meet Linda, and follow her
+    {'intent': 'follow', 'per': 'Linda,'}
+Please meet Michael at the end table, follow him, and escort him back
+    {'intent': 'follow', 'per': 'him,'}
+Meet Alex at the end table and follow her
+    {'intent': 'follow', 'per': 'Alex'}
+Go to the sink, meet Patricia, and follow her
+    {'intent': 'follow', 'per': 'Patricia,'}

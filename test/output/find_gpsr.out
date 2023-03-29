@@ -1,0 +1,52 @@
+﻿Meet John at the dishwasher, follow him, and escort him back
+    {'intent': 'find', 'per': 'John', 'dest': 'dishwasher,'}
+Could you go to the dishwasher, meet Charlie, and accompany him to the desk
+    {'intent': 'find', 'per': 'Charlie,'}
+Meet Mary at the dining table, follow her, and escort her back
+    {'intent': 'find', 'per': 'Mary', 'dest': 'table,'}
+Please meet Linda at the end table, follow her, and go to the dining room
+    {'intent': 'find', 'per': 'Linda', 'dest': 'table,'}
+Please go to the side table, look for the bowl, and place it on the sink
+    {'intent': 'find', 'obj': 'bowl,'}
+Contact Robert at the bookcase and lead him to his taxi
+    {'intent': 'find', 'per': 'Robert', 'dest': 'bookcase'}
+Robot please face Francis at the dining table and escort him to his taxi
+    {'intent': 'find', 'per': 'Francis', 'dest': 'table'}
+Could you locate a person pointing to the right in the corridor and say a joke
+    {'intent': 'find', 'per': 'pointing to the right', 'dest': 'corridor'}
+Navigate to the entrance, meet Skyler, and lead her
+    {'intent': 'find', 'per': 'Skyler,'}
+Navigate to the desk, meet William, and guide him to the end table
+    {'intent': 'find', 'per': 'William,'}
+Go to the entrance, meet Francis, and escort him to the dishwasher
+    {'intent': 'find', 'per': 'Francis,'}
+Could you please navigate to the end table, locate the bowl, and bring it to Skyler at the sink
+    {'intent': 'find', 'obj': 'bowl,'}
+Meet John at the bookcase and follow him to the living room
+    {'intent': 'find', 'per': 'John', 'dest': 'bookcase'}
+Meet William at the end table, follow him, and guide him back
+    {'intent': 'find', 'per': 'William', 'dest': 'table,'}
+Meet William at the dining table and follow him to the living room
+    {'intent': 'find', 'per': 'William', 'dest': 'table'}
+Meet Alex at the dishwasher, follow her, and go to the dining room
+    {'intent': 'find', 'per': 'Alex', 'dest': 'dishwasher,'}
+Look for a person raising their left arm in the living room and answer a question
+    {'intent': 'find', 'per': 'raising their left arm', 'dest': 'room'}
+Meet Robert at the couch and follow him
+    {'intent': 'find', 'per': 'Robert', 'dest': 'couch'}
+Meet Elizabeth at the dishwasher, follow her, and navigate to the living room
+    {'intent': 'find', 'per': 'Elizabeth', 'dest': 'dishwasher,'}
+Find the tray in the kitchen
+    {'intent': 'find', 'obj': 'tray', 'dest': 'kitchen'}
+Could you go to the sink, meet Linda, and follow her
+    {'intent': 'find', 'per': 'Linda,'}
+Go to the living room, look for a male person, and say a joke
+    {'intent': 'find', 'per': 'person,'}
+Please meet Michael at the end table, follow him, and escort him back
+    {'intent': 'find', 'per': 'Michael', 'dest': 'table,'}
+Please locate the cleaning stuff in the kitchen
+    {'intent': 'find', 'obj': 'stuff', 'dest': 'kitchen'}
+Meet Alex at the end table and follow her
+    {'intent': 'find', 'per': 'Alex', 'dest': 'table'}
+Go to the sink, meet Patricia, and follow her
+    {'intent': 'find', 'per': 'Patricia,'}
