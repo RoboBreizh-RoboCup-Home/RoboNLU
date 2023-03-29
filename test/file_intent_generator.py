@@ -45,10 +45,6 @@ if __name__ == "__main__":
 
     # generate egpsr output
     word_lines: List[List[str]] = read_input_file("./input/egpsr.in")
-    model_path = 'quantized_models/bert.quant.onnx'
-    slot_classifier_path = 'numpy_para/slot_classifier'
-    intent_token_classifier_path = 'numpy_para/intent_token_classifier'
-    pro_classifier_path = 'numpy_para/pro_classifier'
     model = CommandProcessor(model_path=model_path, slot_classifier_path=slot_classifier_path,
                              intent_token_classifier_path=intent_token_classifier_path,
                              pro_classifier_path=pro_classifier_path)
