@@ -208,14 +208,11 @@ class CommandProcessor(object):
         if any(pro_labels_ids):
             sq_sequence_output = np.squeeze(sequence_output)
             pro_token = sq_sequence_output[pro_labels_ids == 1]
+            # gpsr has 2 pronouns referred to the same referral, we only need to encode one pronoun
+            if pro_token.shape[0] != 1:
+                pro_token = pro_token[0,:]
             repeat_pro = np.tile(pro_token, (self.max_seq_len, 1))
-            try:
-                concated_input = np.concatenate((sq_sequence_output, repeat_pro), axis=1)[None, :]
-            except Exception as e :
-                print(" ".join(self.words))
-                print(sq_sequence_output.shape)
-                print(repeat_pro.shape)
-                raise e
+            concated_input = np.concatenate((sq_sequence_output, repeat_pro), axis=1)[None, :]
 
             referee_token_logits = self.pro_classifier.forward(concated_input)
             # referee_token_logits = self.pro_classifier_ort_session.run(None, {'concated_input':concated_input})

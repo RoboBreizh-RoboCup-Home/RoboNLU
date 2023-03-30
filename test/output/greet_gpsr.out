@@ -1,2 +1,742 @@
-Robot please greet Robin at the couch and ask him to leave
+﻿Robot please greet Robin at the couch and ask him to leave
     {'intent': 'greet', 'per': 'Robin', 'dest': 'couch'}
+Greet Michael at the desk and introduce it to Robin at the dining table
+    {'intent': 'greet', 'per': 'Michael', 'dest': 'desk'}
+Greet Michael at the desk and introduce it to Robin at the dining table
+    {'intent': 'greet', 'per': 'Michael', 'dest': 'Robin table'}
+Robot please greet Alex at the dining table and introduce it to Skyler at the end table
+    {'intent': 'greet', 'per': 'Alex', 'dest': 'table'}
+Robot please greet Alex at the dining table and introduce it to Skyler at the end table
+    {'intent': 'greet', 'per': 'Alex Skyler', 'dest': 'table'}
+Greet Linda at the main door and introduce her to all the women in the corridor.
+    {'intent': 'greet', 'per': 'Linda', 'dest': 'door'}
+Greet Linda at the main door and introduce her to all the women in the corridor.
+    {'intent': 'greet', 'per': 'Linda', 'dest': 'all the women corridor.'}
+Greet Robert at the sink and introduce it to Alex at the dining table
+    {'intent': 'greet', 'per': 'Robert', 'dest': 'Alex table'}
+Could you greet Jennifer at the front entrance and introduce her to everyone in the dining room.
+    {'intent': 'greet', 'per': 'Jennifer', 'dest': 'entrance'}
+Could you greet Jennifer at the front entrance and introduce her to everyone in the dining room.
+    {'intent': 'greet', 'per': 'Jennifer', 'dest': 'everyone room.'}
+Could you please contact Alex at the dishwasher and introduce it to Robin at the sink
+    {'intent': 'greet', 'per': 'Alex', 'dest': 'Robin sink'}
+Greet Robin at the back entrance and introduce her to everyone in the dining room.
+    {'intent': 'greet', 'per': 'Robin', 'dest': 'entrance'}
+Greet Robin at the back entrance and introduce her to everyone in the dining room.
+    {'intent': 'greet', 'per': 'Robin', 'dest': 'everyone room.'}
+Robot please greet Robin at the back entrance and introduce him to everyone in the dining room.
+    {'intent': 'greet', 'per': 'Robin', 'dest': 'entrance'}
+Robot please greet Robin at the back entrance and introduce him to everyone in the dining room.
+    {'intent': 'greet', 'per': 'Robin', 'dest': 'everyone room.'}
+Could you please greet Linda at the exit and ask her to leave
+    {'intent': 'greet', 'per': 'Linda', 'dest': 'exit'}
+Could you please greet Skyler at the couch and escort him to his cab
+    {'intent': 'greet', 'per': 'Skyler', 'dest': 'couch'}
+Could you please greet Charlie at the rear entrance and introduce her to all the elders in the bedroom.
+    {'intent': 'greet', 'per': 'Charlie', 'dest': 'entrance'}
+Could you please greet Charlie at the rear entrance and introduce her to all the elders in the bedroom.
+    {'intent': 'greet', 'per': 'Charlie', 'dest': 'all the elders bedroom.'}
+Could you please greet Alex at the end table and introduce it to William at the entrance
+    {'intent': 'greet', 'per': 'Alex', 'dest': 'table'}
+Could you please greet Alex at the end table and introduce it to William at the entrance
+    {'intent': 'greet', 'per': 'Alex', 'dest': 'William entrance'}
+Could you please greet Robin at the entrance and introduce it to Alex at the dining table
+    {'intent': 'greet', 'per': 'Robin', 'dest': 'entrance'}
+Could you please greet Robin at the entrance and introduce it to Alex at the dining table
+    {'intent': 'greet', 'per': 'Robin', 'dest': 'Alex table'}
+Robot please greet Elizabeth at the dining table and ask her to leave
+    {'intent': 'greet', 'per': 'Elizabeth', 'dest': 'table'}
+Could you greet Charlie at the desk and ask her to leave
+    {'intent': 'greet', 'per': 'Charlie', 'dest': 'desk'}
+Answer a question to the person pointing to the right in the dining room
+    {'intent': 'greet', 'per': 'pointing', 'dest': 'to the right room'}
+Greet Michael at the entrance and guide him to his cab
+    {'intent': 'greet', 'per': 'Michael', 'dest': 'entrance'}
+Could you please face Francis at the main door and introduce her to all the children in the living room.
+    {'intent': 'greet', 'per': 'Francis', 'dest': 'all the children room.'}
+Greet Patricia at the end table and escort her to her taxi
+    {'intent': 'greet', 'per': 'Patricia', 'dest': 'table'}
+Could you greet Mary at the bed and introduce it to Skyler at the bookcase
+    {'intent': 'greet', 'per': 'Mary', 'dest': 'bed'}
+Could you greet Mary at the bed and introduce it to Skyler at the bookcase
+    {'intent': 'greet', 'per': 'Mary', 'dest': 'Skyler bookcase'}
+Greet Charlie at the main door and introduce her to everyone in the kitchen.
+    {'intent': 'greet', 'per': 'Charlie', 'dest': 'door'}
+Greet Charlie at the main door and introduce her to everyone in the kitchen.
+    {'intent': 'greet', 'per': 'Charlie', 'dest': 'everyone kitchen.'}
+Could you please contact Robin at the front door and introduce her to all the children in the corridor.
+    {'intent': 'greet', 'per': 'Robin', 'dest': 'all the children corridor.'}
+Could you greet Skyler at the bookcase and ask him to leave
+    {'intent': 'greet', 'per': 'Skyler', 'dest': 'bookcase'}
+Greet Jennifer at the sink and guide her to her uber
+    {'intent': 'greet', 'per': 'Jennifer', 'dest': 'sink'}
+Could you please greet Francis at the bookcase and introduce it to Robert at the entrance
+    {'intent': 'greet', 'per': 'Francis', 'dest': 'bookcase'}
+Could you please greet Francis at the bookcase and introduce it to Robert at the entrance
+    {'intent': 'greet', 'per': 'Francis', 'dest': 'Robert entrance'}
+Robot please greet Patricia at the dishwasher and ask her to leave
+    {'intent': 'greet', 'per': 'Patricia', 'dest': 'dishwasher'}
+Greet Skyler at the sink and escort him to his taxi
+    {'intent': 'greet', 'per': 'Skyler', 'dest': 'sink'}
+Robot please face Francis at the end table and introduce it to Charlie at the bookcase
+    {'intent': 'greet', 'per': 'Francis', 'dest': 'Charlie bookcase'}
+Greet Charlie at the main door and introduce him to all the elders in the bedroom.
+    {'intent': 'greet', 'per': 'Charlie', 'dest': 'all the elders bedroom.'}
+Robot please greet Charlie at the sink and introduce it to Robert at the couch
+    {'intent': 'greet', 'per': 'Charlie', 'dest': 'sink'}
+Robot please greet Charlie at the sink and introduce it to Robert at the couch
+    {'intent': 'greet', 'per': 'Charlie', 'dest': 'Robert couch'}
+Could you greet James at the end table and introduce it to Mary at the entrance
+    {'intent': 'greet', 'per': 'James', 'dest': 'table'}
+Could you greet James at the end table and introduce it to Mary at the entrance
+    {'intent': 'greet', 'per': 'James', 'dest': 'Mary entrance'}
+Greet James at the exit and ask him to leave
+    {'intent': 'greet', 'per': 'James', 'dest': 'exit'}
+Could you greet Mary at the exit and ask her to leave
+    {'intent': 'greet', 'per': 'Mary', 'dest': 'exit'}
+Greet James at the end table and introduce it to Charlie at the desk
+    {'intent': 'greet', 'per': 'James', 'dest': 'table'}
+Greet James at the end table and introduce it to Charlie at the desk
+    {'intent': 'greet', 'per': 'James', 'dest': 'Charlie desk'}
+Greet Robin at the back door and introduce her to all the women in the bedroom.
+    {'intent': 'greet', 'per': 'Robin', 'dest': 'door'}
+Greet Robin at the back door and introduce her to all the women in the bedroom.
+    {'intent': 'greet', 'per': 'Robin', 'dest': 'all the women bedroom.'}
+Go to the living room look for a person pointing to the left and say your team's affiliation
+    {'intent': 'greet'}
+Could you please face Mary at the main door and introduce her to all the men in the kitchen.
+    {'intent': 'greet', 'per': 'Mary', 'dest': 'all the men kitchen.'}
+Please greet Charlie at the exit and take her to her taxi
+    {'intent': 'greet', 'per': 'Charlie', 'dest': 'exit'}
+Could you navigate to the bedroom look for a man and say your team's affiliation
+    {'intent': 'greet'}
+Could you greet Michael at the desk and lead him to his cab
+    {'intent': 'greet', 'per': 'Michael', 'dest': 'desk'}
+Greet Patricia at the back entrance and introduce her to everyone in the corridor.
+    {'intent': 'greet', 'per': 'Patricia', 'dest': 'entrance'}
+Greet Patricia at the back entrance and introduce her to everyone in the corridor.
+    {'intent': 'greet', 'per': 'Patricia', 'dest': 'everyone corridor.'}
+Greet Alex at the dining table and ask her to leave
+    {'intent': 'greet', 'per': 'Alex', 'dest': 'table'}
+Could you please find Jennifer at the back door and introduce her to all the children in the corridor.
+    {'intent': 'greet', 'per': 'Jennifer', 'dest': 'all the children corridor.'}
+Face Skyler at the entrance and introduce it to Robin at the bookcase
+    {'intent': 'greet', 'per': 'Skyler', 'dest': 'Robin bookcase'}
+Greet Skyler at the desk and accompany him to his cab
+    {'intent': 'greet', 'per': 'Skyler', 'dest': 'desk'}
+Robot please greet Michael at the back door and introduce him to all the children in the living room.
+    {'intent': 'greet', 'per': 'Michael', 'dest': 'door'}
+Robot please greet Michael at the back door and introduce him to all the children in the living room.
+    {'intent': 'greet', 'per': 'Michael', 'dest': 'all the children room.'}
+Robot please face Robin at the main entrance and introduce her to all the women in the kitchen.
+    {'intent': 'greet', 'per': 'Robin', 'dest': 'all the women kitchen.'}
+Greet Patricia at the dishwasher and introduce it to Alex at the bookcase
+    {'intent': 'greet', 'per': 'Patricia', 'dest': 'dishwasher'}
+Greet Patricia at the dishwasher and introduce it to Alex at the bookcase
+    {'intent': 'greet', 'per': 'Patricia', 'dest': 'Alex bookcase'}
+Greet Elizabeth at the entrance and ask her to leave
+    {'intent': 'greet', 'per': 'Elizabeth', 'dest': 'entrance'}
+Answer a question to the person raising their left arm in the kitchen
+    {'intent': 'greet', 'dest': 'raising their left arm kitchen'}
+Greet Skyler at the exit and introduce it to James at the couch
+    {'intent': 'greet', 'per': 'Skyler', 'dest': 'exit'}
+Greet Skyler at the end table and introduce it to Francis at the exit
+    {'intent': 'greet', 'per': 'Skyler', 'dest': 'table'}
+Greet Skyler at the end table and introduce it to Francis at the exit
+    {'intent': 'greet', 'per': 'Skyler', 'dest': 'Francis exit'}
+Could you please greet William at the rear door and introduce him to all the children in the kitchen.
+    {'intent': 'greet', 'per': 'William', 'dest': 'door'}
+Could you please greet William at the rear door and introduce him to all the children in the kitchen.
+    {'intent': 'greet', 'per': 'William', 'dest': 'all the children kitchen.'}
+Greet Skyler at the front entrance and introduce him to all the guests in the bedroom.
+    {'intent': 'greet', 'per': 'Skyler', 'dest': 'entrance'}
+Greet Skyler at the front entrance and introduce him to all the guests in the bedroom.
+    {'intent': 'greet', 'per': 'Skyler', 'dest': 'all the guests bedroom.'}
+Robot please greet Skyler at the bed and ask her to leave
+    {'intent': 'greet', 'per': 'Skyler', 'dest': 'bed'}
+Greet Francis at the end table and ask her to leave
+    {'intent': 'greet', 'per': 'Francis', 'dest': 'table'}
+Greet James at the end table and ask him to leave
+    {'intent': 'greet', 'per': 'James', 'dest': 'table'}
+Greet Charlie at the dining table and introduce it to Robin at the desk
+    {'intent': 'greet', 'per': 'Charlie', 'dest': 'table'}
+Greet Charlie at the dining table and introduce it to Robin at the desk
+    {'intent': 'greet', 'per': 'Charlie', 'dest': 'Robin desk'}
+Locate a man in the corridor and say what day is today
+    {'intent': 'greet', 'obj': 'day'}
+Please greet Skyler at the end table and ask her to leave
+    {'intent': 'greet', 'per': 'Skyler', 'dest': 'table'}
+Greet Alex at the dining table and ask her to leave
+    {'intent': 'greet', 'per': 'Alex', 'dest': 'table'}
+Could you greet Robert at the dining table and ask him to leave
+    {'intent': 'greet', 'per': 'Robert', 'dest': 'table'}
+Could you please greet Charlie at the desk and introduce it to Robert at the exit
+    {'intent': 'greet', 'per': 'Charlie', 'dest': 'desk'}
+Could you please greet Charlie at the desk and introduce it to Robert at the exit
+    {'intent': 'greet', 'per': 'Charlie', 'dest': 'Robert exit'}
+Robot please greet Robin at the bed and ask him to leave
+    {'intent': 'greet', 'per': 'Robin', 'dest': 'bed'}
+Robot please greet Charlie at the main door and introduce him to all the men in the corridor.
+    {'intent': 'greet', 'per': 'Charlie', 'dest': 'door'}
+Robot please greet Charlie at the main door and introduce him to all the men in the corridor.
+    {'intent': 'greet', 'per': 'Charlie', 'dest': 'all the men corridor.'}
+Greet Skyler at the rear entrance and introduce him to all the guests in the corridor.
+    {'intent': 'greet', 'per': 'Skyler', 'dest': 'entrance'}
+Greet Robin at the dishwasher and ask her to leave
+    {'intent': 'greet', 'per': 'Robin', 'dest': 'dishwasher'}
+Greet Robin at the end table and ask him to leave
+    {'intent': 'greet', 'per': 'Robin', 'dest': 'table'}
+Greet William at the end table and lead him to his taxi
+    {'intent': 'greet', 'per': 'William', 'dest': 'table'}
+Could you please find a female person in the dining room and say your team's affiliation
+    {'intent': 'greet'}
+Greet Charlie at the main door and introduce him to everyone in the dining room.
+    {'intent': 'greet', 'per': 'Charlie', 'dest': 'door'}
+Greet Charlie at the main door and introduce him to everyone in the dining room.
+    {'intent': 'greet', 'per': 'Charlie', 'dest': 'everyone room.'}
+Could you please greet Skyler at the couch and introduce it to Charlie at the dining table
+    {'intent': 'greet', 'per': 'Skyler', 'dest': 'couch'}
+Could you please greet Skyler at the couch and introduce it to Charlie at the dining table
+    {'intent': 'greet', 'per': 'Skyler', 'dest': 'Charlie table'}
+Could you greet Patricia at the bed and ask her to leave
+    {'intent': 'greet', 'per': 'Patricia', 'dest': 'bed'}
+Find a person raising their left arm in the bedroom and say your team's name
+    {'intent': 'greet'}
+Please greet Alex at the sink and ask her to leave
+    {'intent': 'greet', 'per': 'Alex', 'dest': 'sink'}
+Greet Mary at the dishwasher and introduce it to Jennifer at the exit
+    {'intent': 'greet', 'per': 'Mary', 'dest': 'dishwasher'}
+Greet Mary at the dishwasher and introduce it to Jennifer at the exit
+    {'intent': 'greet', 'per': 'Mary', 'dest': 'Jennifer exit'}
+Greet Michael at the end table and ask him to leave
+    {'intent': 'greet', 'per': 'Michael', 'dest': 'table'}
+Could you please greet Robin at the exit and introduce it to Alex at the sink
+    {'intent': 'greet', 'per': 'Robin', 'dest': 'exit'}
+Could you please greet Robin at the exit and introduce it to Alex at the sink
+    {'intent': 'greet', 'per': 'Robin', 'dest': 'Alex sink'}
+Robot please find Robin at the bookcase and introduce it to William at the end table
+    {'intent': 'greet', 'per': 'Robin', 'dest': 'William table'}
+Please greet Robin at the couch and introduce it to Alex at the end table
+    {'intent': 'greet', 'per': 'Robin', 'dest': 'couch'}
+Please greet Robin at the couch and introduce it to Alex at the end table
+    {'intent': 'greet', 'per': 'Robin', 'dest': 'Alex table'}
+Could you greet Michael at the bookcase and take him to his taxi
+    {'intent': 'greet', 'per': 'Michael', 'dest': 'bookcase'}
+Greet John at the dishwasher and ask him to leave
+    {'intent': 'greet', 'per': 'John', 'dest': 'dishwasher'}
+Could you greet Patricia at the main entrance and introduce her to everyone in the kitchen.
+    {'intent': 'greet', 'per': 'Patricia', 'dest': 'everyone kitchen.'}
+Greet Robin at the back entrance and introduce her to all the guests in the corridor.
+    {'intent': 'greet', 'per': 'Robin', 'dest': 'all the guests corridor.'}
+Could you please answer a question to the person pointing to the left in the living room
+    {'intent': 'greet', 'dest': 'pointing to the left room'}
+Greet Jennifer at the bookcase and ask her to leave
+    {'intent': 'greet', 'per': 'Jennifer', 'dest': 'bookcase'}
+Greet William at the end table and accompany him to his cab
+    {'intent': 'greet', 'per': 'William', 'dest': 'table'}
+Greet Jennifer at the entrance and introduce it to Robin at the couch
+    {'intent': 'greet', 'per': 'Jennifer', 'dest': 'entrance'}
+Greet Jennifer at the entrance and introduce it to Robin at the couch
+    {'intent': 'greet', 'per': 'Jennifer', 'dest': 'Robin couch'}
+Greet Elizabeth at the couch and guide her to her taxi
+    {'intent': 'greet', 'per': 'Elizabeth', 'dest': 'couch'}
+Greet Patricia at the back door and introduce her to everyone in the bedroom.
+    {'intent': 'greet', 'per': 'Patricia', 'dest': 'everyone bedroom.'}
+Robot please greet Alex at the desk and guide her to her uber
+    {'intent': 'greet', 'per': 'Alex', 'dest': 'desk'}
+Answer a question to the person raising their left arm in the kitchen
+    {'intent': 'greet', 'dest': 'raising their left arm kitchen'}
+Could you go to the dining room find a person pointing to the left and say your team's country
+    {'intent': 'greet'}
+Greet Mary at the desk and introduce it to Skyler at the bookcase
+    {'intent': 'greet', 'per': 'Mary', 'dest': 'desk'}
+Greet Mary at the desk and introduce it to Skyler at the bookcase
+    {'intent': 'greet', 'per': 'Mary Skyler', 'dest': 'bookcase'}
+Greet John at the dining table and introduce it to Robin at the entrance
+    {'intent': 'greet', 'per': 'John', 'dest': 'Robin entrance'}
+Could you greet Patricia at the exit and introduce it to James at the bed
+    {'intent': 'greet', 'per': 'Patricia', 'dest': 'exit'}
+Could you greet Patricia at the exit and introduce it to James at the bed
+    {'intent': 'greet', 'per': 'Patricia James', 'dest': 'bed'}
+Answer a question to the person pointing to the right in the living room
+    {'intent': 'greet', 'dest': 'pointing to the right room'}
+Could you please say the day of the month to the person pointing to the right in the dining room
+    {'intent': 'greet', 'obj': 'month', 'dest': 'pointing to the right room'}
+Could you please greet Linda at the bookcase and accompany her to her uber
+    {'intent': 'greet', 'per': 'Linda', 'dest': 'bookcase'}
+Could you greet Elizabeth at the entrance and introduce it to Robin at the dining table
+    {'intent': 'greet', 'per': 'Elizabeth', 'dest': 'entrance'}
+Could you greet Elizabeth at the entrance and introduce it to Robin at the dining table
+    {'intent': 'greet', 'per': 'Elizabeth', 'dest': 'Robin table'}
+Locate a male person in the kitchen and answer a question
+    {'intent': 'greet'}
+Greet James at the bookcase and lead him to his taxi
+    {'intent': 'greet', 'per': 'James', 'dest': 'bookcase'}
+Could you please greet James at the end table and lead him to his taxi
+    {'intent': 'greet', 'per': 'James', 'dest': 'table'}
+Greet Robert at the bed and guide him to his cab
+    {'intent': 'greet', 'per': 'Robert', 'dest': 'bed'}
+Greet Robin at the dining table and introduce it to Robert at the exit
+    {'intent': 'greet', 'per': 'Robin', 'dest': 'Robert exit'}
+Robot please answer a question to the person pointing to the left in the corridor
+    {'intent': 'greet', 'dest': 'pointing to the left corridor'}
+Could you greet James at the sink and escort him to his taxi
+    {'intent': 'greet', 'per': 'James', 'dest': 'sink'}
+Greet Robert at the exit and ask him to leave
+    {'intent': 'greet', 'per': 'Robert', 'dest': 'exit'}
+Could you please greet Francis at the dishwasher and introduce it to Charlie at the couch
+    {'intent': 'greet', 'per': 'Francis', 'dest': 'dishwasher'}
+Go to the kitchen look for a person raising their right arm and say what day is today
+    {'intent': 'greet'}
+Please greet James at the exit and guide him to his taxi
+    {'intent': 'greet', 'per': 'James', 'dest': 'exit'}
+Greet Charlie at the entrance and ask her to leave
+    {'intent': 'greet', 'per': 'Charlie', 'dest': 'entrance'}
+Go to the living room look for a person pointing to the left and say your team's country
+    {'intent': 'greet'}
+Robot please face Michael at the rear door and introduce him to everyone in the kitchen.
+    {'intent': 'greet', 'per': 'Michael', 'dest': 'everyone kitchen.'}
+Robot please greet John at the sink and introduce it to Linda at the bookcase
+    {'intent': 'greet', 'per': 'John', 'dest': 'sink'}
+Robot please greet John at the sink and introduce it to Linda at the bookcase
+    {'intent': 'greet', 'per': 'John', 'dest': 'Linda bookcase'}
+Greet Patricia at the dishwasher and ask her to leave
+    {'intent': 'greet', 'per': 'Patricia', 'dest': 'dishwasher'}
+Please answer a question to the person waving in the living room
+    {'intent': 'greet', 'dest': 'waving room'}
+Could you please face John at the front entrance and introduce him to all the people in the living room.
+    {'intent': 'greet', 'per': 'John', 'dest': 'all the people room.'}
+Greet Jennifer at the exit and introduce it to Alex at the desk
+    {'intent': 'greet', 'per': 'Jennifer', 'dest': 'exit'}
+Greet Jennifer at the exit and introduce it to Alex at the desk
+    {'intent': 'greet', 'per': 'Jennifer', 'dest': 'Alex desk'}
+Please look for a person lying down in the kitchen and say what day is today
+    {'intent': 'greet', 'obj': 'day'}
+Greet Alex at the front entrance and introduce him to all the people in the corridor.
+    {'intent': 'greet', 'per': 'Alex', 'dest': 'entrance'}
+Greet Alex at the front entrance and introduce him to all the people in the corridor.
+    {'intent': 'greet', 'per': 'Alex', 'dest': 'all the people corridor.'}
+Greet Charlie at the couch and introduce it to Patricia at the bookcase
+    {'intent': 'greet', 'per': 'Charlie', 'dest': 'couch'}
+Greet Charlie at the couch and introduce it to Patricia at the bookcase
+    {'intent': 'greet', 'per': 'Charlie Patricia', 'dest': 'bookcase'}
+Greet Alex at the dining table and take her to her uber
+    {'intent': 'greet', 'per': 'Alex', 'dest': 'table'}
+Greet John at the couch and escort him to his taxi
+    {'intent': 'greet', 'per': 'John', 'dest': 'couch'}
+Greet Patricia at the entrance and escort her to her cab
+    {'intent': 'greet', 'per': 'Patricia', 'dest': 'entrance'}
+Greet Jennifer at the exit and introduce it to Linda at the couch
+    {'intent': 'greet', 'per': 'Jennifer', 'dest': 'exit'}
+Greet Jennifer at the exit and introduce it to Linda at the couch
+    {'intent': 'greet', 'per': 'Jennifer', 'dest': 'Linda couch'}
+Greet Robin at the exit and guide her to her uber
+    {'intent': 'greet', 'per': 'Robin', 'dest': 'exit'}
+Robot please greet William at the back entrance and introduce him to all the children in the corridor.
+    {'intent': 'greet', 'per': 'William', 'dest': 'entrance'}
+Robot please greet William at the back entrance and introduce him to all the children in the corridor.
+    {'intent': 'greet', 'per': 'William', 'dest': 'all the children corridor.'}
+Please greet Robert at the sink and ask him to leave
+    {'intent': 'greet', 'per': 'Robert', 'dest': 'sink'}
+Please navigate to the dining room look for a person raising their left arm and say your team's affiliation
+    {'intent': 'greet'}
+Please greet William at the dishwasher and introduce it to Francis at the desk
+    {'intent': 'greet', 'per': 'William', 'dest': 'dishwasher'}
+Please greet William at the dishwasher and introduce it to Francis at the desk
+    {'intent': 'greet', 'per': 'William', 'dest': 'Francis desk'}
+Greet Skyler at the sink and introduce it to Robin at the dishwasher
+    {'intent': 'greet', 'per': 'Skyler', 'dest': 'sink'}
+Greet Skyler at the sink and introduce it to Robin at the dishwasher
+    {'intent': 'greet', 'per': 'Skyler', 'dest': 'Robin dishwasher'}
+Could you please greet Robert at the bookcase and guide him to his cab
+    {'intent': 'greet', 'per': 'Robert', 'dest': 'bookcase'}
+Could you greet Mary at the rear entrance and introduce her to all the children in the bedroom.
+    {'intent': 'greet', 'per': 'Mary', 'dest': 'entrance'}
+Could you greet Mary at the rear entrance and introduce her to all the children in the bedroom.
+    {'intent': 'greet', 'per': 'Mary', 'dest': 'all the children bedroom.'}
+Face Robert at the bookcase and introduce it to Robin at the couch
+    {'intent': 'greet', 'per': 'Robert', 'dest': 'Robin couch'}
+Greet Charlie at the desk and escort her to her cab
+    {'intent': 'greet', 'per': 'Charlie', 'dest': 'desk'}
+Could you greet Charlie at the bookcase and ask her to leave
+    {'intent': 'greet', 'per': 'Charlie', 'dest': 'bookcase'}
+Answer a question to the person raising their left arm in the kitchen
+    {'intent': 'greet', 'dest': 'raising their left arm kitchen'}
+Please say your team's country to the person raising their left arm in the dining room
+    {'intent': 'greet'}
+Answer a question to the person pointing to the right in the living room
+    {'intent': 'greet', 'dest': 'pointing to the right room'}
+Could you greet Francis at the sink and introduce it to Robert at the end table
+    {'intent': 'greet', 'per': 'Francis', 'dest': 'sink'}
+Could you greet Francis at the sink and introduce it to Robert at the end table
+    {'intent': 'greet', 'per': 'Francis', 'dest': 'Robert table'}
+Could you please greet Linda at the desk and introduce it to Elizabeth at the end table
+    {'intent': 'greet', 'per': 'Linda', 'dest': 'desk'}
+Could you please greet Linda at the desk and introduce it to Elizabeth at the end table
+    {'intent': 'greet', 'per': 'Linda', 'dest': 'Elizabeth table'}
+Greet Francis at the dining table and ask her to leave
+    {'intent': 'greet', 'per': 'Francis', 'dest': 'table'}
+Greet Alex at the bookcase and guide her to her cab
+    {'intent': 'greet', 'per': 'Alex', 'dest': 'bookcase'}
+Greet Francis at the sink and escort her to her uber
+    {'intent': 'greet', 'per': 'Francis', 'dest': 'sink'}
+Greet Francis at the dining table and ask him to leave
+    {'intent': 'greet', 'per': 'Francis', 'dest': 'table'}
+Please greet Michael at the exit and ask him to leave
+    {'intent': 'greet', 'per': 'Michael', 'dest': 'exit'}
+Greet Charlie at the dishwasher and introduce it to Patricia at the bookcase
+    {'intent': 'greet', 'per': 'Charlie', 'dest': 'dishwasher'}
+Greet Charlie at the dishwasher and introduce it to Patricia at the bookcase
+    {'intent': 'greet', 'per': 'Charlie', 'dest': 'Patricia bookcase'}
+Could you greet Robert at the main door and introduce him to all the people in the living room.
+    {'intent': 'greet', 'per': 'Robert', 'dest': 'door'}
+Could you greet Robert at the main door and introduce him to all the people in the living room.
+    {'intent': 'greet', 'per': 'Robert', 'dest': 'all the people room.'}
+Greet Francis at the main door and introduce him to everyone in the corridor.
+    {'intent': 'greet', 'per': 'Francis', 'dest': 'door'}
+Greet Francis at the main door and introduce him to everyone in the corridor.
+    {'intent': 'greet', 'per': 'Francis', 'dest': 'everyone corridor.'}
+Greet Jennifer at the front entrance and introduce her to all the elders in the corridor.
+    {'intent': 'greet', 'per': 'Jennifer', 'dest': 'all the elders corridor.'}
+Robot please greet Elizabeth at the bed and introduce it to Jennifer at the couch
+    {'intent': 'greet', 'per': 'Elizabeth', 'dest': 'bed'}
+Robot please greet Elizabeth at the bed and introduce it to Jennifer at the couch
+    {'intent': 'greet', 'per': 'Elizabeth', 'dest': 'Jennifer couch'}
+Greet Alex at the exit and ask her to leave
+    {'intent': 'greet', 'per': 'Alex', 'dest': 'exit'}
+Greet James at the exit and escort him to his uber
+    {'intent': 'greet', 'per': 'James', 'dest': 'exit'}
+Go to the living room find a man and answer a question
+    {'intent': 'greet'}
+Greet James at the end table and escort him to his cab
+    {'intent': 'greet', 'per': 'James', 'dest': 'table'}
+Could you please greet Linda at the end table and ask her to leave
+    {'intent': 'greet', 'per': 'Linda', 'dest': 'table'}
+Robot please greet Alex at the bookcase and introduce it to Francis at the exit
+    {'intent': 'greet', 'per': 'Alex', 'dest': 'bookcase'}
+Robot please greet Alex at the bookcase and introduce it to Francis at the exit
+    {'intent': 'greet', 'per': 'Alex', 'dest': 'Francis exit'}
+Answer a question to the person raising their left arm in the kitchen
+    {'intent': 'greet', 'dest': 'raising their left arm kitchen'}
+Greet William at the couch and introduce it to Jennifer at the dining table
+    {'intent': 'greet', 'per': 'William', 'dest': 'couch'}
+Greet William at the couch and introduce it to Jennifer at the dining table
+    {'intent': 'greet', 'per': 'William', 'dest': 'Jennifer table'}
+Greet James at the main door and introduce him to everyone in the living room.
+    {'intent': 'greet', 'per': 'James', 'dest': 'door'}
+Greet James at the main door and introduce him to everyone in the living room.
+    {'intent': 'greet', 'per': 'James', 'dest': 'everyone room.'}
+Please greet Alex at the dining table and introduce it to James at the bed
+    {'intent': 'greet', 'per': 'Alex', 'dest': 'table'}
+Please greet Alex at the dining table and introduce it to James at the bed
+    {'intent': 'greet', 'per': 'Alex James', 'dest': 'bed'}
+Find a person lying down in the kitchen and say your team's country
+    {'intent': 'greet'}
+Please greet Alex at the exit and accompany her to her cab
+    {'intent': 'greet', 'per': 'Alex', 'dest': 'exit'}
+Answer a question to the person pointing to the right in the kitchen
+    {'intent': 'greet', 'dest': 'pointing to the right kitchen'}
+Could you greet Mary at the dining table and ask her to leave
+    {'intent': 'greet', 'per': 'Mary', 'dest': 'table'}
+Robot please greet Patricia at the main door and introduce her to everyone in the bedroom.
+    {'intent': 'greet', 'per': 'Patricia', 'dest': 'door'}
+Robot please greet Patricia at the main door and introduce her to everyone in the bedroom.
+    {'intent': 'greet', 'per': 'Patricia', 'dest': 'everyone bedroom.'}
+Greet Francis at the bookcase and lead her to her uber
+    {'intent': 'greet', 'per': 'Francis', 'dest': 'bookcase'}
+Could you please navigate to the bedroom look for a person standing and say what day is tomorrow
+    {'intent': 'greet', 'dest': 'tomorrow'}
+Greet Skyler at the main entrance and introduce him to all the men in the kitchen.
+    {'intent': 'greet', 'per': 'Skyler', 'dest': 'all the men kitchen.'}
+Greet Robert at the rear entrance and introduce him to everyone in the kitchen.
+    {'intent': 'greet', 'per': 'Robert', 'dest': 'everyone kitchen.'}
+Greet Alex at the rear entrance and introduce her to all the elders in the kitchen.
+    {'intent': 'greet', 'per': 'Alex', 'dest': 'all the elders kitchen.'}
+Please face Skyler at the dishwasher and introduce it to Alex at the desk
+    {'intent': 'greet', 'per': 'Skyler', 'dest': 'Alex desk'}
+Greet Linda at the end table and guide her to her taxi
+    {'intent': 'greet', 'per': 'Linda', 'dest': 'table'}
+Greet Francis at the couch and ask him to leave
+    {'intent': 'greet', 'per': 'Francis', 'dest': 'couch'}
+Locate a woman in the living room and say your team's name
+    {'intent': 'greet'}
+Please greet Skyler at the back door and introduce him to everyone in the kitchen.
+    {'intent': 'greet', 'per': 'Skyler', 'dest': 'door'}
+Please greet Skyler at the back door and introduce him to everyone in the kitchen.
+    {'intent': 'greet', 'per': 'Skyler', 'dest': 'everyone kitchen.'}
+Could you locate a male person in the dining room and say your team's name
+    {'intent': 'greet'}
+Greet Robin at the couch and introduce it to Patricia at the dining table
+    {'intent': 'greet', 'per': 'Robin', 'dest': 'couch'}
+Greet Robin at the couch and introduce it to Patricia at the dining table
+    {'intent': 'greet', 'per': 'Robin', 'dest': 'Patricia table'}
+Could you greet James at the front door and introduce him to all the people in the bedroom.
+    {'intent': 'greet', 'per': 'James', 'dest': 'door'}
+Could you greet James at the front door and introduce him to all the people in the bedroom.
+    {'intent': 'greet', 'per': 'James', 'dest': 'all the people bedroom.'}
+Greet Alex at the main entrance and introduce him to everyone in the corridor.
+    {'intent': 'greet', 'per': 'Alex', 'dest': 'entrance'}
+Greet Alex at the main entrance and introduce him to everyone in the corridor.
+    {'intent': 'greet', 'per': 'Alex', 'dest': 'everyone corridor.'}
+Could you answer a question to the person waving in the dining room
+    {'intent': 'greet', 'obj': 'question', 'dest': 'waving room'}
+Robot please greet Skyler at the exit and ask him to leave
+    {'intent': 'greet', 'per': 'Skyler', 'dest': 'exit'}
+Greet Skyler at the dining table and lead him to his uber
+    {'intent': 'greet', 'per': 'Skyler', 'dest': 'table'}
+Could you please face Alex at the rear door and introduce her to everyone in the kitchen.
+    {'intent': 'greet', 'per': 'Alex', 'dest': 'everyone kitchen.'}
+Face Linda at the bookcase and introduce it to Charlie at the couch
+    {'intent': 'greet', 'per': 'Linda Charlie', 'dest': 'couch'}
+Greet Robert at the main door and introduce him to everyone in the kitchen.
+    {'intent': 'greet', 'per': 'Robert', 'dest': 'everyone kitchen.'}
+Greet Alex at the bed and ask him to leave
+    {'intent': 'greet', 'per': 'Alex', 'dest': 'bed'}
+Greet Mary at the bookcase and ask her to leave
+    {'intent': 'greet', 'per': 'Mary', 'dest': 'bookcase'}
+Greet Linda at the end table and ask her to leave
+    {'intent': 'greet', 'per': 'Linda', 'dest': 'table'}
+Please find a female person in the living room and say your team's country
+    {'intent': 'greet'}
+Please face Charlie at the bookcase and introduce it to Charlie at the bed
+    {'intent': 'greet', 'per': 'Charlie Charlie', 'dest': 'bed'}
+Greet Skyler at the end table and ask him to leave
+    {'intent': 'greet', 'per': 'Skyler', 'dest': 'table'}
+Greet John at the end table and ask him to leave
+    {'intent': 'greet', 'per': 'John', 'dest': 'table'}
+Greet William at the front door and introduce him to everyone in the bedroom.
+    {'intent': 'greet', 'per': 'William', 'dest': 'everyone bedroom.'}
+Robot please greet Charlie at the back door and introduce her to everyone in the corridor.
+    {'intent': 'greet', 'per': 'Charlie', 'dest': 'door'}
+Robot please greet Charlie at the back door and introduce her to everyone in the corridor.
+    {'intent': 'greet', 'per': 'Charlie', 'dest': 'everyone corridor.'}
+Robot please go to the living room locate a person standing and say your team's name
+    {'intent': 'greet'}
+Greet Alex at the front door and introduce her to everyone in the bedroom.
+    {'intent': 'greet', 'per': 'Alex', 'dest': 'door'}
+Greet Alex at the front door and introduce her to everyone in the bedroom.
+    {'intent': 'greet', 'per': 'Alex', 'dest': 'everyone bedroom.'}
+Greet Alex at the main door and introduce him to everyone in the bedroom.
+    {'intent': 'greet', 'per': 'Alex', 'dest': 'door'}
+Robot please greet Skyler at the main door and introduce her to all the people in the living room.
+    {'intent': 'greet', 'per': 'Skyler', 'dest': 'door'}
+Robot please greet Skyler at the main door and introduce her to all the people in the living room.
+    {'intent': 'greet', 'per': 'Skyler', 'dest': 'all the people room.'}
+Please greet Michael at the exit and lead him to his taxi
+    {'intent': 'greet', 'per': 'Michael', 'dest': 'exit'}
+Greet Elizabeth at the rear entrance and introduce her to everyone in the corridor.
+    {'intent': 'greet', 'per': 'Elizabeth', 'dest': 'entrance'}
+Greet Elizabeth at the rear entrance and introduce her to everyone in the corridor.
+    {'intent': 'greet', 'per': 'Elizabeth', 'dest': 'everyone corridor.'}
+Robot please greet Mary at the back door and introduce her to everyone in the kitchen.
+    {'intent': 'greet', 'per': 'Mary', 'dest': 'door'}
+Robot please greet Mary at the back door and introduce her to everyone in the kitchen.
+    {'intent': 'greet', 'per': 'Mary', 'dest': 'everyone kitchen.'}
+Greet John at the main entrance and introduce him to all the women in the living room.
+    {'intent': 'greet', 'per': 'John', 'dest': 'all the women room.'}
+Greet Michael at the bed and lead him to his cab
+    {'intent': 'greet', 'per': 'Michael', 'dest': 'bed'}
+Face Francis at the dining table and introduce it to John at the desk
+    {'intent': 'greet', 'per': 'Francis', 'dest': 'John desk'}
+Please answer a question to the person waving in the living room
+    {'intent': 'greet', 'dest': 'waving room'}
+Look for a woman in the bedroom and say what day is today
+    {'intent': 'greet', 'obj': 'day'}
+Could you please greet Robin at the dining table and ask her to leave
+    {'intent': 'greet', 'per': 'Robin', 'dest': 'table'}
+Navigate to the corridor locate a man and say what day is tomorrow
+    {'intent': 'greet', 'dest': 'tomorrow'}
+Could you greet Robert at the end table and introduce it to Patricia at the bed
+    {'intent': 'greet', 'per': 'Robert', 'dest': 'table'}
+Could you greet Robert at the end table and introduce it to Patricia at the bed
+    {'intent': 'greet', 'per': 'Robert', 'dest': 'Patricia bed'}
+Robot please navigate to the dining room locate a person waving and say your team's country
+    {'intent': 'greet'}
+Greet Michael at the exit and escort him to his cab
+    {'intent': 'greet', 'per': 'Michael', 'dest': 'exit'}
+Greet Alex at the desk and introduce it to Jennifer at the bookcase
+    {'intent': 'greet', 'per': 'Alex', 'dest': 'desk'}
+Greet Alex at the desk and introduce it to Jennifer at the bookcase
+    {'intent': 'greet', 'per': 'Alex', 'dest': 'Jennifer bookcase'}
+Greet Alex at the couch and ask her to leave
+    {'intent': 'greet', 'per': 'Alex', 'dest': 'couch'}
+Greet Skyler at the desk and introduce it to Robin at the exit
+    {'intent': 'greet', 'per': 'Skyler', 'dest': 'desk'}
+Greet Patricia at the couch and guide her to her cab
+    {'intent': 'greet', 'per': 'Patricia', 'dest': 'couch'}
+Please greet Skyler at the end table and ask him to leave
+    {'intent': 'greet', 'per': 'Skyler', 'dest': 'table'}
+Please greet Skyler at the dining table and ask her to leave
+    {'intent': 'greet', 'per': 'Skyler', 'dest': 'table'}
+Please locate a person sitting in the bedroom and say the day of the month
+    {'intent': 'greet', 'dest': 'month'}
+Could you please contact Charlie at the entrance and introduce it to Linda at the dining table
+    {'intent': 'greet', 'per': 'Charlie Linda', 'dest': 'table'}
+Could you please face Robin at the dining table and introduce it to Mary at the dishwasher
+    {'intent': 'greet', 'per': 'Robin', 'dest': 'Mary dishwasher'}
+Could you greet Patricia at the front entrance and introduce her to all the women in the bedroom.
+    {'intent': 'greet', 'per': 'Patricia', 'dest': 'entrance'}
+Could you greet Patricia at the front entrance and introduce her to all the women in the bedroom.
+    {'intent': 'greet', 'per': 'Patricia', 'dest': 'all the women bedroom.'}
+Greet Alex at the bookcase and ask her to leave
+    {'intent': 'greet', 'per': 'Alex', 'dest': 'bookcase'}
+Robot please answer a question to the person pointing to the right in the kitchen
+    {'intent': 'greet', 'dest': 'pointing to the right kitchen'}
+Could you please greet Francis at the couch and ask him to leave
+    {'intent': 'greet', 'per': 'Francis', 'dest': 'couch'}
+Answer a question to the person pointing to the right in the kitchen
+    {'intent': 'greet', 'dest': 'pointing to the right kitchen'}
+Could you answer a question to the person waving in the living room
+    {'intent': 'greet', 'dest': 'waving room'}
+Could you please greet Linda at the bed and accompany her to her uber
+    {'intent': 'greet', 'per': 'Linda', 'dest': 'bed'}
+Could you face Elizabeth at the back door and introduce her to all the elders in the corridor.
+    {'intent': 'greet', 'per': 'Elizabeth', 'dest': 'all the elders corridor.'}
+Answer a question to the person pointing to the right in the living room
+    {'intent': 'greet', 'dest': 'pointing to the right room'}
+Could you greet Charlie at the sink and accompany him to his cab
+    {'intent': 'greet', 'per': 'Charlie', 'dest': 'sink'}
+Find a boy in the dining room and say your team's country
+    {'intent': 'greet'}
+Could you please answer a question to the person pointing to the left in the living room
+    {'intent': 'greet', 'dest': 'pointing to the left room'}
+Greet John at the sink and ask him to leave
+    {'intent': 'greet', 'per': 'John', 'dest': 'sink'}
+Greet Patricia at the main door and introduce her to everyone in the corridor.
+    {'intent': 'greet', 'per': 'Patricia', 'dest': 'door'}
+Greet Patricia at the main door and introduce her to everyone in the corridor.
+    {'intent': 'greet', 'per': 'Patricia', 'dest': 'everyone corridor.'}
+Locate a male person in the kitchen and answer a question
+    {'intent': 'greet'}
+Greet James at the couch and lead him to his cab
+    {'intent': 'greet', 'per': 'James', 'dest': 'couch'}
+Could you please greet Jennifer at the rear entrance and introduce her to everyone in the corridor.
+    {'intent': 'greet', 'per': 'Jennifer', 'dest': 'entrance'}
+Could you please greet Jennifer at the rear entrance and introduce her to everyone in the corridor.
+    {'intent': 'greet', 'per': 'Jennifer', 'dest': 'everyone corridor.'}
+Navigate to the dining room locate a person lying down and say your team's name
+    {'intent': 'greet'}
+Answer a question to the person pointing to the right in the living room
+    {'intent': 'greet', 'dest': 'pointing to the right room'}
+Greet Alex at the sink and ask her to leave
+    {'intent': 'greet', 'per': 'Alex', 'dest': 'sink'}
+Please answer a question to the person pointing to the right in the dining room
+    {'intent': 'greet', 'dest': 'pointing to the right room'}
+Robot please locate a person pointing to the right in the corridor and say your team's affiliation
+    {'intent': 'greet'}
+Greet Elizabeth at the dining table and ask her to leave
+    {'intent': 'greet', 'per': 'Elizabeth', 'dest': 'table'}
+Greet Linda at the front door and introduce her to all the elders in the living room.
+    {'intent': 'greet', 'per': 'Linda', 'dest': 'door'}
+Greet Linda at the front door and introduce her to all the elders in the living room.
+    {'intent': 'greet', 'per': 'Linda', 'dest': 'all the elders room.'}
+Greet Michael at the entrance and ask him to leave
+    {'intent': 'greet', 'per': 'Michael', 'dest': 'entrance'}
+Greet Elizabeth at the sink and ask her to leave
+    {'intent': 'greet', 'per': 'Elizabeth', 'dest': 'sink'}
+Could you please answer a question to the person raising their right arm in the corridor
+    {'intent': 'greet', 'dest': 'raising their right arm corridor'}
+Greet Mary at the main door and introduce her to everyone in the kitchen.
+    {'intent': 'greet', 'per': 'Mary', 'dest': 'door'}
+Greet Mary at the main door and introduce her to everyone in the kitchen.
+    {'intent': 'greet', 'per': 'Mary', 'dest': 'everyone kitchen.'}
+Greet Linda at the desk and introduce it to Charlie at the end table
+    {'intent': 'greet', 'per': 'Linda', 'dest': 'desk'}
+Greet Linda at the desk and introduce it to Charlie at the end table
+    {'intent': 'greet', 'per': 'Linda', 'dest': 'Charlie table'}
+Please greet Robin at the sink and introduce it to Mary at the entrance
+    {'intent': 'greet', 'per': 'Robin', 'dest': 'Mary entrance'}
+Could you please greet William at the entrance and introduce it to Robert at the couch
+    {'intent': 'greet', 'per': 'William', 'dest': 'entrance'}
+Could you please greet William at the entrance and introduce it to Robert at the couch
+    {'intent': 'greet', 'per': 'William', 'dest': 'Robert couch'}
+Greet John at the sink and introduce it to Michael at the entrance
+    {'intent': 'greet', 'per': 'John', 'dest': 'sink'}
+Greet John at the sink and introduce it to Michael at the entrance
+    {'intent': 'greet', 'per': 'John', 'dest': 'Michael entrance'}
+Greet Charlie at the main entrance and introduce him to everyone in the bedroom.
+    {'intent': 'greet', 'per': 'Charlie', 'dest': 'entrance'}
+Greet Charlie at the main entrance and introduce him to everyone in the bedroom.
+    {'intent': 'greet', 'per': 'Charlie', 'dest': 'everyone bedroom.'}
+Greet Mary at the desk and escort her to her uber
+    {'intent': 'greet', 'per': 'Mary', 'dest': 'desk'}
+Greet William at the dishwasher and ask him to leave
+    {'intent': 'greet', 'per': 'William', 'dest': 'dishwasher'}
+Say the day of the month to the person pointing to the right in the corridor
+    {'intent': 'greet', 'obj': 'month', 'dest': 'pointing to the right corridor'}
+Robot please greet Skyler at the bed and ask her to leave
+    {'intent': 'greet', 'per': 'Skyler', 'dest': 'bed'}
+Could you greet Robert at the bookcase and introduce it to Robin at the dishwasher
+    {'intent': 'greet', 'per': 'Robert', 'dest': 'bookcase'}
+Could you greet Robert at the bookcase and introduce it to Robin at the dishwasher
+    {'intent': 'greet', 'per': 'Robert', 'dest': 'Robin dishwasher'}
+Greet Mary at the exit and ask her to leave
+    {'intent': 'greet', 'per': 'Mary', 'dest': 'exit'}
+Could you please greet John at the entrance and introduce it to James at the bed
+    {'intent': 'greet', 'per': 'John', 'dest': 'entrance'}
+Could you please greet John at the entrance and introduce it to James at the bed
+    {'intent': 'greet', 'per': 'John', 'dest': 'James bed'}
+Greet Skyler at the dishwasher and guide him to his cab
+    {'intent': 'greet', 'per': 'Skyler', 'dest': 'dishwasher'}
+Greet Robin at the end table and ask her to leave
+    {'intent': 'greet', 'per': 'Robin', 'dest': 'table'}
+Greet James at the dining table and introduce it to Robin at the couch
+    {'intent': 'greet', 'per': 'James', 'dest': 'Robin couch'}
+Could you please go to the living room locate a person standing and say your team's affiliation
+    {'intent': 'greet'}
+Greet Linda at the entrance and accompany her to her taxi
+    {'intent': 'greet', 'per': 'Linda', 'dest': 'entrance'}
+Greet Alex at the bookcase and introduce it to William at the couch
+    {'intent': 'greet', 'per': 'Alex', 'dest': 'bookcase'}
+Greet Alex at the bookcase and introduce it to William at the couch
+    {'intent': 'greet', 'per': 'Alex William', 'dest': 'couch'}
+Greet Skyler at the dining table and ask him to leave
+    {'intent': 'greet', 'per': 'Skyler', 'dest': 'table'}
+Robot please greet Robin at the desk and ask him to leave
+    {'intent': 'greet', 'per': 'Robin', 'dest': 'desk'}
+Greet Skyler at the entrance and introduce it to Francis at the dishwasher
+    {'intent': 'greet', 'per': 'Skyler', 'dest': 'entrance'}
+Greet Skyler at the entrance and introduce it to Francis at the dishwasher
+    {'intent': 'greet', 'per': 'Skyler', 'dest': 'Francis dishwasher'}
+Could you please greet John at the bed and take him to his taxi
+    {'intent': 'greet', 'per': 'John', 'dest': 'bed'}
+Greet Robin at the exit and introduce it to Skyler at the end table
+    {'intent': 'greet', 'per': 'Robin', 'dest': 'exit'}
+Greet Robin at the exit and introduce it to Skyler at the end table
+    {'intent': 'greet', 'per': 'Robin', 'dest': 'Skyler table'}
+Robot please greet Elizabeth at the exit and ask her to leave
+    {'intent': 'greet', 'per': 'Elizabeth', 'dest': 'exit'}
+Greet Michael at the end table and introduce it to Charlie at the desk
+    {'intent': 'greet', 'per': 'Michael', 'dest': 'table'}
+Greet Michael at the end table and introduce it to Charlie at the desk
+    {'intent': 'greet', 'per': 'Michael', 'dest': 'Charlie desk'}
+Could you please greet Robert at the desk and guide him to his uber
+    {'intent': 'greet', 'per': 'Robert', 'dest': 'desk'}
+Greet Charlie at the bed and ask him to leave
+    {'intent': 'greet', 'per': 'Charlie', 'dest': 'bed'}
+Greet Mary at the rear entrance and introduce her to all the elders in the kitchen.
+    {'intent': 'greet', 'per': 'Mary', 'dest': 'entrance'}
+Greet Mary at the rear entrance and introduce her to all the elders in the kitchen.
+    {'intent': 'greet', 'per': 'Mary', 'dest': 'all the elders kitchen.'}
+Greet Charlie at the couch and introduce it to Francis at the dishwasher
+    {'intent': 'greet', 'per': 'Charlie', 'dest': 'couch'}
+Greet Charlie at the couch and introduce it to Francis at the dishwasher
+    {'intent': 'greet', 'per': 'Charlie Francis', 'dest': 'dishwasher'}
+Could you please greet Charlie at the dining table and introduce it to Charlie at the desk
+    {'intent': 'greet', 'per': 'Charlie', 'dest': 'table'}
+Could you please greet Charlie at the dining table and introduce it to Charlie at the desk
+    {'intent': 'greet', 'per': 'Charlie Charlie', 'dest': 'desk'}
+Say the day of the week to the person waving in the dining room
+    {'intent': 'greet', 'obj': 'week', 'dest': 'waving room'}
+Find a male person in the bedroom and say your team's country
+    {'intent': 'greet'}
+Robot please say what day is tomorrow to the person raising their left arm in the dining room
+    {'intent': 'greet', 'obj': 'tomorrow', 'dest': 'raising their left arm room'}
+Please answer a question to the person raising their left arm in the corridor
+    {'intent': 'greet', 'dest': 'raising their left arm corridor'}
+Locate a female person in the kitchen and say your team's affiliation
+    {'intent': 'greet'}
+Could you greet James at the bed and introduce it to Robin at the desk
+    {'intent': 'greet', 'per': 'James', 'dest': 'bed'}
+Could you greet James at the bed and introduce it to Robin at the desk
+    {'intent': 'greet', 'per': 'James', 'dest': 'Robin desk'}
