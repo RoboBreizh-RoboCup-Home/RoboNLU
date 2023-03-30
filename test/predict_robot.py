@@ -212,11 +212,10 @@ class CommandProcessor(object):
             try:
                 concated_input = np.concatenate((sq_sequence_output, repeat_pro), axis=1)[None, :]
             except Exception as e :
-                print(e)
                 print(" ".join(self.words))
-                print(sq_sequence_output)
-                print(repeat_pro)
-                exit()
+                print(sq_sequence_output.shape)
+                print(repeat_pro.shape)
+                raise e
 
             referee_token_logits = self.pro_classifier.forward(concated_input)
             # referee_token_logits = self.pro_classifier_ort_session.run(None, {'concated_input':concated_input})
@@ -299,8 +298,9 @@ class CommandProcessor(object):
                     except Exception as e:
                         with open("./test/errors.out", "a", encoding="utf-8") as f:
                             f.write(str(e)+"\n")
+                        raise e
 
-        with open(self.output_file, "a", encoding="utf-8") as f:
+        with open(self.output_file, "a", encoding="utf-8-sig") as f:
             if 'B-referee' in referee_preds_list:
                 f.write('\n')
                 f.write('---------------------------------------------------------------------\n')
@@ -324,5 +324,5 @@ if __name__ == "__main__":
     inference = CommandProcessor(model_path=model_path, slot_classifier_path=slot_classifier_path,
                                 intent_token_classifier_path=intent_token_classifier_path,
                                 pro_classifier_path=pro_classifier_path)
-    res = inference.predict("Meet John at the sink , follow him , and lead him back".split())
+    res = inference.predict("Meet John at the dishwasher follow him and escort him back".split())
     print(res)

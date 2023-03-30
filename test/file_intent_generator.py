@@ -7,11 +7,10 @@ import os
 
 def read_input_file(input_text_path: str) -> List[List[str]]:
     word_lines = []
-    with open(input_text_path, "r", encoding="utf-8") as f:
+    with open(input_text_path, "r", encoding="utf-8-sig") as f:
         lines = f.readlines()
         for line in lines:
-            # word_lines.append(line.strip().replace(", "," , ").split())
-            word_lines.append(line.strip().split())
+            word_lines.append(line.strip().replace(",","").split())
     return word_lines
 
 
@@ -22,7 +21,7 @@ def write_output_files(word_lines: List[str], model: CommandProcessor, gpsr_name
             input_dict = ast.literal_eval(intent)
             # retrieve attribute associated with intent key
             intent_attr = input_dict.get('intent')
-            with open("output/"+intent_attr+"_"+gpsr_name+".out", "a", encoding="utf-8") as f:
+            with open("output/"+intent_attr+"_"+gpsr_name+".out", "a", encoding="utf-8-sig") as f:
                 f.write(' '.join(word_lines[index]) + '\n    ' + intent + '\n')
 
 
