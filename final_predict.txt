@@ -1,12 +1,12 @@
 
 ---------------------------------------------------------------------
 * Pro Case: 
-[find:B-find:O] [jack:I-find:B-per] , and [follow:B-follow:O] [him:jack:I-follow:B-per]
+[give:B-find:O] [me:I-find:B-dest] [an:I-find:O] [apple:I-find:B-obj] [from:I-find:O] [the:I-find:O] [storage:I-find:B-sour] [table:I-find:I-sour] , [hand:B-find:O] [it:apple:I-find:B-obj] [to:I-find:O] [Peter:I-find:B-dest]
 ---------------------------------------------------------------------
  
 
 ---------------------------------------------------------------------
 * Pro Case: 
-[fine:B-take:O] [the:I-take:O] [apple:I-take:B-obj] [from:I-take:O] [the:I-take:O] [table:I-take:B-sour] and [give:B-take:O] [it:apple:I-take:B-obj] [to:I-take:O] [me:I-take:B-dest]
+[give:B-find:O] [me:I-find:B-dest] [an:I-find:O] [apple:I-find:B-obj] [from:I-find:O] [the:I-find:O] [storage:I-find:B-sour] [table:I-find:I-sour] , [hand:B-find:O] [it:apple:I-find:B-obj] [to:I-find:O] [Peter:I-find:B-dest]
 ---------------------------------------------------------------------
  

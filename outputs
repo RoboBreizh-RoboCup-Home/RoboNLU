@@ -136,3 +136,10 @@
 [find:B-find:O] [jack:I-find:B-per] , and [follow:B-follow:O] [him(jack):I-follow:B-per]
 ---------------------------------------------------------------------
  
+[give:B-take:O] [me:I-take:B-dest] [an:I-take:O] [apple:I-take:B-obj] [from:I-take:O] [the:I-take:O] [end:I-take:O] [table:I-take:I-sour]
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Meet:B-find:O] [John:I-find:B-per] [at:I-find:O] [the:I-find:O] [dishwasher:I-find:B-dest] [follow:B-follow:O] [him(John):I-follow:B-per] and [escort:B-guide:O] [him(John):I-guide:B-per] [back:I-guide:O]
+---------------------------------------------------------------------
+ 

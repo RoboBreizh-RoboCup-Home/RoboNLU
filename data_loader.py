@@ -504,7 +504,8 @@ processors = {
     'dstc4': JointProcessorMultiIntent,
     'gpsr': JointProcessorMultiIntent,
     'gpsr_pro' : JointProcessorMultiIntent_Pro,
-    'gpsr_pro_instance' : JointProcessorMultiIntent_Pro
+    'gpsr_pro_instance' : JointProcessorMultiIntent_Pro,
+    'gpsr_pro_instance_say' : JointProcessorMultiIntent_Pro
 }
 
 
