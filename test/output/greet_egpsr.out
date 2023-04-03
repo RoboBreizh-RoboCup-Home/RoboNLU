@@ -1,0 +1,12 @@
+﻿Say hello to the woman raising their left arm in the living room
+    {'intent': 'greet', 'per': 'woman raising their left arm', 'dest': 'living room'}
+Could you please meet Linda at the bookcase then greet her
+    {'intent': 'greet', 'per': 'Linda'}
+Could you get acquainted with Skyler at the couch then greet her
+    {'intent': 'greet', 'per': 'Skyler'}
+Greet the child in the dining room
+    {'intent': 'greet', 'per': 'child', 'dest': 'dining room'}
+Could you salute the slimmest woman in the corridor
+    {'intent': 'greet', 'per': 'slimmest woman', 'dest': 'corridor'}
+Contact John at the exit then greet him please
+    {'intent': 'greet', 'per': 'John'}

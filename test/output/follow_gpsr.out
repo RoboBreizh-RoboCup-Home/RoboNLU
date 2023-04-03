@@ -6,12 +6,6 @@ Follow Michael
     {'intent': 'follow', 'per': 'Michael'}
 Please meet Linda at the end table follow her and go to the dining room
     {'intent': 'follow', 'per': 'Linda'}
-Please follow Francis from the dining table to the bedroom
-    {'intent': 'follow', 'per': 'Francis', 'sour': 'table', 'dest': 'bedroom'}
-Follow Charlie from the couch to the bedroom
-    {'intent': 'follow', 'per': 'Charlie', 'sour': 'couch', 'dest': 'bedroom'}
-Follow Robert from the desk to the bedroom
-    {'intent': 'follow', 'per': 'Robert', 'sour': 'desk', 'dest': 'bedroom'}
 Meet William at the end table follow him and guide him back
     {'intent': 'follow', 'per': 'William'}
 Meet Alex at the dishwasher follow her and go to the dining room
@@ -32,16 +26,12 @@ Navigate to the exit meet Skyler and follow her
     {'intent': 'follow', 'per': 'Skyler'}
 Please meet Charlie at the entrance follow her and guide her back
     {'intent': 'follow', 'per': 'Charlie'}
-Guide Francis from the exit to the entrance
-    {'intent': 'follow', 'per': 'Francis', 'sour': 'exit', 'dest': 'entrance'}
 Meet Michael at the bookcase follow him and accompany him back
     {'intent': 'follow', 'per': 'Michael'}
 Meet Michael at the bookcase follow him and accompany him back
     {'intent': 'follow', 'per': 'Michael'}
 Could you please meet Robin and accompany him
     {'intent': 'follow', 'per': 'Robin'}
-Follow Francis from the sink to the dining room
-    {'intent': 'follow', 'per': 'Francis', 'sour': 'sink', 'dest': 'room'}
 Follow Patricia
     {'intent': 'follow', 'per': 'Patricia'}
 Navigate to the dining table meet Patricia and accompany her
@@ -54,10 +44,6 @@ Meet Mary at the end table follow her and take her back
     {'intent': 'follow', 'per': 'Mary'}
 Go to the couch meet Patricia and follow her
     {'intent': 'follow', 'per': 'Patricia'}
-Follow Charlie from the desk to the bedroom
-    {'intent': 'follow', 'per': 'Charlie', 'sour': 'desk', 'dest': 'bedroom'}
-Follow Robert from the desk to the living room
-    {'intent': 'follow', 'per': 'Robert', 'sour': 'desk', 'dest': 'room'}
 Meet John at the bookcase follow him and lead him back
     {'intent': 'follow', 'per': 'John'}
 Go to the sink meet Patricia and follow her
@@ -78,8 +64,6 @@ Meet Linda at the end table follow her and go to the corridor
     {'intent': 'follow', 'per': 'Linda'}
 Meet Robert at the bed follow him and go to the dining room
     {'intent': 'follow', 'per': 'Robert'}
-Follow Michael from the dishwasher to the kitchen
-    {'intent': 'follow', 'per': 'Michael', 'sour': 'dishwasher', 'dest': 'kitchen'}
 Meet Robin at the bookcase follow her and navigate to the living room
     {'intent': 'follow', 'per': 'Robin'}
 Robot please meet John at the bookcase follow him and navigate to the corridor
@@ -112,20 +96,12 @@ Could you meet Charlie at the entrance follow him and navigate to the corridor
     {'intent': 'follow', 'per': 'Charlie'}
 Meet Skyler at the end table follow him and navigate to the dining room
     {'intent': 'follow', 'per': 'Skyler'}
-Robot please follow Elizabeth from the exit to the dining room
-    {'intent': 'follow', 'per': 'Elizabeth', 'sour': 'exit', 'dest': 'room'}
 Follow Patricia
     {'intent': 'follow', 'per': 'Patricia'}
-Could you follow Francis from the desk to the corridor
-    {'intent': 'follow', 'per': 'Francis', 'sour': 'desk', 'dest': 'corridor'}
 Please navigate to the sink meet Skyler and follow him
     {'intent': 'follow', 'per': 'Skyler'}
-Follow Jennifer from the dishwasher to the dining room
-    {'intent': 'follow', 'per': 'Jennifer', 'sour': 'dishwasher', 'dest': 'room'}
 Could you follow Charlie
     {'intent': 'follow', 'per': 'Charlie'}
-Please follow Alex from the entrance to the dining room
-    {'intent': 'follow', 'per': 'Alex', 'sour': 'entrance', 'dest': 'room'}
 Could you please meet Charlie at the sink follow him and escort him back
     {'intent': 'follow', 'per': 'Charlie'}
 Robot please meet Skyler at the entrance and follow her
@@ -142,8 +118,6 @@ Navigate to the desk meet Francis and follow him
     {'intent': 'follow', 'per': 'Francis'}
 Meet Francis at the bookcase follow her and guide her back
     {'intent': 'follow', 'per': 'Francis'}
-Follow Skyler from the bed to the bedroom
-    {'intent': 'follow', 'per': 'Skyler', 'sour': 'bed', 'dest': 'bedroom'}
 Meet James at the end table follow him and navigate to the dining room
     {'intent': 'follow', 'per': 'James'}
 Navigate to the desk meet Charlie and follow her
@@ -186,8 +160,6 @@ Could you meet Charlie at the couch follow her and lead her back
     {'intent': 'follow', 'per': 'Charlie'}
 Could you go to the end table meet Jennifer and follow her
     {'intent': 'follow', 'per': 'Jennifer'}
-Follow Charlie from the dining table to the bedroom
-    {'intent': 'follow', 'per': 'Charlie', 'sour': 'table', 'dest': 'bedroom'}
 Meet Elizabeth at the bookcase follow her and guide her back
     {'intent': 'follow', 'per': 'Elizabeth'}
 Meet Alex at the sink follow her and guide her back
@@ -204,16 +176,10 @@ Please meet Francis at the couch and follow him
     {'intent': 'follow', 'per': 'Francis'}
 Meet William at the bookcase follow him and navigate to the corridor
     {'intent': 'follow', 'per': 'William'}
-Follow Francis from the dishwasher to the dining room
-    {'intent': 'follow', 'per': 'Francis', 'sour': 'dishwasher', 'dest': 'room'}
 Meet Charlie at the sink follow her and navigate to the kitchen
     {'intent': 'follow', 'per': 'Charlie'}
 Go to the dining table meet Skyler and follow her
     {'intent': 'follow', 'per': 'Skyler'}
-Follow James from the desk to the bedroom
-    {'intent': 'follow', 'per': 'James', 'sour': 'desk', 'dest': 'bedroom'}
-Follow Jennifer from the sink to the living room
-    {'intent': 'follow', 'per': 'Jennifer', 'sour': 'sink', 'dest': 'room'}
 Please follow Jennifer
     {'intent': 'follow', 'per': 'Jennifer'}
 Could you meet Skyler at the exit follow him and take him back
@@ -224,8 +190,6 @@ Please meet Mary at the end table follow her and go to the kitchen
     {'intent': 'follow', 'per': 'Mary'}
 Could you please meet Francis at the end table follow her and navigate to the living room
     {'intent': 'follow', 'per': 'Francis'}
-Follow Skyler from the dishwasher to the bedroom
-    {'intent': 'follow', 'per': 'Skyler', 'sour': 'dishwasher', 'dest': 'bedroom'}
 Could you please meet Skyler at the exit follow him and go to the bedroom
     {'intent': 'follow', 'per': 'Skyler'}
 Could you please meet Robin at the entrance follow her and navigate to the kitchen
@@ -234,28 +198,22 @@ Meet Robert at the bookcase follow him and lead him back
     {'intent': 'follow', 'per': 'Robert'}
 Robot please meet Robin at the end table follow her and go to the dining room
     {'intent': 'follow', 'per': 'Robin'}
-Follow Jennifer from the entrance to the kitchen
-    {'intent': 'follow', 'per': 'Jennifer', 'sour': 'entrance', 'dest': 'kitchen'}
 Could you please meet Robin at the exit and follow him
     {'intent': 'follow', 'per': 'Robin'}
 Meet Francis at the exit follow her and go to the corridor
     {'intent': 'follow', 'per': 'Francis'}
 Meet Charlie at the dishwasher and follow her
     {'intent': 'follow', 'per': 'Charlie'}
-Follow Robin from the dishwasher to the kitchen
-    {'intent': 'follow', 'per': 'Robin', 'sour': 'dishwasher', 'dest': 'kitchen'}
-Follow Skyler from the desk to the living room
-    {'intent': 'follow', 'per': 'Skyler', 'sour': 'desk', 'dest': 'room'}
 Meet Elizabeth at the exit follow her and go to the bedroom
     {'intent': 'follow', 'per': 'Elizabeth'}
 Meet Elizabeth at the entrance follow her and accompany her back
     {'intent': 'follow', 'per': 'Elizabeth'}
 Meet Elizabeth at the entrance follow her and accompany her back
-    {'intent': 'follow', 'per': 'Elizabeth back'}
+    {'intent': 'follow', 'per': 'Elizabeth'}
 Meet Mary at the exit follow her and accompany her back
     {'intent': 'follow', 'per': 'Mary'}
 Meet Mary at the exit follow her and accompany her back
-    {'intent': 'follow', 'per': 'Mary back'}
+    {'intent': 'follow', 'per': 'Mary'}
 Meet Patricia at the end table follow her and navigate to the living room
     {'intent': 'follow', 'per': 'Patricia'}
 Meet Mary at the bed follow her and navigate to the kitchen
@@ -294,8 +252,6 @@ Meet Alex at the bed and follow her
     {'intent': 'follow', 'per': 'Alex'}
 Please meet Francis at the entrance follow her and lead her back
     {'intent': 'follow', 'per': 'Francis'}
-Follow Charlie from the bookcase to the kitchen
-    {'intent': 'follow', 'per': 'Charlie', 'sour': 'bookcase', 'dest': 'kitchen'}
 Follow Patricia
     {'intent': 'follow', 'per': 'Patricia'}
 Meet Linda at the exit follow her and escort her back
@@ -306,14 +262,10 @@ Please meet Skyler at the entrance follow her and go to the corridor
     {'intent': 'follow', 'per': 'Skyler'}
 Robot please meet Charlie at the end table and follow him
     {'intent': 'follow', 'per': 'Charlie'}
-Please follow William from the exit to the corridor
-    {'intent': 'follow', 'per': 'William', 'sour': 'exit', 'dest': 'corridor'}
 Could you please meet Elizabeth at the couch follow her and go to the living room
     {'intent': 'follow', 'per': 'Elizabeth'}
 Meet Francis at the sink and follow her
     {'intent': 'follow', 'per': 'Francis'}
-Follow Robert from the bookcase to the dining room
-    {'intent': 'follow', 'per': 'Robert', 'sour': 'bookcase', 'dest': 'room'}
 Please meet Skyler at the entrance follow him and go to the kitchen
     {'intent': 'follow', 'per': 'Skyler'}
 Meet Charlie at the end table follow her and navigate to the kitchen
@@ -373,15 +325,13 @@ Robot please meet John at the couch follow him and navigate to the living room
 Meet Linda at the end table follow her and accompany her back
     {'intent': 'follow', 'per': 'Linda'}
 Meet Linda at the end table follow her and accompany her back
-    {'intent': 'follow', 'per': 'Linda back'}
+    {'intent': 'follow', 'per': 'Linda'}
 Could you meet Mary at the dishwasher follow her and go to the dining room
     {'intent': 'follow', 'per': 'Mary'}
 Navigate to the dishwasher meet Francis and follow her
     {'intent': 'follow', 'per': 'Francis'}
 Follow Charlie
     {'intent': 'follow', 'per': 'Charlie'}
-Follow Skyler from the bookcase to the kitchen
-    {'intent': 'follow', 'per': 'Skyler', 'sour': 'bookcase', 'dest': 'kitchen'}
 Go to the dishwasher meet Linda and follow her
     {'intent': 'follow', 'per': 'Linda'}
 Robot please navigate to the dishwasher meet Robin and follow her
@@ -392,26 +342,16 @@ Meet Elizabeth at the end table follow her and go to the bedroom
     {'intent': 'follow', 'per': 'Elizabeth'}
 Go to the couch meet Robin and follow her
     {'intent': 'follow', 'per': 'Robin'}
-Could you please follow Jennifer from the couch to the living room
-    {'intent': 'follow', 'per': 'Jennifer', 'sour': 'couch', 'dest': 'room'}
-Please follow William from the bookcase to the corridor
-    {'intent': 'follow', 'per': 'William', 'sour': 'bookcase', 'dest': 'corridor'}
 Meet Elizabeth at the couch follow her and accompany her back
     {'intent': 'follow', 'per': 'Elizabeth'}
 Meet Elizabeth at the couch follow her and accompany her back
-    {'intent': 'follow', 'per': 'Elizabeth back'}
-Follow Linda from the dining table to the corridor
-    {'intent': 'follow', 'per': 'Linda', 'sour': 'table', 'dest': 'corridor'}
+    {'intent': 'follow', 'per': 'Elizabeth'}
 Robot please meet Jennifer at the bookcase follow her and go to the living room
     {'intent': 'follow', 'per': 'Jennifer'}
 Navigate to the end table meet Elizabeth and follow her
     {'intent': 'follow', 'per': 'Elizabeth'}
 Go to the sink meet Robert and follow him
     {'intent': 'follow', 'per': 'Robert'}
-Follow Alex from the couch to the dining room
-    {'intent': 'follow', 'per': 'Alex', 'sour': 'couch', 'dest': 'room'}
-Follow Jennifer from the couch to the kitchen
-    {'intent': 'follow', 'per': 'Jennifer', 'sour': 'couch', 'dest': 'kitchen'}
 Meet Linda at the entrance and follow her
     {'intent': 'follow', 'per': 'Linda'}
 Meet Robert at the bed follow him and navigate to the living room
@@ -422,8 +362,6 @@ Meet Robin at the sink and follow her
     {'intent': 'follow', 'per': 'Robin'}
 Please meet Michael at the entrance follow him and go to the kitchen
     {'intent': 'follow', 'per': 'Michael'}
-Follow William from the dining table to the kitchen
-    {'intent': 'follow', 'per': 'William', 'sour': 'table', 'dest': 'kitchen'}
 Meet William at the dishwasher and follow him
     {'intent': 'follow', 'per': 'William'}
 Meet John at the bookcase follow him and escort him back
@@ -434,18 +372,12 @@ Meet William at the sink follow him and go to the corridor
     {'intent': 'follow', 'per': 'William'}
 Could you meet Robert at the sink follow him and go to the dining room
     {'intent': 'follow', 'per': 'Robert'}
-Follow Alex from the bed to the bedroom
-    {'intent': 'follow', 'per': 'Alex', 'sour': 'bed', 'dest': 'bedroom'}
-Robot please follow Alex from the exit to the dining room
-    {'intent': 'follow', 'per': 'Alex', 'sour': 'exit', 'dest': 'room'}
 Could you go to the end table meet Robin and follow him
     {'intent': 'follow', 'per': 'Robin'}
 Meet Mary at the exit follow her and navigate to the kitchen
     {'intent': 'follow', 'per': 'Mary'}
 Navigate to the desk meet Alex and follow him
     {'intent': 'follow', 'per': 'Alex'}
-Follow Michael from the entrance to the corridor
-    {'intent': 'follow', 'per': 'Michael', 'sour': 'entrance', 'dest': 'corridor'}
 Follow William
     {'intent': 'follow', 'per': 'William'}
 Follow Skyler
@@ -454,8 +386,6 @@ Meet Francis at the sink follow him and go to the kitchen
     {'intent': 'follow', 'per': 'Francis'}
 Navigate to the entrance meet William and follow him
     {'intent': 'follow', 'per': 'William'}
-Follow William from the couch to the living room
-    {'intent': 'follow', 'per': 'William', 'sour': 'couch', 'dest': 'room'}
 Robot please follow Linda
     {'intent': 'follow', 'per': 'Linda'}
 Meet William at the bed follow him and navigate to the bedroom
@@ -480,14 +410,8 @@ Go to the bookcase meet Alex and follow him
     {'intent': 'follow', 'per': 'Alex'}
 Meet James at the couch follow him and go to the corridor
     {'intent': 'follow', 'per': 'James'}
-Follow Charlie from the desk to the bedroom
-    {'intent': 'follow', 'per': 'Charlie', 'sour': 'desk', 'dest': 'bedroom'}
-Follow Patricia from the couch to the bedroom
-    {'intent': 'follow', 'per': 'Patricia', 'sour': 'couch', 'dest': 'bedroom'}
 Meet Robin at the couch follow him and navigate to the kitchen
     {'intent': 'follow', 'per': 'Robin'}
-Follow Alex from the dining table to the dining room
-    {'intent': 'follow', 'per': 'Alex', 'sour': 'table', 'dest': 'room'}
 Meet Charlie at the couch follow her and go to the dining room
     {'intent': 'follow', 'per': 'Charlie'}
 Go to the desk meet Mary and follow her
@@ -496,8 +420,6 @@ Could you please meet Robin at the sink follow him and go to the dining room
     {'intent': 'follow', 'per': 'Robin'}
 Could you meet Robert at the end table follow him and go to the living room
     {'intent': 'follow', 'per': 'Robert'}
-Follow Charlie from the exit to the bedroom
-    {'intent': 'follow', 'per': 'Charlie', 'sour': 'exit', 'dest': 'bedroom'}
 Please go to the dishwasher meet Robert and follow him
     {'intent': 'follow', 'per': 'Robert'}
 Meet Robert at the exit and follow him
@@ -506,8 +428,6 @@ Meet Alex at the end table follow her and navigate to the bedroom
     {'intent': 'follow', 'per': 'Alex'}
 Could you meet Michael at the couch follow him and go to the living room
     {'intent': 'follow', 'per': 'Michael'}
-Meet Robin at the entrance follow him and accompany him back
-    {'intent': 'follow', 'per': 'Robin'}
 Meet Robin at the entrance follow him and accompany him back
     {'intent': 'follow', 'per': 'Robin'}
 Meet William at the bed follow him and navigate to the kitchen
@@ -534,30 +454,20 @@ Please follow Robin
     {'intent': 'follow', 'per': 'Robin'}
 Meet Linda at the exit follow her and navigate to the dining room
     {'intent': 'follow', 'per': 'Linda'}
-Follow Elizabeth from the end table to the living room
-    {'intent': 'follow', 'per': 'Elizabeth', 'sour': 'table', 'dest': 'room'}
 Meet Michael at the end table follow him and accompany him back
     {'intent': 'follow', 'per': 'Michael'}
 Meet Michael at the end table follow him and accompany him back
     {'intent': 'follow', 'per': 'Michael'}
 Could you meet Mary at the entrance follow her and escort her back
     {'intent': 'follow', 'per': 'Mary'}
-Follow Jennifer from the dishwasher to the kitchen
-    {'intent': 'follow', 'per': 'Jennifer', 'sour': 'dishwasher', 'dest': 'kitchen'}
 Meet Alex at the exit follow him and escort him back
     {'intent': 'follow', 'per': 'Alex'}
-Please follow Robin from the exit to the bedroom
-    {'intent': 'follow', 'per': 'Robin', 'sour': 'exit', 'dest': 'bedroom'}
 Meet Alex at the entrance follow him and go to the kitchen
     {'intent': 'follow', 'per': 'Alex'}
 Please meet Francis at the dishwasher follow her and navigate to the corridor
     {'intent': 'follow', 'per': 'Francis'}
-Follow James from the exit to the living room
-    {'intent': 'follow', 'per': 'James', 'sour': 'exit', 'dest': 'room'}
 Go to the entrance meet Charlie and follow her
     {'intent': 'follow', 'per': 'Charlie'}
-Robot please follow John from the bookcase to the bedroom
-    {'intent': 'follow', 'per': 'John', 'sour': 'bookcase', 'dest': 'bedroom'}
 Meet Alex at the exit follow her and go to the dining room
     {'intent': 'follow', 'per': 'Alex'}
 Could you meet Skyler at the bookcase follow him and guide him back
@@ -570,8 +480,6 @@ Could you please meet Mary at the desk follow her and escort her back
     {'intent': 'follow', 'per': 'Mary'}
 Follow Alex
     {'intent': 'follow', 'per': 'Alex'}
-Could you please follow Charlie from the dining table to the bedroom
-    {'intent': 'follow', 'per': 'Charlie', 'sour': 'table', 'dest': 'bedroom'}
 Could you navigate to the sink meet Alex and follow her
     {'intent': 'follow', 'per': 'Alex'}
 Meet Skyler at the dishwasher follow her and escort her back
@@ -594,8 +502,6 @@ Please meet Charlie at the entrance and follow him
     {'intent': 'follow', 'per': 'Charlie'}
 Navigate to the entrance meet Alex and follow him
     {'intent': 'follow', 'per': 'Alex'}
-Follow James from the couch to the kitchen
-    {'intent': 'follow', 'per': 'James', 'sour': 'couch', 'dest': 'kitchen'}
 Meet Robert at the bed follow him and accompany him back
     {'intent': 'follow', 'per': 'Robert'}
 Meet Robert at the bed follow him and accompany him back
@@ -610,8 +516,6 @@ Go to the couch meet Mary and follow her
     {'intent': 'follow', 'per': 'Mary'}
 Could you please meet Charlie at the end table follow her and navigate to the bedroom
     {'intent': 'follow', 'per': 'Charlie'}
-Please follow Francis from the sink to the corridor
-    {'intent': 'follow', 'per': 'Francis', 'sour': 'sink', 'dest': 'corridor'}
 Go to the dining table meet Jennifer and follow her
     {'intent': 'follow', 'per': 'Jennifer'}
 Meet Charlie at the bed follow him and go to the corridor
@@ -624,8 +528,6 @@ Could you please meet Robin at the couch follow him and accompany him back
     {'intent': 'follow', 'per': 'Robin'}
 Could you please meet Robin at the couch follow him and accompany him back
     {'intent': 'follow', 'per': 'Robin'}
-Take Elizabeth from the entrance to the desk
-    {'intent': 'follow', 'per': 'Elizabeth', 'sour': 'entrance', 'dest': 'desk'}
 Meet Alex at the bed follow him and guide him back
     {'intent': 'follow', 'per': 'Alex'}
 Follow William
@@ -634,58 +536,42 @@ Robot please meet Charlie at the entrance follow her and lead her back
     {'intent': 'follow', 'per': 'Charlie'}
 Follow Charlie
     {'intent': 'follow', 'per': 'Charlie'}
-Could you please follow Alex from the dishwasher to the kitchen
-    {'intent': 'follow', 'per': 'Alex', 'sour': 'dishwasher', 'dest': 'kitchen'}
 Robot please meet Skyler at the dishwasher and follow her
     {'intent': 'follow', 'per': 'Skyler'}
 Meet Alex at the desk follow him and navigate to the corridor
     {'intent': 'follow', 'per': 'Alex'}
 Meet Robin at the entrance follow her and take her back
     {'intent': 'follow', 'per': 'Robin'}
-Follow Alex from the sink to the bedroom
-    {'intent': 'follow', 'per': 'Alex', 'sour': 'sink', 'dest': 'bedroom'}
 Could you meet Francis at the bookcase follow her and lead her back
     {'intent': 'follow', 'per': 'Francis'}
 Please meet Robin at the dishwasher follow him and escort him back
     {'intent': 'follow', 'per': 'Robin'}
 Meet Robin at the couch follow him and lead him back
     {'intent': 'follow', 'per': 'Robin'}
-Follow Skyler from the sink to the dining room
-    {'intent': 'follow', 'per': 'Skyler', 'sour': 'sink', 'dest': 'room'}
 Follow John
     {'intent': 'follow', 'per': 'John'}
 Could you please go to the bed meet Mary and follow her
     {'intent': 'follow', 'per': 'Mary'}
 Follow Francis
     {'intent': 'follow', 'per': 'Francis'}
-Could you follow Alex from the bed to the corridor
-    {'intent': 'follow', 'per': 'Alex', 'sour': 'bed', 'dest': 'corridor'}
 Could you please meet Jennifer at the desk follow her and navigate to the dining room
     {'intent': 'follow', 'per': 'Jennifer'}
-Follow Francis from the dining table to the kitchen
-    {'intent': 'follow', 'per': 'Francis', 'sour': 'table', 'dest': 'kitchen'}
 Follow William
     {'intent': 'follow', 'per': 'William'}
 Meet Robin at the desk and follow him
     {'intent': 'follow', 'per': 'Robin'}
 Could you meet Skyler at the sink follow him and go to the kitchen
     {'intent': 'follow', 'per': 'Skyler'}
-Robot please follow Charlie from the dishwasher to the bedroom
-    {'intent': 'follow', 'per': 'Charlie', 'sour': 'dishwasher', 'dest': 'bedroom'}
 Could you navigate to the dishwasher meet Skyler and follow her
     {'intent': 'follow', 'per': 'Skyler'}
 Meet Michael at the sink follow him and guide him back
     {'intent': 'follow', 'per': 'Michael'}
 Meet William at the desk follow him and lead him back
     {'intent': 'follow', 'per': 'William'}
-Please follow Charlie from the entrance to the bedroom
-    {'intent': 'follow', 'per': 'Charlie', 'sour': 'entrance', 'dest': 'bedroom'}
 Meet Alex at the bed follow him and navigate to the living room
     {'intent': 'follow', 'per': 'Alex'}
 Meet Elizabeth at the bed follow her and escort her back
     {'intent': 'follow', 'per': 'Elizabeth'}
-Follow Patricia from the dining table to the living room
-    {'intent': 'follow', 'per': 'Patricia', 'sour': 'table', 'dest': 'room'}
 Meet William at the bed follow him and go to the kitchen
     {'intent': 'follow', 'per': 'William'}
 Could you please meet Francis at the sink follow her and navigate to the corridor
@@ -694,20 +580,12 @@ Follow Jennifer
     {'intent': 'follow', 'per': 'Jennifer'}
 Meet Charlie at the dining table follow her and go to the kitchen
     {'intent': 'follow', 'per': 'Charlie'}
-Please follow Robin from the bed to the corridor
-    {'intent': 'follow', 'per': 'Robin', 'sour': 'bed', 'dest': 'corridor'}
 Could you please meet Skyler at the entrance follow him and take him back
     {'intent': 'follow', 'per': 'Skyler'}
 Robot please meet William at the bed follow him and lead him back
     {'intent': 'follow', 'per': 'William'}
-Follow Francis from the exit to the bedroom
-    {'intent': 'follow', 'per': 'Francis', 'sour': 'exit', 'dest': 'bedroom'}
-Could you please follow Robert from the couch to the bedroom
-    {'intent': 'follow', 'per': 'Robert', 'sour': 'couch', 'dest': 'bedroom'}
 Please meet Elizabeth at the desk follow her and go to the dining room
     {'intent': 'follow', 'per': 'Elizabeth'}
-Follow Mary from the end table to the bedroom
-    {'intent': 'follow', 'per': 'Mary', 'sour': 'table', 'dest': 'bedroom'}
 Follow Alex
     {'intent': 'follow', 'per': 'Alex'}
 Go to the desk meet Robert and follow him
@@ -722,8 +600,6 @@ Meet Alex at the bookcase follow him and accompany him back
     {'intent': 'follow', 'per': 'Alex'}
 Meet Alex at the bookcase follow him and accompany him back
     {'intent': 'follow', 'per': 'Alex'}
-Robot please follow William from the dishwasher to the dining room
-    {'intent': 'follow', 'per': 'William', 'sour': 'dishwasher', 'dest': 'room'}
 Follow Charlie
     {'intent': 'follow', 'per': 'Charlie'}
 Meet Francis at the desk follow him and take him back
@@ -745,15 +621,13 @@ Meet William at the end table follow him and go to the corridor
 Robot please meet Elizabeth at the entrance follow her and accompany her back
     {'intent': 'follow', 'per': 'Elizabeth'}
 Robot please meet Elizabeth at the entrance follow her and accompany her back
-    {'intent': 'follow', 'per': 'Elizabeth back'}
+    {'intent': 'follow', 'per': 'Elizabeth'}
 Please meet Patricia at the bed follow her and accompany her back
     {'intent': 'follow', 'per': 'Patricia'}
 Please meet Patricia at the bed follow her and accompany her back
     {'intent': 'follow', 'per': 'Patricia'}
 Could you meet Skyler at the bookcase follow her and lead her back
     {'intent': 'follow', 'per': 'Skyler'}
-Follow Skyler from the desk to the bedroom
-    {'intent': 'follow', 'per': 'Skyler', 'sour': 'desk', 'dest': 'bedroom'}
 Meet Alex at the dining table and follow him
     {'intent': 'follow', 'per': 'Alex'}
 Meet Charlie at the bookcase and follow him
@@ -776,22 +650,16 @@ Meet John at the dining table follow him and go to the corridor
     {'intent': 'follow', 'per': 'John'}
 Could you please follow Patricia
     {'intent': 'follow', 'per': 'Patricia'}
-Please follow John from the sink to the corridor
-    {'intent': 'follow', 'per': 'John', 'sour': 'sink', 'dest': 'corridor'}
 Could you please navigate to the desk meet Michael and follow him
     {'intent': 'follow', 'per': 'Michael'}
 Meet James at the bookcase follow him and lead him back
     {'intent': 'follow', 'per': 'James'}
-Follow Charlie from the bookcase to the dining room
-    {'intent': 'follow', 'per': 'Charlie', 'sour': 'bookcase', 'dest': 'room'}
 Navigate to the couch meet Patricia and follow her
     {'intent': 'follow', 'per': 'Patricia'}
 Meet Linda at the couch and follow her
     {'intent': 'follow', 'per': 'Linda'}
 Please meet Francis at the dining table follow her and navigate to the living room
     {'intent': 'follow', 'per': 'Francis'}
-Robot please follow Alex from the desk to the bedroom
-    {'intent': 'follow', 'per': 'Alex', 'sour': 'desk', 'dest': 'bedroom'}
 Meet Skyler at the entrance follow her and guide her back
     {'intent': 'follow', 'per': 'Skyler'}
 Go to the sink meet Francis and accompany her
@@ -808,12 +676,8 @@ Meet Elizabeth at the entrance follow her and lead her back
     {'intent': 'follow', 'per': 'Elizabeth'}
 Meet Robin at the exit follow him and go to the dining room
     {'intent': 'follow', 'per': 'Robin'}
-Robot please follow Robin from the exit to the bedroom
-    {'intent': 'follow', 'per': 'Robin', 'sour': 'exit', 'dest': 'bedroom'}
 Meet Alex at the entrance follow him and guide him back
     {'intent': 'follow', 'per': 'Alex'}
-Could you please follow Patricia from the exit to the kitchen
-    {'intent': 'follow', 'per': 'Patricia', 'sour': 'exit', 'dest': 'kitchen'}
 Meet Alex at the entrance follow her and guide her back
     {'intent': 'follow', 'per': 'Alex'}
 Follow Skyler
@@ -829,7 +693,7 @@ Could you meet Charlie at the entrance follow him and escort him back
 Meet Skyler at the entrance follow her and accompany her back
     {'intent': 'follow', 'per': 'Skyler'}
 Meet Skyler at the entrance follow her and accompany her back
-    {'intent': 'follow', 'per': 'Skyler back'}
+    {'intent': 'follow', 'per': 'Skyler'}
 Could you please meet Charlie at the dishwasher follow her and navigate to the kitchen
     {'intent': 'follow', 'per': 'Charlie'}
 Go to the entrance meet Patricia and follow her
@@ -840,14 +704,10 @@ Robot please navigate to the exit meet Robin and follow her
     {'intent': 'follow', 'per': 'Robin'}
 Could you go to the end table meet Robin and follow him
     {'intent': 'follow', 'per': 'Robin'}
-Follow Robert from the sink to the living room
-    {'intent': 'follow', 'per': 'Robert', 'sour': 'sink', 'dest': 'room'}
 Meet Alex at the couch follow her and accompany her back
     {'intent': 'follow', 'per': 'Alex'}
 Meet Alex at the couch follow her and accompany her back
     {'intent': 'follow', 'per': 'Alex'}
-Please follow Skyler from the dishwasher to the corridor
-    {'intent': 'follow', 'per': 'Skyler', 'sour': 'dishwasher', 'dest': 'corridor'}
 Meet Alex at the exit follow her and go to the corridor
     {'intent': 'follow', 'per': 'Alex'}
 Meet Alex at the exit and follow him
@@ -884,8 +744,6 @@ Could you please navigate to the dishwasher meet Mary and follow her
     {'intent': 'follow', 'per': 'Mary'}
 Meet Michael at the sink follow him and guide him back
     {'intent': 'follow', 'per': 'Michael'}
-Robot please follow John from the desk to the corridor
-    {'intent': 'follow', 'per': 'John', 'sour': 'desk', 'dest': 'corridor'}
 Go to the dining table meet William and follow him
     {'intent': 'follow', 'per': 'William'}
 Meet Robert at the desk follow him and navigate to the dining room
@@ -914,10 +772,6 @@ Meet Michael at the dishwasher follow him and go to the kitchen
     {'intent': 'follow', 'per': 'Michael'}
 Meet Charlie at the exit follow him and accompany him back
     {'intent': 'follow', 'per': 'Charlie'}
-Meet Charlie at the exit follow him and accompany him back
-    {'intent': 'follow', 'per': 'Charlie'}
-Please follow Mary from the bookcase to the dining room
-    {'intent': 'follow', 'per': 'Mary', 'sour': 'bookcase', 'dest': 'room'}
 Please navigate to the dishwasher meet Linda and follow her
     {'intent': 'follow', 'per': 'Linda'}
 Meet Skyler at the dining table follow her and go to the bedroom
@@ -928,22 +782,12 @@ Meet Robin at the bookcase follow her and go to the dining room
     {'intent': 'follow', 'per': 'Robin'}
 Could you please go to the exit meet Skyler and follow him
     {'intent': 'follow', 'per': 'Skyler'}
-Please follow Alex from the dishwasher to the corridor
-    {'intent': 'follow', 'per': 'Alex', 'sour': 'dishwasher', 'dest': 'corridor'}
 Meet Francis and accompany her
     {'intent': 'follow', 'per': 'Francis'}
 Meet Skyler at the dining table follow her and navigate to the dining room
     {'intent': 'follow', 'per': 'Skyler'}
 Meet James at the end table follow him and navigate to the living room
     {'intent': 'follow', 'per': 'James'}
-Follow John from the dining table to the corridor
-    {'intent': 'follow', 'per': 'John', 'sour': 'table', 'dest': 'corridor'}
-Follow Patricia from the dining table to the kitchen
-    {'intent': 'follow', 'per': 'Patricia', 'sour': 'table', 'dest': 'kitchen'}
-Follow Skyler from the exit to the kitchen
-    {'intent': 'follow', 'per': 'Skyler', 'sour': 'exit', 'dest': 'kitchen'}
-Follow Francis from the bed to the bedroom
-    {'intent': 'follow', 'per': 'Francis', 'sour': 'bed', 'dest': 'bedroom'}
 Navigate to the sink meet Francis and follow him
     {'intent': 'follow', 'per': 'Francis'}
 Robot please meet Charlie at the desk follow her and take her back
@@ -994,8 +838,6 @@ Robot please meet Robin at the exit follow him and navigate to the dining room
     {'intent': 'follow', 'per': 'Robin'}
 Please meet Skyler at the bed follow him and go to the bedroom
     {'intent': 'follow', 'per': 'Skyler'}
-Robot please follow Charlie from the bookcase to the living room
-    {'intent': 'follow', 'per': 'Charlie', 'sour': 'bookcase', 'dest': 'room'}
 Could you meet Charlie at the dining table follow him and go to the living room
     {'intent': 'follow', 'per': 'Charlie'}
 Meet Skyler at the exit follow him and navigate to the kitchen
@@ -1012,8 +854,6 @@ Could you please meet John at the bed follow him and escort him back
     {'intent': 'follow', 'per': 'John'}
 Please navigate to the entrance meet William and follow him
     {'intent': 'follow', 'per': 'William'}
-Could you follow James from the desk to the living room
-    {'intent': 'follow', 'per': 'James', 'sour': 'desk', 'dest': 'room'}
 Could you meet Alex at the sink follow him and lead him back
     {'intent': 'follow', 'per': 'Alex'}
 Please meet John at the entrance follow him and escort him back
@@ -1024,8 +864,6 @@ Robot please meet Charlie at the end table and follow her
     {'intent': 'follow', 'per': 'Charlie'}
 Go to the exit meet Skyler and follow her
     {'intent': 'follow', 'per': 'Skyler'}
-Please follow Robert from the bed to the corridor
-    {'intent': 'follow', 'per': 'Robert', 'sour': 'bed', 'dest': 'corridor'}
 Could you meet Charlie at the exit and follow her
     {'intent': 'follow', 'per': 'Charlie'}
 Please meet Alex at the couch follow her and go to the bedroom
@@ -1044,8 +882,6 @@ Could you meet Francis at the dishwasher follow him and navigate to the corridor
     {'intent': 'follow', 'per': 'Francis'}
 Meet Robin at the couch follow him and escort him back
     {'intent': 'follow', 'per': 'Robin'}
-Follow William from the desk to the bedroom
-    {'intent': 'follow', 'per': 'William', 'sour': 'desk', 'dest': 'bedroom'}
 Robot please meet Michael at the bookcase follow him and escort him back
     {'intent': 'follow', 'per': 'Michael'}
 Meet Robin at the bed follow him and guide him back
@@ -1088,8 +924,6 @@ Meet Mary at the desk follow her and navigate to the corridor
     {'intent': 'follow', 'per': 'Mary'}
 Robot please go to the couch meet Mary and follow her
     {'intent': 'follow', 'per': 'Mary'}
-Follow Robin from the dishwasher to the bedroom
-    {'intent': 'follow', 'per': 'Robin', 'sour': 'dishwasher', 'dest': 'bedroom'}
 Robot please navigate to the bed meet Michael and follow him
     {'intent': 'follow', 'per': 'Michael'}
 Meet Francis at the dining table follow her and navigate to the living room
@@ -1098,20 +932,14 @@ Meet Linda at the dishwasher and follow her
     {'intent': 'follow', 'per': 'Linda'}
 Meet Michael at the entrance follow him and escort him back
     {'intent': 'follow', 'per': 'Michael'}
-Follow Francis from the exit to the dining room
-    {'intent': 'follow', 'per': 'Francis', 'sour': 'exit', 'dest': 'room'}
 Please meet Francis at the dining table follow her and take her back
     {'intent': 'follow', 'per': 'Francis'}
 Meet Elizabeth at the bed and follow her
     {'intent': 'follow', 'per': 'Elizabeth'}
-Follow William from the end table to the living room
-    {'intent': 'follow', 'per': 'William', 'sour': 'table', 'dest': 'room'}
 Meet Robin at the entrance follow him and guide him back
     {'intent': 'follow', 'per': 'Robin'}
 Could you please meet Elizabeth at the bookcase follow her and navigate to the living room
     {'intent': 'follow', 'per': 'Elizabeth'}
-Please follow Michael from the bed to the kitchen
-    {'intent': 'follow', 'per': 'Michael', 'sour': 'bed', 'dest': 'kitchen'}
 Could you please navigate to the dishwasher meet James and follow him
     {'intent': 'follow', 'per': 'James'}
 Could you please meet Patricia at the sink and follow her
@@ -1126,8 +954,6 @@ Go to the desk meet James and follow him
     {'intent': 'follow', 'per': 'James'}
 Meet Charlie at the dining table follow her and lead her back
     {'intent': 'follow', 'per': 'Charlie'}
-Follow Charlie from the exit to the bedroom
-    {'intent': 'follow', 'per': 'Charlie', 'sour': 'exit', 'dest': 'bedroom'}
 Could you please meet Alex at the dining table follow him and go to the corridor
     {'intent': 'follow', 'per': 'Alex'}
 Go to the desk meet James and follow him
@@ -1142,10 +968,6 @@ Navigate to the exit meet Mary and follow her
     {'intent': 'follow', 'per': 'Mary'}
 Meet Skyler at the sink follow him and go to the kitchen
     {'intent': 'follow', 'per': 'Skyler'}
-Follow Patricia from the bookcase to the living room
-    {'intent': 'follow', 'per': 'Patricia', 'sour': 'bookcase', 'dest': 'room'}
-Follow Charlie from the entrance to the kitchen
-    {'intent': 'follow', 'per': 'Charlie', 'sour': 'entrance', 'dest': 'kitchen'}
 Could you please go to the sink meet Charlie and follow her
     {'intent': 'follow', 'per': 'Charlie'}
 Follow William
@@ -1164,8 +986,6 @@ Navigate to the dishwasher meet Charlie and accompany him
     {'intent': 'follow', 'per': 'Charlie'}
 Go to the sink meet Robin and follow her
     {'intent': 'follow', 'per': 'Robin'}
-Follow Patricia from the exit to the kitchen
-    {'intent': 'follow', 'per': 'Patricia', 'sour': 'exit', 'dest': 'kitchen'}
 Meet John at the entrance follow him and accompany him back
     {'intent': 'follow', 'per': 'John'}
 Meet John at the entrance follow him and accompany him back
@@ -1174,8 +994,6 @@ Navigate to the end table meet Skyler and follow him
     {'intent': 'follow', 'per': 'Skyler'}
 Could you go to the desk meet Robin and follow her
     {'intent': 'follow', 'per': 'Robin'}
-Follow Jennifer from the dishwasher to the bedroom
-    {'intent': 'follow', 'per': 'Jennifer', 'sour': 'dishwasher', 'dest': 'bedroom'}
 Could you please follow Alex
     {'intent': 'follow', 'per': 'Alex'}
 Robot please meet Robin at the dining table follow her and accompany her back
@@ -1196,8 +1014,6 @@ Follow Robin
     {'intent': 'follow', 'per': 'Robin'}
 Meet Francis at the exit follow him and take him back
     {'intent': 'follow', 'per': 'Francis'}
-Please follow Linda from the bookcase to the living room
-    {'intent': 'follow', 'per': 'Linda', 'sour': 'bookcase', 'dest': 'room'}
 Could you meet Robin at the dining table follow her and navigate to the kitchen
     {'intent': 'follow', 'per': 'Robin'}
 Could you please meet Francis at the exit follow him and navigate to the kitchen
@@ -1217,15 +1033,13 @@ Meet Patricia at the desk follow her and escort her back
 Meet Francis at the bed follow her and accompany her back
     {'intent': 'follow', 'per': 'Francis'}
 Meet Francis at the bed follow her and accompany her back
-    {'intent': 'follow', 'per': 'Francis back'}
+    {'intent': 'follow', 'per': 'Francis'}
 Navigate to the bookcase meet William and follow him
     {'intent': 'follow', 'per': 'William'}
 Meet William at the desk follow him and take him back
     {'intent': 'follow', 'per': 'William'}
 Robot please go to the dining table meet William and follow him
     {'intent': 'follow', 'per': 'William'}
-Follow Mary from the couch to the corridor
-    {'intent': 'follow', 'per': 'Mary', 'sour': 'couch', 'dest': 'corridor'}
 Could you meet Alex at the couch follow her and take her back
     {'intent': 'follow', 'per': 'Alex'}
 Could you go to the exit meet Mary and accompany her
@@ -1238,8 +1052,6 @@ Could you please meet Charlie at the exit follow her and navigate to the dining 
     {'intent': 'follow', 'per': 'Charlie'}
 Meet James at the bookcase and follow him
     {'intent': 'follow', 'per': 'James'}
-Follow Francis from the bed to the dining room
-    {'intent': 'follow', 'per': 'Francis', 'sour': 'bed', 'dest': 'room'}
 Go to the dishwasher meet William and follow him
     {'intent': 'follow', 'per': 'William'}
 Meet Charlie at the end table and follow her
@@ -1254,10 +1066,6 @@ Meet Robin at the desk follow him and take him back
     {'intent': 'follow', 'per': 'Robin'}
 Robot please meet Charlie at the exit follow her and navigate to the kitchen
     {'intent': 'follow', 'per': 'Charlie'}
-Follow Alex from the dining table to the bedroom
-    {'intent': 'follow', 'per': 'Alex', 'sour': 'table', 'dest': 'bedroom'}
-Please follow Skyler from the couch to the kitchen
-    {'intent': 'follow', 'per': 'Skyler', 'sour': 'couch', 'dest': 'kitchen'}
 Meet Elizabeth at the end table follow her and go to the kitchen
     {'intent': 'follow', 'per': 'Elizabeth'}
 Meet Francis at the entrance follow her and accompany her back
@@ -1272,8 +1080,6 @@ Meet Alex at the desk follow him and take him back
     {'intent': 'follow', 'per': 'Alex'}
 Meet Alex at the desk follow her and go to the kitchen
     {'intent': 'follow', 'per': 'Alex'}
-Follow Mary from the bookcase to the dining room
-    {'intent': 'follow', 'per': 'Mary', 'sour': 'bookcase', 'dest': 'room'}
 Robot please meet Michael at the dishwasher follow him and accompany him back
     {'intent': 'follow', 'per': 'Michael'}
 Robot please meet Michael at the dishwasher follow him and accompany him back
@@ -1288,8 +1094,6 @@ Navigate to the couch meet Alex and accompany her
     {'intent': 'follow', 'per': 'Alex'}
 Meet Michael at the bed follow him and escort him back
     {'intent': 'follow', 'per': 'Michael'}
-Follow Jennifer from the bed to the corridor
-    {'intent': 'follow', 'per': 'Jennifer', 'sour': 'bed', 'dest': 'corridor'}
 Meet Michael at the sink follow him and escort him back
     {'intent': 'follow', 'per': 'Michael'}
 Meet Charlie at the bookcase follow her and navigate to the corridor
@@ -1314,12 +1118,8 @@ Follow Michael
     {'intent': 'follow', 'per': 'Michael'}
 Meet Linda at the couch follow her and navigate to the corridor
     {'intent': 'follow', 'per': 'Linda'}
-Follow Robin from the dining table to the kitchen
-    {'intent': 'follow', 'per': 'Robin', 'sour': 'table', 'dest': 'kitchen'}
 Navigate to the end table meet Alex and follow her
     {'intent': 'follow', 'per': 'Alex'}
-Follow Francis from the end table to the bedroom
-    {'intent': 'follow', 'per': 'Francis', 'sour': 'table', 'dest': 'bedroom'}
 Please meet James at the dishwasher follow him and escort him back
     {'intent': 'follow', 'per': 'James'}
 Could you please meet Mary at the bookcase follow her and go to the living room
@@ -1334,8 +1134,6 @@ Navigate to the dishwasher meet Mary and follow her
     {'intent': 'follow', 'per': 'Mary'}
 Meet Robin at the couch follow her and go to the corridor
     {'intent': 'follow', 'per': 'Robin'}
-Follow Jennifer from the sink to the bedroom
-    {'intent': 'follow', 'per': 'Jennifer', 'sour': 'sink', 'dest': 'bedroom'}
 Meet Skyler at the sink follow her and guide her back
     {'intent': 'follow', 'per': 'Skyler'}
 Meet Robin at the desk follow him and go to the kitchen
@@ -1352,8 +1150,6 @@ Navigate to the desk meet Linda and follow her
     {'intent': 'follow', 'per': 'Linda'}
 Robot please navigate to the dishwasher meet Robin and follow her
     {'intent': 'follow', 'per': 'Robin'}
-Could you follow Alex from the couch to the kitchen
-    {'intent': 'follow', 'per': 'Alex', 'sour': 'couch', 'dest': 'kitchen'}
 Meet Michael and accompany him
     {'intent': 'follow', 'per': 'Michael'}
 Go to the sink meet Francis and follow him
@@ -1361,7 +1157,7 @@ Go to the sink meet Francis and follow him
 Could you meet Elizabeth at the entrance follow her and accompany her back
     {'intent': 'follow', 'per': 'Elizabeth'}
 Could you meet Elizabeth at the entrance follow her and accompany her back
-    {'intent': 'follow', 'per': 'Elizabeth back'}
+    {'intent': 'follow', 'per': 'Elizabeth'}
 Meet Patricia at the bed follow her and go to the corridor
     {'intent': 'follow', 'per': 'Patricia'}
 Meet Charlie at the entrance follow him and escort him back
@@ -1382,8 +1178,6 @@ Meet Alex at the dishwasher follow him and go to the dining room
     {'intent': 'follow', 'per': 'Alex'}
 Meet James at the bookcase follow him and lead him back
     {'intent': 'follow', 'per': 'James'}
-Could you follow Francis from the bookcase to the bedroom
-    {'intent': 'follow', 'per': 'Francis', 'sour': 'bookcase', 'dest': 'bedroom'}
 Follow Skyler
     {'intent': 'follow', 'per': 'Skyler'}
 Meet Charlie at the sink follow her and lead her back
@@ -1392,8 +1186,6 @@ Go to the desk meet James and follow him
     {'intent': 'follow', 'per': 'James'}
 Meet Charlie at the exit follow her and go to the dining room
     {'intent': 'follow', 'per': 'Charlie'}
-Follow Charlie from the dishwasher to the kitchen
-    {'intent': 'follow', 'per': 'Charlie', 'sour': 'dishwasher', 'dest': 'kitchen'}
 Navigate to the bookcase meet Skyler and follow her
     {'intent': 'follow', 'per': 'Skyler'}
 Robot please go to the bed meet Patricia and follow her
@@ -1402,14 +1194,10 @@ Please meet Francis at the bed follow her and go to the kitchen
     {'intent': 'follow', 'per': 'Francis'}
 Go to the bookcase meet Robert and follow him
     {'intent': 'follow', 'per': 'Robert'}
-Robot please follow Skyler from the desk to the corridor
-    {'intent': 'follow', 'per': 'Skyler', 'sour': 'desk', 'dest': 'corridor'}
 Meet Robert and accompany him
     {'intent': 'follow', 'per': 'Robert'}
 Could you navigate to the entrance meet Elizabeth and follow her
     {'intent': 'follow', 'per': 'Elizabeth'}
-Follow Charlie from the end table to the bedroom
-    {'intent': 'follow', 'per': 'Charlie', 'sour': 'table', 'dest': 'bedroom'}
 Could you please follow William
     {'intent': 'follow', 'per': 'William'}
 Meet Alex at the dining table follow her and guide her back
@@ -1442,28 +1230,18 @@ Robot please meet Patricia at the sink follow her and accompany her back
     {'intent': 'follow', 'per': 'Patricia'}
 Navigate to the desk meet Robert and follow him
     {'intent': 'follow', 'per': 'Robert'}
-Follow Robert from the couch to the corridor
-    {'intent': 'follow', 'per': 'Robert', 'sour': 'couch', 'dest': 'corridor'}
 Could you please navigate to the entrance meet Patricia and follow her
     {'intent': 'follow', 'per': 'Patricia'}
 Please meet Elizabeth at the couch follow her and lead her back
     {'intent': 'follow', 'per': 'Elizabeth'}
-Robot please follow Patricia from the end table to the corridor
-    {'intent': 'follow', 'per': 'Patricia', 'sour': 'table', 'dest': 'corridor'}
 Meet Linda at the bookcase follow her and go to the bedroom
     {'intent': 'follow', 'per': 'Linda'}
-Follow Francis from the exit to the kitchen
-    {'intent': 'follow', 'per': 'Francis', 'sour': 'exit', 'dest': 'kitchen'}
 Could you please meet Patricia at the desk follow her and guide her back
     {'intent': 'follow', 'per': 'Patricia'}
 Please navigate to the sink meet Alex and follow him
     {'intent': 'follow', 'per': 'Alex'}
-Could you follow Charlie from the desk to the bedroom
-    {'intent': 'follow', 'per': 'Charlie', 'sour': 'desk', 'dest': 'bedroom'}
 Could you please meet Charlie at the bed follow him and guide him back
     {'intent': 'follow', 'per': 'Charlie'}
-Follow Charlie from the end table to the kitchen
-    {'intent': 'follow', 'per': 'Charlie', 'sour': 'table', 'dest': 'kitchen'}
 Could you please meet Alex at the dishwasher follow him and navigate to the kitchen
     {'intent': 'follow', 'per': 'Alex'}
 Could you meet Robin at the bookcase follow her and navigate to the living room
@@ -1494,26 +1272,18 @@ Could you navigate to the sink meet Robert and follow him
     {'intent': 'follow', 'per': 'Robert'}
 Follow Linda
     {'intent': 'follow', 'per': 'Linda'}
-Could you please follow Skyler from the dishwasher to the living room
-    {'intent': 'follow', 'per': 'Skyler', 'sour': 'dishwasher', 'dest': 'room'}
-Please follow Robert from the couch to the corridor
-    {'intent': 'follow', 'per': 'Robert', 'sour': 'couch', 'dest': 'corridor'}
 Follow Charlie
     {'intent': 'follow', 'per': 'Charlie'}
 Go to the desk meet Francis and follow him
     {'intent': 'follow', 'per': 'Francis'}
 Meet Elizabeth at the dining table and follow her
     {'intent': 'follow', 'per': 'Elizabeth'}
-Robot please follow Charlie from the dining table to the living room
-    {'intent': 'follow', 'per': 'Charlie', 'sour': 'table', 'dest': 'room'}
 Meet Jennifer at the dishwasher follow her and go to the dining room
     {'intent': 'follow', 'per': 'Jennifer'}
 Could you meet Robin at the desk follow him and go to the living room
     {'intent': 'follow', 'per': 'Robin'}
 Go to the end table meet Skyler and follow her
     {'intent': 'follow', 'per': 'Skyler'}
-Please follow Robin from the exit to the dining room
-    {'intent': 'follow', 'per': 'Robin', 'sour': 'exit', 'dest': 'room'}
 Could you meet Robin at the bookcase follow her and go to the kitchen
     {'intent': 'follow', 'per': 'Robin'}
 Meet Skyler at the exit follow him and guide him back
@@ -1530,8 +1300,6 @@ Meet Jennifer at the end table and follow her
     {'intent': 'follow', 'per': 'Jennifer'}
 Could you please go to the sink meet Skyler and follow him
     {'intent': 'follow', 'per': 'Skyler'}
-Please follow Mary from the bookcase to the dining room
-    {'intent': 'follow', 'per': 'Mary', 'sour': 'bookcase', 'dest': 'room'}
 Could you meet Mary at the dining table and follow her
     {'intent': 'follow', 'per': 'Mary'}
 Meet Patricia at the dining table follow her and escort her back
@@ -1544,8 +1312,6 @@ Please meet Mary at the desk and follow her
     {'intent': 'follow', 'per': 'Mary'}
 Please meet Charlie at the end table and follow her
     {'intent': 'follow', 'per': 'Charlie'}
-Please follow Robert from the bed to the dining room
-    {'intent': 'follow', 'per': 'Robert', 'sour': 'bed', 'dest': 'room'}
 Please meet Mary at the entrance follow her and lead her back
     {'intent': 'follow', 'per': 'Mary'}
 Meet Robin at the dining table follow her and go to the bedroom
@@ -1566,8 +1332,6 @@ Could you please meet Robin at the sink follow her and accompany her back
     {'intent': 'follow', 'per': 'Robin'}
 Meet Francis at the bed follow her and go to the corridor
     {'intent': 'follow', 'per': 'Francis'}
-Follow Jennifer from the desk to the living room
-    {'intent': 'follow', 'per': 'Jennifer', 'sour': 'desk', 'dest': 'room'}
 Meet John at the couch follow him and navigate to the living room
     {'intent': 'follow', 'per': 'John'}
 Robot please go to the exit meet Robin and follow him
@@ -1578,16 +1342,12 @@ Please meet William at the entrance follow him and navigate to the dining room
     {'intent': 'follow', 'per': 'William'}
 Meet Jennifer at the sink follow her and lead her back
     {'intent': 'follow', 'per': 'Jennifer'}
-Robot please follow Mary from the end table to the bedroom
-    {'intent': 'follow', 'per': 'Mary', 'sour': 'table', 'dest': 'bedroom'}
 Meet Robin at the desk follow him and navigate to the living room
     {'intent': 'follow', 'per': 'Robin'}
 Meet Linda at the sink follow her and navigate to the kitchen
     {'intent': 'follow', 'per': 'Linda'}
 Meet Robert at the bookcase follow him and escort him back
     {'intent': 'follow', 'per': 'Robert'}
-Meet William at the bookcase follow him and accompany him back
-    {'intent': 'follow', 'per': 'William'}
 Meet William at the bookcase follow him and accompany him back
     {'intent': 'follow', 'per': 'William'}
 Meet Robin at the couch follow him and go to the dining room
@@ -1600,8 +1360,6 @@ Could you please meet John at the bookcase follow him and go to the living room
     {'intent': 'follow', 'per': 'John'}
 Robot please meet John at the sink follow him and escort him back
     {'intent': 'follow', 'per': 'John'}
-Please follow Charlie from the bookcase to the dining room
-    {'intent': 'follow', 'per': 'Charlie', 'sour': 'bookcase', 'dest': 'room'}
 Could you meet Linda at the couch follow her and take her back
     {'intent': 'follow', 'per': 'Linda'}
 Please meet Jennifer at the end table follow her and guide her back
@@ -1628,10 +1386,6 @@ Meet Francis at the entrance follow him and go to the living room
     {'intent': 'follow', 'per': 'Francis'}
 Meet Skyler at the end table follow him and escort him back
     {'intent': 'follow', 'per': 'Skyler'}
-Follow Alex from the bed to the dining room
-    {'intent': 'follow', 'per': 'Alex', 'sour': 'bed', 'dest': 'room'}
-Robot please follow James from the dishwasher to the living room
-    {'intent': 'follow', 'per': 'James', 'sour': 'dishwasher', 'dest': 'room'}
 Meet Michael and accompany him
     {'intent': 'follow', 'per': 'Michael'}
 Could you please meet John at the bed follow him and navigate to the dining room
@@ -1643,7 +1397,7 @@ Could you meet Alex at the exit and follow him
 Meet James at the bookcase follow him and accompany him back
     {'intent': 'follow', 'per': 'James'}
 Meet James at the bookcase follow him and accompany him back
-    {'intent': 'follow', 'per': 'James back'}
+    {'intent': 'follow', 'per': 'James'}
 Could you meet Skyler at the bookcase follow her and go to the dining room
     {'intent': 'follow', 'per': 'Skyler'}
 Meet Patricia at the end table and follow her
@@ -1668,8 +1422,6 @@ Go to the dishwasher meet Robin and follow him
     {'intent': 'follow', 'per': 'Robin'}
 Meet Francis at the bed follow him and escort him back
     {'intent': 'follow', 'per': 'Francis'}
-Follow Alex from the couch to the kitchen
-    {'intent': 'follow', 'per': 'Alex', 'sour': 'couch', 'dest': 'kitchen'}
 Meet Patricia at the sink and follow her
     {'intent': 'follow', 'per': 'Patricia'}
 Could you meet Patricia at the exit follow her and take her back
@@ -1696,8 +1448,6 @@ Please meet Skyler at the dining table follow her and go to the living room
     {'intent': 'follow', 'per': 'Skyler'}
 Meet Michael at the sink follow him and guide him back
     {'intent': 'follow', 'per': 'Michael'}
-Follow Alex from the dining table to the dining room
-    {'intent': 'follow', 'per': 'Alex', 'sour': 'table', 'dest': 'room'}
 Meet Skyler at the dishwasher follow her and go to the dining room
     {'intent': 'follow', 'per': 'Skyler'}
 Robot please navigate to the exit meet Skyler and follow him
@@ -1714,12 +1464,8 @@ Could you please meet James and accompany him
     {'intent': 'follow', 'per': 'James'}
 Meet Charlie at the bed follow her and lead her back
     {'intent': 'follow', 'per': 'Charlie'}
-Robot please follow Charlie from the sink to the bedroom
-    {'intent': 'follow', 'per': 'Charlie', 'sour': 'sink', 'dest': 'bedroom'}
 Could you meet Francis at the dining table follow her and navigate to the living room
     {'intent': 'follow', 'per': 'Francis'}
-Could you follow Robert from the exit to the dining room
-    {'intent': 'follow', 'per': 'Robert', 'sour': 'exit', 'dest': 'room'}
 Could you meet Robert at the dining table follow him and escort him back
     {'intent': 'follow', 'per': 'Robert'}
 Please meet Francis at the exit follow her and accompany her back
@@ -1739,7 +1485,7 @@ Follow Francis
 Meet Robert at the bookcase follow him and accompany him back
     {'intent': 'follow', 'per': 'Robert'}
 Meet Robert at the bookcase follow him and accompany him back
-    {'intent': 'follow', 'per': 'Robert back'}
+    {'intent': 'follow', 'per': 'Robert'}
 Navigate to the dishwasher meet Charlie and follow her
     {'intent': 'follow', 'per': 'Charlie'}
 Robot please meet Francis at the entrance follow him and navigate to the bedroom
@@ -1778,8 +1524,6 @@ Meet Skyler at the bookcase follow her and go to the kitchen
     {'intent': 'follow', 'per': 'Skyler'}
 Meet Elizabeth at the bed follow her and guide her back
     {'intent': 'follow', 'per': 'Elizabeth'}
-Follow Charlie from the bookcase to the corridor
-    {'intent': 'follow', 'per': 'Charlie', 'sour': 'bookcase', 'dest': 'corridor'}
 Meet Robert at the dining table and follow him
     {'intent': 'follow', 'per': 'Robert'}
 Could you meet Alex at the sink follow him and take him back
@@ -1796,8 +1540,6 @@ Please go to the entrance meet Charlie and follow him
     {'intent': 'follow', 'per': 'Charlie'}
 Meet Linda at the entrance and follow her
     {'intent': 'follow', 'per': 'Linda'}
-Follow Robert from the bookcase to the living room
-    {'intent': 'follow', 'per': 'Robert', 'sour': 'bookcase', 'dest': 'room'}
 Robot please follow John
     {'intent': 'follow', 'per': 'John'}
 Meet John at the sink follow him and accompany him back
@@ -1814,8 +1556,6 @@ Could you please meet John at the sink follow him and navigate to the corridor
     {'intent': 'follow', 'per': 'John'}
 Meet Francis at the entrance follow him and take him back
     {'intent': 'follow', 'per': 'Francis'}
-Robot please follow William from the bed to the bedroom
-    {'intent': 'follow', 'per': 'William', 'sour': 'bed', 'dest': 'bedroom'}
 Could you please meet Robin at the end table follow him and guide him back
     {'intent': 'follow', 'per': 'Robin'}
 Navigate to the bookcase meet Patricia and follow her
@@ -1826,8 +1566,6 @@ Please meet Mary at the desk follow her and navigate to the corridor
     {'intent': 'follow', 'per': 'Mary'}
 Meet Francis at the entrance follow him and navigate to the dining room
     {'intent': 'follow', 'per': 'Francis'}
-Follow Mary from the exit to the bedroom
-    {'intent': 'follow', 'per': 'Mary', 'sour': 'exit', 'dest': 'bedroom'}
 Meet Skyler at the sink follow him and navigate to the dining room
     {'intent': 'follow', 'per': 'Skyler'}
 Please meet Alex at the desk follow her and escort her back
@@ -1844,8 +1582,6 @@ Go to the entrance meet Skyler and accompany him
     {'intent': 'follow', 'per': 'Skyler'}
 Robot please meet Charlie at the couch follow him and go to the bedroom
     {'intent': 'follow', 'per': 'Charlie'}
-Robot please follow Linda from the exit to the living room
-    {'intent': 'follow', 'per': 'Linda', 'sour': 'exit', 'dest': 'room'}
 Go to the desk meet Skyler and follow her
     {'intent': 'follow', 'per': 'Skyler'}
 Please meet William at the end table follow him and guide him back
@@ -1864,8 +1600,6 @@ Meet William at the sink follow him and accompany him back
     {'intent': 'follow', 'per': 'William'}
 Please meet Patricia at the end table follow her and navigate to the dining room
     {'intent': 'follow', 'per': 'Patricia'}
-Follow Charlie from the bookcase to the kitchen
-    {'intent': 'follow', 'per': 'Charlie', 'sour': 'bookcase', 'dest': 'kitchen'}
 Navigate to the couch meet Michael and follow him
     {'intent': 'follow', 'per': 'Michael'}
 Please follow Alex
@@ -1880,8 +1614,6 @@ Meet Alex at the bookcase follow her and escort her back
     {'intent': 'follow', 'per': 'Alex'}
 Meet Michael at the desk follow him and take him back
     {'intent': 'follow', 'per': 'Michael'}
-Follow Charlie from the bookcase to the bedroom
-    {'intent': 'follow', 'per': 'Charlie', 'sour': 'bookcase', 'dest': 'bedroom'}
 Meet Charlie at the dining table and follow her
     {'intent': 'follow', 'per': 'Charlie'}
 Could you please meet Michael at the desk follow him and navigate to the kitchen
@@ -1898,8 +1630,6 @@ Please meet Mary at the exit follow her and go to the bedroom
     {'intent': 'follow', 'per': 'Mary'}
 Meet Francis at the dishwasher follow him and take him back
     {'intent': 'follow', 'per': 'Francis'}
-Robot please follow Alex from the desk to the corridor
-    {'intent': 'follow', 'per': 'Alex', 'sour': 'desk', 'dest': 'corridor'}
 Meet Skyler at the bookcase and follow him
     {'intent': 'follow', 'per': 'Skyler'}
 Could you please go to the dishwasher meet William and accompany him
@@ -1916,8 +1646,6 @@ Robot please meet Elizabeth at the sink follow her and go to the bedroom
     {'intent': 'follow', 'per': 'Elizabeth'}
 Meet John at the desk and follow him
     {'intent': 'follow', 'per': 'John'}
-Robot please follow Skyler from the desk to the bedroom
-    {'intent': 'follow', 'per': 'Skyler', 'sour': 'desk', 'dest': 'bedroom'}
 Meet Charlie at the dining table follow her and lead her back
     {'intent': 'follow', 'per': 'Charlie'}
 Meet Charlie and accompany him
@@ -1926,8 +1654,6 @@ Robot please meet Alex at the exit follow her and lead her back
     {'intent': 'follow', 'per': 'Alex'}
 Meet Patricia at the sink follow her and lead her back
     {'intent': 'follow', 'per': 'Patricia'}
-Please follow Mary from the dishwasher to the corridor
-    {'intent': 'follow', 'per': 'Mary', 'sour': 'dishwasher', 'dest': 'corridor'}
 Meet Charlie at the end table follow her and go to the living room
     {'intent': 'follow', 'per': 'Charlie'}
 Meet Alex at the dining table follow him and take him back
@@ -1938,8 +1664,6 @@ Meet Patricia at the exit and follow her
     {'intent': 'follow', 'per': 'Patricia'}
 Go to the exit meet Skyler and follow him
     {'intent': 'follow', 'per': 'Skyler'}
-Could you follow John from the bed to the bedroom
-    {'intent': 'follow', 'per': 'John', 'sour': 'bed', 'dest': 'bedroom'}
 Navigate to the entrance meet Alex and follow him
     {'intent': 'follow', 'per': 'Alex'}
 Navigate to the sink meet Michael and follow him
@@ -1954,20 +1678,14 @@ Meet Skyler at the dining table follow him and lead him back
     {'intent': 'follow', 'per': 'Skyler'}
 Navigate to the bed meet Mary and follow her
     {'intent': 'follow', 'per': 'Mary'}
-Follow Elizabeth from the desk to the bedroom
-    {'intent': 'follow', 'per': 'Elizabeth', 'sour': 'desk', 'dest': 'bedroom'}
 Meet John at the desk follow him and go to the corridor
     {'intent': 'follow', 'per': 'John'}
 Meet John at the entrance follow him and go to the bedroom
     {'intent': 'follow', 'per': 'John'}
-Could you follow Michael from the dishwasher to the living room
-    {'intent': 'follow', 'per': 'Michael', 'sour': 'dishwasher', 'dest': 'room'}
 Could you please follow Francis
     {'intent': 'follow', 'per': 'Francis'}
 Robot please meet Michael at the couch follow him and go to the kitchen
     {'intent': 'follow', 'per': 'Michael'}
-Follow Skyler from the entrance to the bedroom
-    {'intent': 'follow', 'per': 'Skyler', 'sour': 'entrance', 'dest': 'bedroom'}
 Meet Elizabeth at the bookcase follow her and go to the corridor
     {'intent': 'follow', 'per': 'Elizabeth'}
 Could you go to the bookcase meet Francis and follow her
@@ -1988,8 +1706,6 @@ Follow Jennifer
     {'intent': 'follow', 'per': 'Jennifer'}
 Meet John at the desk follow him and lead him back
     {'intent': 'follow', 'per': 'John'}
-Please follow James from the exit to the kitchen
-    {'intent': 'follow', 'per': 'James', 'sour': 'exit', 'dest': 'kitchen'}
 Robot please meet Charlie at the sink follow him and guide him back
     {'intent': 'follow', 'per': 'Charlie'}
 Meet Skyler at the desk follow him and guide him back
@@ -2016,14 +1732,10 @@ Please meet James at the couch and follow him
     {'intent': 'follow', 'per': 'James'}
 Meet James at the end table follow him and escort him back
     {'intent': 'follow', 'per': 'James'}
-Could you follow John from the entrance to the kitchen
-    {'intent': 'follow', 'per': 'John', 'sour': 'entrance', 'dest': 'kitchen'}
 Meet William at the bookcase follow him and take him back
     {'intent': 'follow', 'per': 'William'}
 Robot please follow Alex
     {'intent': 'follow', 'per': 'Alex'}
-Follow Charlie from the couch to the corridor
-    {'intent': 'follow', 'per': 'Charlie', 'sour': 'couch', 'dest': 'corridor'}
 Meet Skyler at the dining table follow him and navigate to the living room
     {'intent': 'follow', 'per': 'Skyler'}
 Meet Skyler at the sink follow him and escort him back
@@ -2034,10 +1746,6 @@ Robot please navigate to the end table meet William and follow him
     {'intent': 'follow', 'per': 'William'}
 Robot please navigate to the exit meet Linda and follow her
     {'intent': 'follow', 'per': 'Linda'}
-Follow Mary from the desk to the dining room
-    {'intent': 'follow', 'per': 'Mary', 'sour': 'desk', 'dest': 'room'}
-Follow Charlie from the desk to the kitchen
-    {'intent': 'follow', 'per': 'Charlie', 'sour': 'desk', 'dest': 'kitchen'}
 Could you please navigate to the desk meet Alex and follow her
     {'intent': 'follow', 'per': 'Alex'}
 Meet Charlie at the entrance follow him and navigate to the living room
@@ -2048,12 +1756,8 @@ Please meet Charlie at the end table follow him and escort him back
     {'intent': 'follow', 'per': 'Charlie'}
 Could you meet Linda at the bed follow her and navigate to the living room
     {'intent': 'follow', 'per': 'Linda'}
-Follow Linda from the entrance to the living room
-    {'intent': 'follow', 'per': 'Linda', 'sour': 'entrance', 'dest': 'room'}
 Please meet Elizabeth at the sink follow her and navigate to the bedroom
     {'intent': 'follow', 'per': 'Elizabeth'}
-Follow Robert from the end table to the corridor
-    {'intent': 'follow', 'per': 'Robert', 'sour': 'table', 'dest': 'corridor'}
 Could you meet William at the bookcase and follow him
     {'intent': 'follow', 'per': 'William'}
 Go to the exit meet Linda and follow her
@@ -2066,8 +1770,6 @@ Could you please meet Alex at the sink follow her and accompany her back
     {'intent': 'follow', 'per': 'Alex'}
 Could you please meet Alex at the sink follow her and accompany her back
     {'intent': 'follow', 'per': 'Alex'}
-Could you please follow John from the entrance to the bedroom
-    {'intent': 'follow', 'per': 'John', 'sour': 'entrance', 'dest': 'bedroom'}
 Meet Alex at the bookcase and follow her
     {'intent': 'follow', 'per': 'Alex'}
 Meet Robin and accompany him
@@ -2076,8 +1778,6 @@ Please meet Skyler at the bookcase follow her and go to the kitchen
     {'intent': 'follow', 'per': 'Skyler'}
 Could you follow Michael
     {'intent': 'follow', 'per': 'Michael'}
-Follow Francis from the bookcase to the dining room
-    {'intent': 'follow', 'per': 'Francis', 'sour': 'bookcase', 'dest': 'room'}
 Robot please meet Robin at the exit follow him and accompany him back
     {'intent': 'follow', 'per': 'Robin'}
 Robot please meet Robin at the exit follow him and accompany him back
@@ -2090,14 +1790,10 @@ Meet Jennifer at the bed follow her and lead her back
     {'intent': 'follow', 'per': 'Jennifer'}
 Meet Charlie at the exit and follow him
     {'intent': 'follow', 'per': 'Charlie'}
-Follow Jennifer from the sink to the corridor
-    {'intent': 'follow', 'per': 'Jennifer', 'sour': 'sink', 'dest': 'corridor'}
 Follow Linda
     {'intent': 'follow', 'per': 'Linda'}
 Meet Mary at the exit follow her and navigate to the kitchen
     {'intent': 'follow', 'per': 'Mary'}
-Follow Robin from the exit to the kitchen
-    {'intent': 'follow', 'per': 'Robin', 'sour': 'exit', 'dest': 'kitchen'}
 Meet Jennifer at the couch and follow her
     {'intent': 'follow', 'per': 'Jennifer'}
 Go to the entrance meet John and follow him
@@ -2112,10 +1808,6 @@ Meet Charlie at the exit and follow him
     {'intent': 'follow', 'per': 'Charlie'}
 Meet Francis at the dining table and follow him
     {'intent': 'follow', 'per': 'Francis'}
-Follow Jennifer from the dining table to the kitchen
-    {'intent': 'follow', 'per': 'Jennifer', 'sour': 'table', 'dest': 'kitchen'}
-Follow Alex from the end table to the dining room
-    {'intent': 'follow', 'per': 'Alex', 'sour': 'table', 'dest': 'room'}
 Meet Mary at the couch follow her and go to the corridor
     {'intent': 'follow', 'per': 'Mary'}
 Meet Jennifer at the end table follow her and take her back
@@ -2123,7 +1815,7 @@ Meet Jennifer at the end table follow her and take her back
 Meet Patricia at the bookcase follow her and accompany her back
     {'intent': 'follow', 'per': 'Patricia'}
 Meet Patricia at the bookcase follow her and accompany her back
-    {'intent': 'follow', 'per': 'Patricia back'}
+    {'intent': 'follow', 'per': 'Patricia'}
 Navigate to the bookcase meet John and follow him
     {'intent': 'follow', 'per': 'John'}
 Robot please meet Francis at the sink follow him and go to the kitchen
@@ -2136,8 +1828,6 @@ Could you navigate to the couch meet Alex and follow him
     {'intent': 'follow', 'per': 'Alex'}
 Meet Skyler at the end table follow her and go to the corridor
     {'intent': 'follow', 'per': 'Skyler'}
-Follow Alex from the bookcase to the living room
-    {'intent': 'follow', 'per': 'Alex', 'sour': 'bookcase', 'dest': 'room'}
 Navigate to the end table meet Linda and accompany her
     {'intent': 'follow', 'per': 'Linda'}
 Meet John at the dining table follow him and go to the corridor
@@ -2150,10 +1840,6 @@ Robot please meet Mary at the entrance follow her and take her back
     {'intent': 'follow', 'per': 'Mary'}
 Meet Michael at the exit follow him and lead him back
     {'intent': 'follow', 'per': 'Michael'}
-Follow Charlie from the desk to the bedroom
-    {'intent': 'follow', 'per': 'Charlie', 'sour': 'desk', 'dest': 'bedroom'}
-Could you please follow Michael from the entrance to the dining room
-    {'intent': 'follow', 'per': 'Michael', 'sour': 'entrance', 'dest': 'room'}
 Meet Francis at the dishwasher follow him and accompany him back
     {'intent': 'follow', 'per': 'Francis'}
 Meet Francis at the dishwasher follow him and accompany him back
@@ -2176,20 +1862,10 @@ Meet Robin at the dishwasher follow her and lead her back
     {'intent': 'follow', 'per': 'Robin'}
 Could you meet John at the entrance follow him and navigate to the dining room
     {'intent': 'follow', 'per': 'John'}
-Could you please follow Robin from the exit to the corridor
-    {'intent': 'follow', 'per': 'Robin', 'sour': 'exit', 'dest': 'corridor'}
-Robot please follow Mary from the entrance to the living room
-    {'intent': 'follow', 'per': 'Mary', 'sour': 'entrance', 'dest': 'room'}
 Go to the entrance meet Skyler and follow him
     {'intent': 'follow', 'per': 'Skyler'}
-Could you follow Robin from the couch to the corridor
-    {'intent': 'follow', 'per': 'Robin', 'sour': 'couch', 'dest': 'corridor'}
-Follow William from the entrance to the bedroom
-    {'intent': 'follow', 'per': 'William', 'sour': 'entrance', 'dest': 'bedroom'}
 Please meet Linda and accompany her
     {'intent': 'follow', 'per': 'Linda'}
-Could you follow Francis from the couch to the living room
-    {'intent': 'follow', 'per': 'Francis', 'sour': 'couch', 'dest': 'room'}
 Meet Alex at the desk and follow him
     {'intent': 'follow', 'per': 'Alex'}
 Meet James and accompany him
@@ -2207,7 +1883,7 @@ Navigate to the dishwasher meet Skyler and follow her
 Meet Skyler at the entrance follow her and accompany her back
     {'intent': 'follow', 'per': 'Skyler'}
 Meet Skyler at the entrance follow her and accompany her back
-    {'intent': 'follow', 'per': 'Skyler back'}
+    {'intent': 'follow', 'per': 'Skyler'}
 Meet Charlie at the desk follow him and go to the dining room
     {'intent': 'follow', 'per': 'Charlie'}
 Robot please meet Francis at the dining table and follow him
@@ -2236,8 +1912,6 @@ Meet Skyler at the entrance follow her and go to the corridor
     {'intent': 'follow', 'per': 'Skyler'}
 Meet Jennifer at the exit and follow her
     {'intent': 'follow', 'per': 'Jennifer'}
-Follow Skyler from the exit to the bedroom
-    {'intent': 'follow', 'per': 'Skyler', 'sour': 'exit', 'dest': 'bedroom'}
 Meet Robin at the sink follow her and go to the kitchen
     {'intent': 'follow', 'per': 'Robin'}
 Robot please meet Patricia at the desk follow her and take her back
@@ -2248,16 +1922,10 @@ Please meet Elizabeth at the couch and follow her
     {'intent': 'follow', 'per': 'Elizabeth'}
 Please meet Francis at the end table follow him and go to the bedroom
     {'intent': 'follow', 'per': 'Francis'}
-Follow Patricia from the dining table to the corridor
-    {'intent': 'follow', 'per': 'Patricia', 'sour': 'table', 'dest': 'corridor'}
 Meet Alex at the dining table and follow her
     {'intent': 'follow', 'per': 'Alex'}
 Meet Patricia at the dining table follow her and escort her back
     {'intent': 'follow', 'per': 'Patricia'}
-Follow Robin from the bookcase to the dining room
-    {'intent': 'follow', 'per': 'Robin', 'sour': 'bookcase', 'dest': 'room'}
-Follow Robin from the desk to the bedroom
-    {'intent': 'follow', 'per': 'Robin', 'sour': 'desk', 'dest': 'bedroom'}
 Meet Robin at the exit follow him and go to the kitchen
     {'intent': 'follow', 'per': 'Robin'}
 Follow Skyler
@@ -2270,12 +1938,8 @@ Robot please meet Robert at the dining table and follow him
     {'intent': 'follow', 'per': 'Robert'}
 Please navigate to the couch meet James and follow him
     {'intent': 'follow', 'per': 'James'}
-Could you follow Charlie from the bed to the bedroom
-    {'intent': 'follow', 'per': 'Charlie', 'sour': 'bed', 'dest': 'bedroom'}
 Meet Skyler at the dining table follow him and guide him back
     {'intent': 'follow', 'per': 'Skyler'}
-Please follow John from the bed to the bedroom
-    {'intent': 'follow', 'per': 'John', 'sour': 'bed', 'dest': 'bedroom'}
 Meet Elizabeth at the couch follow her and guide her back
     {'intent': 'follow', 'per': 'Elizabeth'}
 Could you please go to the dishwasher meet Elizabeth and accompany her
@@ -2284,8 +1948,6 @@ Meet Charlie at the dining table follow her and navigate to the bedroom
     {'intent': 'follow', 'per': 'Charlie'}
 Meet Patricia at the dining table follow her and go to the dining room
     {'intent': 'follow', 'per': 'Patricia'}
-Could you please follow John from the desk to the corridor
-    {'intent': 'follow', 'per': 'John', 'sour': 'desk', 'dest': 'corridor'}
 Follow Skyler
     {'intent': 'follow', 'per': 'Skyler'}
 Meet Robert at the dishwasher follow him and go to the bedroom
@@ -2322,8 +1984,6 @@ Please meet Michael at the dining table follow him and lead him back
     {'intent': 'follow', 'per': 'Michael'}
 Could you navigate to the bed meet Robin and follow her
     {'intent': 'follow', 'per': 'Robin'}
-Please follow Elizabeth from the desk to the dining room
-    {'intent': 'follow', 'per': 'Elizabeth', 'sour': 'desk', 'dest': 'room'}
 Meet Elizabeth at the couch follow her and take her back
     {'intent': 'follow', 'per': 'Elizabeth'}
 Please meet Robert at the dining table and follow him
@@ -2346,14 +2006,10 @@ Follow Alex
     {'intent': 'follow', 'per': 'Alex'}
 Could you meet Robin at the end table follow him and navigate to the living room
     {'intent': 'follow', 'per': 'Robin'}
-Could you follow Michael from the entrance to the dining room
-    {'intent': 'follow', 'per': 'Michael', 'sour': 'entrance', 'dest': 'room'}
 Please navigate to the sink meet Jennifer and follow her
     {'intent': 'follow', 'per': 'Jennifer'}
 Navigate to the bookcase meet Charlie and follow him
     {'intent': 'follow', 'per': 'Charlie'}
-Follow Skyler from the end table to the bedroom
-    {'intent': 'follow', 'per': 'Skyler', 'sour': 'table', 'dest': 'bedroom'}
 Robot please follow Francis
     {'intent': 'follow', 'per': 'Francis'}
 Navigate to the bookcase meet William and follow him
@@ -2370,14 +2026,8 @@ Please navigate to the dishwasher meet Robin and follow her
     {'intent': 'follow', 'per': 'Robin'}
 Follow Robin
     {'intent': 'follow', 'per': 'Robin'}
-Robot please follow Alex from the exit to the dining room
-    {'intent': 'follow', 'per': 'Alex', 'sour': 'exit', 'dest': 'room'}
-Robot please follow Robin from the dining table to the dining room
-    {'intent': 'follow', 'per': 'Robin', 'sour': 'table', 'dest': 'room'}
 Could you please meet James at the dishwasher follow him and lead him back
     {'intent': 'follow', 'per': 'James'}
-Follow Mary from the end table to the dining room
-    {'intent': 'follow', 'per': 'Mary', 'sour': 'table', 'dest': 'room'}
 Robot please meet James at the sink follow him and navigate to the kitchen
     {'intent': 'follow', 'per': 'James'}
 Meet Francis at the entrance and follow her
@@ -2386,16 +2036,12 @@ Robot please meet Alex at the entrance follow her and navigate to the living roo
     {'intent': 'follow', 'per': 'Alex'}
 Could you meet Charlie at the exit follow him and navigate to the living room
     {'intent': 'follow', 'per': 'Charlie'}
-Follow Jennifer from the desk to the dining room
-    {'intent': 'follow', 'per': 'Jennifer', 'sour': 'desk', 'dest': 'room'}
 Meet Elizabeth at the sink follow her and take her back
     {'intent': 'follow', 'per': 'Elizabeth'}
 Meet Skyler at the bookcase follow her and take her back
     {'intent': 'follow', 'per': 'Skyler'}
 Meet Patricia at the couch follow her and take her back
     {'intent': 'follow', 'per': 'Patricia'}
-Follow Francis from the dishwasher to the living room
-    {'intent': 'follow', 'per': 'Francis', 'sour': 'dishwasher', 'dest': 'room'}
 Meet Mary at the bookcase follow her and accompany her back
     {'intent': 'follow', 'per': 'Mary'}
 Meet Mary at the bookcase follow her and accompany her back
@@ -2404,18 +2050,12 @@ Meet Patricia at the dishwasher follow her and lead her back
     {'intent': 'follow', 'per': 'Patricia'}
 Go to the exit meet Francis and follow her
     {'intent': 'follow', 'per': 'Francis'}
-Could you please follow Charlie from the entrance to the bedroom
-    {'intent': 'follow', 'per': 'Charlie', 'sour': 'entrance', 'dest': 'bedroom'}
 Could you please meet Jennifer at the exit follow her and navigate to the corridor
     {'intent': 'follow', 'per': 'Jennifer'}
 Meet Jennifer at the bed follow her and accompany her back
     {'intent': 'follow', 'per': 'Jennifer'}
 Meet Jennifer at the bed follow her and accompany her back
     {'intent': 'follow', 'per': 'Jennifer'}
-Follow Francis from the bed to the living room
-    {'intent': 'follow', 'per': 'Francis', 'sour': 'bed', 'dest': 'room'}
-Follow Charlie from the bookcase to the corridor
-    {'intent': 'follow', 'per': 'Charlie', 'sour': 'bookcase', 'dest': 'corridor'}
 Meet Francis and accompany him
     {'intent': 'follow', 'per': 'Francis'}
 Robot please meet Skyler at the desk follow him and escort him back
@@ -2428,32 +2068,18 @@ Meet Skyler at the exit follow him and guide him back
     {'intent': 'follow', 'per': 'Skyler'}
 Meet Elizabeth at the dining table follow her and navigate to the bedroom
     {'intent': 'follow', 'per': 'Elizabeth'}
-Follow Patricia from the desk to the kitchen
-    {'intent': 'follow', 'per': 'Patricia', 'sour': 'desk', 'dest': 'kitchen'}
 Meet Elizabeth at the desk follow her and go to the bedroom
     {'intent': 'follow', 'per': 'Elizabeth'}
-Follow Elizabeth from the exit to the living room
-    {'intent': 'follow', 'per': 'Elizabeth', 'sour': 'exit', 'dest': 'room'}
 Meet Skyler at the couch follow her and go to the dining room
     {'intent': 'follow', 'per': 'Skyler'}
 Could you please meet Mary at the dishwasher and follow her
     {'intent': 'follow', 'per': 'Mary'}
 Meet James at the desk follow him and go to the dining room
     {'intent': 'follow', 'per': 'James'}
-Follow Michael from the exit to the dining room
-    {'intent': 'follow', 'per': 'Michael', 'sour': 'exit', 'dest': 'room'}
 Meet Mary at the entrance follow her and lead her back
     {'intent': 'follow', 'per': 'Mary'}
 Go to the bed meet Francis and follow him
     {'intent': 'follow', 'per': 'Francis'}
-Robot please accompany Skyler from the entrance to the sink
-    {'intent': 'follow', 'per': 'Skyler', 'sour': 'entrance', 'dest': 'sink'}
-Robot please follow Skyler from the exit to the living room
-    {'intent': 'follow', 'per': 'Skyler', 'sour': 'exit', 'dest': 'room'}
-Could you please follow Alex from the bookcase to the dining room
-    {'intent': 'follow', 'per': 'Alex', 'sour': 'bookcase', 'dest': 'room'}
-Could you follow Alex from the bookcase to the dining room
-    {'intent': 'follow', 'per': 'Alex', 'sour': 'bookcase', 'dest': 'room'}
 Meet Alex at the end table follow her and escort her back
     {'intent': 'follow', 'per': 'Alex'}
 Meet Skyler and accompany her
@@ -2465,7 +2091,7 @@ Navigate to the dining table meet Robert and follow him
 Meet Jennifer at the end table follow her and accompany her back
     {'intent': 'follow', 'per': 'Jennifer'}
 Meet Jennifer at the end table follow her and accompany her back
-    {'intent': 'follow', 'per': 'Jennifer back'}
+    {'intent': 'follow', 'per': 'Jennifer'}
 Meet James at the dining table follow him and escort him back
     {'intent': 'follow', 'per': 'James'}
 Navigate to the entrance meet Robert and follow him
@@ -2484,12 +2110,6 @@ Meet Francis at the exit follow her and accompany her back
     {'intent': 'follow', 'per': 'Francis'}
 Meet Francis at the exit follow her and accompany her back
     {'intent': 'follow', 'per': 'Francis'}
-Robot please follow Michael from the dining table to the dining room
-    {'intent': 'follow', 'per': 'Michael', 'sour': 'table', 'dest': 'room'}
-Could you please follow Robin from the desk to the living room
-    {'intent': 'follow', 'per': 'Robin', 'sour': 'desk', 'dest': 'room'}
-Could you please follow Alex from the bed to the dining room
-    {'intent': 'follow', 'per': 'Alex', 'sour': 'bed', 'dest': 'room'}
 Go to the couch meet Francis and follow him
     {'intent': 'follow', 'per': 'Francis'}
 Meet John and accompany him
@@ -2508,8 +2128,6 @@ Go to the end table meet Charlie and follow him
     {'intent': 'follow', 'per': 'Charlie'}
 Could you meet Alex at the bed follow him and guide him back
     {'intent': 'follow', 'per': 'Alex'}
-Could you please follow Linda from the entrance to the bedroom
-    {'intent': 'follow', 'per': 'Linda', 'sour': 'entrance', 'dest': 'bedroom'}
 Meet Michael at the dishwasher follow him and take him back
     {'intent': 'follow', 'per': 'Michael'}
 Meet Jennifer at the entrance follow her and navigate to the living room
@@ -2519,7 +2137,7 @@ Navigate to the entrance meet Alex and follow him
 Meet Patricia at the desk follow her and accompany her back
     {'intent': 'follow', 'per': 'Patricia'}
 Meet Patricia at the desk follow her and accompany her back
-    {'intent': 'follow', 'per': 'Patricia back'}
+    {'intent': 'follow', 'per': 'Patricia'}
 Could you please navigate to the entrance meet Skyler and accompany him
     {'intent': 'follow', 'per': 'Skyler'}
 Go to the dishwasher meet Michael and follow him
@@ -2528,10 +2146,6 @@ Meet Robert at the exit follow him and go to the bedroom
     {'intent': 'follow', 'per': 'Robert'}
 Navigate to the sink meet Skyler and follow him
     {'intent': 'follow', 'per': 'Skyler'}
-Please follow Robert from the couch to the corridor
-    {'intent': 'follow', 'per': 'Robert', 'sour': 'couch', 'dest': 'corridor'}
-Follow Alex from the exit to the bedroom
-    {'intent': 'follow', 'per': 'Alex', 'sour': 'exit', 'dest': 'bedroom'}
 Meet John at the desk follow him and guide him back
     {'intent': 'follow', 'per': 'John'}
 Robot please meet William at the desk and follow him
@@ -2556,12 +2170,8 @@ Robot please go to the sink meet Michael and follow him
     {'intent': 'follow', 'per': 'Michael'}
 Navigate to the entrance meet Robin and follow him
     {'intent': 'follow', 'per': 'Robin'}
-Could you please follow Robert from the bed to the corridor
-    {'intent': 'follow', 'per': 'Robert', 'sour': 'bed', 'dest': 'corridor'}
 Meet Robin at the exit and follow her
     {'intent': 'follow', 'per': 'Robin'}
-Could you please lead Charlie from the dining table to the exit
-    {'intent': 'follow', 'per': 'Charlie', 'sour': 'table', 'dest': 'exit'}
 Could you please meet Mary at the end table follow her and go to the corridor
     {'intent': 'follow', 'per': 'Mary'}
 Could you meet Francis at the dishwasher follow her and lead her back
@@ -2596,12 +2206,8 @@ Navigate to the bookcase meet Charlie and follow him
     {'intent': 'follow', 'per': 'Charlie'}
 Could you meet Mary at the end table follow her and guide her back
     {'intent': 'follow', 'per': 'Mary'}
-Robot please follow Linda from the couch to the corridor
-    {'intent': 'follow', 'per': 'Linda', 'sour': 'couch', 'dest': 'corridor'}
 Could you please meet Jennifer and accompany her
     {'intent': 'follow', 'per': 'Jennifer'}
-Robot please meet Robert at the exit follow him and accompany him back
-    {'intent': 'follow', 'per': 'Robert'}
 Robot please meet Robert at the exit follow him and accompany him back
     {'intent': 'follow', 'per': 'Robert'}
 Go to the end table meet Mary and follow her
@@ -2610,8 +2216,6 @@ Meet John at the couch follow him and navigate to the corridor
     {'intent': 'follow', 'per': 'John'}
 Robot please meet William at the dishwasher follow him and navigate to the corridor
     {'intent': 'follow', 'per': 'William'}
-Follow Mary from the couch to the kitchen
-    {'intent': 'follow', 'per': 'Mary', 'sour': 'couch', 'dest': 'kitchen'}
 Follow Jennifer
     {'intent': 'follow', 'per': 'Jennifer'}
 Could you please navigate to the end table meet Elizabeth and follow her
@@ -2628,8 +2232,6 @@ Could you please meet William at the bookcase follow him and navigate to the cor
     {'intent': 'follow', 'per': 'William'}
 Follow Francis
     {'intent': 'follow', 'per': 'Francis'}
-Follow William from the desk to the bedroom
-    {'intent': 'follow', 'per': 'William', 'sour': 'desk', 'dest': 'bedroom'}
 Could you meet Michael at the exit follow him and navigate to the kitchen
     {'intent': 'follow', 'per': 'Michael'}
 Meet Skyler at the dishwasher follow her and lead her back
@@ -2640,8 +2242,6 @@ Go to the desk meet Linda and follow her
     {'intent': 'follow', 'per': 'Linda'}
 Meet Francis at the entrance follow her and go to the corridor
     {'intent': 'follow', 'per': 'Francis'}
-Follow Skyler from the dishwasher to the corridor
-    {'intent': 'follow', 'per': 'Skyler', 'sour': 'dishwasher', 'dest': 'corridor'}
 Robot please follow Charlie
     {'intent': 'follow', 'per': 'Charlie'}
 Follow Francis
@@ -2649,13 +2249,11 @@ Follow Francis
 Meet Mary at the end table follow her and accompany her back
     {'intent': 'follow', 'per': 'Mary'}
 Meet Mary at the end table follow her and accompany her back
-    {'intent': 'follow', 'per': 'Mary back'}
+    {'intent': 'follow', 'per': 'Mary'}
 Go to the desk meet Mary and follow her
     {'intent': 'follow', 'per': 'Mary'}
 Meet Mary at the bed follow her and take her back
     {'intent': 'follow', 'per': 'Mary'}
-Could you follow Linda from the dining table to the bedroom
-    {'intent': 'follow', 'per': 'Linda', 'sour': 'table', 'dest': 'bedroom'}
 Meet Robert at the bookcase and follow him
     {'intent': 'follow', 'per': 'Robert'}
 Go to the entrance meet Jennifer and accompany her
@@ -2666,8 +2264,6 @@ Follow Charlie
     {'intent': 'follow', 'per': 'Charlie'}
 Meet Robin at the couch follow her and take her back
     {'intent': 'follow', 'per': 'Robin'}
-Follow Francis from the end table to the corridor
-    {'intent': 'follow', 'per': 'Francis', 'sour': 'table', 'dest': 'corridor'}
 Navigate to the dining table meet Robert and follow him
     {'intent': 'follow', 'per': 'Robert'}
 Please meet Robin at the sink follow her and go to the corridor
@@ -2676,8 +2272,6 @@ Navigate to the bed meet Michael and follow him
     {'intent': 'follow', 'per': 'Michael'}
 Meet Alex at the desk follow her and go to the dining room
     {'intent': 'follow', 'per': 'Alex'}
-Could you follow Alex from the dishwasher to the bedroom
-    {'intent': 'follow', 'per': 'Alex', 'sour': 'dishwasher', 'dest': 'bedroom'}
 Go to the bed meet John and follow him
     {'intent': 'follow', 'per': 'John'}
 Please meet Skyler at the dining table follow him and take him back
@@ -2694,8 +2288,6 @@ Navigate to the end table meet Robin and follow her
     {'intent': 'follow', 'per': 'Robin'}
 Navigate to the desk meet Robin and follow her
     {'intent': 'follow', 'per': 'Robin'}
-Follow Patricia from the desk to the dining room
-    {'intent': 'follow', 'per': 'Patricia', 'sour': 'desk', 'dest': 'room'}
 Go to the sink meet Elizabeth and follow her
     {'intent': 'follow', 'per': 'Elizabeth'}
 Meet Charlie at the bookcase and follow him
@@ -2706,12 +2298,8 @@ Robot please meet William at the end table follow him and go to the dining room
     {'intent': 'follow', 'per': 'William'}
 Meet John at the sink follow him and go to the bedroom
     {'intent': 'follow', 'per': 'John'}
-Follow Robin from the bookcase to the corridor
-    {'intent': 'follow', 'per': 'Robin', 'sour': 'bookcase', 'dest': 'corridor'}
 Meet Charlie at the sink and follow him
     {'intent': 'follow', 'per': 'Charlie'}
-Could you please follow Charlie from the couch to the bedroom
-    {'intent': 'follow', 'per': 'Charlie', 'sour': 'couch', 'dest': 'bedroom'}
 Follow Robin
     {'intent': 'follow', 'per': 'Robin'}
 Meet Jennifer at the exit follow her and go to the kitchen
@@ -2740,16 +2328,10 @@ Go to the sink meet Francis and follow him
     {'intent': 'follow', 'per': 'Francis'}
 Go to the bookcase meet Skyler and follow him
     {'intent': 'follow', 'per': 'Skyler'}
-Could you follow James from the dishwasher to the kitchen
-    {'intent': 'follow', 'per': 'James', 'sour': 'dishwasher', 'dest': 'kitchen'}
 Navigate to the dishwasher meet Jennifer and follow her
     {'intent': 'follow', 'per': 'Jennifer'}
 Follow Alex
     {'intent': 'follow', 'per': 'Alex'}
-Robot please escort Robert from the desk to the bed
-    {'intent': 'follow', 'per': 'Robert', 'sour': 'desk', 'dest': 'bed'}
-Follow Linda from the end table to the corridor
-    {'intent': 'follow', 'per': 'Linda', 'sour': 'table', 'dest': 'corridor'}
 Robot please meet Michael at the couch follow him and accompany him back
     {'intent': 'follow', 'per': 'Michael'}
 Robot please meet Michael at the couch follow him and accompany him back
@@ -2758,8 +2340,6 @@ Go to the entrance meet Patricia and follow her
     {'intent': 'follow', 'per': 'Patricia'}
 Navigate to the bed meet Robin and follow him
     {'intent': 'follow', 'per': 'Robin'}
-Could you please follow Alex from the dining table to the bedroom
-    {'intent': 'follow', 'per': 'Alex', 'sour': 'table', 'dest': 'bedroom'}
 Follow Mary
     {'intent': 'follow', 'per': 'Mary'}
 Go to the bookcase meet Robin and follow her
@@ -2796,14 +2376,10 @@ Meet Jennifer at the bed follow her and escort her back
     {'intent': 'follow', 'per': 'Jennifer'}
 Navigate to the entrance meet Francis and follow her
     {'intent': 'follow', 'per': 'Francis'}
-Could you please follow Francis from the desk to the kitchen
-    {'intent': 'follow', 'per': 'Francis', 'sour': 'desk', 'dest': 'kitchen'}
 Could you meet Robin at the entrance follow him and take him back
     {'intent': 'follow', 'per': 'Robin'}
 Could you please meet Robin at the bed follow her and escort her back
     {'intent': 'follow', 'per': 'Robin'}
-Please follow William from the bookcase to the dining room
-    {'intent': 'follow', 'per': 'William', 'sour': 'bookcase', 'dest': 'room'}
 Meet Skyler at the end table follow him and take him back
     {'intent': 'follow', 'per': 'Skyler'}
 Could you please meet Skyler at the exit and follow her
@@ -2820,14 +2396,10 @@ Could you please follow Patricia
     {'intent': 'follow', 'per': 'Patricia'}
 Meet Linda at the entrance follow her and navigate to the dining room
     {'intent': 'follow', 'per': 'Linda'}
-Could you follow Skyler from the sink to the living room
-    {'intent': 'follow', 'per': 'Skyler', 'sour': 'sink', 'dest': 'room'}
 Meet Elizabeth at the dining table follow her and guide her back
     {'intent': 'follow', 'per': 'Elizabeth'}
 Meet James at the couch follow him and escort him back
     {'intent': 'follow', 'per': 'James'}
-Please follow Robin from the end table to the dining room
-    {'intent': 'follow', 'per': 'Robin', 'sour': 'table', 'dest': 'room'}
 Follow Linda
     {'intent': 'follow', 'per': 'Linda'}
 Go to the bookcase meet Charlie and follow her
@@ -2838,10 +2410,6 @@ Meet Linda at the end table follow her and take her back
     {'intent': 'follow', 'per': 'Linda'}
 Meet Linda at the bookcase follow her and lead her back
     {'intent': 'follow', 'per': 'Linda'}
-Follow Mary from the bookcase to the kitchen
-    {'intent': 'follow', 'per': 'Mary', 'sour': 'bookcase', 'dest': 'kitchen'}
-Robot please follow Francis from the exit to the kitchen
-    {'intent': 'follow', 'per': 'Francis', 'sour': 'exit', 'dest': 'kitchen'}
 Please follow John
     {'intent': 'follow', 'per': 'John'}
 Robot please meet William at the dining table and follow him
@@ -2854,20 +2422,12 @@ Could you meet Patricia at the end table follow her and escort her back
     {'intent': 'follow', 'per': 'Patricia'}
 Meet Skyler at the couch follow her and lead her back
     {'intent': 'follow', 'per': 'Skyler'}
-Follow Patricia from the end table to the corridor
-    {'intent': 'follow', 'per': 'Patricia', 'sour': 'table', 'dest': 'corridor'}
-Follow Jennifer from the dining table to the living room
-    {'intent': 'follow', 'per': 'Jennifer', 'sour': 'table', 'dest': 'room'}
-Follow Alex from the bookcase to the kitchen
-    {'intent': 'follow', 'per': 'Alex', 'sour': 'bookcase', 'dest': 'kitchen'}
 Meet James at the exit follow him and navigate to the kitchen
     {'intent': 'follow', 'per': 'James'}
 Meet Patricia at the bookcase follow her and go to the living room
     {'intent': 'follow', 'per': 'Patricia'}
 Please go to the couch meet Linda and follow her
     {'intent': 'follow', 'per': 'Linda'}
-Follow Charlie from the bookcase to the living room
-    {'intent': 'follow', 'per': 'Charlie', 'sour': 'bookcase', 'dest': 'room'}
 Follow Linda
     {'intent': 'follow', 'per': 'Linda'}
 Meet James at the desk follow him and navigate to the corridor
@@ -2878,8 +2438,6 @@ Navigate to the dining table meet Patricia and follow her
     {'intent': 'follow', 'per': 'Patricia'}
 Meet Mary at the dining table follow her and navigate to the corridor
     {'intent': 'follow', 'per': 'Mary'}
-Follow Francis from the exit to the bedroom
-    {'intent': 'follow', 'per': 'Francis', 'sour': 'exit', 'dest': 'bedroom'}
 Robot please meet Alex at the couch follow him and go to the dining room
     {'intent': 'follow', 'per': 'Alex'}
 Meet Mary at the bed follow her and lead her back
@@ -2902,8 +2460,6 @@ Could you follow Robin
     {'intent': 'follow', 'per': 'Robin'}
 Meet Robert at the end table follow him and navigate to the corridor
     {'intent': 'follow', 'per': 'Robert'}
-Could you please follow Alex from the couch to the dining room
-    {'intent': 'follow', 'per': 'Alex', 'sour': 'couch', 'dest': 'room'}
 Please go to the entrance meet James and follow him
     {'intent': 'follow', 'per': 'James'}
 Could you meet Charlie at the entrance follow him and take him back
@@ -2912,18 +2468,12 @@ Meet Skyler at the desk follow him and navigate to the kitchen
     {'intent': 'follow', 'per': 'Skyler'}
 Please meet James at the end table follow him and lead him back
     {'intent': 'follow', 'per': 'James'}
-Follow Alex from the dining table to the living room
-    {'intent': 'follow', 'per': 'Alex', 'sour': 'table', 'dest': 'room'}
 Go to the desk meet Patricia and follow her
     {'intent': 'follow', 'per': 'Patricia'}
 Robot please follow Charlie
     {'intent': 'follow', 'per': 'Charlie'}
 Could you meet Charlie at the bookcase follow him and escort him back
     {'intent': 'follow', 'per': 'Charlie'}
-Could you follow Skyler from the couch to the dining room
-    {'intent': 'follow', 'per': 'Skyler', 'sour': 'couch', 'dest': 'room'}
-Robot please follow Francis from the couch to the living room
-    {'intent': 'follow', 'per': 'Francis', 'sour': 'couch', 'dest': 'room'}
 Please follow Robin
     {'intent': 'follow', 'per': 'Robin'}
 Meet Patricia at the bed follow her and go to the bedroom
@@ -2948,8 +2498,6 @@ Please go to the entrance meet Alex and follow her
     {'intent': 'follow', 'per': 'Alex'}
 Meet Mary at the couch follow her and go to the kitchen
     {'intent': 'follow', 'per': 'Mary'}
-Could you please follow Alex from the bookcase to the kitchen
-    {'intent': 'follow', 'per': 'Alex', 'sour': 'bookcase', 'dest': 'kitchen'}
 Meet Mary at the entrance and follow her
     {'intent': 'follow', 'per': 'Mary'}
 Meet Alex at the bookcase follow her and navigate to the living room
@@ -2964,8 +2512,6 @@ Meet Charlie at the entrance follow him and navigate to the bedroom
     {'intent': 'follow', 'per': 'Charlie'}
 Meet Skyler at the couch follow her and navigate to the bedroom
     {'intent': 'follow', 'per': 'Skyler'}
-Follow Michael from the bookcase to the kitchen
-    {'intent': 'follow', 'per': 'Michael', 'sour': 'bookcase', 'dest': 'kitchen'}
 Meet Francis at the desk and follow her
     {'intent': 'follow', 'per': 'Francis'}
 Go to the bookcase meet Elizabeth and follow her
@@ -2978,20 +2524,14 @@ Navigate to the entrance meet Patricia and follow her
     {'intent': 'follow', 'per': 'Patricia'}
 Navigate to the desk meet Linda and follow her
     {'intent': 'follow', 'per': 'Linda'}
-Could you please follow Skyler from the exit to the bedroom
-    {'intent': 'follow', 'per': 'Skyler', 'sour': 'exit', 'dest': 'bedroom'}
-Could you follow Robert from the sink to the kitchen
-    {'intent': 'follow', 'per': 'Robert', 'sour': 'sink', 'dest': 'kitchen'}
 Meet Skyler at the sink follow him and go to the bedroom
     {'intent': 'follow', 'per': 'Skyler'}
 Meet Elizabeth at the dining table follow her and accompany her back
     {'intent': 'follow', 'per': 'Elizabeth'}
 Meet Elizabeth at the dining table follow her and accompany her back
-    {'intent': 'follow', 'per': 'Elizabeth back'}
+    {'intent': 'follow', 'per': 'Elizabeth'}
 Meet Charlie at the exit follow him and navigate to the kitchen
     {'intent': 'follow', 'per': 'Charlie'}
-Follow Jennifer from the exit to the living room
-    {'intent': 'follow', 'per': 'Jennifer', 'sour': 'exit', 'dest': 'room'}
 Meet Robert at the entrance follow him and navigate to the dining room
     {'intent': 'follow', 'per': 'Robert'}
 Robot please meet Elizabeth at the bookcase follow her and accompany her back
@@ -3020,10 +2560,6 @@ Meet Mary at the sink and follow her
     {'intent': 'follow', 'per': 'Mary'}
 Meet James at the sink and follow him
     {'intent': 'follow', 'per': 'James'}
-Follow Francis from the couch to the living room
-    {'intent': 'follow', 'per': 'Francis', 'sour': 'couch', 'dest': 'room'}
-Follow Michael from the couch to the corridor
-    {'intent': 'follow', 'per': 'Michael', 'sour': 'couch', 'dest': 'corridor'}
 Meet Elizabeth at the exit follow her and lead her back
     {'intent': 'follow', 'per': 'Elizabeth'}
 Follow Robin
@@ -3052,8 +2588,6 @@ Navigate to the end table meet Alex and follow her
     {'intent': 'follow', 'per': 'Alex'}
 Could you meet Jennifer and accompany her
     {'intent': 'follow', 'per': 'Jennifer'}
-Robot please follow Charlie from the bed to the kitchen
-    {'intent': 'follow', 'per': 'Charlie', 'sour': 'bed', 'dest': 'kitchen'}
 Meet Charlie at the bed and follow her
     {'intent': 'follow', 'per': 'Charlie'}
 Navigate to the bed meet Jennifer and follow her
@@ -3078,8 +2612,6 @@ Go to the bookcase meet John and follow him
     {'intent': 'follow', 'per': 'John'}
 Go to the end table meet Michael and follow him
     {'intent': 'follow', 'per': 'Michael'}
-Please follow Alex from the entrance to the bedroom
-    {'intent': 'follow', 'per': 'Alex', 'sour': 'entrance', 'dest': 'bedroom'}
 Robot please meet William at the exit follow him and guide him back
     {'intent': 'follow', 'per': 'William'}
 Meet John at the sink follow him and navigate to the dining room
@@ -3092,8 +2624,6 @@ Meet Alex at the dishwasher follow her and accompany her back
     {'intent': 'follow', 'per': 'Alex'}
 Meet Alex at the dishwasher follow her and accompany her back
     {'intent': 'follow', 'per': 'Alex'}
-Robot please follow Robin from the end table to the bedroom
-    {'intent': 'follow', 'per': 'Robin', 'sour': 'table', 'dest': 'bedroom'}
 Please meet Robin at the sink follow him and go to the dining room
     {'intent': 'follow', 'per': 'Robin'}
 Go to the couch meet Alex and follow her
@@ -3118,8 +2648,6 @@ Follow Elizabeth
     {'intent': 'follow', 'per': 'Elizabeth'}
 Meet Robin at the end table follow him and navigate to the kitchen
     {'intent': 'follow', 'per': 'Robin'}
-Follow Alex from the dining table to the kitchen
-    {'intent': 'follow', 'per': 'Alex', 'sour': 'table', 'dest': 'kitchen'}
 Meet Skyler at the desk follow him and lead him back
     {'intent': 'follow', 'per': 'Skyler'}
 Robot please meet Robert at the desk follow him and navigate to the kitchen
@@ -3148,10 +2676,6 @@ Robot please meet Robert at the dishwasher follow him and lead him back
     {'intent': 'follow', 'per': 'Robert'}
 Navigate to the couch meet Francis and follow her
     {'intent': 'follow', 'per': 'Francis'}
-Follow Charlie from the end table to the living room
-    {'intent': 'follow', 'per': 'Charlie', 'sour': 'table', 'dest': 'room'}
-Follow Francis from the dining table to the living room
-    {'intent': 'follow', 'per': 'Francis', 'sour': 'table', 'dest': 'room'}
 Go to the bed meet Elizabeth and follow her
     {'intent': 'follow', 'per': 'Elizabeth'}
 Follow Jennifer
@@ -3169,7 +2693,7 @@ Navigate to the couch meet Robin and follow him
 Meet Mary at the entrance follow her and accompany her back
     {'intent': 'follow', 'per': 'Mary'}
 Meet Mary at the entrance follow her and accompany her back
-    {'intent': 'follow', 'per': 'Mary back'}
+    {'intent': 'follow', 'per': 'Mary'}
 Could you please follow James
     {'intent': 'follow', 'per': 'James'}
 Meet James at the dining table follow him and escort him back
@@ -3186,12 +2710,8 @@ Could you meet Linda at the dishwasher and follow her
     {'intent': 'follow', 'per': 'Linda'}
 Meet Skyler at the sink follow him and escort him back
     {'intent': 'follow', 'per': 'Skyler'}
-Follow John from the entrance to the dining room
-    {'intent': 'follow', 'per': 'John', 'sour': 'entrance', 'dest': 'room'}
 Meet Jennifer at the dining table follow her and lead her back
     {'intent': 'follow', 'per': 'Jennifer'}
-Please follow Robin from the exit to the bedroom
-    {'intent': 'follow', 'per': 'Robin', 'sour': 'exit', 'dest': 'bedroom'}
 Could you please go to the couch meet Charlie and follow him
     {'intent': 'follow', 'per': 'Charlie'}
 Navigate to the sink meet Francis and accompany her
@@ -3200,8 +2720,6 @@ Please follow Robin
     {'intent': 'follow', 'per': 'Robin'}
 Meet Robin at the entrance and follow her
     {'intent': 'follow', 'per': 'Robin'}
-Follow Francis from the exit to the dining room
-    {'intent': 'follow', 'per': 'Francis', 'sour': 'exit', 'dest': 'room'}
 Go to the sink meet Jennifer and follow her
     {'intent': 'follow', 'per': 'Jennifer'}
 Navigate to the end table meet Jennifer and follow her
@@ -3210,10 +2728,6 @@ Meet Jennifer at the sink follow her and navigate to the dining room
     {'intent': 'follow', 'per': 'Jennifer'}
 Meet Skyler at the dishwasher follow her and navigate to the living room
     {'intent': 'follow', 'per': 'Skyler'}
-Follow John from the bed to the dining room
-    {'intent': 'follow', 'per': 'John', 'sour': 'bed', 'dest': 'room'}
-Could you follow William from the bed to the corridor
-    {'intent': 'follow', 'per': 'William', 'sour': 'bed', 'dest': 'corridor'}
 Please meet William at the dining table follow him and navigate to the living room
     {'intent': 'follow', 'per': 'William'}
 Follow Elizabeth
@@ -3229,9 +2743,7 @@ Could you meet Francis at the dining table follow her and lead her back
 Please meet Skyler at the couch follow her and accompany her back
     {'intent': 'follow', 'per': 'Skyler'}
 Please meet Skyler at the couch follow her and accompany her back
-    {'intent': 'follow', 'per': 'Skyler back'}
-Follow Jennifer from the exit to the corridor
-    {'intent': 'follow', 'per': 'Jennifer', 'sour': 'exit', 'dest': 'corridor'}
+    {'intent': 'follow', 'per': 'Skyler'}
 Meet Linda at the couch follow her and navigate to the corridor
     {'intent': 'follow', 'per': 'Linda'}
 Navigate to the end table meet Charlie and follow him
@@ -3250,8 +2762,6 @@ Navigate to the desk meet Skyler and follow him
     {'intent': 'follow', 'per': 'Skyler'}
 Robot please meet Francis at the entrance follow him and go to the corridor
     {'intent': 'follow', 'per': 'Francis'}
-Escort James from the dishwasher to the entrance
-    {'intent': 'follow', 'per': 'James', 'sour': 'dishwasher', 'dest': 'entrance'}
 Meet Skyler at the dishwasher follow her and navigate to the kitchen
     {'intent': 'follow', 'per': 'Skyler'}
 Robot please follow Francis
@@ -3264,32 +2774,22 @@ Meet Skyler at the dining table follow her and go to the kitchen
     {'intent': 'follow', 'per': 'Skyler'}
 Please go to the entrance meet Francis and follow him
     {'intent': 'follow', 'per': 'Francis'}
-Could you please follow Charlie from the sink to the dining room
-    {'intent': 'follow', 'per': 'Charlie', 'sour': 'sink', 'dest': 'room'}
 Robot please follow Jennifer
     {'intent': 'follow', 'per': 'Jennifer'}
 Robot please meet Charlie at the dishwasher follow her and navigate to the living room
     {'intent': 'follow', 'per': 'Charlie'}
-Follow Patricia from the end table to the bedroom
-    {'intent': 'follow', 'per': 'Patricia', 'sour': 'table', 'dest': 'bedroom'}
 Go to the exit meet John and follow him
     {'intent': 'follow', 'per': 'John'}
-Follow Robin from the entrance to the dining room
-    {'intent': 'follow', 'per': 'Robin', 'sour': 'entrance', 'dest': 'room'}
 Meet Patricia at the sink follow her and go to the dining room
     {'intent': 'follow', 'per': 'Patricia'}
 Meet Patricia at the dishwasher follow her and guide her back
     {'intent': 'follow', 'per': 'Patricia'}
-Could you please follow Linda from the sink to the corridor
-    {'intent': 'follow', 'per': 'Linda', 'sour': 'sink', 'dest': 'corridor'}
 Robot please navigate to the entrance meet Robin and follow him
     {'intent': 'follow', 'per': 'Robin'}
 Robot please meet Francis at the desk follow her and go to the kitchen
     {'intent': 'follow', 'per': 'Francis'}
 Could you go to the exit meet Francis and follow him
     {'intent': 'follow', 'per': 'Francis'}
-Follow Francis from the bookcase to the living room
-    {'intent': 'follow', 'per': 'Francis', 'sour': 'bookcase', 'dest': 'room'}
 Meet Charlie at the entrance follow her and navigate to the dining room
     {'intent': 'follow', 'per': 'Charlie'}
 Meet Mary at the dining table follow her and guide her back
@@ -3313,7 +2813,7 @@ Could you meet John at the desk follow him and navigate to the kitchen
 Meet Charlie at the dishwasher follow her and accompany her back
     {'intent': 'follow', 'per': 'Charlie'}
 Meet Charlie at the dishwasher follow her and accompany her back
-    {'intent': 'follow', 'per': 'Charlie back'}
+    {'intent': 'follow', 'per': 'Charlie'}
 Navigate to the entrance meet Skyler and follow her
     {'intent': 'follow', 'per': 'Skyler'}
 Follow Alex
@@ -3330,8 +2830,6 @@ Meet Alex at the end table follow him and go to the kitchen
     {'intent': 'follow', 'per': 'Alex'}
 Meet Francis at the entrance follow him and accompany him back
     {'intent': 'follow', 'per': 'Francis'}
-Meet Francis at the entrance follow him and accompany him back
-    {'intent': 'follow', 'per': 'Francis'}
 Meet James at the bookcase follow him and go to the living room
     {'intent': 'follow', 'per': 'James'}
 Could you please go to the bed meet Elizabeth and follow her
@@ -3342,8 +2840,6 @@ Meet Skyler at the sink follow him and go to the living room
     {'intent': 'follow', 'per': 'Skyler'}
 Meet Alex at the couch follow him and go to the corridor
     {'intent': 'follow', 'per': 'Alex'}
-Follow Charlie from the dishwasher to the dining room
-    {'intent': 'follow', 'per': 'Charlie', 'sour': 'dishwasher', 'dest': 'room'}
 Please meet Francis and accompany him
     {'intent': 'follow', 'per': 'Francis'}
 Meet Francis at the end table and follow him
@@ -3356,16 +2852,8 @@ Meet Alex at the desk follow him and go to the kitchen
     {'intent': 'follow', 'per': 'Alex'}
 Robot please navigate to the dining table meet James and follow him
     {'intent': 'follow', 'per': 'James'}
-Follow Michael from the exit to the dining room
-    {'intent': 'follow', 'per': 'Michael', 'sour': 'exit', 'dest': 'room'}
-Follow Elizabeth from the bed to the dining room
-    {'intent': 'follow', 'per': 'Elizabeth', 'sour': 'bed', 'dest': 'room'}
 Meet Charlie at the desk follow him and take him back
     {'intent': 'follow', 'per': 'Charlie'}
-Follow Linda from the bookcase to the kitchen
-    {'intent': 'follow', 'per': 'Linda', 'sour': 'bookcase', 'dest': 'kitchen'}
-Follow Patricia from the sink to the corridor
-    {'intent': 'follow', 'per': 'Patricia', 'sour': 'sink', 'dest': 'corridor'}
 Meet Skyler at the bed follow her and guide her back
     {'intent': 'follow', 'per': 'Skyler'}
 Robot please meet John at the exit follow him and escort him back
@@ -3380,8 +2868,6 @@ Go to the entrance meet Robert and follow him
     {'intent': 'follow', 'per': 'Robert'}
 Meet Robin at the end table follow him and lead him back
     {'intent': 'follow', 'per': 'Robin'}
-Follow Charlie from the bookcase to the bedroom
-    {'intent': 'follow', 'per': 'Charlie', 'sour': 'bookcase', 'dest': 'bedroom'}
 Please meet Francis at the dining table follow him and lead him back
     {'intent': 'follow', 'per': 'Francis'}
 Please meet Alex at the exit follow her and navigate to the corridor
@@ -3392,8 +2878,6 @@ Meet Michael at the dining table follow him and escort him back
     {'intent': 'follow', 'per': 'Michael'}
 Could you please meet Alex at the exit follow him and navigate to the bedroom
     {'intent': 'follow', 'per': 'Alex'}
-Follow Charlie from the desk to the living room
-    {'intent': 'follow', 'per': 'Charlie', 'sour': 'desk', 'dest': 'room'}
 Go to the exit meet Patricia and follow her
     {'intent': 'follow', 'per': 'Patricia'}
 Robot please meet Robin at the end table follow her and go to the living room
@@ -3404,8 +2888,6 @@ Could you meet Skyler at the dishwasher follow him and go to the corridor
     {'intent': 'follow', 'per': 'Skyler'}
 Meet Alex at the sink follow her and navigate to the living room
     {'intent': 'follow', 'per': 'Alex'}
-Follow William from the bookcase to the kitchen
-    {'intent': 'follow', 'per': 'William', 'sour': 'bookcase', 'dest': 'kitchen'}
 Meet Jennifer at the end table follow her and go to the kitchen
     {'intent': 'follow', 'per': 'Jennifer'}
 Follow Michael
@@ -3419,7 +2901,7 @@ Navigate to the end table meet Skyler and follow her
 Meet Linda at the end table follow her and accompany her back
     {'intent': 'follow', 'per': 'Linda'}
 Meet Linda at the end table follow her and accompany her back
-    {'intent': 'follow', 'per': 'Linda back'}
+    {'intent': 'follow', 'per': 'Linda'}
 Navigate to the bookcase meet James and accompany him
     {'intent': 'follow', 'per': 'James'}
 Please meet Francis at the desk follow her and take her back
@@ -3444,34 +2926,20 @@ Please navigate to the bookcase meet Alex and follow him
     {'intent': 'follow', 'per': 'Alex'}
 Meet James at the sink follow him and go to the kitchen
     {'intent': 'follow', 'per': 'James'}
-Robot please follow Francis from the entrance to the living room
-    {'intent': 'follow', 'per': 'Francis', 'sour': 'entrance', 'dest': 'room'}
 Meet John at the sink and follow him
     {'intent': 'follow', 'per': 'John'}
 Could you please meet Alex and accompany her
     {'intent': 'follow', 'per': 'Alex'}
-Follow Skyler from the dishwasher to the kitchen
-    {'intent': 'follow', 'per': 'Skyler', 'sour': 'dishwasher', 'dest': 'kitchen'}
 Meet Francis at the exit follow her and navigate to the kitchen
     {'intent': 'follow', 'per': 'Francis'}
-Follow Francis from the bookcase to the dining room
-    {'intent': 'follow', 'per': 'Francis', 'sour': 'bookcase', 'dest': 'room'}
 Could you navigate to the bookcase meet Linda and accompany her
     {'intent': 'follow', 'per': 'Linda'}
-Follow John from the desk to the living room
-    {'intent': 'follow', 'per': 'John', 'sour': 'desk', 'dest': 'room'}
-Follow James from the couch to the living room
-    {'intent': 'follow', 'per': 'James', 'sour': 'couch', 'dest': 'room'}
 Meet Mary at the dishwasher follow her and lead her back
     {'intent': 'follow', 'per': 'Mary'}
 Meet Francis at the end table and follow him
     {'intent': 'follow', 'per': 'Francis'}
 Meet John at the dining table follow him and escort him back
     {'intent': 'follow', 'per': 'John'}
-Follow Mary from the dishwasher to the dining room
-    {'intent': 'follow', 'per': 'Mary', 'sour': 'dishwasher', 'dest': 'room'}
-Could you please follow Robin from the couch to the living room
-    {'intent': 'follow', 'per': 'Robin', 'sour': 'couch', 'dest': 'room'}
 Meet Francis at the bed and follow her
     {'intent': 'follow', 'per': 'Francis'}
 Meet Skyler at the bookcase follow him and navigate to the kitchen
@@ -3480,42 +2948,28 @@ Meet Francis at the sink and follow her
     {'intent': 'follow', 'per': 'Francis'}
 Please meet Alex at the exit follow him and accompany him back
     {'intent': 'follow', 'per': 'Alex'}
-Please meet Alex at the exit follow him and accompany him back
-    {'intent': 'follow', 'per': 'Alex'}
 Meet Charlie at the desk follow him and navigate to the kitchen
     {'intent': 'follow', 'per': 'Charlie'}
 Meet William at the bookcase follow him and go to the dining room
     {'intent': 'follow', 'per': 'William'}
 Meet Robin at the end table follow her and lead her back
     {'intent': 'follow', 'per': 'Robin'}
-Could you follow Francis from the exit to the bedroom
-    {'intent': 'follow', 'per': 'Francis', 'sour': 'exit', 'dest': 'bedroom'}
 Robot please meet Robin at the dishwasher follow him and go to the kitchen
     {'intent': 'follow', 'per': 'Robin'}
-Please follow William from the sink to the dining room
-    {'intent': 'follow', 'per': 'William', 'sour': 'sink', 'dest': 'room'}
 Please meet Robin at the bed and follow her
     {'intent': 'follow', 'per': 'Robin'}
 Meet Alex at the dishwasher and follow him
     {'intent': 'follow', 'per': 'Alex'}
-Could you follow Alex from the dishwasher to the dining room
-    {'intent': 'follow', 'per': 'Alex', 'sour': 'dishwasher', 'dest': 'room'}
 Meet Charlie at the dishwasher and follow him
     {'intent': 'follow', 'per': 'Charlie'}
 Could you follow Alex
     {'intent': 'follow', 'per': 'Alex'}
-Follow Michael from the bookcase to the living room
-    {'intent': 'follow', 'per': 'Michael', 'sour': 'bookcase', 'dest': 'room'}
 Meet Charlie at the bed follow her and navigate to the living room
     {'intent': 'follow', 'per': 'Charlie'}
-Could you please follow Linda from the bookcase to the bedroom
-    {'intent': 'follow', 'per': 'Linda', 'sour': 'bookcase', 'dest': 'bedroom'}
 Robot please meet Alex at the bed follow him and navigate to the kitchen
     {'intent': 'follow', 'per': 'Alex'}
 Please go to the desk meet James and follow him
     {'intent': 'follow', 'per': 'James'}
-Follow Francis from the desk to the corridor
-    {'intent': 'follow', 'per': 'Francis', 'sour': 'desk', 'dest': 'corridor'}
 Please meet James at the end table follow him and accompany him back
     {'intent': 'follow', 'per': 'James'}
 Please meet James at the end table follow him and accompany him back
@@ -3540,14 +2994,8 @@ Meet Alex at the sink follow her and accompany her back
     {'intent': 'follow', 'per': 'Alex'}
 Navigate to the exit meet Francis and follow her
     {'intent': 'follow', 'per': 'Francis'}
-Follow Jennifer from the bookcase to the dining room
-    {'intent': 'follow', 'per': 'Jennifer', 'sour': 'bookcase', 'dest': 'room'}
 Meet Robert at the bed follow him and escort him back
     {'intent': 'follow', 'per': 'Robert'}
-Follow Alex from the entrance to the kitchen
-    {'intent': 'follow', 'per': 'Alex', 'sour': 'entrance', 'dest': 'kitchen'}
-Lead Francis from the dishwasher to the entrance
-    {'intent': 'follow', 'per': 'Francis', 'sour': 'dishwasher', 'dest': 'entrance'}
 Please meet Elizabeth at the couch follow her and lead her back
     {'intent': 'follow', 'per': 'Elizabeth'}
 Meet Robert at the dishwasher follow him and lead him back
@@ -3562,8 +3010,6 @@ Could you please meet Jennifer at the desk follow her and navigate to the kitche
     {'intent': 'follow', 'per': 'Jennifer'}
 Go to the exit meet Francis and follow her
     {'intent': 'follow', 'per': 'Francis'}
-Follow Charlie from the dishwasher to the bedroom
-    {'intent': 'follow', 'per': 'Charlie', 'sour': 'dishwasher', 'dest': 'bedroom'}
 Could you meet Charlie at the bed follow him and go to the corridor
     {'intent': 'follow', 'per': 'Charlie'}
 Could you navigate to the couch meet Patricia and follow her
@@ -3576,14 +3022,10 @@ Please go to the dining table meet Jennifer and follow her
     {'intent': 'follow', 'per': 'Jennifer'}
 Meet Jennifer and accompany her
     {'intent': 'follow', 'per': 'Jennifer'}
-Follow Patricia from the couch to the living room
-    {'intent': 'follow', 'per': 'Patricia', 'sour': 'couch', 'dest': 'room'}
 Could you please meet Francis at the bed follow him and accompany him back
     {'intent': 'follow', 'per': 'Francis'}
 Could you please meet Francis at the bed follow him and accompany him back
     {'intent': 'follow', 'per': 'Francis'}
-Could you please follow Mary from the desk to the living room
-    {'intent': 'follow', 'per': 'Mary', 'sour': 'desk', 'dest': 'room'}
 Could you meet Elizabeth at the bed follow her and navigate to the corridor
     {'intent': 'follow', 'per': 'Elizabeth'}
 Navigate to the dining table meet William and follow him
@@ -3598,8 +3040,6 @@ Meet Skyler at the couch follow him and navigate to the kitchen
     {'intent': 'follow', 'per': 'Skyler'}
 Navigate to the bed meet Francis and follow him
     {'intent': 'follow', 'per': 'Francis'}
-Follow Elizabeth from the bed to the bedroom
-    {'intent': 'follow', 'per': 'Elizabeth', 'sour': 'bed', 'dest': 'bedroom'}
 Please meet Alex at the exit follow her and navigate to the kitchen
     {'intent': 'follow', 'per': 'Alex'}
 Follow Alex
@@ -3618,8 +3058,6 @@ Could you please meet Robin at the sink and follow her
     {'intent': 'follow', 'per': 'Robin'}
 Please meet Robin at the dining table and follow her
     {'intent': 'follow', 'per': 'Robin'}
-Could you follow Skyler from the exit to the living room
-    {'intent': 'follow', 'per': 'Skyler', 'sour': 'exit', 'dest': 'room'}
 Meet Michael at the exit follow him and navigate to the bedroom
     {'intent': 'follow', 'per': 'Michael'}
 Robot please meet Charlie at the dishwasher follow her and navigate to the corridor
@@ -3632,8 +3070,6 @@ Could you please meet Elizabeth at the bed follow her and accompany her back
     {'intent': 'follow', 'per': 'Elizabeth'}
 Could you please meet Elizabeth at the bed follow her and accompany her back
     {'intent': 'follow', 'per': 'Elizabeth'}
-Follow James from the bed to the corridor
-    {'intent': 'follow', 'per': 'James', 'sour': 'bed', 'dest': 'corridor'}
 Robot please go to the bookcase meet Charlie and follow her
     {'intent': 'follow', 'per': 'Charlie'}
 Meet Robin at the end table and follow her
@@ -3656,8 +3092,6 @@ Navigate to the couch meet Skyler and accompany her
     {'intent': 'follow', 'per': 'Skyler'}
 Meet Alex at the couch follow him and take him back
     {'intent': 'follow', 'per': 'Alex'}
-Follow Charlie from the bed to the dining room
-    {'intent': 'follow', 'per': 'Charlie', 'sour': 'bed', 'dest': 'room'}
 Could you go to the dining table meet Mary and follow her
     {'intent': 'follow', 'per': 'Mary'}
 Robot please go to the entrance meet Michael and follow him
@@ -3682,8 +3116,6 @@ Meet Alex at the bed follow him and go to the dining room
     {'intent': 'follow', 'per': 'Alex'}
 Could you meet Alex at the dining table follow her and take her back
     {'intent': 'follow', 'per': 'Alex'}
-Could you please follow Linda from the bed to the corridor
-    {'intent': 'follow', 'per': 'Linda', 'sour': 'bed', 'dest': 'corridor'}
 Could you please follow Patricia
     {'intent': 'follow', 'per': 'Patricia'}
 Meet Skyler at the dishwasher follow her and lead her back
@@ -3704,8 +3136,6 @@ Meet Francis at the couch follow her and go to the bedroom
     {'intent': 'follow', 'per': 'Francis'}
 Follow Charlie
     {'intent': 'follow', 'per': 'Charlie'}
-Follow Jennifer from the dishwasher to the dining room
-    {'intent': 'follow', 'per': 'Jennifer', 'sour': 'dishwasher', 'dest': 'room'}
 Could you go to the dining table meet Elizabeth and follow her
     {'intent': 'follow', 'per': 'Elizabeth'}
 Follow John
@@ -3730,12 +3160,8 @@ Could you please meet Elizabeth and accompany her
     {'intent': 'follow', 'per': 'Elizabeth'}
 Robot please meet Mary and accompany her
     {'intent': 'follow', 'per': 'Mary'}
-Follow Francis from the desk to the dining room
-    {'intent': 'follow', 'per': 'Francis', 'sour': 'desk', 'dest': 'room'}
 Navigate to the dishwasher meet James and follow him
     {'intent': 'follow', 'per': 'James'}
-Follow Alex from the exit to the kitchen
-    {'intent': 'follow', 'per': 'Alex', 'sour': 'exit', 'dest': 'kitchen'}
 Robot please meet Mary at the desk follow her and navigate to the living room
     {'intent': 'follow', 'per': 'Mary'}
 Meet Alex at the exit follow her and lead her back
@@ -3756,22 +3182,12 @@ Meet Alex at the dining table follow him and navigate to the living room
     {'intent': 'follow', 'per': 'Alex'}
 Meet Robin at the bed follow her and navigate to the living room
     {'intent': 'follow', 'per': 'Robin'}
-Robot please follow Francis from the bookcase to the kitchen
-    {'intent': 'follow', 'per': 'Francis', 'sour': 'bookcase', 'dest': 'kitchen'}
 Could you please meet James and accompany him
     {'intent': 'follow', 'per': 'James'}
 Could you please go to the desk meet William and follow him
     {'intent': 'follow', 'per': 'William'}
-Follow Francis from the couch to the kitchen
-    {'intent': 'follow', 'per': 'Francis', 'sour': 'couch', 'dest': 'kitchen'}
-Follow Francis from the bookcase to the bedroom
-    {'intent': 'follow', 'per': 'Francis', 'sour': 'bookcase', 'dest': 'bedroom'}
-Follow Alex from the exit to the corridor
-    {'intent': 'follow', 'per': 'Alex', 'sour': 'exit', 'dest': 'corridor'}
 Meet Robin at the end table follow her and lead her back
     {'intent': 'follow', 'per': 'Robin'}
-Follow Skyler from the exit to the corridor
-    {'intent': 'follow', 'per': 'Skyler', 'sour': 'exit', 'dest': 'corridor'}
 Could you navigate to the sink meet Elizabeth and follow her
     {'intent': 'follow', 'per': 'Elizabeth'}
 Please navigate to the dining table meet Alex and follow him
@@ -3786,8 +3202,6 @@ Meet Michael at the entrance follow him and go to the dining room
     {'intent': 'follow', 'per': 'Michael'}
 Could you please go to the exit meet Robert and follow him
     {'intent': 'follow', 'per': 'Robert'}
-Follow Skyler from the bookcase to the living room
-    {'intent': 'follow', 'per': 'Skyler', 'sour': 'bookcase', 'dest': 'room'}
 Meet Robin at the exit follow her and guide her back
     {'intent': 'follow', 'per': 'Robin'}
 Robot please meet John at the dining table follow him and navigate to the living room
@@ -3797,7 +3211,7 @@ Go to the exit meet Charlie and follow her
 Meet Elizabeth at the dishwasher follow her and accompany her back
     {'intent': 'follow', 'per': 'Elizabeth'}
 Meet Elizabeth at the dishwasher follow her and accompany her back
-    {'intent': 'follow', 'per': 'Elizabeth back'}
+    {'intent': 'follow', 'per': 'Elizabeth'}
 Meet Robin at the bookcase follow him and navigate to the kitchen
     {'intent': 'follow', 'per': 'Robin'}
 Please meet Skyler at the exit follow him and take him back
@@ -3810,8 +3224,6 @@ Meet Jennifer at the dining table follow her and accompany her back
     {'intent': 'follow', 'per': 'Jennifer'}
 Meet Jennifer at the dining table follow her and accompany her back
     {'intent': 'follow', 'per': 'Jennifer'}
-Could you follow Skyler from the exit to the living room
-    {'intent': 'follow', 'per': 'Skyler', 'sour': 'exit', 'dest': 'room'}
 Meet James at the end table and follow him
     {'intent': 'follow', 'per': 'James'}
 Please meet Michael at the dining table and follow him
@@ -3820,28 +3232,18 @@ Meet Robert at the dishwasher follow him and go to the bedroom
     {'intent': 'follow', 'per': 'Robert'}
 Meet Skyler at the sink follow her and take her back
     {'intent': 'follow', 'per': 'Skyler'}
-Could you please follow Jennifer from the end table to the living room
-    {'intent': 'follow', 'per': 'Jennifer', 'sour': 'table', 'dest': 'room'}
 Meet Elizabeth at the couch follow her and navigate to the living room
     {'intent': 'follow', 'per': 'Elizabeth'}
 Please navigate to the couch meet James and follow him
     {'intent': 'follow', 'per': 'James'}
 Meet Francis at the bed follow him and go to the living room
     {'intent': 'follow', 'per': 'Francis'}
-Robot please accompany Skyler from the bookcase to the bed
-    {'intent': 'follow', 'per': 'Skyler', 'sour': 'bookcase', 'dest': 'bed'}
-Could you follow Charlie from the dishwasher to the corridor
-    {'intent': 'follow', 'per': 'Charlie', 'sour': 'dishwasher', 'dest': 'corridor'}
 Meet Elizabeth at the bookcase and follow her
     {'intent': 'follow', 'per': 'Elizabeth'}
 Navigate to the sink meet Linda and follow her
     {'intent': 'follow', 'per': 'Linda'}
 Follow William
     {'intent': 'follow', 'per': 'William'}
-Could you follow Elizabeth from the end table to the living room
-    {'intent': 'follow', 'per': 'Elizabeth', 'sour': 'table', 'dest': 'room'}
-Please follow Robert from the exit to the living room
-    {'intent': 'follow', 'per': 'Robert', 'sour': 'exit', 'dest': 'room'}
 Meet William at the sink follow him and go to the kitchen
     {'intent': 'follow', 'per': 'William'}
 Follow James
@@ -3852,8 +3254,6 @@ Please meet Robin at the sink follow her and go to the bedroom
     {'intent': 'follow', 'per': 'Robin'}
 Meet James at the desk follow him and navigate to the kitchen
     {'intent': 'follow', 'per': 'James'}
-Follow Charlie from the end table to the living room
-    {'intent': 'follow', 'per': 'Charlie', 'sour': 'table', 'dest': 'room'}
 Meet James at the desk follow him and guide him back
     {'intent': 'follow', 'per': 'James'}
 Meet Francis at the dining table follow him and navigate to the dining room
@@ -3862,8 +3262,6 @@ Could you please meet Skyler at the desk follow him and go to the bedroom
     {'intent': 'follow', 'per': 'Skyler'}
 Robot please follow John
     {'intent': 'follow', 'per': 'John'}
-Follow Skyler from the end table to the corridor
-    {'intent': 'follow', 'per': 'Skyler', 'sour': 'table', 'dest': 'corridor'}
 Please meet Robin at the end table follow her and go to the kitchen
     {'intent': 'follow', 'per': 'Robin'}
 Please follow James
@@ -3882,8 +3280,6 @@ Meet Alex at the couch follow him and accompany him back
     {'intent': 'follow', 'per': 'Alex'}
 Meet Alex at the desk and follow him
     {'intent': 'follow', 'per': 'Alex'}
-Could you follow Robin from the bed to the living room
-    {'intent': 'follow', 'per': 'Robin', 'sour': 'bed', 'dest': 'room'}
 Meet John at the bed follow him and escort him back
     {'intent': 'follow', 'per': 'John'}
 Meet Alex at the dishwasher follow her and navigate to the corridor
@@ -3898,10 +3294,6 @@ Go to the bookcase meet Jennifer and follow her
     {'intent': 'follow', 'per': 'Jennifer'}
 Could you please meet Robin at the dining table follow her and navigate to the living room
     {'intent': 'follow', 'per': 'Robin'}
-Please follow Charlie from the bed to the bedroom
-    {'intent': 'follow', 'per': 'Charlie', 'sour': 'bed', 'dest': 'bedroom'}
-Follow William from the exit to the dining room
-    {'intent': 'follow', 'per': 'William', 'sour': 'exit', 'dest': 'room'}
 Robot please meet John at the desk and follow him
     {'intent': 'follow', 'per': 'John'}
 Meet John at the entrance follow him and navigate to the bedroom
@@ -3910,8 +3302,6 @@ Meet Charlie at the dishwasher follow him and go to the dining room
     {'intent': 'follow', 'per': 'Charlie'}
 Could you please meet Francis at the entrance follow her and guide her back
     {'intent': 'follow', 'per': 'Francis'}
-Follow Michael from the end table to the bedroom
-    {'intent': 'follow', 'per': 'Michael', 'sour': 'table', 'dest': 'bedroom'}
 Please meet Francis at the bookcase follow him and navigate to the bedroom
     {'intent': 'follow', 'per': 'Francis'}
 Could you meet Skyler at the bed follow him and accompany him back
@@ -3920,8 +3310,6 @@ Could you meet Skyler at the bed follow him and accompany him back
     {'intent': 'follow', 'per': 'Skyler'}
 Please meet Skyler at the couch follow her and guide her back
     {'intent': 'follow', 'per': 'Skyler'}
-Follow Michael from the desk to the kitchen
-    {'intent': 'follow', 'per': 'Michael', 'sour': 'desk', 'dest': 'kitchen'}
 Meet Francis at the bookcase follow her and guide her back
     {'intent': 'follow', 'per': 'Francis'}
 Navigate to the desk meet Skyler and follow him
@@ -3958,24 +3346,16 @@ Please follow Skyler
     {'intent': 'follow', 'per': 'Skyler'}
 Meet Jennifer at the dishwasher follow her and go to the corridor
     {'intent': 'follow', 'per': 'Jennifer'}
-Follow Alex from the bed to the bedroom
-    {'intent': 'follow', 'per': 'Alex', 'sour': 'bed', 'dest': 'bedroom'}
 Robot please meet Jennifer at the bed follow her and navigate to the dining room
     {'intent': 'follow', 'per': 'Jennifer'}
 Navigate to the bed meet John and follow him
     {'intent': 'follow', 'per': 'John'}
-Follow James from the bookcase to the bedroom
-    {'intent': 'follow', 'per': 'James', 'sour': 'bookcase', 'dest': 'bedroom'}
 Meet Alex at the end table follow him and accompany him back
     {'intent': 'follow', 'per': 'Alex'}
 Meet Alex at the end table follow him and accompany him back
     {'intent': 'follow', 'per': 'Alex'}
 Meet Linda at the entrance follow her and lead her back
     {'intent': 'follow', 'per': 'Linda'}
-Follow Alex from the end table to the bedroom
-    {'intent': 'follow', 'per': 'Alex', 'sour': 'table', 'dest': 'bedroom'}
-Robot please follow Charlie from the couch to the bedroom
-    {'intent': 'follow', 'per': 'Charlie', 'sour': 'couch', 'dest': 'bedroom'}
 Meet Alex at the bed follow her and take her back
     {'intent': 'follow', 'per': 'Alex'}
 Robot please meet Patricia at the sink follow her and lead her back
@@ -3998,8 +3378,6 @@ Please meet Linda at the dishwasher follow her and accompany her back
     {'intent': 'follow', 'per': 'Linda'}
 Please meet Linda at the dishwasher follow her and accompany her back
     {'intent': 'follow', 'per': 'Linda'}
-Follow Elizabeth from the exit to the dining room
-    {'intent': 'follow', 'per': 'Elizabeth', 'sour': 'exit', 'dest': 'room'}
 Robot please meet Mary at the bed follow her and navigate to the kitchen
     {'intent': 'follow', 'per': 'Mary'}
 Could you please meet Alex at the end table follow her and go to the bedroom
@@ -4016,22 +3394,14 @@ Follow Alex
     {'intent': 'follow', 'per': 'Alex'}
 Could you please meet Jennifer at the bed follow her and go to the living room
     {'intent': 'follow', 'per': 'Jennifer'}
-Could you please follow Robert from the bookcase to the corridor
-    {'intent': 'follow', 'per': 'Robert', 'sour': 'bookcase', 'dest': 'corridor'}
 Meet James at the sink follow him and go to the living room
     {'intent': 'follow', 'per': 'James'}
-Follow Linda from the dishwasher to the dining room
-    {'intent': 'follow', 'per': 'Linda', 'sour': 'dishwasher', 'dest': 'room'}
 Could you please navigate to the couch meet Michael and follow him
     {'intent': 'follow', 'per': 'Michael'}
-Follow Robin from the bookcase to the dining room
-    {'intent': 'follow', 'per': 'Robin', 'sour': 'bookcase', 'dest': 'room'}
 Navigate to the end table meet Skyler and follow him
     {'intent': 'follow', 'per': 'Skyler'}
 Follow Skyler
     {'intent': 'follow', 'per': 'Skyler'}
-Follow Robin from the bed to the dining room
-    {'intent': 'follow', 'per': 'Robin', 'sour': 'bed', 'dest': 'room'}
 Meet Skyler at the bookcase follow her and take her back
     {'intent': 'follow', 'per': 'Skyler'}
 Could you follow Robin
@@ -4056,24 +3426,16 @@ Could you navigate to the sink meet William and follow him
     {'intent': 'follow', 'per': 'William'}
 Meet Linda at the end table follow her and lead her back
     {'intent': 'follow', 'per': 'Linda'}
-Follow Robert from the end table to the bedroom
-    {'intent': 'follow', 'per': 'Robert', 'sour': 'table', 'dest': 'bedroom'}
 Meet Francis at the desk follow her and accompany her back
     {'intent': 'follow', 'per': 'Francis'}
 Meet Francis at the desk follow her and accompany her back
     {'intent': 'follow', 'per': 'Francis'}
-Follow Alex from the entrance to the bedroom
-    {'intent': 'follow', 'per': 'Alex', 'sour': 'entrance', 'dest': 'bedroom'}
 Meet Charlie at the sink follow him and accompany him back
     {'intent': 'follow', 'per': 'Charlie'}
 Meet Charlie at the sink follow him and accompany him back
     {'intent': 'follow', 'per': 'Charlie'}
-Robot please follow Robin from the dishwasher to the dining room
-    {'intent': 'follow', 'per': 'Robin', 'sour': 'dishwasher', 'dest': 'room'}
 Meet Charlie and accompany him
     {'intent': 'follow', 'per': 'Charlie'}
-Follow Robin from the bed to the living room
-    {'intent': 'follow', 'per': 'Robin', 'sour': 'bed', 'dest': 'room'}
 Meet Skyler at the end table follow him and go to the kitchen
     {'intent': 'follow', 'per': 'Skyler'}
 Navigate to the dishwasher meet Skyler and follow her
@@ -4084,8 +3446,6 @@ Meet James at the dining table follow him and accompany him back
     {'intent': 'follow', 'per': 'James'}
 Meet James at the dining table follow him and accompany him back
     {'intent': 'follow', 'per': 'James'}
-Could you follow Michael from the dining table to the living room
-    {'intent': 'follow', 'per': 'Michael', 'sour': 'table', 'dest': 'room'}
 Navigate to the sink meet Robin and follow him
     {'intent': 'follow', 'per': 'Robin'}
 Go to the bookcase meet Robin and follow him
@@ -4098,16 +3458,8 @@ Go to the bed meet Linda and follow her
     {'intent': 'follow', 'per': 'Linda'}
 Go to the desk meet Robin and follow him
     {'intent': 'follow', 'per': 'Robin'}
-Follow Michael from the end table to the living room
-    {'intent': 'follow', 'per': 'Michael', 'sour': 'table', 'dest': 'room'}
-Robot please follow Francis from the entrance to the corridor
-    {'intent': 'follow', 'per': 'Francis', 'sour': 'entrance', 'dest': 'corridor'}
-Could you follow Alex from the desk to the bedroom
-    {'intent': 'follow', 'per': 'Alex', 'sour': 'desk', 'dest': 'bedroom'}
 Robot please meet Robert at the couch follow him and go to the dining room
     {'intent': 'follow', 'per': 'Robert'}
-Follow Robin from the sink to the corridor
-    {'intent': 'follow', 'per': 'Robin', 'sour': 'sink', 'dest': 'corridor'}
 Meet Michael at the entrance follow him and navigate to the dining room
     {'intent': 'follow', 'per': 'Michael'}
 Go to the desk meet John and follow him
@@ -4120,8 +3472,6 @@ Meet Robin at the couch follow her and navigate to the corridor
     {'intent': 'follow', 'per': 'Robin'}
 Meet Skyler at the couch and follow him
     {'intent': 'follow', 'per': 'Skyler'}
-Follow Mary from the desk to the bedroom
-    {'intent': 'follow', 'per': 'Mary', 'sour': 'desk', 'dest': 'bedroom'}
 Meet Skyler at the sink and follow her
     {'intent': 'follow', 'per': 'Skyler'}
 Meet Skyler at the bed follow her and escort her back
@@ -4144,16 +3494,12 @@ Meet Francis at the exit follow her and accompany her back
     {'intent': 'follow', 'per': 'Francis'}
 Go to the dining table meet Mary and follow her
     {'intent': 'follow', 'per': 'Mary'}
-Follow Robin from the dishwasher to the corridor
-    {'intent': 'follow', 'per': 'Robin', 'sour': 'dishwasher', 'dest': 'corridor'}
 Could you please meet Charlie at the couch follow her and accompany her back
     {'intent': 'follow', 'per': 'Charlie'}
 Could you please meet Charlie at the couch follow her and accompany her back
     {'intent': 'follow', 'per': 'Charlie'}
 Meet Charlie at the dining table follow him and go to the corridor
     {'intent': 'follow', 'per': 'Charlie'}
-Follow Michael from the desk to the dining room
-    {'intent': 'follow', 'per': 'Michael', 'sour': 'desk', 'dest': 'room'}
 Follow Robert
     {'intent': 'follow', 'per': 'Robert'}
 Please meet Skyler at the bookcase follow her and accompany her back
@@ -4166,8 +3512,6 @@ Meet Alex at the desk follow him and go to the kitchen
     {'intent': 'follow', 'per': 'Alex'}
 Go to the bed meet Skyler and follow him
     {'intent': 'follow', 'per': 'Skyler'}
-Robot please follow Mary from the dining table to the kitchen
-    {'intent': 'follow', 'per': 'Mary', 'sour': 'table', 'dest': 'kitchen'}
 Follow Robin
     {'intent': 'follow', 'per': 'Robin'}
 Could you go to the bed meet Alex and follow her
@@ -4196,14 +3540,10 @@ Meet Patricia at the dining table and follow her
     {'intent': 'follow', 'per': 'Patricia'}
 Robot please go to the dining table meet Michael and follow him
     {'intent': 'follow', 'per': 'Michael'}
-Please follow Robert from the exit to the kitchen
-    {'intent': 'follow', 'per': 'Robert', 'sour': 'exit', 'dest': 'kitchen'}
 Meet Francis at the couch and follow him
     {'intent': 'follow', 'per': 'Francis'}
 Meet Alex at the end table follow her and navigate to the living room
     {'intent': 'follow', 'per': 'Alex'}
-Follow Patricia from the sink to the kitchen
-    {'intent': 'follow', 'per': 'Patricia', 'sour': 'sink', 'dest': 'kitchen'}
 Could you please meet Jennifer at the bookcase follow her and go to the bedroom
     {'intent': 'follow', 'per': 'Jennifer'}
 Meet Francis at the end table follow him and go to the bedroom
@@ -4216,8 +3556,6 @@ Meet Alex at the bed follow him and accompany him back
     {'intent': 'follow', 'per': 'Alex'}
 Meet Alex at the bed follow him and accompany him back
     {'intent': 'follow', 'per': 'Alex'}
-Follow Linda from the desk to the bedroom
-    {'intent': 'follow', 'per': 'Linda', 'sour': 'desk', 'dest': 'bedroom'}
 Meet Charlie at the dishwasher follow her and take her back
     {'intent': 'follow', 'per': 'Charlie'}
 Meet Elizabeth at the end table follow her and navigate to the dining room
@@ -4271,7 +3609,7 @@ Go to the couch meet Mary and accompany her
 Could you meet Linda at the sink follow her and accompany her back
     {'intent': 'follow', 'per': 'Linda'}
 Could you meet Linda at the sink follow her and accompany her back
-    {'intent': 'follow', 'per': 'Linda back'}
+    {'intent': 'follow', 'per': 'Linda'}
 Meet Skyler at the dishwasher follow her and go to the dining room
     {'intent': 'follow', 'per': 'Skyler'}
 Meet James at the bed follow him and lead him back
@@ -4299,39 +3637,25 @@ Could you meet Francis at the bookcase and follow him
 Meet John at the bookcase follow him and accompany him back
     {'intent': 'follow', 'per': 'John'}
 Meet John at the bookcase follow him and accompany him back
-    {'intent': 'follow', 'per': 'John back'}
-Follow Michael from the desk to the dining room
-    {'intent': 'follow', 'per': 'Michael', 'sour': 'desk', 'dest': 'room'}
+    {'intent': 'follow', 'per': 'John'}
 Meet Francis at the end table follow him and navigate to the kitchen
     {'intent': 'follow', 'per': 'Francis'}
-Please follow Charlie from the dishwasher to the dining room
-    {'intent': 'follow', 'per': 'Charlie', 'sour': 'dishwasher', 'dest': 'room'}
 Could you please meet William at the bed follow him and take him back
     {'intent': 'follow', 'per': 'William'}
 Please meet Michael at the exit follow him and guide him back
     {'intent': 'follow', 'per': 'Michael'}
-Robot please follow Robin from the end table to the dining room
-    {'intent': 'follow', 'per': 'Robin', 'sour': 'table', 'dest': 'room'}
 Could you meet William at the exit follow him and go to the kitchen
     {'intent': 'follow', 'per': 'William'}
-Follow Charlie from the sink to the corridor
-    {'intent': 'follow', 'per': 'Charlie', 'sour': 'sink', 'dest': 'corridor'}
-Follow Robin from the dining table to the kitchen
-    {'intent': 'follow', 'per': 'Robin', 'sour': 'table', 'dest': 'kitchen'}
 Follow Patricia
     {'intent': 'follow', 'per': 'Patricia'}
 Go to the desk meet John and follow him
     {'intent': 'follow', 'per': 'John'}
 Please meet Francis at the sink follow him and lead him back
     {'intent': 'follow', 'per': 'Francis'}
-Robot please follow Mary from the bed to the kitchen
-    {'intent': 'follow', 'per': 'Mary', 'sour': 'bed', 'dest': 'kitchen'}
 Robot please meet William at the bookcase follow him and navigate to the corridor
     {'intent': 'follow', 'per': 'William'}
 Could you meet Robert at the desk follow him and take him back
     {'intent': 'follow', 'per': 'Robert'}
-Please follow Robert from the bed to the corridor
-    {'intent': 'follow', 'per': 'Robert', 'sour': 'bed', 'dest': 'corridor'}
 Could you meet John at the bed follow him and go to the living room
     {'intent': 'follow', 'per': 'John'}
 Could you please go to the exit meet Charlie and accompany him
@@ -4344,20 +3668,14 @@ Go to the couch meet James and follow him
     {'intent': 'follow', 'per': 'James'}
 Robot please meet James at the desk follow him and navigate to the dining room
     {'intent': 'follow', 'per': 'James'}
-Could you follow Skyler from the bookcase to the corridor
-    {'intent': 'follow', 'per': 'Skyler', 'sour': 'bookcase', 'dest': 'corridor'}
 Go to the bed meet William and follow him
     {'intent': 'follow', 'per': 'William'}
 Could you meet Patricia at the desk follow her and navigate to the corridor
     {'intent': 'follow', 'per': 'Patricia'}
 Meet Charlie at the entrance follow him and take him back
     {'intent': 'follow', 'per': 'Charlie'}
-Follow Skyler from the dining table to the kitchen
-    {'intent': 'follow', 'per': 'Skyler', 'sour': 'table', 'dest': 'kitchen'}
 Could you meet Alex at the dining table follow her and go to the bedroom
     {'intent': 'follow', 'per': 'Alex'}
-Follow William from the couch to the kitchen
-    {'intent': 'follow', 'per': 'William', 'sour': 'couch', 'dest': 'kitchen'}
 Meet John at the desk follow him and lead him back
     {'intent': 'follow', 'per': 'John'}
 Meet Skyler at the bookcase follow him and escort him back
@@ -4370,8 +3688,6 @@ Navigate to the dining table meet Alex and follow him
     {'intent': 'follow', 'per': 'Alex'}
 Meet Robin at the sink follow him and navigate to the corridor
     {'intent': 'follow', 'per': 'Robin'}
-Follow Charlie from the dishwasher to the corridor
-    {'intent': 'follow', 'per': 'Charlie', 'sour': 'dishwasher', 'dest': 'corridor'}
 Could you please meet Alex at the sink follow him and navigate to the dining room
     {'intent': 'follow', 'per': 'Alex'}
 Meet Robin at the dishwasher follow him and navigate to the dining room
@@ -4388,12 +3704,6 @@ Robot please meet Francis at the dishwasher follow him and accompany him back
     {'intent': 'follow', 'per': 'Francis'}
 Robot please meet Francis at the dishwasher follow him and accompany him back
     {'intent': 'follow', 'per': 'Francis'}
-Please follow Francis from the dining table to the kitchen
-    {'intent': 'follow', 'per': 'Francis', 'sour': 'table', 'dest': 'kitchen'}
-Could you please follow Linda from the dishwasher to the kitchen
-    {'intent': 'follow', 'per': 'Linda', 'sour': 'dishwasher', 'dest': 'kitchen'}
-Please follow Alex from the end table to the dining room
-    {'intent': 'follow', 'per': 'Alex', 'sour': 'table', 'dest': 'room'}
 Could you please go to the exit meet Robin and follow her
     {'intent': 'follow', 'per': 'Robin'}
 Could you please meet Francis at the dishwasher follow her and go to the living room
@@ -4412,8 +3722,6 @@ Meet Alex at the bed follow her and escort her back
     {'intent': 'follow', 'per': 'Alex'}
 Robot please navigate to the dishwasher meet Francis and follow her
     {'intent': 'follow', 'per': 'Francis'}
-Follow Linda from the dining table to the corridor
-    {'intent': 'follow', 'per': 'Linda', 'sour': 'table', 'dest': 'corridor'}
 Robot please go to the couch meet Robert and follow him
     {'intent': 'follow', 'per': 'Robert'}
 Meet James and accompany him
@@ -4428,34 +3736,20 @@ Meet Charlie at the bookcase follow him and go to the dining room
     {'intent': 'follow', 'per': 'Charlie'}
 Could you please follow Elizabeth
     {'intent': 'follow', 'per': 'Elizabeth'}
-Escort Michael from the dishwasher to the exit
-    {'intent': 'follow', 'per': 'Michael', 'sour': 'dishwasher', 'dest': 'exit'}
 Meet Linda at the bookcase follow her and guide her back
     {'intent': 'follow', 'per': 'Linda'}
-Follow Jennifer from the entrance to the dining room
-    {'intent': 'follow', 'per': 'Jennifer', 'sour': 'entrance', 'dest': 'room'}
-Robot please follow Elizabeth from the entrance to the bedroom
-    {'intent': 'follow', 'per': 'Elizabeth', 'sour': 'entrance', 'dest': 'bedroom'}
 Could you please meet Linda at the bookcase follow her and go to the corridor
     {'intent': 'follow', 'per': 'Linda'}
 Follow Skyler
     {'intent': 'follow', 'per': 'Skyler'}
-Follow Robin from the sink to the living room
-    {'intent': 'follow', 'per': 'Robin', 'sour': 'sink', 'dest': 'room'}
-Follow William from the dining table to the corridor
-    {'intent': 'follow', 'per': 'William', 'sour': 'table', 'dest': 'corridor'}
 Please navigate to the bed meet Skyler and follow him
     {'intent': 'follow', 'per': 'Skyler'}
 Meet Alex at the entrance follow her and navigate to the corridor
     {'intent': 'follow', 'per': 'Alex'}
-Follow Patricia from the bed to the dining room
-    {'intent': 'follow', 'per': 'Patricia', 'sour': 'bed', 'dest': 'room'}
 Navigate to the dishwasher meet Linda and follow her
     {'intent': 'follow', 'per': 'Linda'}
 Meet Patricia at the end table follow her and take her back
     {'intent': 'follow', 'per': 'Patricia'}
-Follow Charlie from the bed to the dining room
-    {'intent': 'follow', 'per': 'Charlie', 'sour': 'bed', 'dest': 'room'}
 Meet Alex at the couch follow her and go to the corridor
     {'intent': 'follow', 'per': 'Alex'}
 Meet Francis at the end table and follow him
@@ -4470,12 +3764,10 @@ Meet Linda at the exit follow her and navigate to the dining room
     {'intent': 'follow', 'per': 'Linda'}
 Could you please meet James at the entrance follow him and guide him back
     {'intent': 'follow', 'per': 'James'}
-Follow Charlie from the exit to the corridor
-    {'intent': 'follow', 'per': 'Charlie', 'sour': 'exit', 'dest': 'corridor'}
 Meet William at the dishwasher follow him and accompany him back
     {'intent': 'follow', 'per': 'William'}
 Meet William at the dishwasher follow him and accompany him back
-    {'intent': 'follow', 'per': 'William back'}
+    {'intent': 'follow', 'per': 'William'}
 Meet Skyler at the couch follow him and guide him back
     {'intent': 'follow', 'per': 'Skyler'}
 Could you meet James at the end table follow him and go to the bedroom
@@ -4492,8 +3784,6 @@ Robot please follow Jennifer
     {'intent': 'follow', 'per': 'Jennifer'}
 Meet Alex at the dining table and follow him
     {'intent': 'follow', 'per': 'Alex'}
-Robot please follow Charlie from the bookcase to the living room
-    {'intent': 'follow', 'per': 'Charlie', 'sour': 'bookcase', 'dest': 'room'}
 Go to the entrance meet Jennifer and follow her
     {'intent': 'follow', 'per': 'Jennifer'}
 Follow Charlie
@@ -4502,8 +3792,6 @@ Meet Francis at the exit follow him and go to the kitchen
     {'intent': 'follow', 'per': 'Francis'}
 Follow Linda
     {'intent': 'follow', 'per': 'Linda'}
-Please follow Charlie from the desk to the bedroom
-    {'intent': 'follow', 'per': 'Charlie', 'sour': 'desk', 'dest': 'bedroom'}
 Could you please navigate to the desk meet Francis and follow her
     {'intent': 'follow', 'per': 'Francis'}
 Meet Alex at the bookcase follow her and guide her back
@@ -4513,21 +3801,15 @@ Meet Linda at the sink follow her and go to the kitchen
 Meet Elizabeth at the entrance follow her and accompany her back
     {'intent': 'follow', 'per': 'Elizabeth'}
 Meet Elizabeth at the entrance follow her and accompany her back
-    {'intent': 'follow', 'per': 'Elizabeth back'}
+    {'intent': 'follow', 'per': 'Elizabeth'}
 Meet Mary at the desk follow her and navigate to the kitchen
     {'intent': 'follow', 'per': 'Mary'}
 Could you meet James at the exit follow him and go to the dining room
     {'intent': 'follow', 'per': 'James'}
-Could you please follow Linda from the dishwasher to the living room
-    {'intent': 'follow', 'per': 'Linda', 'sour': 'dishwasher', 'dest': 'room'}
 Could you meet John at the bookcase follow him and guide him back
     {'intent': 'follow', 'per': 'John'}
-Follow Francis from the end table to the corridor
-    {'intent': 'follow', 'per': 'Francis', 'sour': 'table', 'dest': 'corridor'}
 Navigate to the bed meet John and follow him
     {'intent': 'follow', 'per': 'John'}
-Could you please follow Alex from the desk to the kitchen
-    {'intent': 'follow', 'per': 'Alex', 'sour': 'desk', 'dest': 'kitchen'}
 Could you meet Robin at the entrance and follow him
     {'intent': 'follow', 'per': 'Robin'}
 Please follow James
@@ -4548,8 +3830,6 @@ Please follow Robert
     {'intent': 'follow', 'per': 'Robert'}
 Meet Alex at the exit follow him and navigate to the corridor
     {'intent': 'follow', 'per': 'Alex'}
-Follow Robin from the desk to the kitchen
-    {'intent': 'follow', 'per': 'Robin', 'sour': 'desk', 'dest': 'kitchen'}
 Meet Michael at the dining table follow him and go to the bedroom
     {'intent': 'follow', 'per': 'Michael'}
 Go to the dining table meet Patricia and follow her
@@ -4558,10 +3838,6 @@ Go to the dining table meet John and follow him
     {'intent': 'follow', 'per': 'John'}
 Robot please meet Francis at the end table follow her and take her back
     {'intent': 'follow', 'per': 'Francis'}
-Follow Francis from the couch to the corridor
-    {'intent': 'follow', 'per': 'Francis', 'sour': 'couch', 'dest': 'corridor'}
-Could you please follow Robin from the dishwasher to the corridor
-    {'intent': 'follow', 'per': 'Robin', 'sour': 'dishwasher', 'dest': 'corridor'}
 Please go to the bed meet Skyler and follow her
     {'intent': 'follow', 'per': 'Skyler'}
 Meet Robin at the bookcase follow her and navigate to the kitchen
@@ -4599,7 +3875,7 @@ Could you please meet Charlie at the exit follow him and lead him back
 Meet Charlie at the dishwasher follow her and accompany her back
     {'intent': 'follow', 'per': 'Charlie'}
 Meet Charlie at the dishwasher follow her and accompany her back
-    {'intent': 'follow', 'per': 'Charlie back'}
+    {'intent': 'follow', 'per': 'Charlie'}
 Meet Linda at the couch follow her and lead her back
     {'intent': 'follow', 'per': 'Linda'}
 Could you navigate to the entrance meet Robert and follow him
@@ -4610,8 +3886,6 @@ Navigate to the end table meet Skyler and follow him
     {'intent': 'follow', 'per': 'Skyler'}
 Robot please navigate to the dining table meet Francis and follow him
     {'intent': 'follow', 'per': 'Francis'}
-Please follow James from the bookcase to the kitchen
-    {'intent': 'follow', 'per': 'James', 'sour': 'bookcase', 'dest': 'kitchen'}
 Meet Michael at the sink follow him and go to the living room
     {'intent': 'follow', 'per': 'Michael'}
 Could you meet Robert at the exit and follow him
@@ -4656,28 +3930,14 @@ Go to the sink meet Linda and follow her
     {'intent': 'follow', 'per': 'Linda'}
 Robot please meet Robert at the entrance and follow him
     {'intent': 'follow', 'per': 'Robert'}
-Could you please follow James from the end table to the kitchen
-    {'intent': 'follow', 'per': 'James', 'sour': 'table', 'dest': 'kitchen'}
 Follow Charlie
     {'intent': 'follow', 'per': 'Charlie'}
 Meet Elizabeth at the bed follow her and navigate to the living room
     {'intent': 'follow', 'per': 'Elizabeth'}
-Follow Alex from the sink to the kitchen
-    {'intent': 'follow', 'per': 'Alex', 'sour': 'sink', 'dest': 'kitchen'}
-Could you please follow John from the exit to the corridor
-    {'intent': 'follow', 'per': 'John', 'sour': 'exit', 'dest': 'corridor'}
 Meet Skyler at the bookcase follow her and navigate to the kitchen
     {'intent': 'follow', 'per': 'Skyler'}
-Please follow Charlie from the couch to the dining room
-    {'intent': 'follow', 'per': 'Charlie', 'sour': 'couch', 'dest': 'room'}
-Could you please follow Alex from the dishwasher to the living room
-    {'intent': 'follow', 'per': 'Alex', 'sour': 'dishwasher', 'dest': 'room'}
 Could you please meet Charlie at the bookcase and follow him
     {'intent': 'follow', 'per': 'Charlie'}
-Follow Robin from the dishwasher to the bedroom
-    {'intent': 'follow', 'per': 'Robin', 'sour': 'dishwasher', 'dest': 'bedroom'}
-Please follow Skyler from the bed to the bedroom
-    {'intent': 'follow', 'per': 'Skyler', 'sour': 'bed', 'dest': 'bedroom'}
 Go to the dishwasher meet Robin and follow her
     {'intent': 'follow', 'per': 'Robin'}
 Go to the desk meet Patricia and follow her
@@ -4692,14 +3952,6 @@ Meet Jennifer at the sink follow her and accompany her back
     {'intent': 'follow', 'per': 'Jennifer'}
 Meet Linda at the end table follow her and escort her back
     {'intent': 'follow', 'per': 'Linda'}
-Could you follow Alex from the entrance to the bedroom
-    {'intent': 'follow', 'per': 'Alex', 'sour': 'entrance', 'dest': 'bedroom'}
-Follow Robin from the dining table to the kitchen
-    {'intent': 'follow', 'per': 'Robin', 'sour': 'table', 'dest': 'kitchen'}
-Follow Robin from the couch to the living room
-    {'intent': 'follow', 'per': 'Robin', 'sour': 'couch', 'dest': 'room'}
-Follow Skyler from the bed to the living room
-    {'intent': 'follow', 'per': 'Skyler', 'sour': 'bed', 'dest': 'room'}
 Meet Michael at the bookcase follow him and navigate to the corridor
     {'intent': 'follow', 'per': 'Michael'}
 Meet Skyler at the sink follow her and take her back
@@ -4707,9 +3959,7 @@ Meet Skyler at the sink follow her and take her back
 Meet Patricia at the desk follow her and accompany her back
     {'intent': 'follow', 'per': 'Patricia'}
 Meet Patricia at the desk follow her and accompany her back
-    {'intent': 'follow', 'per': 'Patricia back'}
-Please follow Charlie from the couch to the living room
-    {'intent': 'follow', 'per': 'Charlie', 'sour': 'couch', 'dest': 'room'}
+    {'intent': 'follow', 'per': 'Patricia'}
 Meet Skyler at the bed and follow her
     {'intent': 'follow', 'per': 'Skyler'}
 Could you please meet Alex at the desk follow him and navigate to the dining room
@@ -4735,15 +3985,11 @@ Meet Robin at the bed and follow him
 Meet Patricia at the couch follow her and accompany her back
     {'intent': 'follow', 'per': 'Patricia'}
 Meet Patricia at the couch follow her and accompany her back
-    {'intent': 'follow', 'per': 'Patricia back'}
-Robot please follow Skyler from the bookcase to the corridor
-    {'intent': 'follow', 'per': 'Skyler', 'sour': 'bookcase', 'dest': 'corridor'}
+    {'intent': 'follow', 'per': 'Patricia'}
 Please meet William at the bookcase and follow him
     {'intent': 'follow', 'per': 'William'}
 Follow John
     {'intent': 'follow', 'per': 'John'}
-Follow William from the dining table to the dining room
-    {'intent': 'follow', 'per': 'William', 'sour': 'table', 'dest': 'room'}
 Navigate to the sink meet Patricia and follow her
     {'intent': 'follow', 'per': 'Patricia'}
 Follow James
@@ -4752,8 +3998,6 @@ Meet Robin at the bed follow him and go to the kitchen
     {'intent': 'follow', 'per': 'Robin'}
 Meet Jennifer at the bookcase follow her and go to the bedroom
     {'intent': 'follow', 'per': 'Jennifer'}
-Follow Jennifer from the desk to the kitchen
-    {'intent': 'follow', 'per': 'Jennifer', 'sour': 'desk', 'dest': 'kitchen'}
 Robot please meet Francis and accompany her
     {'intent': 'follow', 'per': 'Francis'}
 Meet Elizabeth at the dishwasher follow her and go to the corridor
@@ -4792,16 +4036,10 @@ Meet Linda and accompany her
     {'intent': 'follow', 'per': 'Linda'}
 Robot please meet Elizabeth at the dishwasher follow her and go to the dining room
     {'intent': 'follow', 'per': 'Elizabeth'}
-Could you please follow Alex from the desk to the corridor
-    {'intent': 'follow', 'per': 'Alex', 'sour': 'desk', 'dest': 'corridor'}
-Could you please follow Skyler from the dishwasher to the living room
-    {'intent': 'follow', 'per': 'Skyler', 'sour': 'dishwasher', 'dest': 'room'}
 Please meet Francis at the bookcase and follow her
     {'intent': 'follow', 'per': 'Francis'}
 Meet Alex at the bookcase follow her and go to the corridor
     {'intent': 'follow', 'per': 'Alex'}
-Follow Francis from the dishwasher to the bedroom
-    {'intent': 'follow', 'per': 'Francis', 'sour': 'dishwasher', 'dest': 'bedroom'}
 Meet Elizabeth at the bed follow her and go to the living room
     {'intent': 'follow', 'per': 'Elizabeth'}
 Could you please navigate to the entrance meet Elizabeth and follow her
@@ -4812,23 +4050,17 @@ Meet Mary at the bed follow her and accompany her back
     {'intent': 'follow', 'per': 'Mary'}
 Meet James at the exit follow him and go to the dining room
     {'intent': 'follow', 'per': 'James'}
-Follow Robert from the bookcase to the living room
-    {'intent': 'follow', 'per': 'Robert', 'sour': 'bookcase', 'dest': 'room'}
 Follow Robin
     {'intent': 'follow', 'per': 'Robin'}
 Meet Alex at the end table follow her and accompany her back
     {'intent': 'follow', 'per': 'Alex'}
 Meet Alex at the end table follow her and accompany her back
-    {'intent': 'follow', 'per': 'Alex back'}
+    {'intent': 'follow', 'per': 'Alex'}
 Go to the entrance meet Elizabeth and follow her
     {'intent': 'follow', 'per': 'Elizabeth'}
 Could you please meet Jennifer at the desk follow her and navigate to the corridor
     {'intent': 'follow', 'per': 'Jennifer'}
 Could you please meet Jennifer at the end table follow her and navigate to the kitchen
     {'intent': 'follow', 'per': 'Jennifer'}
-Please follow Michael from the end table to the dining room
-    {'intent': 'follow', 'per': 'Michael', 'sour': 'table', 'dest': 'room'}
-Robot please follow Skyler from the end table to the kitchen
-    {'intent': 'follow', 'per': 'Skyler', 'sour': 'table', 'dest': 'kitchen'}
 Meet Linda at the dishwasher follow her and go to the bedroom
     {'intent': 'follow', 'per': 'Linda'}

@@ -1,0 +1,30 @@
+﻿Pick up the orange from the dining table pick up the fruits from the side table and spot Linda at the dishwasher please
+    {'intent': 'take', 'obj': 'orange', 'sour': 'dining table'}
+Pick up the orange from the dining table pick up the fruits from the side table and spot Linda at the dishwasher please
+    {'intent': 'take', 'obj': 'fruits', 'sour': 'side table'}
+Find James in the dining room accompany him leave the apple in the living room please
+    {'intent': 'take', 'obj': 'apple', 'dest': 'living room'}
+Please grasp the fruits from the cupboard find Skyler in the kitchen and go after her
+    {'intent': 'take', 'obj': 'fruits', 'sour': 'cupboard'}
+Please offer something to eat to all the children in the bedroom
+    {'intent': 'take', 'obj': 'something to eat', 'dest': 'all the children bedroom'}
+Pinpoint Linda pinpoint Skyler at the bed and set cascade pod on the storage table
+    {'intent': 'take', 'obj': 'cascade pod', 'dest': 'storage table'}
+Give me the right-most cutlery from the sink please
+    {'intent': 'take', 'dest': 'me', 'obj': 'right-most cutlery', 'sour': 'sink'}
+Bring the pringles to the person raising their right arm in the dining room
+    {'intent': 'take', 'obj': 'pringles', 'per': 'person raising their right arm', 'dest': 'dining room'}
+Take the containers at the counter's top to the side table please
+    {'intent': 'take', 'obj': 'containers', 'sour': "counter's top", 'dest': 'side table'}
+Deliver to me some drinks from the bag on the storage table
+    {'intent': 'take', 'dest': 'me', 'obj': 'drinks', 'sour': 'bag on the storage table'}
+Could you offer something to eat to all the women raising their right arm in the bedroom
+    {'intent': 'take', 'obj': 'something to eat', 'dest': 'all the women raising their right arm bedroom'}
+Take the orange from the sink locate Alex in the living room and spot Michael
+    {'intent': 'take', 'obj': 'orange', 'sour': 'sink'}
+Please offer something to drink to all the elders raising their left arm in the corridor
+    {'intent': 'take', 'obj': 'something to drink', 'dest': 'all the elders raising their left arm corridor'}
+Offer something to drink to all the women pointing to the right in the corridor
+    {'intent': 'take', 'obj': 'something to drink', 'dest': 'all the women pointing to the right corridor'}
+Offer something to drink to all the elders raising their right arm in the kitchen please
+    {'intent': 'take', 'obj': 'something to drink', 'dest': 'all the elders raising their right arm kitchen'}

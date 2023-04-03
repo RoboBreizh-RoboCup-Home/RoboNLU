@@ -1,0 +1,22 @@
+﻿Robot please describe the objects in the sink to me
+    {'intent': 'tell', 'what': 'objects in the sink', 'dest': 'me'}
+Robot please tell me how many children are pointing to the left in the kitchen
+    {'intent': 'tell', 'dest': 'me', 'what': 'how many children are pointing to the left in the kitchen'}
+Tell me how many women are pointing to the left in the bedroom please
+    {'intent': 'tell', 'dest': 'me', 'what': 'how many women are pointing to the left in the bedroom'}
+Could you tell me how many cleaning stuff items are in the end table
+    {'intent': 'tell', 'dest': 'me', 'what': 'how many cleaning stuff items are in the end table'}
+Tell me how many women are raising their right arm in the dining room please
+    {'intent': 'tell', 'dest': 'me', 'what': 'how many women are raising their right arm in the dining room'}
+Please tell me how many elders in the dining room are pointing to the right
+    {'intent': 'tell', 'dest': 'me', 'what': 'how many elders in the dining room are pointing to the right'}
+Tell me how many women are wearing shoes in the kitchen
+    {'intent': 'tell', 'dest': 'me', 'what': 'how many women are wearing shoes in the kitchen'}
+Robot please tell me how many children in the corridor are pointing to the left
+    {'intent': 'tell', 'dest': 'me', 'what': 'how many children in the corridor are pointing to the left'}
+Could you please tell me how many elders are wearing jackets in the dining room
+    {'intent': 'tell', 'dest': 'me', 'what': 'how many elders are wearing jackets in the dining room'}
+Could you tell me how many people in the bedroom are raising their left arm
+    {'intent': 'tell', 'dest': 'me', 'what': 'how many people in the bedroom are raising their left arm'}
+Describe the objects in the sink to me
+    {'intent': 'tell', 'what': 'objects in the sink', 'dest': 'me'}

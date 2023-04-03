@@ -1,0 +1,10 @@
+﻿Locate Skyler pinpoint Francis at the end table and accompany her to the exit please
+    {'intent': 'guide', 'per': 'Francis', 'dest': 'exit'}
+Please pinpoint Elizabeth look for Patricia at the desk and guide her to the exit
+    {'intent': 'guide', 'per': 'Patricia', 'dest': 'exit'}
+Could you please guide the woman dressed in an orange coat in the corridor to the living room
+    {'intent': 'guide', 'per': 'woman dressed in an orange coat', 'sour': 'corridor', 'dest': 'living room'}
+Lead the person waving in the living room to the kitchen
+    {'intent': 'guide', 'per': 'person waving', 'sour': 'living room', 'dest': 'kitchen'}
+Look for a apple in the bedroom locate Jennifer at the dishwasher and escort her please
+    {'intent': 'guide', 'per': 'Jennifer'}

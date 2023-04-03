@@ -1,0 +1,8 @@
+﻿Find James in the dining room accompany him leave the apple in the living room please
+    {'intent': 'follow', 'per': 'James'}
+Please grasp the fruits from the cupboard find Skyler in the kitchen and go after her
+    {'intent': 'follow', 'per': 'Skyler'}
+Accompany the person at the exit please
+    {'intent': 'follow', 'per': 'person', 'sour': 'exit'}
+Accompany the person raising their left arm in the living room please
+    {'intent': 'follow', 'per': 'person raising their left arm', 'sour': 'living room'}
