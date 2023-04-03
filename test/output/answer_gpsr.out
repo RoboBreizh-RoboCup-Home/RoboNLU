@@ -1,0 +1,574 @@
+﻿Look for a person raising their left arm in the living room and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Answer a question to the person waving in the bedroom
+    {'intent': 'answer', 'what': 'question', 'per': 'person waving', 'dest': 'bedroom'}
+Could you locate a man in the corridor and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Go to the corridor look for a female person and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Find a person sitting in the bedroom and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Could you please navigate to the kitchen locate a man and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Answer a question to the person pointing to the left in the dining room
+    {'intent': 'answer', 'what': 'question', 'per': 'person pointing to the left', 'dest': 'dining room'}
+Look for a person raising their left arm in the kitchen and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Locate a boy in the dining room and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Could you answer a question to the person waving in the corridor
+    {'intent': 'answer', 'what': 'question', 'per': 'person waving', 'dest': 'corridor'}
+Find a person raising their right arm in the corridor and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Could you please answer a question to the person raising their right arm in the dining room
+    {'intent': 'answer', 'what': 'question', 'per': 'person raising their right arm', 'dest': 'dining room'}
+Answer a question to the person pointing to the left in the corridor
+    {'intent': 'answer', 'what': 'question', 'per': 'person pointing to the left', 'dest': 'corridor'}
+Look for a person sitting in the dining room and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Look for a person sitting in the living room and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Locate a male person in the dining room and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Please go to the bedroom find a woman and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Please answer a question to the person raising their left arm in the dining room
+    {'intent': 'answer', 'what': 'question', 'per': 'person raising their left arm', 'dest': 'dining room'}
+Robot please locate a person sitting in the dining room and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Find a person standing in the dining room and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Answer a question to the person pointing to the right in the dining room
+    {'intent': 'answer', 'what': 'question', 'per': 'person pointing to the right', 'dest': 'dining room'}
+Answer a question to the person pointing to the left in the corridor
+    {'intent': 'answer', 'what': 'question', 'per': 'person pointing to the left', 'dest': 'corridor'}
+Find a female person in the bedroom and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Locate a female person in the kitchen and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Go to the living room look for a woman and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Could you please answer a question to the person raising their right arm in the dining room
+    {'intent': 'answer', 'what': 'question', 'per': 'person raising their right arm', 'dest': 'dining room'}
+Find a person waving in the bedroom and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Navigate to the living room look for a boy and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Look for a person pointing to the right in the living room and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Navigate to the living room find a male person and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Look for a person pointing to the right in the living room and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Could you go to the dining room look for a person pointing to the left and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Could you please locate a person raising their left arm in the kitchen and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Robot please go to the corridor find a person standing and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Could you answer a question to the person raising their left arm in the bedroom
+    {'intent': 'answer', 'what': 'question', 'per': 'person raising their left arm', 'dest': 'bedroom'}
+Look for a man in the living room and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Navigate to the corridor locate a person pointing to the right and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Locate a girl in the dining room and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Go to the kitchen locate a girl and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Go to the living room find a boy and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Could you please look for a person sitting in the dining room and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Please answer a question to the person raising their left arm in the living room
+    {'intent': 'answer', 'what': 'question', 'per': 'person raising their left arm', 'dest': 'living room'}
+Locate a male person in the bedroom and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Could you please look for a person raising their left arm in the corridor and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Could you answer a question to the person pointing to the left in the bedroom
+    {'intent': 'answer', 'what': 'question', 'per': 'person pointing to the left', 'dest': 'bedroom'}
+Go to the corridor locate a person sitting and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Could you please answer a question to the person raising their right arm in the bedroom
+    {'intent': 'answer', 'what': 'question', 'per': 'person raising their right arm', 'dest': 'bedroom'}
+Answer a question to the person raising their right arm in the corridor
+    {'intent': 'answer', 'what': 'question', 'per': 'person raising their right arm', 'dest': 'corridor'}
+Could you please find a boy in the kitchen and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Navigate to the corridor locate a person raising their right arm and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Go to the corridor locate a man and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Please go to the living room locate a person standing and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Look for a person lying down in the dining room and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Go to the bedroom look for a person waving and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Answer a question to the person waving in the dining room
+    {'intent': 'answer', 'what': 'question', 'per': 'person waving', 'dest': 'dining room'}
+Answer a question to the person pointing to the left in the kitchen
+    {'intent': 'answer', 'what': 'question', 'per': 'person pointing to the left', 'dest': 'kitchen'}
+Could you please locate a person lying down in the kitchen and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Could you please go to the dining room locate a girl and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Go to the dining room look for a person lying down and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Look for a person raising their left arm in the kitchen and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Locate a person sitting in the living room and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Go to the corridor look for a person pointing to the right and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Could you please answer a question to the person raising their right arm in the dining room
+    {'intent': 'answer', 'what': 'question', 'per': 'person raising their right arm', 'dest': 'dining room'}
+Answer a question to the person raising their left arm in the kitchen
+    {'intent': 'answer', 'what': 'question', 'per': 'person raising their left arm', 'dest': 'kitchen'}
+Look for a female person in the dining room and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Robot please go to the corridor find a female person and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Robot please look for a person standing in the living room and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Robot please look for a man in the corridor and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Answer a question to the person pointing to the right in the corridor
+    {'intent': 'answer', 'what': 'question', 'per': 'person pointing to the right', 'dest': 'corridor'}
+Answer a question to the person raising their right arm in the corridor
+    {'intent': 'answer', 'what': 'question', 'per': 'person raising their right arm', 'dest': 'corridor'}
+Navigate to the living room look for a person raising their left arm and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Answer a question to the person pointing to the left in the dining room
+    {'intent': 'answer', 'what': 'question', 'per': 'person pointing to the left', 'dest': 'dining room'}
+Navigate to the living room locate a person lying down and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Look for a girl in the living room and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Answer a question to the person pointing to the left in the dining room
+    {'intent': 'answer', 'what': 'question', 'per': 'person pointing to the left', 'dest': 'dining room'}
+Please go to the kitchen look for a man and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Look for a person lying down in the bedroom and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Please locate a man in the kitchen and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Please navigate to the corridor look for a male person and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Navigate to the kitchen look for a person raising their left arm and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Please go to the corridor find a person sitting and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Answer a question to the person raising their left arm in the bedroom
+    {'intent': 'answer', 'what': 'question', 'per': 'person raising their left arm', 'dest': 'bedroom'}
+Please go to the corridor find a person raising their left arm and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Go to the kitchen find a person waving and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Robot please answer a question to the person pointing to the right in the corridor
+    {'intent': 'answer', 'what': 'question', 'per': 'person pointing to the right', 'dest': 'corridor'}
+Navigate to the corridor locate a person standing and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Could you locate a girl in the bedroom and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Robot please answer a question to the person raising their left arm in the kitchen
+    {'intent': 'answer', 'what': 'question', 'per': 'person raising their left arm', 'dest': 'kitchen'}
+Robot please locate a person standing in the bedroom and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Please answer a question to the person raising their right arm in the dining room
+    {'intent': 'answer', 'what': 'question', 'per': 'person raising their right arm', 'dest': 'dining room'}
+Locate a woman in the dining room and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Could you look for a male person in the corridor and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Navigate to the corridor locate a person raising their left arm and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Answer a question to the person waving in the dining room
+    {'intent': 'answer', 'what': 'question', 'per': 'person waving', 'dest': 'dining room'}
+Could you please answer a question to the person pointing to the left in the living room
+    {'intent': 'answer', 'what': 'question', 'per': 'person pointing to the left', 'dest': 'living room'}
+Robot please find a person lying down in the living room and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Look for a person lying down in the dining room and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Could you find a person sitting in the corridor and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Could you go to the living room locate a man and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Answer a question to the person raising their left arm in the kitchen
+    {'intent': 'answer', 'what': 'question', 'per': 'person raising their left arm', 'dest': 'kitchen'}
+Please answer a question to the person raising their right arm in the dining room
+    {'intent': 'answer', 'what': 'question', 'per': 'person raising their right arm', 'dest': 'dining room'}
+Navigate to the kitchen locate a male person and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Answer a question to the person pointing to the right in the living room
+    {'intent': 'answer', 'what': 'question', 'per': 'person pointing to the right', 'dest': 'living room'}
+Answer a question to the person raising their right arm in the kitchen
+    {'intent': 'answer', 'what': 'question', 'per': 'person raising their right arm', 'dest': 'kitchen'}
+Could you answer a question to the person waving in the bedroom
+    {'intent': 'answer', 'what': 'question', 'per': 'person waving', 'dest': 'bedroom'}
+Locate a male person in the kitchen and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Navigate to the living room find a person raising their right arm and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Navigate to the bedroom find a person raising their right arm and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Could you look for a woman in the living room and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Robot please answer a question to the person pointing to the left in the corridor
+    {'intent': 'answer', 'what': 'question', 'per': 'person pointing to the left', 'dest': 'corridor'}
+Answer a question to the person raising their left arm in the bedroom
+    {'intent': 'answer', 'what': 'question', 'per': 'person raising their left arm', 'dest': 'bedroom'}
+Look for a person sitting in the living room and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Could you please answer a question to the person raising their right arm in the bedroom
+    {'intent': 'answer', 'what': 'question', 'per': 'person raising their right arm', 'dest': 'bedroom'}
+Look for a person sitting in the corridor and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Locate a person pointing to the right in the corridor and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Could you please locate a woman in the dining room and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Please answer a question to the person waving in the living room
+    {'intent': 'answer', 'what': 'question', 'per': 'person waving', 'dest': 'living room'}
+Answer a question to the person raising their left arm in the dining room
+    {'intent': 'answer', 'what': 'question', 'per': 'person raising their left arm', 'dest': 'dining room'}
+Go to the living room look for a person raising their left arm and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Robot please go to the bedroom find a male person and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Please go to the kitchen locate a person standing and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Answer a question to the person raising their left arm in the bedroom
+    {'intent': 'answer', 'what': 'question', 'per': 'person raising their left arm', 'dest': 'bedroom'}
+Could you please locate a person sitting in the corridor and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Answer a question to the person raising their left arm in the dining room
+    {'intent': 'answer', 'what': 'question', 'per': 'person raising their left arm', 'dest': 'dining room'}
+Answer a question to the person pointing to the left in the living room
+    {'intent': 'answer', 'what': 'question', 'per': 'person pointing to the left', 'dest': 'living room'}
+Look for a man in the kitchen and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Answer a question to the person waving in the kitchen
+    {'intent': 'answer', 'what': 'question', 'per': 'person waving', 'dest': 'kitchen'}
+Please answer a question to the person waving in the dining room
+    {'intent': 'answer', 'what': 'question', 'per': 'person waving', 'dest': 'dining room'}
+Go to the dining room look for a female person and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Answer a question to the person pointing to the left in the living room
+    {'intent': 'answer', 'what': 'question', 'per': 'person pointing to the left', 'dest': 'living room'}
+Navigate to the living room locate a male person and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Could you please find a person sitting in the bedroom and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Answer a question to the person raising their left arm in the kitchen
+    {'intent': 'answer', 'what': 'question', 'per': 'person raising their left arm', 'dest': 'kitchen'}
+Answer a question to the person pointing to the right in the living room
+    {'intent': 'answer', 'what': 'question', 'per': 'person pointing to the right', 'dest': 'living room'}
+Could you answer a question to the person raising their left arm in the kitchen
+    {'intent': 'answer', 'what': 'question', 'per': 'person raising their left arm', 'dest': 'kitchen'}
+Navigate to the living room look for a girl and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Answer a question to the person pointing to the left in the dining room
+    {'intent': 'answer', 'what': 'question', 'per': 'person pointing to the left', 'dest': 'dining room'}
+Go to the bedroom locate a person lying down and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Answer a question to the person raising their left arm in the corridor
+    {'intent': 'answer', 'what': 'question', 'per': 'person raising their left arm', 'dest': 'corridor'}
+Locate a girl in the corridor and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Navigate to the kitchen look for a female person and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Look for a person sitting in the corridor and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Answer a question to the person raising their left arm in the bedroom
+    {'intent': 'answer', 'what': 'question', 'per': 'person raising their left arm', 'dest': 'bedroom'}
+Robot please answer a question to the person waving in the kitchen
+    {'intent': 'answer', 'what': 'question', 'per': 'person waving', 'dest': 'kitchen'}
+Navigate to the bedroom locate a person pointing to the left and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Answer a question to the person raising their right arm in the corridor
+    {'intent': 'answer', 'what': 'question', 'per': 'person raising their right arm', 'dest': 'corridor'}
+Could you please navigate to the living room find a girl and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Go to the living room find a man and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Answer a question to the person waving in the living room
+    {'intent': 'answer', 'what': 'question', 'per': 'person waving', 'dest': 'living room'}
+Could you answer a question to the person raising their left arm in the corridor
+    {'intent': 'answer', 'what': 'question', 'per': 'person raising their left arm', 'dest': 'corridor'}
+Answer a question to the person raising their left arm in the dining room
+    {'intent': 'answer', 'what': 'question', 'per': 'person raising their left arm', 'dest': 'dining room'}
+Look for a woman in the corridor and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Navigate to the dining room look for a person pointing to the left and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Find a person standing in the dining room and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Answer a question to the person raising their left arm in the kitchen
+    {'intent': 'answer', 'what': 'question', 'per': 'person raising their left arm', 'dest': 'kitchen'}
+Navigate to the corridor locate a person raising their right arm and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Navigate to the corridor find a male person and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Look for a person pointing to the left in the living room and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Answer a question to the person pointing to the right in the kitchen
+    {'intent': 'answer', 'what': 'question', 'per': 'person pointing to the right', 'dest': 'kitchen'}
+Locate a person lying down in the bedroom and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Look for a person waving in the bedroom and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Please go to the corridor locate a male person and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Look for a person standing in the living room and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Answer a question to the person raising their left arm in the corridor
+    {'intent': 'answer', 'what': 'question', 'per': 'person raising their left arm', 'dest': 'corridor'}
+Could you find a boy in the bedroom and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Could you please find a person standing in the corridor and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Answer a question to the person raising their left arm in the corridor
+    {'intent': 'answer', 'what': 'question', 'per': 'person raising their left arm', 'dest': 'corridor'}
+Could you look for a woman in the corridor and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Could you please answer a question to the person raising their left arm in the dining room
+    {'intent': 'answer', 'what': 'question', 'per': 'person raising their left arm', 'dest': 'dining room'}
+Answer a question to the person waving in the dining room
+    {'intent': 'answer', 'what': 'question', 'per': 'person waving', 'dest': 'dining room'}
+Look for a person waving in the dining room and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Please find a person pointing to the right in the living room and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Go to the bedroom look for a person lying down and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Could you answer a question to the person pointing to the left in the dining room
+    {'intent': 'answer', 'what': 'question', 'per': 'person pointing to the left', 'dest': 'dining room'}
+Robot please answer a question to the person pointing to the right in the living room
+    {'intent': 'answer', 'what': 'question', 'per': 'person pointing to the right', 'dest': 'living room'}
+Could you answer a question to the person waving in the dining room
+    {'intent': 'answer', 'what': 'question', 'per': 'person waving', 'dest': 'dining room'}
+Answer a question to the person pointing to the left in the kitchen
+    {'intent': 'answer', 'what': 'question', 'per': 'person pointing to the left', 'dest': 'kitchen'}
+Answer a question to the person raising their left arm in the living room
+    {'intent': 'answer', 'what': 'question', 'per': 'person raising their left arm', 'dest': 'living room'}
+Could you please answer a question to the person raising their left arm in the dining room
+    {'intent': 'answer', 'what': 'question', 'per': 'person raising their left arm', 'dest': 'dining room'}
+Answer a question to the person raising their right arm in the dining room
+    {'intent': 'answer', 'what': 'question', 'per': 'person raising their right arm', 'dest': 'dining room'}
+Robot please go to the living room look for a person raising their left arm and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Answer a question to the person raising their right arm in the dining room
+    {'intent': 'answer', 'what': 'question', 'per': 'person raising their right arm', 'dest': 'dining room'}
+Could you please answer a question to the person waving in the living room
+    {'intent': 'answer', 'what': 'question', 'per': 'person waving', 'dest': 'living room'}
+Answer a question to the person waving in the bedroom
+    {'intent': 'answer', 'what': 'question', 'per': 'person waving', 'dest': 'bedroom'}
+Look for a boy in the kitchen and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Go to the dining room locate a person raising their left arm and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Could you please look for a man in the corridor and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Look for a person waving in the living room and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Go to the kitchen find a woman and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Could you find a person raising their right arm in the living room and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Answer a question to the person raising their left arm in the corridor
+    {'intent': 'answer', 'what': 'question', 'per': 'person raising their left arm', 'dest': 'corridor'}
+Answer a question to the person waving in the living room
+    {'intent': 'answer', 'what': 'question', 'per': 'person waving', 'dest': 'living room'}
+Please locate a person pointing to the left in the living room and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Robot please answer a question to the person pointing to the left in the bedroom
+    {'intent': 'answer', 'what': 'question', 'per': 'person pointing to the left', 'dest': 'bedroom'}
+Could you please answer a question to the person raising their left arm in the living room
+    {'intent': 'answer', 'what': 'question', 'per': 'person raising their left arm', 'dest': 'living room'}
+Answer a question to the person pointing to the left in the living room
+    {'intent': 'answer', 'what': 'question', 'per': 'person pointing to the left', 'dest': 'living room'}
+Please navigate to the living room look for a person pointing to the right and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Locate a person standing in the dining room and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Please go to the kitchen look for a man and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Please answer a question to the person waving in the living room
+    {'intent': 'answer', 'what': 'question', 'per': 'person waving', 'dest': 'living room'}
+Please find a person lying down in the living room and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Find a person standing in the corridor and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Robot please look for a woman in the dining room and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Look for a person raising their right arm in the bedroom and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Navigate to the kitchen look for a person standing and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Could you please answer a question to the person raising their left arm in the corridor
+    {'intent': 'answer', 'what': 'question', 'per': 'person raising their left arm', 'dest': 'corridor'}
+Find a person waving in the kitchen and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Answer a question to the person waving in the living room
+    {'intent': 'answer', 'what': 'question', 'per': 'person waving', 'dest': 'living room'}
+Could you please locate a person sitting in the dining room and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Robot please navigate to the corridor locate a person lying down and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Look for a male person in the living room and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Answer a question to the person waving in the living room
+    {'intent': 'answer', 'what': 'question', 'per': 'person waving', 'dest': 'living room'}
+Could you answer a question to the person waving in the bedroom
+    {'intent': 'answer', 'what': 'question', 'per': 'person waving', 'dest': 'bedroom'}
+Look for a person waving in the living room and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Could you please answer a question to the person pointing to the left in the bedroom
+    {'intent': 'answer', 'what': 'question', 'per': 'person pointing to the left', 'dest': 'bedroom'}
+Look for a person sitting in the kitchen and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Could you answer a question to the person waving in the bedroom
+    {'intent': 'answer', 'what': 'question', 'per': 'person waving', 'dest': 'bedroom'}
+Locate a person lying down in the dining room and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Please locate a person sitting in the kitchen and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Could you answer a question to the person pointing to the left in the bedroom
+    {'intent': 'answer', 'what': 'question', 'per': 'person pointing to the left', 'dest': 'bedroom'}
+Navigate to the corridor look for a man and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Look for a person pointing to the left in the kitchen and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Could you go to the kitchen find a person pointing to the right and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Robot please answer a question to the person pointing to the right in the kitchen
+    {'intent': 'answer', 'what': 'question', 'per': 'person pointing to the right', 'dest': 'kitchen'}
+Go to the corridor look for a person raising their right arm and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Navigate to the kitchen look for a male person and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Answer a question to the person pointing to the left in the living room
+    {'intent': 'answer', 'what': 'question', 'per': 'person pointing to the left', 'dest': 'living room'}
+Could you look for a person pointing to the left in the living room and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Answer a question to the person pointing to the right in the kitchen
+    {'intent': 'answer', 'what': 'question', 'per': 'person pointing to the right', 'dest': 'kitchen'}
+Could you answer a question to the person waving in the living room
+    {'intent': 'answer', 'what': 'question', 'per': 'person waving', 'dest': 'living room'}
+Navigate to the corridor find a person lying down and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Look for a person standing in the corridor and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Answer a question to the person pointing to the right in the living room
+    {'intent': 'answer', 'what': 'question', 'per': 'person pointing to the right', 'dest': 'living room'}
+Answer a question to the person waving in the corridor
+    {'intent': 'answer', 'what': 'question', 'per': 'person waving', 'dest': 'corridor'}
+Could you please answer a question to the person pointing to the left in the living room
+    {'intent': 'answer', 'what': 'question', 'per': 'person pointing to the left', 'dest': 'living room'}
+Navigate to the kitchen look for a person standing and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Locate a male person in the kitchen and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Find a person sitting in the dining room and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Answer a question to the person pointing to the left in the corridor
+    {'intent': 'answer', 'what': 'question', 'per': 'person pointing to the left', 'dest': 'corridor'}
+Answer a question to the person pointing to the right in the living room
+    {'intent': 'answer', 'what': 'question', 'per': 'person pointing to the right', 'dest': 'living room'}
+Could you please navigate to the bedroom look for a person pointing to the left and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Please answer a question to the person pointing to the right in the dining room
+    {'intent': 'answer', 'what': 'question', 'per': 'person pointing to the right', 'dest': 'dining room'}
+Could you please answer a question to the person pointing to the left in the corridor
+    {'intent': 'answer', 'what': 'question', 'per': 'person pointing to the left', 'dest': 'corridor'}
+Could you find a person sitting in the bedroom and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Go to the bedroom look for a person lying down and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Could you please answer a question to the person pointing to the left in the bedroom
+    {'intent': 'answer', 'what': 'question', 'per': 'person pointing to the left', 'dest': 'bedroom'}
+Could you please navigate to the kitchen look for a person standing and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Could you please answer a question to the person raising their right arm in the corridor
+    {'intent': 'answer', 'what': 'question', 'per': 'person raising their right arm', 'dest': 'corridor'}
+Navigate to the living room locate a woman and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Find a person raising their right arm in the dining room and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Answer a question to the person waving in the corridor
+    {'intent': 'answer', 'what': 'question', 'per': 'person waving', 'dest': 'corridor'}
+Look for a boy in the kitchen and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Robot please answer a question to the person waving in the bedroom
+    {'intent': 'answer', 'what': 'question', 'per': 'person waving', 'dest': 'bedroom'}
+Answer a question to the person raising their left arm in the living room
+    {'intent': 'answer', 'what': 'question', 'per': 'person raising their left arm', 'dest': 'living room'}
+Robot please navigate to the dining room locate a person lying down and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Navigate to the bedroom locate a person lying down and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Navigate to the living room locate a person standing and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Robot please answer a question to the person raising their right arm in the dining room
+    {'intent': 'answer', 'what': 'question', 'per': 'person raising their right arm', 'dest': 'dining room'}
+Navigate to the living room locate a person lying down and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Could you locate a boy in the kitchen and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Find a person pointing to the right in the dining room and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Please answer a question to the person waving in the kitchen
+    {'intent': 'answer', 'what': 'question', 'per': 'person waving', 'dest': 'kitchen'}
+Find a person lying down in the corridor and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Navigate to the dining room look for a person standing and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Answer a question to the person raising their right arm in the dining room
+    {'intent': 'answer', 'what': 'question', 'per': 'person raising their right arm', 'dest': 'dining room'}
+Navigate to the living room find a female person and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Could you answer a question to the person raising their left arm in the dining room
+    {'intent': 'answer', 'what': 'question', 'per': 'person raising their left arm', 'dest': 'dining room'}
+Answer a question to the person pointing to the left in the living room
+    {'intent': 'answer', 'what': 'question', 'per': 'person pointing to the left', 'dest': 'living room'}
+Look for a person waving in the corridor and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Navigate to the living room locate a person pointing to the left and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Could you answer a question to the person raising their left arm in the dining room
+    {'intent': 'answer', 'what': 'question', 'per': 'person raising their left arm', 'dest': 'dining room'}
+Go to the living room look for a person waving and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Find a person standing in the living room and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Robot please find a person pointing to the right in the kitchen and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Find a person waving in the corridor and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Look for a person pointing to the right in the living room and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Could you find a person waving in the dining room and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Answer a question to the person pointing to the left in the corridor
+    {'intent': 'answer', 'what': 'question', 'per': 'person pointing to the left', 'dest': 'corridor'}
+Please locate a person pointing to the right in the dining room and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Navigate to the living room locate a person pointing to the left and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Go to the kitchen locate a person raising their right arm and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Could you answer a question to the person waving in the kitchen
+    {'intent': 'answer', 'what': 'question', 'per': 'person waving', 'dest': 'kitchen'}
+Please go to the kitchen look for a person raising their right arm and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Go to the kitchen look for a person lying down and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Please go to the kitchen find a person sitting and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Locate a person pointing to the left in the bedroom and answer a question
+    {'intent': 'answer', 'what': 'question'}
+Please answer a question to the person raising their left arm in the corridor
+    {'intent': 'answer', 'what': 'question', 'per': 'person raising their left arm', 'dest': 'corridor'}

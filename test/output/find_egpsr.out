@@ -1,0 +1,34 @@
+﻿Find the basket in the corridor
+    {'intent': 'find', 'obj': 'basket', 'dest': 'corridor'}
+Locate Skyler pinpoint Francis at the end table and accompany her to the exit please
+    {'intent': 'find', 'per': 'Skyler'}
+Locate Skyler pinpoint Francis at the end table and accompany her to the exit please
+    {'intent': 'find', 'per': 'Francis', 'dest': 'end table'}
+Pick up the orange from the dining table pick up the fruits from the side table and spot Linda at the dishwasher please
+    {'intent': 'find', 'per': 'Linda', 'dest': 'dishwasher'}
+Find James in the dining room accompany him leave the apple in the living room please
+    {'intent': 'find', 'per': 'James', 'dest': 'dining room'}
+Find the tray in the corridor please
+    {'intent': 'find', 'obj': 'tray', 'dest': 'corridor'}
+Please grasp the fruits from the cupboard find Skyler in the kitchen and go after her
+    {'intent': 'find', 'per': 'Skyler', 'dest': 'kitchen'}
+Pinpoint Linda pinpoint Skyler at the bed and set cascade pod on the storage table
+    {'intent': 'find', 'per': 'Linda'}
+Pinpoint Linda pinpoint Skyler at the bed and set cascade pod on the storage table
+    {'intent': 'find', 'per': 'Skyler', 'dest': 'bed'}
+Please pinpoint Elizabeth look for Patricia at the desk and guide her to the exit
+    {'intent': 'find', 'per': 'Elizabeth'}
+Please pinpoint Elizabeth look for Patricia at the desk and guide her to the exit
+    {'intent': 'find', 'per': 'Patricia', 'dest': 'desk'}
+Could you please meet Linda at the bookcase then greet her
+    {'intent': 'find', 'per': 'Linda', 'dest': 'bookcase'}
+Look for a apple in the bedroom locate Jennifer at the dishwasher and escort her please
+    {'intent': 'find', 'obj': 'apple', 'dest': 'bedroom'}
+Look for a apple in the bedroom locate Jennifer at the dishwasher and escort her please
+    {'intent': 'find', 'per': 'Jennifer', 'dest': 'dishwasher'}
+Take the orange from the sink locate Alex in the living room and spot Michael
+    {'intent': 'find', 'per': 'Alex', 'dest': 'living room'}
+Take the orange from the sink locate Alex in the living room and spot Michael
+    {'intent': 'find', 'per': 'Michael'}
+Contact John at the exit then greet him please
+    {'intent': 'find', 'per': 'John', 'dest': 'exit'}

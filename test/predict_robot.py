@@ -1,6 +1,8 @@
 import time
+from typing import List
 import onnxruntime
 import numpy as np
+import os
 from transformers import BertTokenizer
 # from onnxruntime_tools import optimizer
 
@@ -57,10 +59,11 @@ class pro_classifier_np():
 
 
 class CommandProcessor(object):
-    def __init__(self, session=None):
-        # self.INTENT_CLASSES = ['PAD','O','B-greet','I-greet','B-guide','I-guide','B-follow','I-follow','B-find','I-find','B-take','I-take','B-go','I-go','B-know','I-know']
-        # self.SLOT_CLASSES = ['PAD','O','B-obj','B-dest','I-sour','I-obj','I-dest','B-per','B-sour','I-per']
-
+    def __init__(self, model_path, slot_classifier_path, intent_token_classifier_path, pro_classifier_path):
+        # self.INTENT_CLASSES = ['PAD', 'O', 'B-greet', 'I-greet', 'B-guide', 'I-guide', 'B-follow',
+        #                        'I-follow', 'B-find', 'I-find', 'B-take', 'I-take', 'B-go', 'I-go', 'B-know', 'I-know']
+        # self.SLOT_CLASSES = ['PAD', 'O', 'B-obj', 'B-dest',
+        #                      'I-sour', 'I-obj', 'I-dest', 'B-per', 'B-sour', 'I-per']
         self.INTENT_CLASSES = ['PAD', 'O', 'B-greet', 'I-greet', 'B-know', 'I-know', 'B-follow', 'I-follow', 'B-take',
                                'I-take', 'B-tell', 'I-tell', 'B-guide', 'I-guide', 'B-go', 'I-go', 'B-answer',
                                'I-answer', 'B-find', 'I-find']
@@ -83,18 +86,17 @@ class CommandProcessor(object):
 
         # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
         self.input_text_path = './sample_pred_in.txt'
-        self.output_file = './outputs'
+        self.output_file = './outputs.txt'
 
-        self.bert_ort_session = self.initONNX(
-            './quantized_models/bert.quant.onnx')
+        self.bert_ort_session = self.initONNX(model_path)
         # self.slot_classifier_ort_session = self.initONNX('./quantized_models/slot_classifier.quant.onnx')
         # self.intent_token_classifier_ort_session = self.initONNX('./quantized_models/intent_token_classifier.quant.onnx')
         # self.pro_classifier_ort_session = self.initONNX('./quantized_models/pro_classifier.quant.onnx')
-        self.slot_classifier = slot_classifier_np(
-            './numpy_para/slot_classifier')
+        self.slot_classifier = slot_classifier_np(slot_classifier_path)
         self.intent_token_classifier = intent_token_classifier_np(
-            './numpy_para/intent_token_classifier')
-        self.pro_classifier = pro_classifier_np('./numpy_para/pro_classifier')
+            intent_token_classifier_path)
+        self.pro_classifier = pro_classifier_np(pro_classifier_path)
+        self.words = ""
 
     def initONNX(self, path):
         start = time.time()
@@ -109,15 +111,12 @@ class CommandProcessor(object):
         print("Loading time ONNX: ", time.time() - start)
         return ort_session
 
-    def read_input_file(self):
-        with open(self.input_text_path, "r", encoding="utf-8") as f:
-            words = f.readline().strip().split()
-            # for line in f:
-            #     line = line.strip()
-            #     words = line.split()
-            #     break # I should delete precessed commands!!!!!!!!!!!!!
-
-        return words
+    # def compatible_output(self):
+    #     lines = [line.strip() for line in open(self.output_file, "r", encoding="utf-8")]
+    #     for line in lines:
+    #         if len(line) > 0 and line[0] == '[':
+    #             token_lst = [line.split()]
+    #     for token in token_lst:
 
     def convert_input_file_to_dataloader(self, words,
                                          cls_token_segment_id=0,
@@ -146,11 +145,10 @@ class CommandProcessor(object):
                 pro_label = 0
             tokens.extend(word_tokens)
             # Use the real label id for the first token of the word, and padding ids for the remaining tokens
-            slot_label_mask.extend(
-                [self.pad_token_label_id + 1] + [self.pad_token_label_id] * (len(word_tokens) - 1))
-            # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-            pro_labels_ids.extend(
-                [pro_label] + [self.pad_token_label_id] * (len(word_tokens) - 1))
+            slot_label_mask.extend([self.pad_token_label_id + 1] +
+                                   [self.pad_token_label_id] * (len(word_tokens) - 1))
+            pro_labels_ids.extend([pro_label] + [self.pad_token_label_id] *
+                                  (len(word_tokens) - 1))  # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
         # Account for [CLS] and [SEP]
         special_tokens_count = 2
@@ -201,12 +199,16 @@ class CommandProcessor(object):
 
         return sample, slot_label_mask, pro_labels_ids
 
-    def predict(self):
-        lines = self.read_input_file()
+    def predict(self, lines: List[str]) -> str:
+        """
+            Labelise a command from the GPSR command generator
+            lines : List[str] list of words from the input sentence
+        """
+        self.words = lines
         # while True:
         #     command = input('please enter a command \n')
         sample, slot_label_mask, pro_labels_ids = self.convert_input_file_to_dataloader(
-            lines)
+            self.words)
         print()
         start = time.time()
 
@@ -228,11 +230,9 @@ class CommandProcessor(object):
         if any(pro_labels_ids):
             sq_sequence_output = np.squeeze(sequence_output)
             pro_token = sq_sequence_output[pro_labels_ids == 1]
-
             # gpsr has 2 pronouns referred to the same referral, we only need to encode one pronoun
             if pro_token.shape[0] != 1:
                 pro_token = pro_token[0, :]
-
             repeat_pro = np.tile(pro_token, (self.max_seq_len, 1))
             concated_input = np.concatenate(
                 (sq_sequence_output, repeat_pro), axis=1)[None, :]
@@ -246,7 +246,6 @@ class CommandProcessor(object):
             referee_preds = np.ones(self.max_seq_len)
 
         print('------------------------------------------------------')
-        print("Total inference time: ", time.time() - start)
 
         slot_preds_list = []
         intent_token_preds_list = []
@@ -261,15 +260,53 @@ class CommandProcessor(object):
                 slot_preds_list.append(
                     self.slot_label_map[slot_preds[token_idx]])
 
-        self.write_readable_outputs(
+        res = self.write_readable_outputs(
             slot_preds_list, intent_token_preds_list, referee_preds_list)
 
-        return
+        return res
+
+    def get_res(self, line):
+        token_lst = [ele[1:-1].split(':')
+                     for ele in line.split() if ele[0] == '[']
+        res = []
+        # print(token_lst)
+        for token in token_lst:
+            word = token[0]
+            if '(' in word:
+                word = word[word.index('(')+1: word.index(')')]
+            intent = token[1]
+            slot = token[2]
+            if intent[0] == 'B':
+                res.append({'intent': intent[2:]})
+                if slot[0] == 'B' or slot[0] == 'I':
+                    if slot[2:] not in res[-1].keys():
+                        res[-1].update({slot[2:]: word})
+                    else:
+                        res[-1][slot[2:]] = res[-1][slot[2:]] + ' ' + word
+            else:
+                # res[-1].update({'intent': intent[2:]})
+                if slot[0] == 'B' or slot[0] == 'I':
+                    if slot[2:] not in res[-1].keys():
+                        res[-1].update({slot[2:]: word})
+                    else:
+                        res[-1][slot[2:]] = res[-1][slot[2:]] + ' ' + word
+
+                # print(res)
+                # if slot[0] == 'B':
+                #     res[-1].update({slot[2:]: word})
+                # if slot[0] == 'I':
+                #     res[-1][slot[2:]] = res[-1][slot[2:]] + ' ' + word
+
+                    # res[-1].update({slot[2:]: word})
+        return res
 
     def write_readable_outputs(self, slot_preds_list, intent_token_preds_list, referee_preds_list):
-        words = self.read_input_file()
         line = ''
-        for token_idx, (word, i_pred, s_pred, r_pred) in enumerate(zip(words, intent_token_preds_list, slot_preds_list, referee_preds_list)):
+        print(f'sentence     : {" ".join(self.words)}')
+        print(f'slot preds   : {slot_preds_list}')
+        print(f'intent token : {intent_token_preds_list}')
+        print(f'referee preds: {referee_preds_list}')
+        for token_idx, (word, i_pred, s_pred, r_pred) in enumerate(zip(self.words, intent_token_preds_list, slot_preds_list, referee_preds_list)):
             if s_pred == 'O' and i_pred == 'O' and r_pred == 'O':
                 line = line + word + " "
             elif i_pred != 'O':
@@ -280,10 +317,16 @@ class CommandProcessor(object):
                         r_idx = token_idx
 
                 else:
-                    line = line + "[{}({}):{}:{}] ".format(word,
-                                                           words[r_idx], i_pred, s_pred)
+                    try:
+                        line = line + \
+                            "[{}({}):{}:{}] ".format(
+                                word, self.words[r_idx], i_pred, s_pred)
+                    except Exception as e:
+                        with open("./test/errors.out", "a", encoding="utf-8") as f:
+                            f.write(str(e)+"\n")
+                        raise e
 
-        with open(self.output_file, "a", encoding="utf-8") as f:
+        with open(self.output_file, "a", encoding="utf-8-sig") as f:
             if 'B-referee' in referee_preds_list:
                 f.write('\n')
                 f.write(
@@ -294,11 +337,21 @@ class CommandProcessor(object):
                     '---------------------------------------------------------------------\n \n')
             else:
                 f.write(line.strip()+'\n')
-            print(line)
+            res = self.get_res(line)
             print('=====================================')
-        return
+        res = [str(d)+'\n' for d in res]
+        res = ''.join(res)
+        return res.strip()
 
 
 if __name__ == "__main__":
-    inference = CommandProcessor()
-    inference.predict()
+    model_path = 'quantized_models/bert.quant.onnx'
+    slot_classifier_path = 'numpy_para/slot_classifier'
+    intent_token_classifier_path = 'numpy_para/intent_token_classifier'
+    pro_classifier_path = 'numpy_para/pro_classifier'
+    inference = CommandProcessor(model_path=model_path, slot_classifier_path=slot_classifier_path,
+                                 intent_token_classifier_path=intent_token_classifier_path,
+                                 pro_classifier_path=pro_classifier_path)
+    res = inference.predict(
+        "Meet John at the dishwasher follow him and escort him back".split())
+    print(res)
