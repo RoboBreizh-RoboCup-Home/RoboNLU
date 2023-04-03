@@ -71,6 +71,7 @@ class IntentTokenClassifier(nn.Module):
     def __init__(self, input_dim, num_intent_labels, dropout_rate=0.):
         super(IntentTokenClassifier, self).__init__()
         self.dropout = nn.Dropout(dropout_rate)
+
         self.linear = nn.Linear(input_dim, num_intent_labels)
 
     def forward(self, x):
