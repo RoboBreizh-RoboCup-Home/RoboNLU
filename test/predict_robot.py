@@ -65,16 +65,20 @@ class CommandProcessor(object):
                              'I-sour', 'I-obj', 'I-dest', 'B-per', 'B-sour', 'I-per']
         self.PRO_CLASSES = ['PAD', 'O', 'B-referee']
 
-        self.referee_token_map = {i: label for i, label in enumerate(self.PRO_CLASSES)}
-        self.intent_token_map = {i: label for i, label in enumerate(self.INTENT_CLASSES)}
-        self.slot_label_map = {i: label for i, label in enumerate(self.SLOT_CLASSES)}
+        self.referee_token_map = {i: label for i,
+                                  label in enumerate(self.PRO_CLASSES)}
+        self.intent_token_map = {i: label for i,
+                                 label in enumerate(self.INTENT_CLASSES)}
+        self.slot_label_map = {i: label for i,
+                               label in enumerate(self.SLOT_CLASSES)}
 
         self.max_seq_len = 32
         self.pro_lst = ['him', 'her', 'it', 'its']
         self.tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
         self.pad_token_label_id = 0
 
-        self.input_text_path = './sample_pred_in.txt'  # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        self.input_text_path = './sample_pred_in.txt'
         self.output_file = './outputs.txt'
 
         self.bert_ort_session = self.initONNX(model_path)
@@ -82,7 +86,8 @@ class CommandProcessor(object):
         # self.intent_token_classifier_ort_session = self.initONNX('./quantized_models/intent_token_classifier.quant.onnx')
         # self.pro_classifier_ort_session = self.initONNX('./quantized_models/pro_classifier.quant.onnx')
         self.slot_classifier = slot_classifier_np(slot_classifier_path)
-        self.intent_token_classifier = intent_token_classifier_np(intent_token_classifier_path)
+        self.intent_token_classifier = intent_token_classifier_np(
+            intent_token_classifier_path)
         self.pro_classifier = pro_classifier_np(pro_classifier_path)
         self.words = ""
 
@@ -142,21 +147,25 @@ class CommandProcessor(object):
         special_tokens_count = 2
         if len(tokens) > self.max_seq_len - special_tokens_count:
             tokens = tokens[: (self.max_seq_len - special_tokens_count)]
-            slot_label_mask = slot_label_mask[:(self.max_seq_len - special_tokens_count)]
+            slot_label_mask = slot_label_mask[:(
+                self.max_seq_len - special_tokens_count)]
             # !!!!!!!!!!!!!!!!!!!!!!!!!!!
-            pro_labels_ids = pro_labels_ids[:(self.max_seq_len - special_tokens_count)]
+            pro_labels_ids = pro_labels_ids[:(
+                self.max_seq_len - special_tokens_count)]
 
         # Add [SEP] token
         tokens += [sep_token]
         token_type_ids = [sequence_a_segment_id] * len(tokens)
         slot_label_mask += [self.pad_token_label_id]
-        pro_labels_ids += [self.pad_token_label_id]  # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        pro_labels_ids += [self.pad_token_label_id]
 
         # Add [CLS] token
         tokens = [cls_token] + tokens
         token_type_ids = [cls_token_segment_id] + token_type_ids
         slot_label_mask = [self.pad_token_label_id] + slot_label_mask
-        pro_labels_ids = [self.pad_token_label_id] + pro_labels_ids  # !!!!!!!!!!!!!!!!!!!!!!!
+        pro_labels_ids = [self.pad_token_label_id] + \
+            pro_labels_ids  # !!!!!!!!!!!!!!!!!!!!!!!
         input_ids = tokenizer.convert_tokens_to_ids(tokens)
 
         # The mask has 1 for real tokens and 0 for padding tokens. Only real tokens are attended to.
@@ -165,10 +174,14 @@ class CommandProcessor(object):
         # Zero-pad up to the sequence length.
         padding_length = self.max_seq_len - len(input_ids)
         input_ids = input_ids + ([pad_token_id] * padding_length)
-        attention_mask = attention_mask + ([0 if mask_padding_with_zero else 1] * padding_length)
-        token_type_ids = token_type_ids + ([pad_token_segment_id] * padding_length)
-        slot_label_mask = slot_label_mask + ([self.pad_token_label_id] * padding_length)
-        pro_labels_ids = pro_labels_ids + ([self.pad_token_label_id] * padding_length)
+        attention_mask = attention_mask + \
+            ([0 if mask_padding_with_zero else 1] * padding_length)
+        token_type_ids = token_type_ids + \
+            ([pad_token_segment_id] * padding_length)
+        slot_label_mask = slot_label_mask + \
+            ([self.pad_token_label_id] * padding_length)
+        pro_labels_ids = pro_labels_ids + \
+            ([self.pad_token_label_id] * padding_length)
 
         input_ids = np.array(input_ids).astype('int64')
         attention_mask = np.array(attention_mask).astype('int64')
@@ -187,7 +200,8 @@ class CommandProcessor(object):
         self.words = lines
         # while True:
         #     command = input('please enter a command \n')
-        sample, slot_label_mask, pro_labels_ids = self.convert_input_file_to_dataloader(self.words)
+        sample, slot_label_mask, pro_labels_ids = self.convert_input_file_to_dataloader(
+            self.words)
         print()
         start = time.time()
 
@@ -199,7 +213,8 @@ class CommandProcessor(object):
         slot_preds = np.argmax(slot_preds, axis=1)
 
         # ============================== Intent Token Seq =============================
-        intent_token_logits = self.intent_token_classifier.forward(sequence_output)
+        intent_token_logits = self.intent_token_classifier.forward(
+            sequence_output)
         # intent_token_logits = self.intent_token_classifier_ort_session.run(None, {'sequence_output':sequence_output})
         intent_token_preds = np.squeeze(np.array(intent_token_logits))
         intent_token_preds = np.argmax(intent_token_preds, axis=1)
@@ -210,9 +225,10 @@ class CommandProcessor(object):
             pro_token = sq_sequence_output[pro_labels_ids == 1]
             # gpsr has 2 pronouns referred to the same referral, we only need to encode one pronoun
             if pro_token.shape[0] != 1:
-                pro_token = pro_token[0,:]
+                pro_token = pro_token[0, :]
             repeat_pro = np.tile(pro_token, (self.max_seq_len, 1))
-            concated_input = np.concatenate((sq_sequence_output, repeat_pro), axis=1)[None, :]
+            concated_input = np.concatenate(
+                (sq_sequence_output, repeat_pro), axis=1)[None, :]
 
             referee_token_logits = self.pro_classifier.forward(concated_input)
             # referee_token_logits = self.pro_classifier_ort_session.run(None, {'concated_input':concated_input})
@@ -230,9 +246,12 @@ class CommandProcessor(object):
 
         for token_idx in range(len(slot_label_mask)):
             if slot_label_mask[token_idx] != self.pad_token_label_id:
-                referee_preds_list.append(self.referee_token_map[referee_preds[token_idx]])
-                intent_token_preds_list.append(self.intent_token_map[intent_token_preds[token_idx]])
-                slot_preds_list.append(self.slot_label_map[slot_preds[token_idx]])
+                referee_preds_list.append(
+                    self.referee_token_map[referee_preds[token_idx]])
+                intent_token_preds_list.append(
+                    self.intent_token_map[intent_token_preds[token_idx]])
+                slot_preds_list.append(
+                    self.slot_label_map[slot_preds[token_idx]])
 
         res = self.write_readable_outputs(
             slot_preds_list, intent_token_preds_list, referee_preds_list)
@@ -240,7 +259,8 @@ class CommandProcessor(object):
         return res
 
     def get_res(self, line):
-        token_lst = [ele[1:-1].split(':') for ele in line.split() if ele[0] == '[']
+        token_lst = [ele[1:-1].split(':')
+                     for ele in line.split() if ele[0] == '[']
         res = []
         # print(token_lst)
         for token in token_lst:
@@ -291,7 +311,9 @@ class CommandProcessor(object):
 
                 else:
                     try:
-                        line = line + "[{}({}):{}:{}] ".format(word, self.words[r_idx], i_pred, s_pred)
+                        line = line + \
+                            "[{}({}):{}:{}] ".format(
+                                word, self.words[r_idx], i_pred, s_pred)
                     except Exception as e:
                         with open("./test/errors.out", "a", encoding="utf-8") as f:
                             f.write(str(e)+"\n")
@@ -300,10 +322,12 @@ class CommandProcessor(object):
         with open(self.output_file, "a", encoding="utf-8-sig") as f:
             if 'B-referee' in referee_preds_list:
                 f.write('\n')
-                f.write('---------------------------------------------------------------------\n')
+                f.write(
+                    '---------------------------------------------------------------------\n')
                 f.write('* Pro Case: \n')
                 f.write(line.strip()+'\n')
-                f.write('---------------------------------------------------------------------\n \n')
+                f.write(
+                    '---------------------------------------------------------------------\n \n')
             else:
                 f.write(line.strip()+'\n')
             res = self.get_res(line)
@@ -319,7 +343,8 @@ if __name__ == "__main__":
     intent_token_classifier_path = 'numpy_para/intent_token_classifier'
     pro_classifier_path = 'numpy_para/pro_classifier'
     inference = CommandProcessor(model_path=model_path, slot_classifier_path=slot_classifier_path,
-                                intent_token_classifier_path=intent_token_classifier_path,
-                                pro_classifier_path=pro_classifier_path)
-    res = inference.predict("Meet John at the dishwasher follow him and escort him back".split())
+                                 intent_token_classifier_path=intent_token_classifier_path,
+                                 pro_classifier_path=pro_classifier_path)
+    res = inference.predict(
+        "Meet John at the dishwasher follow him and escort him back".split())
     print(res)
