@@ -2,11 +2,11 @@ PAD
 O
 I-obj
 B-sour
+B-dest
+I-sour
+B-what
 B-obj
 I-dest
-B-per
 I-per
-I-sour
 I-what
-B-dest
-B-what
+B-per

@@ -25,11 +25,11 @@ class intent_token_classifier_np():
     def __init__(self,dir):
         self.linear_weights = load(dir + '/weights.npy')
         self.linear_bias = load(dir + '/bias.npy')
-    # def ReLU(self,x):
-    #     return x * (x > 0)
+    def ReLU(self,x):
+        return x * (x > 0)
     def forward(self,x):
         x = np.squeeze(x)
-        # x = self.ReLU(x)
+        x = self.ReLU(x)
         x = x @ np.transpose(self.linear_weights) + self.linear_bias
         return x
 
@@ -54,8 +54,15 @@ class pro_classifier_np():
 
 class CommandProcessor(object):
     def __init__(self,session = None):
-        self.INTENT_CLASSES = ['PAD','O','B-greet','I-greet','B-guide','I-guide','B-follow','I-follow','B-find','I-find','B-take','I-take','B-go','I-go','B-know','I-know']
-        self.SLOT_CLASSES = ['PAD','O','B-obj','B-dest','I-sour','I-obj','I-dest','B-per','B-sour','I-per']
+        # self.INTENT_CLASSES = ['PAD','O','B-greet','I-greet','B-guide','I-guide','B-follow','I-follow','B-find','I-find','B-take','I-take','B-go','I-go','B-know','I-know']
+        # self.SLOT_CLASSES = ['PAD','O','B-obj','B-dest','I-sour','I-obj','I-dest','B-per','B-sour','I-per']
+
+        self.INTENT_CLASSES = ['PAD', 'O', 'B-greet', 'I-greet', 'B-know', 'I-know', 'B-follow', 'I-follow', 'B-take',
+                               'I-take', 'B-tell', 'I-tell', 'B-guide', 'I-guide', 'B-go', 'I-go', 'B-answer',
+                               'I-answer', 'B-find', 'I-find']
+        self.SLOT_CLASSES = ['PAD', 'O', 'I-obj', 'B-sour', 'B-dest', 'I-sour', 'B-what', 'B-obj', 'I-dest', 'I-per',
+                             'I-what', 'B-per']
+
         self.PRO_CLASSES = ['PAD','O','B-referee']
 
         self.referee_token_map = {i:label for i,label in enumerate(self.PRO_CLASSES)}
@@ -70,7 +77,7 @@ class CommandProcessor(object):
         self.input_text_path = './sample_pred_in.txt'#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
         self.output_file = './outputs'
 
-        self.bert_ort_session = self.initONNX('./quantized_models/bert.quantV1.onnx')
+        self.bert_ort_session = self.initONNX('./quantized_models/bert.quant.onnx')
         # self.slot_classifier_ort_session = self.initONNX('./quantized_models/slot_classifier.quant.onnx')
         # self.intent_token_classifier_ort_session = self.initONNX('./quantized_models/intent_token_classifier.quant.onnx')
         # self.pro_classifier_ort_session = self.initONNX('./quantized_models/pro_classifier.quant.onnx')
@@ -220,6 +227,7 @@ class CommandProcessor(object):
         slot_preds_list = []
         intent_token_preds_list = []
         referee_preds_list = []
+
 
         for token_idx in range(len(slot_label_mask)):
             if slot_label_mask[token_idx] != self.pad_token_label_id:

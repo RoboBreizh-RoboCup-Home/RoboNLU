@@ -263,8 +263,8 @@ def get_slot_metrics(preds, labels):
 
 #!!!!!!!!!!!!!!!!!!!!!
 def get_pro_metrics(preds, labels):
-    print('preds: ',preds[0])
-    print('labels: ',labels[0])
+    # print('preds: ',preds[0])
+    # print('labels: ',labels[0])
 
     assert len(preds) == len(labels)
     return {
