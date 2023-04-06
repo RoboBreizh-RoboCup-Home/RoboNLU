@@ -8,17 +8,19 @@ from seqeval.metrics import precision_score, recall_score, f1_score
 
 from transformers import BertConfig, DistilBertConfig, AlbertConfig
 from transformers import BertTokenizer, DistilBertTokenizer, AlbertTokenizer
+from transformers import MobileBertConfig, MobileBertModel
 
 from datetime import datetime
 
-from model import JointBERT, JointDistilBERT, JointAlbert, JointBERTMultiIntent, JointBERTMultiIntentWoISeq
+from model import JointMobileBERTMultiIntent, JointBERT, JointDistilBERT, JointAlbert, JointBERTMultiIntent, JointBERTMultiIntentWoISeq, JointDistilBERTMultiIntent
 
 MODEL_CLASSES = {
     'bert': (BertConfig, JointBERT, BertTokenizer),
-    'distilbert': (DistilBertConfig, JointDistilBERT, DistilBertTokenizer),
+    'distilbert': (DistilBertConfig, JointDistilBERTMultiIntent, DistilBertTokenizer),
     'albert': (AlbertConfig, JointAlbert, AlbertTokenizer),
     'multibert': (BertConfig, JointBERTMultiIntent, BertTokenizer),
-    'multibertWoISeq': (BertConfig, JointBERTMultiIntentWoISeq, BertTokenizer)
+    'multibertWoISeq': (BertConfig, JointBERTMultiIntentWoISeq, BertTokenizer),
+    'mobilebert': (MobileBertConfig, JointMobileBERTMultiIntent, BertTokenizer),
 }
 
 MODEL_PATH_MAP = {
@@ -26,6 +28,7 @@ MODEL_PATH_MAP = {
     'distilbert': 'distilbert-base-uncased',
     'albert': 'albert-xxlarge-v1',
     'multibert': 'bert-base-uncased',
+    'mobilebert': 'google/mobilebert-uncased',
     'multibertWoISeq': 'bert-base-uncased',
 }
 

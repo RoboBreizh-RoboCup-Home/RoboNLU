@@ -2,6 +2,7 @@ import torch
 import torch.nn as nn
 # from transformers.modeling_bert import BertPreTrainedModel, BertModel, BertConfig
 from transformers.models.bert.modeling_bert import BertPreTrainedModel, BertModel, BertConfig
+from transformers import MobileBertConfig, MobileBertModel
 # from torchcrf import CRF
 from TorchCRF import CRF
 
@@ -53,15 +54,20 @@ class IntentTokenClassifier(nn.Module):
 
 ###############################################################################
 class JointBERTMultiIntent(nn.Module):
-    def __init__(self):
+    def __init__(self, mobile=True):
         super().__init__()
         self.num_intent_labels = 16 #len(intent_label_lst)
         self.num_slot_labels = 10 #len(slot_label_lst)
         self.max_seq_len = 32
 
         # load pretrain bert
-        self.config = BertConfig.from_pretrained('bert-base-uncased')
-        self.bert = BertModel(config=self.config)
+        if mobile:
+            self.config = MobileBertConfig.from_pretrained('google/mobilebert-uncased')
+            self.bert = MobileBertModel(config=self.config)
+            print("Using MobileBert")
+        else:
+            self.config = BertConfig.from_pretrained('bert-base-uncased')
+            self.bert = BertModel(config=self.config)
 
         for name, param in self.bert.named_parameters():
             if name.startswith("encoder.layer.11"):
