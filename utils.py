@@ -8,7 +8,10 @@ from seqeval.metrics import precision_score, recall_score, f1_score
 
 from transformers import BertConfig, DistilBertConfig, AlbertConfig
 from transformers import BertTokenizer, DistilBertTokenizer, AlbertTokenizer
-from transformers import MobileBertConfig, MobileBertModel
+from transformers import MobileBertConfig, MobileBertModel, MobileBertTokenizer
+
+##
+from transformers import AutoTokenizer
 
 from datetime import datetime
 
@@ -20,7 +23,8 @@ MODEL_CLASSES = {
     'albert': (AlbertConfig, JointAlbert, AlbertTokenizer),
     'multibert': (BertConfig, JointBERTMultiIntent, BertTokenizer),
     'multibertWoISeq': (BertConfig, JointBERTMultiIntentWoISeq, BertTokenizer),
-    'mobilebert': (MobileBertConfig, JointMobileBERTMultiIntent, BertTokenizer),
+    # 'mobilebert': (MobileBertConfig, JointMobileBERTMultiIntent, BertTokenizer),
+   'mobilebert': (MobileBertConfig, JointMobileBERTMultiIntent, MobileBertTokenizer),
 }
 
 MODEL_PATH_MAP = {
@@ -43,7 +47,11 @@ def get_slot_labels(args):
 
 
 def load_tokenizer(args):
-    return MODEL_CLASSES[args.model_type][2].from_pretrained(args.model_name_or_path)
+    if args.model_type == 'mobilebert':
+        tokenizer = AutoTokenizer.from_pretrained("google/mobilebert-uncased")
+        return tokenizer
+    else:
+        return MODEL_CLASSES[args.model_type][2].from_pretrained(args.model_name_or_path)
 
 
 def init_logger(args):

@@ -4,7 +4,7 @@ import numpy as np
 from transformers import BertTokenizer
 # from onnxruntime_tools import optimizer
 
-
+from transformers import AutoTokenizer
 from numpy import load
 
 
@@ -58,6 +58,17 @@ class pro_classifier_np():
 
 class CommandProcessor(object):
     def __init__(self, session=None):
+        # self.model_name = 'bert'
+        # self.tokenizer_name = 'bert-base-uncased'
+        self.model_name =  'mobile_bert'
+
+
+        if self.model_name == 'bert':
+            self.tokenizer_name = 'bert-base-uncased'
+        elif self.model_name == 'mobile_bert':
+            self.tokenizer_name = 'google/mobilebert-uncased'
+        elif self.model_name == 'distil_bert':
+            self.tokenizer_name = 'distilbert-base-uncased'
         # self.INTENT_CLASSES = ['PAD','O','B-greet','I-greet','B-guide','I-guide','B-follow','I-follow','B-find','I-find','B-take','I-take','B-go','I-go','B-know','I-know']
         # self.SLOT_CLASSES = ['PAD','O','B-obj','B-dest','I-sour','I-obj','I-dest','B-per','B-sour','I-per']
 
@@ -78,23 +89,23 @@ class CommandProcessor(object):
 
         self.max_seq_len = 32
         self.pro_lst = ['him', 'her', 'it', 'its']
-        self.tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
+        self.tokenizer = AutoTokenizer.from_pretrained(self.tokenizer_name)
         self.pad_token_label_id = 0
 
         # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-        self.input_text_path = './sample_pred_in.txt'
-        self.output_file = './outputs'
+        self.input_text_path = '../sample_pred_in.txt'
+        self.output_file = '../outputs'
 
         self.bert_ort_session = self.initONNX(
-            './quantized_models/bert.quant.onnx')
+            f'./quantized_models/{self.model_name}.quant.onnx')
         # self.slot_classifier_ort_session = self.initONNX('./quantized_models/slot_classifier.quant.onnx')
         # self.intent_token_classifier_ort_session = self.initONNX('./quantized_models/intent_token_classifier.quant.onnx')
         # self.pro_classifier_ort_session = self.initONNX('./quantized_models/pro_classifier.quant.onnx')
         self.slot_classifier = slot_classifier_np(
-            './numpy_para/slot_classifier')
+            f'numpy_para/{self.model_name}/slot_classifier')
         self.intent_token_classifier = intent_token_classifier_np(
-            './numpy_para/intent_token_classifier')
-        self.pro_classifier = pro_classifier_np('./numpy_para/pro_classifier')
+            f'numpy_para/{self.model_name}/intent_token_classifier')
+        self.pro_classifier = pro_classifier_np(f'numpy_para/{self.model_name}/pro_classifier')
 
     def initONNX(self, path):
         start = time.time()
@@ -112,11 +123,6 @@ class CommandProcessor(object):
     def read_input_file(self):
         with open(self.input_text_path, "r", encoding="utf-8") as f:
             words = f.readline().strip().split()
-            # for line in f:
-            #     line = line.strip()
-            #     words = line.split()
-            #     break # I should delete precessed commands!!!!!!!!!!!!!
-
         return words
 
     def convert_input_file_to_dataloader(self, words,
@@ -199,6 +205,9 @@ class CommandProcessor(object):
         sample = {'input_ids': input_ids[None, :], 'attention_mask': attention_mask[None,
                                                                                     :], 'token_type_ids': token_type_ids[None, :]}
 
+        if self.model_name == 'distil_bert':
+            sample = {'input_ids': input_ids[None, :], 'attention_mask': attention_mask[None,:]}
+
         return sample, slot_label_mask, pro_labels_ids
 
     def predict(self):
@@ -207,10 +216,14 @@ class CommandProcessor(object):
         #     command = input('please enter a command \n')
         sample, slot_label_mask, pro_labels_ids = self.convert_input_file_to_dataloader(
             lines)
-        print()
+
+
         start = time.time()
 
-        sequence_output, _ = self.bert_ort_session.run(None, sample)
+        if self.model_name == 'distil_bert':
+            sequence_output = self.bert_ort_session.run(None, sample)
+        else:
+            sequence_output, _ = self.bert_ort_session.run(None, sample)
         # ============================= Slot prediction ==============================
         slot_logits = self.slot_classifier.forward(sequence_output)
         # slot_logits = self.slot_classifier_ort_session.run(None, {'sequence_output':sequence_output})

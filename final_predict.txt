@@ -1,7 +1,19 @@
 
 ---------------------------------------------------------------------
 * Pro Case: 
-[take:B-guide:O] [jack:I-find:B-per] [to:I-guide:O] [the:I-guide:O] [living:I-guide:B-dest] [room:I-guide:I-dest] and [greet:B-greet:O] [him:jack:I-greet:B-per]
+[Greet:B-greet:O] [Michael:I-find:B-per] [at:I-greet:O] [the:I-greet:O] [desk:I-find:B-dest] and [introduce:B-greet:O] [it:Michael:I-greet:B-per] [to:I-greet:O] [Robin:I-take:B-dest] [at:I-greet:O] [the:I-greet:O] [dining:I-greet:B-dest] [table:I-greet:I-dest]
+---------------------------------------------------------------------
+ 
+
+---------------------------------------------------------------------
+* Pro Case: 
+[find:B-find:O] [the:I-find:O] [apple:I-take:B-obj] [from:I-find:O] [the:I-find:O] [end:I-take:B-sour] [table:I-take:I-sour] and [bring:B-take:O] [it:apple:I-take:B-obj] [to:I-take:O] [me:I-take:B-dest]
+---------------------------------------------------------------------
+ 
+
+---------------------------------------------------------------------
+* Pro Case: 
+[find:B-find:O] [the:I-find:O] [apple:I-take:B-obj] [from:I-find:O] [the:I-find:O] [end:I-take:B-sour] [table:I-take:I-sour] and [bring:B-take:O] [it:apple:I-take:B-obj] [to:I-take:O] [me:I-take:B-dest]
 ---------------------------------------------------------------------
  
 

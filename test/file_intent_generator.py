@@ -1,6 +1,6 @@
 from typing import List
 
-from predict_robot import CommandProcessor
+from predict.predict_robot import CommandProcessor
 import ast
 import os
 
