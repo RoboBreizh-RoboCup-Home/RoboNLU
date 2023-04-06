@@ -93,8 +93,8 @@ class CommandProcessor(object):
         self.pad_token_label_id = 0
 
         # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-        self.input_text_path = '../sample_pred_in.txt'
-        self.output_file = '../outputs'
+        self.input_text_path = './sample_pred_in.txt'
+        self.output_file = './outputs'
 
         self.bert_ort_session = self.initONNX(
             f'./quantized_models/{self.model_name}.quant.onnx')

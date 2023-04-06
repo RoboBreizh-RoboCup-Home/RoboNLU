@@ -329,3 +329,9 @@ Robot please [greet:B-greet:O] [Robin:I-find:B-per] [at:I-greet:O] [the:I-greet:
 [Greet:B-take:O] [Michael:I-find:B-per] [at:I-find:O] [the:I-find:O] [desk:I-find:B-dest] and [introduce:B-greet:O] [it(Michael):I-greet:B-obj] [to:I-tell:O] [Robin:I-tell:B-dest] [at:I-tell:O] [the:I-tell:O] [dining:I-tell:B-dest] [table:I-tell:I-dest]
 ---------------------------------------------------------------------
  
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Greet:B-take:O] [Michael:I-find:B-per] [at:I-find:O] [the:I-find:O] [desk:I-find:B-dest] and [introduce:B-greet:O] [it(Michael):I-greet:B-obj] [to:I-tell:O] [Robin:I-tell:B-dest] [at:I-tell:O] [the:I-tell:O] [dining:I-tell:B-dest] [table:I-tell:I-dest]
+---------------------------------------------------------------------
+ 
