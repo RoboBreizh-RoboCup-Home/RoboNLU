@@ -251,3 +251,33 @@
 [Meet:B-find:O] [John:I-find:B-per] [at:I-find:O] [the:I-find:O] [dishwasher:I-find:B-dest] [follow:B-follow:O] [him(John):I-follow:B-per] and [escort:B-guide:O] [him(John):I-guide:B-per] [back:I-guide:O]
 ---------------------------------------------------------------------
  
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Meet:B-find:O] [John:I-find:B-per] [at:I-find:O] [the:I-find:O] [dishwasher:I-find:B-dest] [follow:B-follow:O] [him(John):I-follow:B-per] and [escort:B-guide:O] [him(John):I-guide:B-per] [back:I-guide:O]
+---------------------------------------------------------------------
+ 
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Meet:B-find:O] [John:I-find:B-per] [at:I-find:O] [the:I-find:O] [dishwasher:I-find:B-dest] [follow:B-follow:O] [him(John):I-follow:B-per] and [escort:B-guide:O] [him(John):I-guide:B-per] [back:I-guide:O]
+---------------------------------------------------------------------
+ 
+
+---------------------------------------------------------------------
+* Pro Case: 
+[find:B-find:O] [the:I-find:O] [apple:I-take:B-obj] [from:I-find:O] [the:I-find:O] [end:I-take:B-sour] [table:I-take:I-sour] and [bring:B-take:O] [it(apple):I-take:B-obj] [to:I-take:O] [me:I-take:B-dest]
+---------------------------------------------------------------------
+ 
+
+---------------------------------------------------------------------
+* Pro Case: 
+Robot please [greet:B-greet:O] [Robin:I-find:B-per] [at:I-greet:O] [the:I-greet:O] [couch:I-greet:B-dest] and [ask:B-guide:O] [him(Robin):I-greet:B-per] [to:I-take:O] [leave:I-take:O]
+---------------------------------------------------------------------
+ 
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Greet:B-greet:O] [Michael:I-find:B-per] [at:I-greet:O] [the:I-greet:O] [desk:I-greet:B-dest] and [introduce:B-greet:O] [it(Michael):I-greet:B-per] [to:I-greet:O] [Robin:I-greet:B-dest] [at:I-greet:O] [the:I-greet:O] [dining:I-greet:B-dest] [table:I-take:I-dest]
+---------------------------------------------------------------------
+ 

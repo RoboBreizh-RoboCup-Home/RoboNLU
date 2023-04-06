@@ -1,0 +1,34 @@
+Could you please move the plants from the balcony to the laundry room , and pour some water to them
+O O O B-take I-take I-take I-take I-take I-take I-take I-take I-take I-take O O B-take I-take I-take I-take I-take
+O O O O O B-obj O O B-sour O O B-dest O O O O B-obj O O B-dest
+O O O O O B-referee O O O O O O O O O O O O O referral
+
+
+
+Bring me a towel from the linen closet and a glass of water from the kitchen
+B-take I-take I-take I-take I-take I-take I-take I-take O O B-take I-take I-take I-take I-take I-take
+O B-dest O B-obj O O B-sour I-sour O O  B-obj I-obj I-obj O O B-sour
+
+Could you please retrieve the dog's leash from the coat rack by the door
+
+
+Could you please locate the missing necklace in the bedroom and return it to its jewelry box
+O O O B-find I-find I-find I-find I-find I-find I-find O B-take I-take I-take I-take I-take I-take
+O O O O O B-obj I-obj O O B-dest O O B-obj O B-dest I-dest I-dest
+O O O O O B-referee O O O O O O O O O O O O O referral
+
+
+
+Could you bring me a couple of magazines from the bookshelf and a pair of reading glasses from my nightstand
+
+Spot the children in the backyard , and give them these books
+
+Fill up the water pitcher in the fridge, and tell me the expiration date on the milk carton.
+
+Could you please set the table for dinner with the placemats, napkins, and silverware
+
+
+Please remove the duvet cover and pillowcases from the bed and replace them with fresh ones -----(ones pronoun)
+
+Bring down the suitcase from the attic and pack it with summer clothes and swimwear.
+
