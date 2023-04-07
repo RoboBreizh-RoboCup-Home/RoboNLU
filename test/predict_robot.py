@@ -86,7 +86,7 @@ class CommandProcessor(object):
 
         # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
         self.input_text_path = './sample_pred_in.txt'
-        self.output_file = './outputs.txt'
+        self.output_file = './mobile_bert_outputs.txt'
 
         self.bert_ort_session = self.initONNX(model_path)
         # self.slot_classifier_ort_session = self.initONNX('./quantized_models/slot_classifier.quant.onnx')

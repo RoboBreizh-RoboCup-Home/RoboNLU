@@ -295,7 +295,7 @@ class JointBERTMultiIntent_old(BertPreTrainedModel):
         if self.args.pro and self.args.intent_seq and self.args.tag_intent:
             outputs = ((intent_logits, slot_logits, intent_token_logits, tag_intent_logits, referee_token_logits,full_referee_token_logits),) + outputs[2:]
             # print('pro')
-            # print('outputs[0] shape: ', len(outputs[0]))
+            # print('mobile_bert_outputs[0] shape: ', len(mobile_bert_outputs[0]))
         if self.args.pro and self.args.intent_seq:
             outputs = ((intent_logits, slot_logits, intent_token_logits, referee_token_logits,full_referee_token_logits),) + outputs[2:]
 
@@ -310,8 +310,8 @@ class JointBERTMultiIntent_old(BertPreTrainedModel):
         
         outputs = ([total_loss, intent_loss, slot_loss, intent_token_loss, tag_intent_loss,referee_token_loss],) + outputs
 
-        # print('len outputs',len(outputs))
-        # print('len outputs[:2][1]', len(outputs[:2][1]))
-        # print('len outputs[:2][0]', len(outputs[:2][0]))
+        # print('len mobile_bert_outputs',len(mobile_bert_outputs))
+        # print('len mobile_bert_outputs[:2][1]', len(mobile_bert_outputs[:2][1]))
+        # print('len mobile_bert_outputs[:2][0]', len(mobile_bert_outputs[:2][0]))
 
         return outputs  # (loss), logits, (hidden_states), (attentions) # Logits is a tuple of intent and slot logits

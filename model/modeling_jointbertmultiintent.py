@@ -109,9 +109,9 @@ class JointBERTMultiIntent(BertPreTrainedModel):
             # print('pro_labels_ids size: ', pro_labels_ids.size())
             # print('pro_token_mask size: ', pro_token_mask.size())
             # print('pro_sample_mask size: ', pro_sample_mask.size())
-            print('pro_vec size: ', pro_vec.size())
+            # print('pro_vec size: ', pro_vec.size())
             # print('add new dim size: ', pro_vec.size())
-            print('after repeat size: ', repeat_pro.size())
+            # print('after repeat size: ', repeat_pro.size())
             # print('concated_input size: ', concated_input.size())
             # print('referee_token_logits size: ',referee_token_logits.size())
             # print('slot_logits size: ', slot_logits.size())
@@ -141,29 +141,29 @@ class JointBERTMultiIntent(BertPreTrainedModel):
 
 
         # if self.args.pro and self.args.intent_seq and self.args.tag_intent:
-        #     outputs = ((intent_logits, slot_logits, intent_token_logits, tag_intent_logits, referee_token_logits,full_referee_token_logits),) + outputs[2:]
+        #     mobile_bert_outputs = ((intent_logits, slot_logits, intent_token_logits, tag_intent_logits, referee_token_logits,full_referee_token_logits),) + mobile_bert_outputs[2:]
 
 
 
 
         # intent_logits = None
         # if self.args.pro and self.args.intent_seq:
-        # outputs = ((slot_logits, intent_token_logits, referee_token_logits,full_referee_token_logits),) + outputs[2:]
+        # mobile_bert_outputs = ((slot_logits, intent_token_logits, referee_token_logits,full_referee_token_logits),) + mobile_bert_outputs[2:]
 
         # elif self.args.intent_seq and self.args.tag_intent:
-        #     outputs = ((intent_logits, slot_logits, intent_token_logits, tag_intent_logits),) + outputs[2:]  # add hidden states and attention if they are here
+        #     mobile_bert_outputs = ((intent_logits, slot_logits, intent_token_logits, tag_intent_logits),) + mobile_bert_outputs[2:]  # add hidden states and attention if they are here
         # elif self.args.intent_seq:
-        #     outputs = ((intent_logits, slot_logits, intent_token_logits),) + outputs[2:]
+        #     mobile_bert_outputs = ((intent_logits, slot_logits, intent_token_logits),) + mobile_bert_outputs[2:]
         # # elif self.args.tag_intent:
-        # #     outputs = ((intent_logits, slot_logits, tag_intent_logits),) + outputs[2:]
+        # #     mobile_bert_outputs = ((intent_logits, slot_logits, tag_intent_logits),) + mobile_bert_outputs[2:]
         # else:
-        #     outputs = ((intent_logits, slot_logits),) + outputs[2:]
+        #     mobile_bert_outputs = ((intent_logits, slot_logits),) + mobile_bert_outputs[2:]
         
-        # outputs = ([total_loss, intent_loss, slot_loss, intent_token_loss, tag_intent_loss,referee_token_loss],) + outputs
+        # mobile_bert_outputs = ([total_loss, intent_loss, slot_loss, intent_token_loss, tag_intent_loss,referee_token_loss],) + mobile_bert_outputs
 
-        # print('len outputs',len(outputs))
-        # print('len outputs[:2][1]', len(outputs[:2][1]))
-        # print('len outputs[:2][0]', len(outputs[:2][0]))
+        # print('len mobile_bert_outputs',len(mobile_bert_outputs))
+        # print('len mobile_bert_outputs[:2][1]', len(mobile_bert_outputs[:2][1]))
+        # print('len mobile_bert_outputs[:2][0]', len(mobile_bert_outputs[:2][0]))
 
         return slot_logits, intent_token_logits, referee_token_logits,full_referee_token_logits
         # (loss), logits, (hidden_states), (attentions) # Logits is a tuple of intent and slot logits

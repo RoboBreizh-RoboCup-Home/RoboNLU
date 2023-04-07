@@ -95,7 +95,7 @@ class JointBERTMultiIntentWoISeq(BertPreTrainedModel):
                     
         # total_loss += self.args.slot_loss_coef * intent_token_loss
         
-        # outputs = ((intent_logits, slot_logits, intent_token_logits),) + outputs[2:]  # add hidden states and attention if they are here
+        # mobile_bert_outputs = ((intent_logits, slot_logits, intent_token_logits),) + mobile_bert_outputs[2:]  # add hidden states and attention if they are here
 
         outputs = ((intent_logits, slot_logits),) + outputs[2:]  # add hidden states and attention if they are here
 

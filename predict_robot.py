@@ -13,12 +13,12 @@ class slot_classifier_np():
         self.linear_weights = load(dir+'/weights.npy')
         self.linear_bias = load(dir+'/bias.npy')
 
-    def ReLU(self, x):
-        return x * (x > 0)
+    # def ReLU(self, x):
+    #     return x * (x > 0)
 
     def forward(self, x):
         x = np.squeeze(x)
-        x = self.ReLU(x)
+        # x = self.ReLU(x)
         x = x @ np.transpose(self.linear_weights) + self.linear_bias
         return x
 
@@ -28,12 +28,12 @@ class intent_token_classifier_np():
         self.linear_weights = load(dir + '/weights.npy')
         self.linear_bias = load(dir + '/bias.npy')
 
-    def ReLU(self, x):
-        return x * (x > 0)
+    # def ReLU(self, x):
+    #     return x * (x > 0)
 
     def forward(self, x):
         x = np.squeeze(x)
-        x = self.ReLU(x)
+        # x = self.ReLU(x)
         x = x @ np.transpose(self.linear_weights) + self.linear_bias
         return x
 
@@ -57,10 +57,11 @@ class pro_classifier_np():
 
 
 class CommandProcessor(object):
-    def __init__(self, session=None):
+    def __init__(self, model_name='mobile_bert',quantized = True, gpu = False):
         # self.model_name = 'bert'
         # self.tokenizer_name = 'bert-base-uncased'
-        self.model_name =  'mobile_bert'
+        self.model_name = model_name
+        self.gpu = gpu
 
 
         if self.model_name == 'bert':
@@ -94,10 +95,17 @@ class CommandProcessor(object):
 
         # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
         self.input_text_path = './sample_pred_in.txt'
-        self.output_file = './outputs'
+        if quantized:
+            self.output_file = f'models_outputs/{model_name}_outputs'
+        else:
+            self.output_file = f'models_outputs/{model_name}_onnx_outputs'
 
-        self.bert_ort_session = self.initONNX(
-            f'./quantized_models/{self.model_name}.quant.onnx')
+        if quantized:
+            self.bert_ort_session = self.initONNX(
+                f'./quantized_models/{self.model_name}.quant.onnx')
+        else:
+            self.bert_ort_session = self.initONNX(
+                f'./onnx_models/{self.model_name}.onnx')
         # self.slot_classifier_ort_session = self.initONNX('./quantized_models/slot_classifier.quant.onnx')
         # self.intent_token_classifier_ort_session = self.initONNX('./quantized_models/intent_token_classifier.quant.onnx')
         # self.pro_classifier_ort_session = self.initONNX('./quantized_models/pro_classifier.quant.onnx')
@@ -111,19 +119,30 @@ class CommandProcessor(object):
         start = time.time()
         sess_options = onnxruntime.SessionOptions()
 
+        # print(onnxruntime.get_available_providers())
+        # assert 'CUDAExecutionProvider' in onnxruntime.get_available_providers()
+        # device_name = 'gpu'
+
+        if self.gpu:
+            provider = 'CUDAExecutionProvider'
+        else:
+            provider = 'CPUExecutionProvider'
+
+        print(provider)
+
         sess_options.intra_op_num_threads = 1  # 4
         sess_options.execution_mode = onnxruntime.ExecutionMode.ORT_PARALLEL
         sess_options.graph_optimization_level = onnxruntime.GraphOptimizationLevel.ORT_ENABLE_ALL
 
         ort_session = onnxruntime.InferenceSession(
-            path, sess_options, providers=['CPUExecutionProvider'])
+            path, sess_options, providers=[provider])
         print("Loading time ONNX: ", time.time() - start)
         return ort_session
 
-    def read_input_file(self):
-        with open(self.input_text_path, "r", encoding="utf-8") as f:
-            words = f.readline().strip().split()
-        return words
+    # def read_input_file(self):
+    #     with open(self.input_text_path, "r", encoding="utf-8") as f:
+    #         words = f.readline().strip().split()
+    #     return words
 
     def convert_input_file_to_dataloader(self, words,
                                          cls_token_segment_id=0,
@@ -210,10 +229,9 @@ class CommandProcessor(object):
 
         return sample, slot_label_mask, pro_labels_ids
 
-    def predict(self):
-        lines = self.read_input_file()
-        # while True:
-        #     command = input('please enter a command \n')
+    def predict(self,lines):
+        #lines = self.read_input_file()
+
         sample, slot_label_mask, pro_labels_ids = self.convert_input_file_to_dataloader(
             lines)
 
@@ -224,6 +242,8 @@ class CommandProcessor(object):
             sequence_output = self.bert_ort_session.run(None, sample)
         else:
             sequence_output, _ = self.bert_ort_session.run(None, sample)
+
+
         # ============================= Slot prediction ==============================
         slot_logits = self.slot_classifier.forward(sequence_output)
         # slot_logits = self.slot_classifier_ort_session.run(None, {'sequence_output':sequence_output})
@@ -259,7 +279,8 @@ class CommandProcessor(object):
             referee_preds = np.ones(self.max_seq_len)
 
         print('------------------------------------------------------')
-        print("Total inference time: ", time.time() - start)
+        total_time = time.time() - start
+        print("Base model inference time: ", total_time)
 
         slot_preds_list = []
         intent_token_preds_list = []
@@ -275,12 +296,12 @@ class CommandProcessor(object):
                     self.slot_label_map[slot_preds[token_idx]])
 
         self.write_readable_outputs(
-            slot_preds_list, intent_token_preds_list, referee_preds_list)
+            slot_preds_list, intent_token_preds_list, referee_preds_list,lines)
 
-        return
+        return total_time
 
-    def write_readable_outputs(self, slot_preds_list, intent_token_preds_list, referee_preds_list):
-        words = self.read_input_file()
+    def write_readable_outputs(self, slot_preds_list, intent_token_preds_list, referee_preds_list,lines):
+        words = lines#self.read_input_file()
         line = ''
         for token_idx, (word, i_pred, s_pred, r_pred) in enumerate(zip(words, intent_token_preds_list, slot_preds_list, referee_preds_list)):
             if s_pred == 'O' and i_pred == 'O' and r_pred == 'O':
@@ -313,5 +334,19 @@ class CommandProcessor(object):
 
 
 if __name__ == "__main__":
-    inference = CommandProcessor()
-    inference.predict()
+    base_model_type = 'mobile_bert'
+    quantized = True
+    gpu = True
+
+    inference = CommandProcessor(base_model_type,quantized=quantized, gpu = gpu)
+    input_text_path = './sample_pred_in.txt'
+    total_time = 0
+    count = 0
+    f =  open(input_text_path, "r", encoding="utf-8")
+    for line in f.readlines():
+        count += 1
+        words = line.strip().split()
+        t = inference.predict(words)
+        total_time += t
+    avg_time = total_time/count
+    print(f'Base Model: {base_model_type}, quantized: {quantized}, commands tested: {count}, total time: {total_time}, average runtime: {avg_time}')

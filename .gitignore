@@ -130,7 +130,7 @@ mixsnips_large_model/
 *_model_/
 *_clean/
 hlr_*/
-outputs/
+models_outputs/mobile_bert_outputs/
 
 .DS_Store
 cached*

@@ -1,0 +1,900 @@
+Please [tell:B-tell:O] [me:I-tell:B-dest] [how:I-tell:B-what] [many:I-tell:I-what] [children:I-tell:I-what] [in:I-tell:I-what] [the:I-tell:I-what] [kitchen:I-tell:I-what] [are:I-tell:I-what] [wearing:I-tell:I-what] [shirts:I-tell:I-what]
+Could you [retrieve:B-take:O] [the:I-take:O] [apple:I-take:B-obj] [from:I-take:O] [the:I-take:O] [sink:I-take:B-sour] , [put:B-take:O] [dish:I-take:B-obj] [on:I-take:O] [the:I-take:O] [counter:I-take:B-dest] , and [pinpoint:B-find:O] [the:I-find:O] [cup:I-find:B-obj]
+[Offer:B-take:O] [something:I-take:B-obj] [to:I-take:I-obj] [eat:I-take:I-obj] [to:I-take:O] [all:I-take:B-dest] [the:I-take:I-dest] [children:I-take:I-dest] [wearing:I-take:I-dest] [jackets:I-take:I-dest] [in:I-take:O] [the:I-take:O] [kitchen:I-take:B-dest]
+Could you please [handshake:B-greet:O] [the:I-greet:O] [child:I-greet:B-per] [in:I-greet:O] [the:I-greet:O] [living:I-greet:B-dest] [room:I-greet:I-dest]
+
+---------------------------------------------------------------------
+* Pro Case: 
+Robot please [go:B-go:O] [to:I-go:O] [the:I-go:O] [bookcase:I-go:B-dest] , [find:B-find:O] [Alex:I-find:B-per] , and [escort:B-guide:O] [her(Alex):I-guide:B-per]
+---------------------------------------------------------------------
+ 
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Pinpoint:B-find:O] [James:I-find:B-per] , [find:B-find:O] [John:I-find:B-per] [at:I-find:O] [the:I-find:O] [entrance:I-find:B-dest] , and [conduct:B-guide:O] [him(John):I-guide:B-per] [to:I-guide:O] [the:I-guide:O] [exit:I-guide:B-dest] please
+---------------------------------------------------------------------
+ 
+[Handshake:B-greet:O] [the:I-greet:O] [slimmest:I-greet:B-per] [man:I-greet:I-per] [in:I-greet:O] [the:I-greet:O] [living:I-greet:B-dest] [room:I-greet:I-dest]
+Could you please [put:B-take:O] [a:I-take:O] [food:I-take:B-obj] [on:I-take:O] [the:I-take:O] [dining:I-take:B-dest] [table:I-take:I-dest] , [pinpoint:B-find:O] [James:I-find:B-per] [at:I-find:O] [the:I-find:O] [bed:I-find:B-dest] , and [say:B-tell:O] [a:I-tell:B-what] [joke:I-tell:I-what]
+Could you [take:B-take:O] [the:I-take:O] [tableware:I-take:B-obj] [at:I-take:O] [the:I-take:O] [end:I-take:B-sour] [table's:I-take:I-sour] [middle:I-take:I-sour] [bottom:I-take:I-sour] [to:I-take:O] [the:I-take:O] [sink:I-take:B-dest]
+[Offer:B-take:O] [something:I-take:B-obj] [to:I-take:I-obj] [drink:I-take:I-obj] [to:I-take:O] [all:I-take:B-dest] [the:I-take:I-dest] [people:I-take:I-dest] [pointing:I-take:I-dest] [to:I-take:I-dest] [the:I-take:I-dest] [left:I-take:I-dest] [in:I-take:O] [the:I-take:O] [dining:I-take:B-dest] [room:I-take:I-dest]
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Contact:B-find:O] [Robin:I-find:B-per] [at:I-find:O] [the:I-find:O] [bookcase:I-find:B-dest] , then [greet:B-greet:O] [her(Robin):I-greet:B-per] please
+---------------------------------------------------------------------
+ 
+Could you please [bring:B-take:O] [me:I-take:B-dest] [the:I-take:O] [drinks:I-take:B-obj] [at:I-take:O] [the:I-take:O] [left:I-take:B-sour] [storage:I-take:I-sour] [table:I-take:I-sour]
+Could you please [pinpoint:B-find:O] [a:I-find:O] [scrubby:I-find:B-obj] [in:I-find:O] [the:I-find:O] [corridor:I-find:B-dest] , [retrieve:B-take:O] [the:I-take:O] [apple:I-take:B-obj] [from:I-take:O] [the:I-take:O] [sink:I-take:B-sour] , and [put:B-take:O] [the:I-take:O] [paprika:I-take:B-obj] [in:I-take:O] [the:I-take:O] [kitchen:I-take:B-dest]
+[Bring:B-take:O] [the:I-take:O] [cup:I-take:B-obj] [to:I-take:O] [the:I-take:O] [woman:I-take:B-per] [wearing:I-take:I-per] [orange:I-take:I-per] [pants:I-take:I-per] [in:I-take:O] [the:I-take:O] [dining:I-take:B-dest] [room:I-take:I-dest] please
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Set:B-take:O] [a:I-take:O] [drinks:I-take:B-obj] [on:I-take:O] [the:I-take:O] [desk:I-take:B-dest] , [locate:B-find:O] [Mary:I-find:B-per] [in:I-find:O] [the:I-find:O] [corridor:I-find:B-dest] , and [go:B-follow:O] [after:I-follow:O] [her(Mary):I-follow:B-per] please
+---------------------------------------------------------------------
+ 
+Could you [look:B-find:O] [for:I-find:O] [a:I-find:O] [sprite:I-find:B-obj] [in:I-find:O] [the:I-find:O] [living:I-find:B-dest] [room:I-find:I-dest] , [find:B-find:O] [Francis:I-find:B-per] [in:I-find:O] [the:I-find:O] [corridor:I-find:B-dest] , and [pinpoint:B-find:O] [William:I-find:B-per]
+[Take:B-take:O] [the:I-take:O] [smallest:I-take:B-obj] [snacks:I-take:I-obj] [from:I-take:O] [the:I-take:O] [end:I-take:B-sour] [table:I-take:I-sour] [to:I-take:O] [the:I-take:O] [bookcase:I-take:B-dest] please
+[Tell:B-tell:O] [me:I-tell:B-dest] [how:I-tell:B-what] [many:I-tell:I-what] [children:I-tell:I-what] [there:I-tell:I-what] [are:I-tell:I-what] [in:I-tell:I-what] [the:I-tell:I-what] [dining:I-tell:I-what] [room:I-tell:I-what] please
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Go:B-go:O] [to:I-go:O] [the:I-go:O] [dining:I-go:B-dest] [room:I-go:I-dest] , [pinpoint:B-find:O] [Francis:I-find:B-per] , and [escort:B-guide:O] [her(Francis):I-guide:B-per] please
+---------------------------------------------------------------------
+ 
+
+---------------------------------------------------------------------
+* Pro Case: 
+Robot please [find:B-find:O] [Skyler:I-find:B-per] [in:I-find:O] [the:I-find:O] [dining:I-find:B-dest] [room:I-find:I-dest] , [retrieve:B-take:O] [the:I-take:O] [orange:I-take:B-obj] , and [deliver:B-take:O] [to:I-take:O] [it(orange):I-take:B-obj] [to:I-take:O] [me:I-take:B-dest]
+---------------------------------------------------------------------
+ 
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Meet:B-find:O] [Robert:I-find:B-per] [at:I-find:O] [the:I-find:O] [end:I-find:B-dest] [table:I-find:I-dest] , then [greet:B-greet:O] [him(Robert):I-greet:B-per]
+---------------------------------------------------------------------
+ 
+
+---------------------------------------------------------------------
+* Pro Case: 
+Could you please [locate:B-find:O] [a:I-find:O] [apple:I-find:B-obj] , [locate:B-find:O] [Alex:I-find:B-per] [at:I-find:O] [the:I-find:O] [entrance:I-find:B-dest] , and [escort:B-guide:O] [him(Alex):I-guide:B-per] [to:I-guide:O] [the:I-guide:O] [bed:I-guide:B-dest]
+---------------------------------------------------------------------
+ 
+Could you [tell:B-tell:O] [me:I-tell:B-dest] [how:I-tell:B-what] [many:I-tell:I-what] [people:I-tell:I-what] [dressed:I-tell:I-what] [in:I-tell:I-what] [gray:I-tell:I-what] [there:I-tell:I-what] [are:I-tell:I-what] [in:I-tell:I-what] [the:I-tell:I-what] [corridor:I-tell:I-what]
+Could you [bring:B-take:O] [the:I-take:O] [potato:I-take:B-obj] [chips:I-take:I-obj] [to:I-take:O] [the:I-take:O] [woman:I-take:B-per] [wearing:I-take:I-per] [orange:I-take:I-per] [shoes:I-take:I-per] [in:I-take:O] [the:I-take:O] [dining:I-take:B-dest] [room:I-take:I-dest]
+[Bring:B-take:O] [me:I-take:B-dest] [some:I-take:O] [grape:I-take:B-obj] [juice:I-take:I-obj] [in:I-take:I-obj] [a:I-take:I-obj] [bowl:I-take:I-obj] please
+[Enter:B-go:O] [to:I-go:O] [the:I-go:O] [kitchen:I-go:B-dest] , [pinpoint:B-find:O] [the:I-find:O] [potato:I-find:B-obj] [chips:I-find:I-obj] , [speak:B-tell:O]
+[Enter:B-go:O] [to:I-go:O] [the:I-go:O] [dining:I-go:B-dest] [room:I-go:I-dest] , [find:B-find:O] [the:I-find:O] [paprika:I-find:B-obj] , [say:B-tell:O] [something:I-tell:B-what] please
+[Tell:B-tell:O] [me:I-tell:B-dest] [how:I-tell:O] [the:I-tell:O] [person:I-tell:B-what] [sitting:I-tell:I-what] [at:I-tell:I-what] [the:I-tell:I-what] [entrance:I-tell:I-what] [looks:I-tell:O] [like:I-tell:O]
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Set:B-take:O] [the:I-take:O] [cereal:I-take:B-obj] [in:I-take:O] [the:I-take:O] [kitchen:I-take:B-dest] , [pick:B-take:O] [up:I-take:O] [the:I-take:O] [paprika:I-take:B-obj] [from:I-take:O] [the:I-take:O] [cupboard:I-take:B-sour] , and [give:B-take:O] [it(paprika):I-take:B-obj] [to:I-take:O] [Francis:I-take:B-dest] [at:I-take:O] [the:I-take:O] [dishwasher:I-take:B-dest] please
+---------------------------------------------------------------------
+ 
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Spot:B-find:O] [Charlie:I-find:B-per] [at:I-find:O] [the:I-find:O] [desk:I-find:B-dest] , [escort:B-guide:O] [him(Charlie):I-guide:B-per] , and [answer:B-answer:O] [a:I-answer:O] [question:I-answer:B-what] please
+---------------------------------------------------------------------
+ 
+[Spot:B-find:O] [Elizabeth:I-find:B-per] [at:I-find:O] [the:I-find:O] [end:I-find:B-dest] [table:I-find:I-dest] , [place:B-take:O] [the:I-take:O] [orange:I-take:B-obj] [in:I-take:O] [the:I-take:O] [kitchen:I-take:B-dest] , and [pinpoint:B-find:O] [Robin:I-find:B-per] [at:I-find:O] [the:I-find:O] [sink:I-find:B-dest] please
+
+---------------------------------------------------------------------
+* Pro Case: 
+Robot please [get:B-know:O] [acquainted:I-know:O] [with:I-know:O] [Patricia:I-know:B-per] [at:I-know:O] [the:I-know:O] [dining:I-know:B-dest] [table:I-know:I-dest] , then [greet:B-greet:O] [her(Patricia):I-greet:B-per]
+---------------------------------------------------------------------
+ 
+Could you [follow:B-follow:O] [the:I-follow:O] [person:I-follow:B-per] [dressed:I-follow:I-per] [in:I-follow:I-per] [an:I-follow:I-per] [orange:I-follow:I-per] [shirt:I-follow:I-per] [in:I-follow:O] [the:I-follow:O] [corridor:I-follow:B-sour]
+
+---------------------------------------------------------------------
+* Pro Case: 
+Robot please [take:B-take:O] [the:I-take:O] [orange:I-take:B-obj] [from:I-take:O] [the:I-take:O] [desk:I-take:B-sour] , [set:B-take:O] [it(orange):I-take:B-obj] [on:I-take:O] [the:I-take:O] [desk:I-take:B-dest] , [speak:B-tell:O]
+---------------------------------------------------------------------
+ 
+
+---------------------------------------------------------------------
+* Pro Case: 
+Please [leave:B-take:O] [dish:I-take:B-obj] [on:I-take:O] [the:I-take:O] [desk:I-take:B-dest] , [pick:B-take:O] [up:I-take:O] [the:I-take:O] [paprika:I-take:B-obj] [from:I-take:O] [the:I-take:O] [storage:I-take:B-sour] [table:I-take:I-sour] , and [leave:B-take:O] [it(paprika):I-take:B-obj] [to:I-take:O] [the:I-take:O] [dining:I-take:B-dest] [room:I-take:I-dest]
+---------------------------------------------------------------------
+ 
+[Locate:B-find:O] [Mary:I-find:B-per] [at:I-find:O] [the:I-find:O] [desk:I-find:B-dest] , [find:B-find:O] [Robert:I-find:B-per] [in:I-find:O] [the:I-find:O] [dining:I-find:B-dest] [room:I-find:I-dest] , and [pinpoint:B-find:O] [Charlie:I-find:B-per] please
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Enter:B-go:O] [to:I-go:O] [the:I-go:O] [kitchen:I-go:B-dest] , [locate:B-find:O] [the:I-find:O] [paprika:I-find:B-obj] , and [deliver:B-take:O] [to:I-take:O] [it(paprika):I-take:B-obj] [to:I-take:O] [Francis:I-take:B-dest]
+---------------------------------------------------------------------
+ 
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Get:B-take:O] [the:I-take:O] [orange:I-take:B-obj] , [find:B-find:O] [James:I-find:B-per] [at:I-find:O] [the:I-find:O] [bookcase:I-find:B-dest] , and [accompany:B-guide:O] [him(James):I-guide:B-per] [to:I-guide:O] [the:I-guide:O] [exit:I-guide:B-dest]
+---------------------------------------------------------------------
+ 
+[Take:B-take:O] [the:I-take:O] [snacks:I-take:B-obj] [at:I-take:O] [the:I-take:O] [end:I-take:B-sour] [table's:I-take:I-sour] [top:I-take:I-sour] [to:I-take:O] [the:I-take:O] [end:I-take:B-dest] [table:I-take:I-dest] please
+
+---------------------------------------------------------------------
+* Pro Case: 
+Could you please [navigate:B-go:O] [to:I-go:O] [the:I-go:O] [dining:I-go:B-dest] [room:I-go:I-dest] , [pinpoint:B-find:O] [the:I-find:O] [orange:I-find:B-obj] [juice:I-find:I-obj] , and [deliver:B-take:O] [to:I-take:O] [it(juice):I-take:B-obj] [to:I-take:O] [Jennifer:I-take:B-dest]
+---------------------------------------------------------------------
+ 
+[Tell:B-tell:O] [me:I-tell:B-dest] [how:I-tell:B-what] [many:I-tell:I-what] [women:I-tell:I-what] [are:I-tell:I-what] [raising:I-tell:I-what] [their:I-tell:I-what] [left:I-tell:I-what] [arm:I-tell:I-what] [in:I-tell:I-what] [the:I-tell:I-what] [kitchen:I-tell:I-what]
+Could you [give:B-take:O] [me:I-take:B-dest] [the:I-take:O] [tableware:I-take:B-obj] [at:I-take:O] [the:I-take:O] [right:I-take:B-sour] [cupboard:I-take:I-sour]
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Grasp:B-take:O] [the:I-take:O] [orange:I-take:B-obj] [from:I-take:O] [the:I-take:O] [sink:I-take:B-sour] , [put:B-take:O] [it(orange):I-take:B-obj] [to:I-take:O] [the:I-take:O] [kitchen:I-take:B-dest] , and [grasp:B-take:O] [the:I-take:O] [paprika:I-take:B-obj] [from:I-take:O] [the:I-take:O] [side:I-take:B-sour] [table:I-take:I-sour]
+---------------------------------------------------------------------
+ 
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Find:B-find:O] [a:I-find:O] [apple:I-find:B-obj] , [retrieve:B-take:O] [the:I-take:O] [orange:I-take:B-obj] [from:I-take:O] [the:I-take:O] [end:I-take:B-sour] [table:I-take:I-sour] , and [bring:B-take:O] [it(orange):I-take:B-obj] [to:I-take:O] [me:I-take:B-dest] please
+---------------------------------------------------------------------
+ 
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Spot:B-find:O] [Jennifer:I-find:B-per] [in:I-find:O] [the:I-find:O] [kitchen:I-find:B-dest] , [accompany:B-follow:O] [her(Jennifer):I-follow:B-per] , [spot:B-find:O] [the:I-find:O] [apple:I-find:B-obj]
+---------------------------------------------------------------------
+ 
+Could you please [say:B-greet:O] [hello:I-greet:O] [to:I-greet:O] [the:I-greet:O] [child:I-greet:B-per] [in:I-greet:O] [the:I-greet:O] [kitchen:I-greet:B-dest]
+Could you please [tell:B-tell:O] [me:I-tell:B-dest] [how:I-tell:B-what] [many:I-tell:I-what] [women:I-tell:I-what] [are:I-tell:I-what] [wearing:I-tell:I-what] [shoes:I-tell:I-what] [in:I-tell:I-what] [the:I-tell:I-what] [bedroom:I-tell:I-what]
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Put:B-take:O] [a:I-take:O] [fruits:I-take:B-obj] [on:I-take:O] [the:I-take:O] [desk:I-take:B-dest] , [spot:B-find:O] [John:I-find:B-per] [at:I-find:O] [the:I-find:O] [entrance:I-find:B-dest] , and [lead:B-guide:O] [him(John):I-guide:B-per] [to:I-guide:O] [the:I-guide:O] [dining:I-guide:B-dest] [table:I-guide:I-dest] please
+---------------------------------------------------------------------
+ 
+[Greet:B-greet:O] [the:I-greet:O] [man:I-greet:B-per] [wearing:I-greet:I-per] [an:I-greet:I-per] [orange:I-greet:I-per] [shirt:I-greet:I-per] [in:I-greet:O] [the:I-greet:O] [bedroom:I-greet:B-dest] please
+[Bring:B-take:O] [the:I-take:O] [orange:I-take:B-obj] [to:I-take:O] [the:I-take:O] [person:I-take:B-per] [wearing:I-take:I-per] [a:I-take:I-per] [tie:I-take:I-per] [in:I-take:O] [the:I-take:O] [living:I-take:B-dest] [room:I-take:I-dest]
+
+---------------------------------------------------------------------
+* Pro Case: 
+Robot please [go:B-go:O] [to:I-go:O] [the:I-go:O] [bookcase:I-go:B-dest] , [find:B-find:O] [Alex:I-find:B-per] , and [escort:B-guide:O] [her(Alex):I-guide:B-per]
+---------------------------------------------------------------------
+ 
+Please [tell:B-tell:O] [me:I-tell:B-dest] [how:I-tell:B-what] [many:I-tell:I-what] [children:I-tell:I-what] [in:I-tell:I-what] [the:I-tell:I-what] [kitchen:I-tell:I-what] [are:I-tell:I-what] [wearing:I-tell:I-what] [shirts:I-tell:I-what]
+Could you [retrieve:B-take:O] [the:I-take:O] [apple:I-take:B-obj] [from:I-take:O] [the:I-take:O] [sink:I-take:B-sour] , [put:B-take:O] [dish:I-take:B-obj] [on:I-take:O] [the:I-take:O] [counter:I-take:B-dest] , and [pinpoint:B-find:O] [the:I-find:O] [cup:I-find:B-obj]
+[Offer:B-take:O] [something:I-take:B-obj] [to:I-take:I-obj] [eat:I-take:I-obj] [to:I-take:O] [all:I-take:B-dest] [the:I-take:I-dest] [children:I-take:I-dest] [wearing:I-take:I-dest] [jackets:I-take:I-dest] [in:I-take:O] [the:I-take:O] [kitchen:I-take:B-dest]
+Could you please [handshake:B-greet:O] [the:I-greet:O] [child:I-greet:B-per] [in:I-greet:O] [the:I-greet:O] [living:I-greet:B-dest] [room:I-greet:I-dest]
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Pinpoint:B-find:O] [James:I-find:B-per] , [find:B-find:O] [John:I-find:B-per] [at:I-find:O] [the:I-find:O] [entrance:I-find:B-dest] , and [conduct:B-guide:O] [him(John):I-guide:B-per] [to:I-guide:O] [the:I-guide:O] [exit:I-guide:B-dest] please
+---------------------------------------------------------------------
+ 
+[Handshake:B-greet:O] [the:I-greet:O] [slimmest:I-greet:B-per] [man:I-greet:I-per] [in:I-greet:O] [the:I-greet:O] [living:I-greet:B-dest] [room:I-greet:I-dest]
+Could you please [put:B-take:O] [a:I-take:O] [food:I-take:B-obj] [on:I-take:O] [the:I-take:O] [dining:I-take:B-dest] [table:I-take:I-dest] , [pinpoint:B-find:O] [James:I-find:B-per] [at:I-find:O] [the:I-find:O] [bed:I-find:B-dest] , and [say:B-tell:O] [a:I-tell:B-what] [joke:I-tell:I-what]
+Could you [take:B-take:O] [the:I-take:O] [tableware:I-take:B-obj] [at:I-take:O] [the:I-take:O] [end:I-take:B-sour] [table's:I-take:I-sour] [middle:I-take:I-sour] [bottom:I-take:I-sour] [to:I-take:O] [the:I-take:O] [sink:I-take:B-dest]
+[Offer:B-take:O] [something:I-take:B-obj] [to:I-take:I-obj] [drink:I-take:I-obj] [to:I-take:O] [all:I-take:B-dest] [the:I-take:I-dest] [people:I-take:I-dest] [pointing:I-take:I-dest] [to:I-take:I-dest] [the:I-take:I-dest] [left:I-take:I-dest] [in:I-take:O] [the:I-take:O] [dining:I-take:B-dest] [room:I-take:I-dest]
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Contact:B-find:O] [Robin:I-find:B-per] [at:I-find:O] [the:I-find:O] [bookcase:I-find:B-dest] , then [greet:B-greet:O] [her(Robin):I-greet:B-per] please
+---------------------------------------------------------------------
+ 
+Could you please [bring:B-take:O] [me:I-take:B-dest] [the:I-take:O] [drinks:I-take:B-obj] [at:I-take:O] [the:I-take:O] [left:I-take:B-sour] [storage:I-take:I-sour] [table:I-take:I-sour]
+Could you please [pinpoint:B-find:O] [a:I-find:O] [scrubby:I-find:B-obj] [in:I-find:O] [the:I-find:O] [corridor:I-find:B-dest] , [retrieve:B-take:O] [the:I-take:O] [apple:I-take:B-obj] [from:I-take:O] [the:I-take:O] [sink:I-take:B-sour] , and [put:B-take:O] [the:I-take:O] [paprika:I-take:B-obj] [in:I-take:O] [the:I-take:O] [kitchen:I-take:B-dest]
+[Bring:B-take:O] [the:I-take:O] [cup:I-take:B-obj] [to:I-take:O] [the:I-take:O] [woman:I-take:B-per] [wearing:I-take:I-per] [orange:I-take:I-per] [pants:I-take:I-per] [in:I-take:O] [the:I-take:O] [dining:I-take:B-dest] [room:I-take:I-dest] please
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Set:B-take:O] [a:I-take:O] [drinks:I-take:B-obj] [on:I-take:O] [the:I-take:O] [desk:I-take:B-dest] , [locate:B-find:O] [Mary:I-find:B-per] [in:I-find:O] [the:I-find:O] [corridor:I-find:B-dest] , and [go:B-follow:O] [after:I-follow:O] [her(Mary):I-follow:B-per] please
+---------------------------------------------------------------------
+ 
+Could you [look:B-find:O] [for:I-find:O] [a:I-find:O] [sprite:I-find:B-obj] [in:I-find:O] [the:I-find:O] [living:I-find:B-dest] [room:I-find:I-dest] , [find:B-find:O] [Francis:I-find:B-per] [in:I-find:O] [the:I-find:O] [corridor:I-find:B-dest] , and [pinpoint:B-find:O] [William:I-find:B-per]
+[Take:B-take:O] [the:I-take:O] [smallest:I-take:B-obj] [snacks:I-take:I-obj] [from:I-take:O] [the:I-take:O] [end:I-take:B-sour] [table:I-take:I-sour] [to:I-take:O] [the:I-take:O] [bookcase:I-take:B-dest] please
+[Tell:B-tell:O] [me:I-tell:B-dest] [how:I-tell:B-what] [many:I-tell:I-what] [children:I-tell:I-what] [there:I-tell:I-what] [are:I-tell:I-what] [in:I-tell:I-what] [the:I-tell:I-what] [dining:I-tell:I-what] [room:I-tell:I-what] please
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Go:B-go:O] [to:I-go:O] [the:I-go:O] [dining:I-go:B-dest] [room:I-go:I-dest] , [pinpoint:B-find:O] [Francis:I-find:B-per] , and [escort:B-guide:O] [her(Francis):I-guide:B-per] please
+---------------------------------------------------------------------
+ 
+
+---------------------------------------------------------------------
+* Pro Case: 
+Robot please [find:B-find:O] [Skyler:I-find:B-per] [in:I-find:O] [the:I-find:O] [dining:I-find:B-dest] [room:I-find:I-dest] , [retrieve:B-take:O] [the:I-take:O] [orange:I-take:B-obj] , and [deliver:B-take:O] [to:I-take:O] [it(orange):I-take:B-obj] [to:I-take:O] [me:I-take:B-dest]
+---------------------------------------------------------------------
+ 
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Meet:B-find:O] [Robert:I-find:B-per] [at:I-find:O] [the:I-find:O] [end:I-find:B-dest] [table:I-find:I-dest] , then [greet:B-greet:O] [him(Robert):I-greet:B-per]
+---------------------------------------------------------------------
+ 
+
+---------------------------------------------------------------------
+* Pro Case: 
+Could you please [locate:B-find:O] [a:I-find:O] [apple:I-find:B-obj] , [locate:B-find:O] [Alex:I-find:B-per] [at:I-find:O] [the:I-find:O] [entrance:I-find:B-dest] , and [escort:B-guide:O] [him(Alex):I-guide:B-per] [to:I-guide:O] [the:I-guide:O] [bed:I-guide:B-dest]
+---------------------------------------------------------------------
+ 
+Could you [tell:B-tell:O] [me:I-tell:B-dest] [how:I-tell:B-what] [many:I-tell:I-what] [people:I-tell:I-what] [dressed:I-tell:I-what] [in:I-tell:I-what] [gray:I-tell:I-what] [there:I-tell:I-what] [are:I-tell:I-what] [in:I-tell:I-what] [the:I-tell:I-what] [corridor:I-tell:I-what]
+Could you [bring:B-take:O] [the:I-take:O] [potato:I-take:B-obj] [chips:I-take:I-obj] [to:I-take:O] [the:I-take:O] [woman:I-take:B-per] [wearing:I-take:I-per] [orange:I-take:I-per] [shoes:I-take:I-per] [in:I-take:O] [the:I-take:O] [dining:I-take:B-dest] [room:I-take:I-dest]
+[Bring:B-take:O] [me:I-take:B-dest] [some:I-take:O] [grape:I-take:B-obj] [juice:I-take:I-obj] [in:I-take:I-obj] [a:I-take:I-obj] [bowl:I-take:I-obj] please
+[Enter:B-go:O] [to:I-go:O] [the:I-go:O] [kitchen:I-go:B-dest] , [pinpoint:B-find:O] [the:I-find:O] [potato:I-find:B-obj] [chips:I-find:I-obj] , [speak:B-tell:O]
+[Enter:B-go:O] [to:I-go:O] [the:I-go:O] [dining:I-go:B-dest] [room:I-go:I-dest] , [find:B-find:O] [the:I-find:O] [paprika:I-find:B-obj] , [say:B-tell:O] [something:I-tell:B-what] please
+[Tell:B-tell:O] [me:I-tell:B-dest] [how:I-tell:O] [the:I-tell:O] [person:I-tell:B-what] [sitting:I-tell:I-what] [at:I-tell:I-what] [the:I-tell:I-what] [entrance:I-tell:I-what] [looks:I-tell:O] [like:I-tell:O]
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Set:B-take:O] [the:I-take:O] [cereal:I-take:B-obj] [in:I-take:O] [the:I-take:O] [kitchen:I-take:B-dest] , [pick:B-take:O] [up:I-take:O] [the:I-take:O] [paprika:I-take:B-obj] [from:I-take:O] [the:I-take:O] [cupboard:I-take:B-sour] , and [give:B-take:O] [it(paprika):I-take:B-obj] [to:I-take:O] [Francis:I-take:B-dest] [at:I-take:O] [the:I-take:O] [dishwasher:I-take:B-dest] please
+---------------------------------------------------------------------
+ 
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Spot:B-find:O] [Charlie:I-find:B-per] [at:I-find:O] [the:I-find:O] [desk:I-find:B-dest] , [escort:B-guide:O] [him(Charlie):I-guide:B-per] , and [answer:B-answer:O] [a:I-answer:O] [question:I-answer:B-what] please
+---------------------------------------------------------------------
+ 
+[Spot:B-find:O] [Elizabeth:I-find:B-per] [at:I-find:O] [the:I-find:O] [end:I-find:B-dest] [table:I-find:I-dest] , [place:B-take:O] [the:I-take:O] [orange:I-take:B-obj] [in:I-take:O] [the:I-take:O] [kitchen:I-take:B-dest] , and [pinpoint:B-find:O] [Robin:I-find:B-per] [at:I-find:O] [the:I-find:O] [sink:I-find:B-dest] please
+
+---------------------------------------------------------------------
+* Pro Case: 
+Robot please [get:B-know:O] [acquainted:I-know:O] [with:I-know:O] [Patricia:I-know:B-per] [at:I-know:O] [the:I-know:O] [dining:I-know:B-dest] [table:I-know:I-dest] , then [greet:B-greet:O] [her(Patricia):I-greet:B-per]
+---------------------------------------------------------------------
+ 
+Could you [follow:B-follow:O] [the:I-follow:O] [person:I-follow:B-per] [dressed:I-follow:I-per] [in:I-follow:I-per] [an:I-follow:I-per] [orange:I-follow:I-per] [shirt:I-follow:I-per] [in:I-follow:O] [the:I-follow:O] [corridor:I-follow:B-sour]
+
+---------------------------------------------------------------------
+* Pro Case: 
+Robot please [take:B-take:O] [the:I-take:O] [orange:I-take:B-obj] [from:I-take:O] [the:I-take:O] [desk:I-take:B-sour] , [set:B-take:O] [it(orange):I-take:B-obj] [on:I-take:O] [the:I-take:O] [desk:I-take:B-dest] , [speak:B-tell:O]
+---------------------------------------------------------------------
+ 
+
+---------------------------------------------------------------------
+* Pro Case: 
+Please [leave:B-take:O] [dish:I-take:B-obj] [on:I-take:O] [the:I-take:O] [desk:I-take:B-dest] , [pick:B-take:O] [up:I-take:O] [the:I-take:O] [paprika:I-take:B-obj] [from:I-take:O] [the:I-take:O] [storage:I-take:B-sour] [table:I-take:I-sour] , and [leave:B-take:O] [it(paprika):I-take:B-obj] [to:I-take:O] [the:I-take:O] [dining:I-take:B-dest] [room:I-take:I-dest]
+---------------------------------------------------------------------
+ 
+[Locate:B-find:O] [Mary:I-find:B-per] [at:I-find:O] [the:I-find:O] [desk:I-find:B-dest] , [find:B-find:O] [Robert:I-find:B-per] [in:I-find:O] [the:I-find:O] [dining:I-find:B-dest] [room:I-find:I-dest] , and [pinpoint:B-find:O] [Charlie:I-find:B-per] please
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Enter:B-go:O] [to:I-go:O] [the:I-go:O] [kitchen:I-go:B-dest] , [locate:B-find:O] [the:I-find:O] [paprika:I-find:B-obj] , and [deliver:B-take:O] [to:I-take:O] [it(paprika):I-take:B-obj] [to:I-take:O] [Francis:I-take:B-dest]
+---------------------------------------------------------------------
+ 
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Get:B-take:O] [the:I-take:O] [orange:I-take:B-obj] , [find:B-find:O] [James:I-find:B-per] [at:I-find:O] [the:I-find:O] [bookcase:I-find:B-dest] , and [accompany:B-guide:O] [him(James):I-guide:B-per] [to:I-guide:O] [the:I-guide:O] [exit:I-guide:B-dest]
+---------------------------------------------------------------------
+ 
+[Take:B-take:O] [the:I-take:O] [snacks:I-take:B-obj] [at:I-take:O] [the:I-take:O] [end:I-take:B-sour] [table's:I-take:I-sour] [top:I-take:I-sour] [to:I-take:O] [the:I-take:O] [end:I-take:B-dest] [table:I-take:I-dest] please
+
+---------------------------------------------------------------------
+* Pro Case: 
+Could you please [navigate:B-go:O] [to:I-go:O] [the:I-go:O] [dining:I-go:B-dest] [room:I-go:I-dest] , [pinpoint:B-find:O] [the:I-find:O] [orange:I-find:B-obj] [juice:I-find:I-obj] , and [deliver:B-take:O] [to:I-take:O] [it(juice):I-take:B-obj] [to:I-take:O] [Jennifer:I-take:B-dest]
+---------------------------------------------------------------------
+ 
+[Tell:B-tell:O] [me:I-tell:B-dest] [how:I-tell:B-what] [many:I-tell:I-what] [women:I-tell:I-what] [are:I-tell:I-what] [raising:I-tell:I-what] [their:I-tell:I-what] [left:I-tell:I-what] [arm:I-tell:I-what] [in:I-tell:I-what] [the:I-tell:I-what] [kitchen:I-tell:I-what]
+Could you [give:B-take:O] [me:I-take:B-dest] [the:I-take:O] [tableware:I-take:B-obj] [at:I-take:O] [the:I-take:O] [right:I-take:B-sour] [cupboard:I-take:I-sour]
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Grasp:B-take:O] [the:I-take:O] [orange:I-take:B-obj] [from:I-take:O] [the:I-take:O] [sink:I-take:B-sour] , [put:B-take:O] [it(orange):I-take:B-obj] [to:I-take:O] [the:I-take:O] [kitchen:I-take:B-dest] , and [grasp:B-take:O] [the:I-take:O] [paprika:I-take:B-obj] [from:I-take:O] [the:I-take:O] [side:I-take:B-sour] [table:I-take:I-sour]
+---------------------------------------------------------------------
+ 
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Find:B-find:O] [a:I-find:O] [apple:I-find:B-obj] , [retrieve:B-take:O] [the:I-take:O] [orange:I-take:B-obj] [from:I-take:O] [the:I-take:O] [end:I-take:B-sour] [table:I-take:I-sour] , and [bring:B-take:O] [it(orange):I-take:B-obj] [to:I-take:O] [me:I-take:B-dest] please
+---------------------------------------------------------------------
+ 
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Spot:B-find:O] [Jennifer:I-find:B-per] [in:I-find:O] [the:I-find:O] [kitchen:I-find:B-dest] , [accompany:B-follow:O] [her(Jennifer):I-follow:B-per] , [spot:B-find:O] [the:I-find:O] [apple:I-find:B-obj]
+---------------------------------------------------------------------
+ 
+Could you please [say:B-greet:O] [hello:I-greet:O] [to:I-greet:O] [the:I-greet:O] [child:I-greet:B-per] [in:I-greet:O] [the:I-greet:O] [kitchen:I-greet:B-dest]
+Could you please [tell:B-tell:O] [me:I-tell:B-dest] [how:I-tell:B-what] [many:I-tell:I-what] [women:I-tell:I-what] [are:I-tell:I-what] [wearing:I-tell:I-what] [shoes:I-tell:I-what] [in:I-tell:I-what] [the:I-tell:I-what] [bedroom:I-tell:I-what]
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Put:B-take:O] [a:I-take:O] [fruits:I-take:B-obj] [on:I-take:O] [the:I-take:O] [desk:I-take:B-dest] , [spot:B-find:O] [John:I-find:B-per] [at:I-find:O] [the:I-find:O] [entrance:I-find:B-dest] , and [lead:B-guide:O] [him(John):I-guide:B-per] [to:I-guide:O] [the:I-guide:O] [dining:I-guide:B-dest] [table:I-guide:I-dest] please
+---------------------------------------------------------------------
+ 
+[Greet:B-greet:O] [the:I-greet:O] [man:I-greet:B-per] [wearing:I-greet:I-per] [an:I-greet:I-per] [orange:I-greet:I-per] [shirt:I-greet:I-per] [in:I-greet:O] [the:I-greet:O] [bedroom:I-greet:B-dest] please
+[Bring:B-take:O] [the:I-take:O] [orange:I-take:B-obj] [to:I-take:O] [the:I-take:O] [person:I-take:B-per] [wearing:I-take:I-per] [a:I-take:I-per] [tie:I-take:I-per] [in:I-take:O] [the:I-take:O] [living:I-take:B-dest] [room:I-take:I-dest]
+
+---------------------------------------------------------------------
+* Pro Case: 
+Robot please [go:B-go:O] [to:I-go:O] [the:I-go:O] [bookcase:I-go:B-dest] , [find:B-find:O] [Alex:I-find:B-per] , and [escort:B-guide:O] [her(Alex):I-guide:B-per]
+---------------------------------------------------------------------
+ 
+Please [tell:B-tell:O] [me:I-tell:B-dest] [how:I-tell:B-what] [many:I-tell:I-what] [children:I-tell:I-what] [in:I-tell:I-what] [the:I-tell:I-what] [kitchen:I-tell:I-what] [are:I-tell:I-what] [wearing:I-tell:I-what] [shirts:I-tell:I-what]
+Could you [retrieve:B-take:O] [the:I-take:O] [apple:I-take:B-obj] [from:I-take:O] [the:I-take:O] [sink:I-take:B-sour] , [put:B-take:O] [dish:I-take:B-obj] [on:I-take:O] [the:I-take:O] [counter:I-take:B-dest] , and [pinpoint:B-find:O] [the:I-find:O] [cup:I-find:B-obj]
+[Offer:B-take:O] [something:I-take:B-obj] [to:I-take:I-obj] [eat:I-take:I-obj] [to:I-take:O] [all:I-take:B-dest] [the:I-take:I-dest] [children:I-take:I-dest] [wearing:I-take:I-dest] [jackets:I-take:I-dest] [in:I-take:O] [the:I-take:O] [kitchen:I-take:B-dest]
+Could you please [handshake:B-greet:O] [the:I-greet:O] [child:I-greet:B-per] [in:I-greet:O] [the:I-greet:O] [living:I-greet:B-dest] [room:I-greet:I-dest]
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Pinpoint:B-find:O] [James:I-find:B-per] , [find:B-find:O] [John:I-find:B-per] [at:I-find:O] [the:I-find:O] [entrance:I-find:B-dest] , and [conduct:B-guide:O] [him(John):I-guide:B-per] [to:I-guide:O] [the:I-guide:O] [exit:I-guide:B-dest] please
+---------------------------------------------------------------------
+ 
+[Handshake:B-greet:O] [the:I-greet:O] [slimmest:I-greet:B-per] [man:I-greet:I-per] [in:I-greet:O] [the:I-greet:O] [living:I-greet:B-dest] [room:I-greet:I-dest]
+Could you please [put:B-take:O] [a:I-take:O] [food:I-take:B-obj] [on:I-take:O] [the:I-take:O] [dining:I-take:B-dest] [table:I-take:I-dest] , [pinpoint:B-find:O] [James:I-find:B-per] [at:I-find:O] [the:I-find:O] [bed:I-find:B-dest] , and [say:B-tell:O] [a:I-tell:B-what] [joke:I-tell:I-what]
+Could you [take:B-take:O] [the:I-take:O] [tableware:I-take:B-obj] [at:I-take:O] [the:I-take:O] [end:I-take:B-sour] [table's:I-take:I-sour] [middle:I-take:I-sour] [bottom:I-take:I-sour] [to:I-take:O] [the:I-take:O] [sink:I-take:B-dest]
+[Offer:B-take:O] [something:I-take:B-obj] [to:I-take:I-obj] [drink:I-take:I-obj] [to:I-take:O] [all:I-take:B-dest] [the:I-take:I-dest] [people:I-take:I-dest] [pointing:I-take:I-dest] [to:I-take:I-dest] [the:I-take:I-dest] [left:I-take:I-dest] [in:I-take:O] [the:I-take:O] [dining:I-take:B-dest] [room:I-take:I-dest]
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Contact:B-find:O] [Robin:I-find:B-per] [at:I-find:O] [the:I-find:O] [bookcase:I-find:B-dest] , then [greet:B-greet:O] [her(Robin):I-greet:B-per] please
+---------------------------------------------------------------------
+ 
+Could you please [bring:B-take:O] [me:I-take:B-dest] [the:I-take:O] [drinks:I-take:B-obj] [at:I-take:O] [the:I-take:O] [left:I-take:B-sour] [storage:I-take:I-sour] [table:I-take:I-sour]
+Could you please [pinpoint:B-find:O] [a:I-find:O] [scrubby:I-find:B-obj] [in:I-find:O] [the:I-find:O] [corridor:I-find:B-dest] , [retrieve:B-take:O] [the:I-take:O] [apple:I-take:B-obj] [from:I-take:O] [the:I-take:O] [sink:I-take:B-sour] , and [put:B-take:O] [the:I-take:O] [paprika:I-take:B-obj] [in:I-take:O] [the:I-take:O] [kitchen:I-take:B-dest]
+[Bring:B-take:O] [the:I-take:O] [cup:I-take:B-obj] [to:I-take:O] [the:I-take:O] [woman:I-take:B-per] [wearing:I-take:I-per] [orange:I-take:I-per] [pants:I-take:I-per] [in:I-take:O] [the:I-take:O] [dining:I-take:B-dest] [room:I-take:I-dest] please
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Set:B-take:O] [a:I-take:O] [drinks:I-take:B-obj] [on:I-take:O] [the:I-take:O] [desk:I-take:B-dest] , [locate:B-find:O] [Mary:I-find:B-per] [in:I-find:O] [the:I-find:O] [corridor:I-find:B-dest] , and [go:B-follow:O] [after:I-follow:O] [her(Mary):I-follow:B-per] please
+---------------------------------------------------------------------
+ 
+Could you [look:B-find:O] [for:I-find:O] [a:I-find:O] [sprite:I-find:B-obj] [in:I-find:O] [the:I-find:O] [living:I-find:B-dest] [room:I-find:I-dest] , [find:B-find:O] [Francis:I-find:B-per] [in:I-find:O] [the:I-find:O] [corridor:I-find:B-dest] , and [pinpoint:B-find:O] [William:I-find:B-per]
+[Take:B-take:O] [the:I-take:O] [smallest:I-take:B-obj] [snacks:I-take:I-obj] [from:I-take:O] [the:I-take:O] [end:I-take:B-sour] [table:I-take:I-sour] [to:I-take:O] [the:I-take:O] [bookcase:I-take:B-dest] please
+[Tell:B-tell:O] [me:I-tell:B-dest] [how:I-tell:B-what] [many:I-tell:I-what] [children:I-tell:I-what] [there:I-tell:I-what] [are:I-tell:I-what] [in:I-tell:I-what] [the:I-tell:I-what] [dining:I-tell:I-what] [room:I-tell:I-what] please
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Go:B-go:O] [to:I-go:O] [the:I-go:O] [dining:I-go:B-dest] [room:I-go:I-dest] , [pinpoint:B-find:O] [Francis:I-find:B-per] , and [escort:B-guide:O] [her(Francis):I-guide:B-per] please
+---------------------------------------------------------------------
+ 
+
+---------------------------------------------------------------------
+* Pro Case: 
+Robot please [find:B-find:O] [Skyler:I-find:B-per] [in:I-find:O] [the:I-find:O] [dining:I-find:B-dest] [room:I-find:I-dest] , [retrieve:B-take:O] [the:I-take:O] [orange:I-take:B-obj] , and [deliver:B-take:O] [to:I-take:O] [it(orange):I-take:B-obj] [to:I-take:O] [me:I-take:B-dest]
+---------------------------------------------------------------------
+ 
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Meet:B-find:O] [Robert:I-find:B-per] [at:I-find:O] [the:I-find:O] [end:I-find:B-dest] [table:I-find:I-dest] , then [greet:B-greet:O] [him(Robert):I-greet:B-per]
+---------------------------------------------------------------------
+ 
+
+---------------------------------------------------------------------
+* Pro Case: 
+Could you please [locate:B-find:O] [a:I-find:O] [apple:I-find:B-obj] , [locate:B-find:O] [Alex:I-find:B-per] [at:I-find:O] [the:I-find:O] [entrance:I-find:B-dest] , and [escort:B-guide:O] [him(Alex):I-guide:B-per] [to:I-guide:O] [the:I-guide:O] [bed:I-guide:B-dest]
+---------------------------------------------------------------------
+ 
+Could you [tell:B-tell:O] [me:I-tell:B-dest] [how:I-tell:B-what] [many:I-tell:I-what] [people:I-tell:I-what] [dressed:I-tell:I-what] [in:I-tell:I-what] [gray:I-tell:I-what] [there:I-tell:I-what] [are:I-tell:I-what] [in:I-tell:I-what] [the:I-tell:I-what] [corridor:I-tell:I-what]
+Could you [bring:B-take:O] [the:I-take:O] [potato:I-take:B-obj] [chips:I-take:I-obj] [to:I-take:O] [the:I-take:O] [woman:I-take:B-per] [wearing:I-take:I-per] [orange:I-take:I-per] [shoes:I-take:I-per] [in:I-take:O] [the:I-take:O] [dining:I-take:B-dest] [room:I-take:I-dest]
+[Bring:B-take:O] [me:I-take:B-dest] [some:I-take:O] [grape:I-take:B-obj] [juice:I-take:I-obj] [in:I-take:I-obj] [a:I-take:I-obj] [bowl:I-take:I-obj] please
+[Enter:B-go:O] [to:I-go:O] [the:I-go:O] [kitchen:I-go:B-dest] , [pinpoint:B-find:O] [the:I-find:O] [potato:I-find:B-obj] [chips:I-find:I-obj] , [speak:B-tell:O]
+[Enter:B-go:O] [to:I-go:O] [the:I-go:O] [dining:I-go:B-dest] [room:I-go:I-dest] , [find:B-find:O] [the:I-find:O] [paprika:I-find:B-obj] , [say:B-tell:O] [something:I-tell:B-what] please
+[Tell:B-tell:O] [me:I-tell:B-dest] [how:I-tell:O] [the:I-tell:O] [person:I-tell:B-what] [sitting:I-tell:I-what] [at:I-tell:I-what] [the:I-tell:I-what] [entrance:I-tell:I-what] [looks:I-tell:O] [like:I-tell:O]
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Set:B-take:O] [the:I-take:O] [cereal:I-take:B-obj] [in:I-take:O] [the:I-take:O] [kitchen:I-take:B-dest] , [pick:B-take:O] [up:I-take:O] [the:I-take:O] [paprika:I-take:B-obj] [from:I-take:O] [the:I-take:O] [cupboard:I-take:B-sour] , and [give:B-take:O] [it(paprika):I-take:B-obj] [to:I-take:O] [Francis:I-take:B-dest] [at:I-take:O] [the:I-take:O] [dishwasher:I-take:B-dest] please
+---------------------------------------------------------------------
+ 
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Spot:B-find:O] [Charlie:I-find:B-per] [at:I-find:O] [the:I-find:O] [desk:I-find:B-dest] , [escort:B-guide:O] [him(Charlie):I-guide:B-per] , and [answer:B-answer:O] [a:I-answer:O] [question:I-answer:B-what] please
+---------------------------------------------------------------------
+ 
+[Spot:B-find:O] [Elizabeth:I-find:B-per] [at:I-find:O] [the:I-find:O] [end:I-find:B-dest] [table:I-find:I-dest] , [place:B-take:O] [the:I-take:O] [orange:I-take:B-obj] [in:I-take:O] [the:I-take:O] [kitchen:I-take:B-dest] , and [pinpoint:B-find:O] [Robin:I-find:B-per] [at:I-find:O] [the:I-find:O] [sink:I-find:B-dest] please
+
+---------------------------------------------------------------------
+* Pro Case: 
+Robot please [get:B-know:O] [acquainted:I-know:O] [with:I-know:O] [Patricia:I-know:B-per] [at:I-know:O] [the:I-know:O] [dining:I-know:B-dest] [table:I-know:I-dest] , then [greet:B-greet:O] [her(Patricia):I-greet:B-per]
+---------------------------------------------------------------------
+ 
+Could you [follow:B-follow:O] [the:I-follow:O] [person:I-follow:B-per] [dressed:I-follow:I-per] [in:I-follow:I-per] [an:I-follow:I-per] [orange:I-follow:I-per] [shirt:I-follow:I-per] [in:I-follow:O] [the:I-follow:O] [corridor:I-follow:B-sour]
+
+---------------------------------------------------------------------
+* Pro Case: 
+Robot please [take:B-take:O] [the:I-take:O] [orange:I-take:B-obj] [from:I-take:O] [the:I-take:O] [desk:I-take:B-sour] , [set:B-take:O] [it(orange):I-take:B-obj] [on:I-take:O] [the:I-take:O] [desk:I-take:B-dest] , [speak:B-tell:O]
+---------------------------------------------------------------------
+ 
+
+---------------------------------------------------------------------
+* Pro Case: 
+Please [leave:B-take:O] [dish:I-take:B-obj] [on:I-take:O] [the:I-take:O] [desk:I-take:B-dest] , [pick:B-take:O] [up:I-take:O] [the:I-take:O] [paprika:I-take:B-obj] [from:I-take:O] [the:I-take:O] [storage:I-take:B-sour] [table:I-take:I-sour] , and [leave:B-take:O] [it(paprika):I-take:B-obj] [to:I-take:O] [the:I-take:O] [dining:I-take:B-dest] [room:I-take:I-dest]
+---------------------------------------------------------------------
+ 
+[Locate:B-find:O] [Mary:I-find:B-per] [at:I-find:O] [the:I-find:O] [desk:I-find:B-dest] , [find:B-find:O] [Robert:I-find:B-per] [in:I-find:O] [the:I-find:O] [dining:I-find:B-dest] [room:I-find:I-dest] , and [pinpoint:B-find:O] [Charlie:I-find:B-per] please
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Enter:B-go:O] [to:I-go:O] [the:I-go:O] [kitchen:I-go:B-dest] , [locate:B-find:O] [the:I-find:O] [paprika:I-find:B-obj] , and [deliver:B-take:O] [to:I-take:O] [it(paprika):I-take:B-obj] [to:I-take:O] [Francis:I-take:B-dest]
+---------------------------------------------------------------------
+ 
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Get:B-take:O] [the:I-take:O] [orange:I-take:B-obj] , [find:B-find:O] [James:I-find:B-per] [at:I-find:O] [the:I-find:O] [bookcase:I-find:B-dest] , and [accompany:B-guide:O] [him(James):I-guide:B-per] [to:I-guide:O] [the:I-guide:O] [exit:I-guide:B-dest]
+---------------------------------------------------------------------
+ 
+[Take:B-take:O] [the:I-take:O] [snacks:I-take:B-obj] [at:I-take:O] [the:I-take:O] [end:I-take:B-sour] [table's:I-take:I-sour] [top:I-take:I-sour] [to:I-take:O] [the:I-take:O] [end:I-take:B-dest] [table:I-take:I-dest] please
+
+---------------------------------------------------------------------
+* Pro Case: 
+Could you please [navigate:B-go:O] [to:I-go:O] [the:I-go:O] [dining:I-go:B-dest] [room:I-go:I-dest] , [pinpoint:B-find:O] [the:I-find:O] [orange:I-find:B-obj] [juice:I-find:I-obj] , and [deliver:B-take:O] [to:I-take:O] [it(juice):I-take:B-obj] [to:I-take:O] [Jennifer:I-take:B-dest]
+---------------------------------------------------------------------
+ 
+[Tell:B-tell:O] [me:I-tell:B-dest] [how:I-tell:B-what] [many:I-tell:I-what] [women:I-tell:I-what] [are:I-tell:I-what] [raising:I-tell:I-what] [their:I-tell:I-what] [left:I-tell:I-what] [arm:I-tell:I-what] [in:I-tell:I-what] [the:I-tell:I-what] [kitchen:I-tell:I-what]
+Could you [give:B-take:O] [me:I-take:B-dest] [the:I-take:O] [tableware:I-take:B-obj] [at:I-take:O] [the:I-take:O] [right:I-take:B-sour] [cupboard:I-take:I-sour]
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Grasp:B-take:O] [the:I-take:O] [orange:I-take:B-obj] [from:I-take:O] [the:I-take:O] [sink:I-take:B-sour] , [put:B-take:O] [it(orange):I-take:B-obj] [to:I-take:O] [the:I-take:O] [kitchen:I-take:B-dest] , and [grasp:B-take:O] [the:I-take:O] [paprika:I-take:B-obj] [from:I-take:O] [the:I-take:O] [side:I-take:B-sour] [table:I-take:I-sour]
+---------------------------------------------------------------------
+ 
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Find:B-find:O] [a:I-find:O] [apple:I-find:B-obj] , [retrieve:B-take:O] [the:I-take:O] [orange:I-take:B-obj] [from:I-take:O] [the:I-take:O] [end:I-take:B-sour] [table:I-take:I-sour] , and [bring:B-take:O] [it(orange):I-take:B-obj] [to:I-take:O] [me:I-take:B-dest] please
+---------------------------------------------------------------------
+ 
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Spot:B-find:O] [Jennifer:I-find:B-per] [in:I-find:O] [the:I-find:O] [kitchen:I-find:B-dest] , [accompany:B-follow:O] [her(Jennifer):I-follow:B-per] , [spot:B-find:O] [the:I-find:O] [apple:I-find:B-obj]
+---------------------------------------------------------------------
+ 
+Could you please [say:B-greet:O] [hello:I-greet:O] [to:I-greet:O] [the:I-greet:O] [child:I-greet:B-per] [in:I-greet:O] [the:I-greet:O] [kitchen:I-greet:B-dest]
+Could you please [tell:B-tell:O] [me:I-tell:B-dest] [how:I-tell:B-what] [many:I-tell:I-what] [women:I-tell:I-what] [are:I-tell:I-what] [wearing:I-tell:I-what] [shoes:I-tell:I-what] [in:I-tell:I-what] [the:I-tell:I-what] [bedroom:I-tell:I-what]
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Put:B-take:O] [a:I-take:O] [fruits:I-take:B-obj] [on:I-take:O] [the:I-take:O] [desk:I-take:B-dest] , [spot:B-find:O] [John:I-find:B-per] [at:I-find:O] [the:I-find:O] [entrance:I-find:B-dest] , and [lead:B-guide:O] [him(John):I-guide:B-per] [to:I-guide:O] [the:I-guide:O] [dining:I-guide:B-dest] [table:I-guide:I-dest] please
+---------------------------------------------------------------------
+ 
+[Greet:B-greet:O] [the:I-greet:O] [man:I-greet:B-per] [wearing:I-greet:I-per] [an:I-greet:I-per] [orange:I-greet:I-per] [shirt:I-greet:I-per] [in:I-greet:O] [the:I-greet:O] [bedroom:I-greet:B-dest] please
+[Bring:B-take:O] [the:I-take:O] [orange:I-take:B-obj] [to:I-take:O] [the:I-take:O] [person:I-take:B-per] [wearing:I-take:I-per] [a:I-take:I-per] [tie:I-take:I-per] [in:I-take:O] [the:I-take:O] [living:I-take:B-dest] [room:I-take:I-dest]
+
+---------------------------------------------------------------------
+* Pro Case: 
+Robot please [go:B-go:O] [to:I-go:O] [the:I-go:O] [bookcase:I-go:B-dest] , [find:B-find:O] [Alex:I-find:B-per] , and [escort:B-guide:O] [her(Alex):I-guide:B-per]
+---------------------------------------------------------------------
+ 
+Please [tell:B-tell:O] [me:I-tell:B-dest] [how:I-tell:B-what] [many:I-tell:I-what] [children:I-tell:I-what] [in:I-tell:I-what] [the:I-tell:I-what] [kitchen:I-tell:I-what] [are:I-tell:I-what] [wearing:I-tell:I-what] [shirts:I-tell:I-what]
+Could you [retrieve:B-take:O] [the:I-take:O] [apple:I-take:B-obj] [from:I-take:O] [the:I-take:O] [sink:I-take:B-sour] , [put:B-take:O] [dish:I-take:B-obj] [on:I-take:O] [the:I-take:O] [counter:I-take:B-dest] , and [pinpoint:B-find:O] [the:I-find:O] [cup:I-find:B-obj]
+[Offer:B-take:O] [something:I-take:B-obj] [to:I-take:I-obj] [eat:I-take:I-obj] [to:I-take:O] [all:I-take:B-dest] [the:I-take:I-dest] [children:I-take:I-dest] [wearing:I-take:I-dest] [jackets:I-take:I-dest] [in:I-take:O] [the:I-take:O] [kitchen:I-take:B-dest]
+Could you please [handshake:B-greet:O] [the:I-greet:O] [child:I-greet:B-per] [in:I-greet:O] [the:I-greet:O] [living:I-greet:B-dest] [room:I-greet:I-dest]
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Pinpoint:B-find:O] [James:I-find:B-per] , [find:B-find:O] [John:I-find:B-per] [at:I-find:O] [the:I-find:O] [entrance:I-find:B-dest] , and [conduct:B-guide:O] [him(John):I-guide:B-per] [to:I-guide:O] [the:I-guide:O] [exit:I-guide:B-dest] please
+---------------------------------------------------------------------
+ 
+[Handshake:B-greet:O] [the:I-greet:O] [slimmest:I-greet:B-per] [man:I-greet:I-per] [in:I-greet:O] [the:I-greet:O] [living:I-greet:B-dest] [room:I-greet:I-dest]
+Could you please [put:B-take:O] [a:I-take:O] [food:I-take:B-obj] [on:I-take:O] [the:I-take:O] [dining:I-take:B-dest] [table:I-take:I-dest] , [pinpoint:B-find:O] [James:I-find:B-per] [at:I-find:O] [the:I-find:O] [bed:I-find:B-dest] , and [say:B-tell:O] [a:I-tell:B-what] [joke:I-tell:I-what]
+Could you [take:B-take:O] [the:I-take:O] [tableware:I-take:B-obj] [at:I-take:O] [the:I-take:O] [end:I-take:B-sour] [table's:I-take:I-sour] [middle:I-take:I-sour] [bottom:I-take:I-sour] [to:I-take:O] [the:I-take:O] [sink:I-take:B-dest]
+[Offer:B-take:O] [something:I-take:B-obj] [to:I-take:I-obj] [drink:I-take:I-obj] [to:I-take:O] [all:I-take:B-dest] [the:I-take:I-dest] [people:I-take:I-dest] [pointing:I-take:I-dest] [to:I-take:I-dest] [the:I-take:I-dest] [left:I-take:I-dest] [in:I-take:O] [the:I-take:O] [dining:I-take:B-dest] [room:I-take:I-dest]
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Contact:B-find:O] [Robin:I-find:B-per] [at:I-find:O] [the:I-find:O] [bookcase:I-find:B-dest] , then [greet:B-greet:O] [her(Robin):I-greet:B-per] please
+---------------------------------------------------------------------
+ 
+Could you please [bring:B-take:O] [me:I-take:B-dest] [the:I-take:O] [drinks:I-take:B-obj] [at:I-take:O] [the:I-take:O] [left:I-take:B-sour] [storage:I-take:I-sour] [table:I-take:I-sour]
+Could you please [pinpoint:B-find:O] [a:I-find:O] [scrubby:I-find:B-obj] [in:I-find:O] [the:I-find:O] [corridor:I-find:B-dest] , [retrieve:B-take:O] [the:I-take:O] [apple:I-take:B-obj] [from:I-take:O] [the:I-take:O] [sink:I-take:B-sour] , and [put:B-take:O] [the:I-take:O] [paprika:I-take:B-obj] [in:I-take:O] [the:I-take:O] [kitchen:I-take:B-dest]
+[Bring:B-take:O] [the:I-take:O] [cup:I-take:B-obj] [to:I-take:O] [the:I-take:O] [woman:I-take:B-per] [wearing:I-take:I-per] [orange:I-take:I-per] [pants:I-take:I-per] [in:I-take:O] [the:I-take:O] [dining:I-take:B-dest] [room:I-take:I-dest] please
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Set:B-take:O] [a:I-take:O] [drinks:I-take:B-obj] [on:I-take:O] [the:I-take:O] [desk:I-take:B-dest] , [locate:B-find:O] [Mary:I-find:B-per] [in:I-find:O] [the:I-find:O] [corridor:I-find:B-dest] , and [go:B-follow:O] [after:I-follow:O] [her(Mary):I-follow:B-per] please
+---------------------------------------------------------------------
+ 
+Could you [look:B-find:O] [for:I-find:O] [a:I-find:O] [sprite:I-find:B-obj] [in:I-find:O] [the:I-find:O] [living:I-find:B-dest] [room:I-find:I-dest] , [find:B-find:O] [Francis:I-find:B-per] [in:I-find:O] [the:I-find:O] [corridor:I-find:B-dest] , and [pinpoint:B-find:O] [William:I-find:B-per]
+[Take:B-take:O] [the:I-take:O] [smallest:I-take:B-obj] [snacks:I-take:I-obj] [from:I-take:O] [the:I-take:O] [end:I-take:B-sour] [table:I-take:I-sour] [to:I-take:O] [the:I-take:O] [bookcase:I-take:B-dest] please
+[Tell:B-tell:O] [me:I-tell:B-dest] [how:I-tell:B-what] [many:I-tell:I-what] [children:I-tell:I-what] [there:I-tell:I-what] [are:I-tell:I-what] [in:I-tell:I-what] [the:I-tell:I-what] [dining:I-tell:I-what] [room:I-tell:I-what] please
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Go:B-go:O] [to:I-go:O] [the:I-go:O] [dining:I-go:B-dest] [room:I-go:I-dest] , [pinpoint:B-find:O] [Francis:I-find:B-per] , and [escort:B-guide:O] [her(Francis):I-guide:B-per] please
+---------------------------------------------------------------------
+ 
+
+---------------------------------------------------------------------
+* Pro Case: 
+Robot please [find:B-find:O] [Skyler:I-find:B-per] [in:I-find:O] [the:I-find:O] [dining:I-find:B-dest] [room:I-find:I-dest] , [retrieve:B-take:O] [the:I-take:O] [orange:I-take:B-obj] , and [deliver:B-take:O] [to:I-take:O] [it(orange):I-take:B-obj] [to:I-take:O] [me:I-take:B-dest]
+---------------------------------------------------------------------
+ 
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Meet:B-find:O] [Robert:I-find:B-per] [at:I-find:O] [the:I-find:O] [end:I-find:B-dest] [table:I-find:I-dest] , then [greet:B-greet:O] [him(Robert):I-greet:B-per]
+---------------------------------------------------------------------
+ 
+
+---------------------------------------------------------------------
+* Pro Case: 
+Could you please [locate:B-find:O] [a:I-find:O] [apple:I-find:B-obj] , [locate:B-find:O] [Alex:I-find:B-per] [at:I-find:O] [the:I-find:O] [entrance:I-find:B-dest] , and [escort:B-guide:O] [him(Alex):I-guide:B-per] [to:I-guide:O] [the:I-guide:O] [bed:I-guide:B-dest]
+---------------------------------------------------------------------
+ 
+Could you [tell:B-tell:O] [me:I-tell:B-dest] [how:I-tell:B-what] [many:I-tell:I-what] [people:I-tell:I-what] [dressed:I-tell:I-what] [in:I-tell:I-what] [gray:I-tell:I-what] [there:I-tell:I-what] [are:I-tell:I-what] [in:I-tell:I-what] [the:I-tell:I-what] [corridor:I-tell:I-what]
+Could you [bring:B-take:O] [the:I-take:O] [potato:I-take:B-obj] [chips:I-take:I-obj] [to:I-take:O] [the:I-take:O] [woman:I-take:B-per] [wearing:I-take:I-per] [orange:I-take:I-per] [shoes:I-take:I-per] [in:I-take:O] [the:I-take:O] [dining:I-take:B-dest] [room:I-take:I-dest]
+[Bring:B-take:O] [me:I-take:B-dest] [some:I-take:O] [grape:I-take:B-obj] [juice:I-take:I-obj] [in:I-take:I-obj] [a:I-take:I-obj] [bowl:I-take:I-obj] please
+[Enter:B-go:O] [to:I-go:O] [the:I-go:O] [kitchen:I-go:B-dest] , [pinpoint:B-find:O] [the:I-find:O] [potato:I-find:B-obj] [chips:I-find:I-obj] , [speak:B-tell:O]
+[Enter:B-go:O] [to:I-go:O] [the:I-go:O] [dining:I-go:B-dest] [room:I-go:I-dest] , [find:B-find:O] [the:I-find:O] [paprika:I-find:B-obj] , [say:B-tell:O] [something:I-tell:B-what] please
+[Tell:B-tell:O] [me:I-tell:B-dest] [how:I-tell:O] [the:I-tell:O] [person:I-tell:B-what] [sitting:I-tell:I-what] [at:I-tell:I-what] [the:I-tell:I-what] [entrance:I-tell:I-what] [looks:I-tell:O] [like:I-tell:O]
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Set:B-take:O] [the:I-take:O] [cereal:I-take:B-obj] [in:I-take:O] [the:I-take:O] [kitchen:I-take:B-dest] , [pick:B-take:O] [up:I-take:O] [the:I-take:O] [paprika:I-take:B-obj] [from:I-take:O] [the:I-take:O] [cupboard:I-take:B-sour] , and [give:B-take:O] [it(paprika):I-take:B-obj] [to:I-take:O] [Francis:I-take:B-dest] [at:I-take:O] [the:I-take:O] [dishwasher:I-take:B-dest] please
+---------------------------------------------------------------------
+ 
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Spot:B-find:O] [Charlie:I-find:B-per] [at:I-find:O] [the:I-find:O] [desk:I-find:B-dest] , [escort:B-guide:O] [him(Charlie):I-guide:B-per] , and [answer:B-answer:O] [a:I-answer:O] [question:I-answer:B-what] please
+---------------------------------------------------------------------
+ 
+[Spot:B-find:O] [Elizabeth:I-find:B-per] [at:I-find:O] [the:I-find:O] [end:I-find:B-dest] [table:I-find:I-dest] , [place:B-take:O] [the:I-take:O] [orange:I-take:B-obj] [in:I-take:O] [the:I-take:O] [kitchen:I-take:B-dest] , and [pinpoint:B-find:O] [Robin:I-find:B-per] [at:I-find:O] [the:I-find:O] [sink:I-find:B-dest] please
+
+---------------------------------------------------------------------
+* Pro Case: 
+Robot please [get:B-know:O] [acquainted:I-know:O] [with:I-know:O] [Patricia:I-know:B-per] [at:I-know:O] [the:I-know:O] [dining:I-know:B-dest] [table:I-know:I-dest] , then [greet:B-greet:O] [her(Patricia):I-greet:B-per]
+---------------------------------------------------------------------
+ 
+Could you [follow:B-follow:O] [the:I-follow:O] [person:I-follow:B-per] [dressed:I-follow:I-per] [in:I-follow:I-per] [an:I-follow:I-per] [orange:I-follow:I-per] [shirt:I-follow:I-per] [in:I-follow:O] [the:I-follow:O] [corridor:I-follow:B-sour]
+
+---------------------------------------------------------------------
+* Pro Case: 
+Robot please [take:B-take:O] [the:I-take:O] [orange:I-take:B-obj] [from:I-take:O] [the:I-take:O] [desk:I-take:B-sour] , [set:B-take:O] [it(orange):I-take:B-obj] [on:I-take:O] [the:I-take:O] [desk:I-take:B-dest] , [speak:B-tell:O]
+---------------------------------------------------------------------
+ 
+
+---------------------------------------------------------------------
+* Pro Case: 
+Please [leave:B-take:O] [dish:I-take:B-obj] [on:I-take:O] [the:I-take:O] [desk:I-take:B-dest] , [pick:B-take:O] [up:I-take:O] [the:I-take:O] [paprika:I-take:B-obj] [from:I-take:O] [the:I-take:O] [storage:I-take:B-sour] [table:I-take:I-sour] , and [leave:B-take:O] [it(paprika):I-take:B-obj] [to:I-take:O] [the:I-take:O] [dining:I-take:B-dest] [room:I-take:I-dest]
+---------------------------------------------------------------------
+ 
+[Locate:B-find:O] [Mary:I-find:B-per] [at:I-find:O] [the:I-find:O] [desk:I-find:B-dest] , [find:B-find:O] [Robert:I-find:B-per] [in:I-find:O] [the:I-find:O] [dining:I-find:B-dest] [room:I-find:I-dest] , and [pinpoint:B-find:O] [Charlie:I-find:B-per] please
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Enter:B-go:O] [to:I-go:O] [the:I-go:O] [kitchen:I-go:B-dest] , [locate:B-find:O] [the:I-find:O] [paprika:I-find:B-obj] , and [deliver:B-take:O] [to:I-take:O] [it(paprika):I-take:B-obj] [to:I-take:O] [Francis:I-take:B-dest]
+---------------------------------------------------------------------
+ 
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Get:B-take:O] [the:I-take:O] [orange:I-take:B-obj] , [find:B-find:O] [James:I-find:B-per] [at:I-find:O] [the:I-find:O] [bookcase:I-find:B-dest] , and [accompany:B-guide:O] [him(James):I-guide:B-per] [to:I-guide:O] [the:I-guide:O] [exit:I-guide:B-dest]
+---------------------------------------------------------------------
+ 
+[Take:B-take:O] [the:I-take:O] [snacks:I-take:B-obj] [at:I-take:O] [the:I-take:O] [end:I-take:B-sour] [table's:I-take:I-sour] [top:I-take:I-sour] [to:I-take:O] [the:I-take:O] [end:I-take:B-dest] [table:I-take:I-dest] please
+
+---------------------------------------------------------------------
+* Pro Case: 
+Could you please [navigate:B-go:O] [to:I-go:O] [the:I-go:O] [dining:I-go:B-dest] [room:I-go:I-dest] , [pinpoint:B-find:O] [the:I-find:O] [orange:I-find:B-obj] [juice:I-find:I-obj] , and [deliver:B-take:O] [to:I-take:O] [it(juice):I-take:B-obj] [to:I-take:O] [Jennifer:I-take:B-dest]
+---------------------------------------------------------------------
+ 
+[Tell:B-tell:O] [me:I-tell:B-dest] [how:I-tell:B-what] [many:I-tell:I-what] [women:I-tell:I-what] [are:I-tell:I-what] [raising:I-tell:I-what] [their:I-tell:I-what] [left:I-tell:I-what] [arm:I-tell:I-what] [in:I-tell:I-what] [the:I-tell:I-what] [kitchen:I-tell:I-what]
+Could you [give:B-take:O] [me:I-take:B-dest] [the:I-take:O] [tableware:I-take:B-obj] [at:I-take:O] [the:I-take:O] [right:I-take:B-sour] [cupboard:I-take:I-sour]
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Grasp:B-take:O] [the:I-take:O] [orange:I-take:B-obj] [from:I-take:O] [the:I-take:O] [sink:I-take:B-sour] , [put:B-take:O] [it(orange):I-take:B-obj] [to:I-take:O] [the:I-take:O] [kitchen:I-take:B-dest] , and [grasp:B-take:O] [the:I-take:O] [paprika:I-take:B-obj] [from:I-take:O] [the:I-take:O] [side:I-take:B-sour] [table:I-take:I-sour]
+---------------------------------------------------------------------
+ 
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Find:B-find:O] [a:I-find:O] [apple:I-find:B-obj] , [retrieve:B-take:O] [the:I-take:O] [orange:I-take:B-obj] [from:I-take:O] [the:I-take:O] [end:I-take:B-sour] [table:I-take:I-sour] , and [bring:B-take:O] [it(orange):I-take:B-obj] [to:I-take:O] [me:I-take:B-dest] please
+---------------------------------------------------------------------
+ 
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Spot:B-find:O] [Jennifer:I-find:B-per] [in:I-find:O] [the:I-find:O] [kitchen:I-find:B-dest] , [accompany:B-follow:O] [her(Jennifer):I-follow:B-per] , [spot:B-find:O] [the:I-find:O] [apple:I-find:B-obj]
+---------------------------------------------------------------------
+ 
+Could you please [say:B-greet:O] [hello:I-greet:O] [to:I-greet:O] [the:I-greet:O] [child:I-greet:B-per] [in:I-greet:O] [the:I-greet:O] [kitchen:I-greet:B-dest]
+Could you please [tell:B-tell:O] [me:I-tell:B-dest] [how:I-tell:B-what] [many:I-tell:I-what] [women:I-tell:I-what] [are:I-tell:I-what] [wearing:I-tell:I-what] [shoes:I-tell:I-what] [in:I-tell:I-what] [the:I-tell:I-what] [bedroom:I-tell:I-what]
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Put:B-take:O] [a:I-take:O] [fruits:I-take:B-obj] [on:I-take:O] [the:I-take:O] [desk:I-take:B-dest] , [spot:B-find:O] [John:I-find:B-per] [at:I-find:O] [the:I-find:O] [entrance:I-find:B-dest] , and [lead:B-guide:O] [him(John):I-guide:B-per] [to:I-guide:O] [the:I-guide:O] [dining:I-guide:B-dest] [table:I-guide:I-dest] please
+---------------------------------------------------------------------
+ 
+[Greet:B-greet:O] [the:I-greet:O] [man:I-greet:B-per] [wearing:I-greet:I-per] [an:I-greet:I-per] [orange:I-greet:I-per] [shirt:I-greet:I-per] [in:I-greet:O] [the:I-greet:O] [bedroom:I-greet:B-dest] please
+[Bring:B-take:O] [the:I-take:O] [orange:I-take:B-obj] [to:I-take:O] [the:I-take:O] [person:I-take:B-per] [wearing:I-take:I-per] [a:I-take:I-per] [tie:I-take:I-per] [in:I-take:O] [the:I-take:O] [living:I-take:B-dest] [room:I-take:I-dest]
+
+---------------------------------------------------------------------
+* Pro Case: 
+Robot please [go:B-go:O] [to:I-go:O] [the:I-go:O] [bookcase:I-go:B-dest] , [find:B-find:O] [Alex:I-find:B-per] , and [escort:B-guide:O] [her(Alex):I-guide:B-per]
+---------------------------------------------------------------------
+ 
+Please [tell:B-tell:O] [me:I-tell:B-dest] [how:I-tell:B-what] [many:I-tell:I-what] [children:I-tell:I-what] [in:I-tell:I-what] [the:I-tell:I-what] [kitchen:I-tell:I-what] [are:I-tell:I-what] [wearing:I-tell:I-what] [shirts:I-tell:I-what]
+Could you [retrieve:B-take:O] [the:I-take:O] [apple:I-take:B-obj] [from:I-take:O] [the:I-take:O] [sink:I-take:B-sour] , [put:B-take:O] [dish:I-take:B-obj] [on:I-take:O] [the:I-take:O] [counter:I-take:B-dest] , and [pinpoint:B-find:O] [the:I-find:O] [cup:I-find:B-obj]
+[Offer:B-take:O] [something:I-take:B-obj] [to:I-take:I-obj] [eat:I-take:I-obj] [to:I-take:O] [all:I-take:B-dest] [the:I-take:I-dest] [children:I-take:I-dest] [wearing:I-take:I-dest] [jackets:I-take:I-dest] [in:I-take:O] [the:I-take:O] [kitchen:I-take:B-dest]
+Could you please [handshake:B-greet:O] [the:I-greet:O] [child:I-greet:B-per] [in:I-greet:O] [the:I-greet:O] [living:I-greet:B-dest] [room:I-greet:I-dest]
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Pinpoint:B-find:O] [James:I-find:B-per] , [find:B-find:O] [John:I-find:B-per] [at:I-find:O] [the:I-find:O] [entrance:I-find:B-dest] , and [conduct:B-guide:O] [him(John):I-guide:B-per] [to:I-guide:O] [the:I-guide:O] [exit:I-guide:B-dest] please
+---------------------------------------------------------------------
+ 
+[Handshake:B-greet:O] [the:I-greet:O] [slimmest:I-greet:B-per] [man:I-greet:I-per] [in:I-greet:O] [the:I-greet:O] [living:I-greet:B-dest] [room:I-greet:I-dest]
+Could you please [put:B-take:O] [a:I-take:O] [food:I-take:B-obj] [on:I-take:O] [the:I-take:O] [dining:I-take:B-dest] [table:I-take:I-dest] , [pinpoint:B-find:O] [James:I-find:B-per] [at:I-find:O] [the:I-find:O] [bed:I-find:B-dest] , and [say:B-tell:O] [a:I-tell:B-what] [joke:I-tell:I-what]
+Could you [take:B-take:O] [the:I-take:O] [tableware:I-take:B-obj] [at:I-take:O] [the:I-take:O] [end:I-take:B-sour] [table's:I-take:I-sour] [middle:I-take:I-sour] [bottom:I-take:I-sour] [to:I-take:O] [the:I-take:O] [sink:I-take:B-dest]
+[Offer:B-take:O] [something:I-take:B-obj] [to:I-take:I-obj] [drink:I-take:I-obj] [to:I-take:O] [all:I-take:B-dest] [the:I-take:I-dest] [people:I-take:I-dest] [pointing:I-take:I-dest] [to:I-take:I-dest] [the:I-take:I-dest] [left:I-take:I-dest] [in:I-take:O] [the:I-take:O] [dining:I-take:B-dest] [room:I-take:I-dest]
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Contact:B-find:O] [Robin:I-find:B-per] [at:I-find:O] [the:I-find:O] [bookcase:I-find:B-dest] , then [greet:B-greet:O] [her(Robin):I-greet:B-per] please
+---------------------------------------------------------------------
+ 
+Could you please [bring:B-take:O] [me:I-take:B-dest] [the:I-take:O] [drinks:I-take:B-obj] [at:I-take:O] [the:I-take:O] [left:I-take:B-sour] [storage:I-take:I-sour] [table:I-take:I-sour]
+Could you please [pinpoint:B-find:O] [a:I-find:O] [scrubby:I-find:B-obj] [in:I-find:O] [the:I-find:O] [corridor:I-find:B-dest] , [retrieve:B-take:O] [the:I-take:O] [apple:I-take:B-obj] [from:I-take:O] [the:I-take:O] [sink:I-take:B-sour] , and [put:B-take:O] [the:I-take:O] [paprika:I-take:B-obj] [in:I-take:O] [the:I-take:O] [kitchen:I-take:B-dest]
+[Bring:B-take:O] [the:I-take:O] [cup:I-take:B-obj] [to:I-take:O] [the:I-take:O] [woman:I-take:B-per] [wearing:I-take:I-per] [orange:I-take:I-per] [pants:I-take:I-per] [in:I-take:O] [the:I-take:O] [dining:I-take:B-dest] [room:I-take:I-dest] please
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Set:B-take:O] [a:I-take:O] [drinks:I-take:B-obj] [on:I-take:O] [the:I-take:O] [desk:I-take:B-dest] , [locate:B-find:O] [Mary:I-find:B-per] [in:I-find:O] [the:I-find:O] [corridor:I-find:B-dest] , and [go:B-follow:O] [after:I-follow:O] [her(Mary):I-follow:B-per] please
+---------------------------------------------------------------------
+ 
+Could you [look:B-find:O] [for:I-find:O] [a:I-find:O] [sprite:I-find:B-obj] [in:I-find:O] [the:I-find:O] [living:I-find:B-dest] [room:I-find:I-dest] , [find:B-find:O] [Francis:I-find:B-per] [in:I-find:O] [the:I-find:O] [corridor:I-find:B-dest] , and [pinpoint:B-find:O] [William:I-find:B-per]
+[Take:B-take:O] [the:I-take:O] [smallest:I-take:B-obj] [snacks:I-take:I-obj] [from:I-take:O] [the:I-take:O] [end:I-take:B-sour] [table:I-take:I-sour] [to:I-take:O] [the:I-take:O] [bookcase:I-take:B-dest] please
+[Tell:B-tell:O] [me:I-tell:B-dest] [how:I-tell:B-what] [many:I-tell:I-what] [children:I-tell:I-what] [there:I-tell:I-what] [are:I-tell:I-what] [in:I-tell:I-what] [the:I-tell:I-what] [dining:I-tell:I-what] [room:I-tell:I-what] please
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Go:B-go:O] [to:I-go:O] [the:I-go:O] [dining:I-go:B-dest] [room:I-go:I-dest] , [pinpoint:B-find:O] [Francis:I-find:B-per] , and [escort:B-guide:O] [her(Francis):I-guide:B-per] please
+---------------------------------------------------------------------
+ 
+
+---------------------------------------------------------------------
+* Pro Case: 
+Robot please [find:B-find:O] [Skyler:I-find:B-per] [in:I-find:O] [the:I-find:O] [dining:I-find:B-dest] [room:I-find:I-dest] , [retrieve:B-take:O] [the:I-take:O] [orange:I-take:B-obj] , and [deliver:B-take:O] [to:I-take:O] [it(orange):I-take:B-obj] [to:I-take:O] [me:I-take:B-dest]
+---------------------------------------------------------------------
+ 
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Meet:B-find:O] [Robert:I-find:B-per] [at:I-find:O] [the:I-find:O] [end:I-find:B-dest] [table:I-find:I-dest] , then [greet:B-greet:O] [him(Robert):I-greet:B-per]
+---------------------------------------------------------------------
+ 
+
+---------------------------------------------------------------------
+* Pro Case: 
+Could you please [locate:B-find:O] [a:I-find:O] [apple:I-find:B-obj] , [locate:B-find:O] [Alex:I-find:B-per] [at:I-find:O] [the:I-find:O] [entrance:I-find:B-dest] , and [escort:B-guide:O] [him(Alex):I-guide:B-per] [to:I-guide:O] [the:I-guide:O] [bed:I-guide:B-dest]
+---------------------------------------------------------------------
+ 
+Could you [tell:B-tell:O] [me:I-tell:B-dest] [how:I-tell:B-what] [many:I-tell:I-what] [people:I-tell:I-what] [dressed:I-tell:I-what] [in:I-tell:I-what] [gray:I-tell:I-what] [there:I-tell:I-what] [are:I-tell:I-what] [in:I-tell:I-what] [the:I-tell:I-what] [corridor:I-tell:I-what]
+Could you [bring:B-take:O] [the:I-take:O] [potato:I-take:B-obj] [chips:I-take:I-obj] [to:I-take:O] [the:I-take:O] [woman:I-take:B-per] [wearing:I-take:I-per] [orange:I-take:I-per] [shoes:I-take:I-per] [in:I-take:O] [the:I-take:O] [dining:I-take:B-dest] [room:I-take:I-dest]
+[Bring:B-take:O] [me:I-take:B-dest] [some:I-take:O] [grape:I-take:B-obj] [juice:I-take:I-obj] [in:I-take:I-obj] [a:I-take:I-obj] [bowl:I-take:I-obj] please
+[Enter:B-go:O] [to:I-go:O] [the:I-go:O] [kitchen:I-go:B-dest] , [pinpoint:B-find:O] [the:I-find:O] [potato:I-find:B-obj] [chips:I-find:I-obj] , [speak:B-tell:O]
+[Enter:B-go:O] [to:I-go:O] [the:I-go:O] [dining:I-go:B-dest] [room:I-go:I-dest] , [find:B-find:O] [the:I-find:O] [paprika:I-find:B-obj] , [say:B-tell:O] [something:I-tell:B-what] please
+[Tell:B-tell:O] [me:I-tell:B-dest] [how:I-tell:O] [the:I-tell:O] [person:I-tell:B-what] [sitting:I-tell:I-what] [at:I-tell:I-what] [the:I-tell:I-what] [entrance:I-tell:I-what] [looks:I-tell:O] [like:I-tell:O]
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Set:B-take:O] [the:I-take:O] [cereal:I-take:B-obj] [in:I-take:O] [the:I-take:O] [kitchen:I-take:B-dest] , [pick:B-take:O] [up:I-take:O] [the:I-take:O] [paprika:I-take:B-obj] [from:I-take:O] [the:I-take:O] [cupboard:I-take:B-sour] , and [give:B-take:O] [it(paprika):I-take:B-obj] [to:I-take:O] [Francis:I-take:B-dest] [at:I-take:O] [the:I-take:O] [dishwasher:I-take:B-dest] please
+---------------------------------------------------------------------
+ 
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Spot:B-find:O] [Charlie:I-find:B-per] [at:I-find:O] [the:I-find:O] [desk:I-find:B-dest] , [escort:B-guide:O] [him(Charlie):I-guide:B-per] , and [answer:B-answer:O] [a:I-answer:O] [question:I-answer:B-what] please
+---------------------------------------------------------------------
+ 
+[Spot:B-find:O] [Elizabeth:I-find:B-per] [at:I-find:O] [the:I-find:O] [end:I-find:B-dest] [table:I-find:I-dest] , [place:B-take:O] [the:I-take:O] [orange:I-take:B-obj] [in:I-take:O] [the:I-take:O] [kitchen:I-take:B-dest] , and [pinpoint:B-find:O] [Robin:I-find:B-per] [at:I-find:O] [the:I-find:O] [sink:I-find:B-dest] please
+
+---------------------------------------------------------------------
+* Pro Case: 
+Robot please [get:B-know:O] [acquainted:I-know:O] [with:I-know:O] [Patricia:I-know:B-per] [at:I-know:O] [the:I-know:O] [dining:I-know:B-dest] [table:I-know:I-dest] , then [greet:B-greet:O] [her(Patricia):I-greet:B-per]
+---------------------------------------------------------------------
+ 
+Could you [follow:B-follow:O] [the:I-follow:O] [person:I-follow:B-per] [dressed:I-follow:I-per] [in:I-follow:I-per] [an:I-follow:I-per] [orange:I-follow:I-per] [shirt:I-follow:I-per] [in:I-follow:O] [the:I-follow:O] [corridor:I-follow:B-sour]
+
+---------------------------------------------------------------------
+* Pro Case: 
+Robot please [take:B-take:O] [the:I-take:O] [orange:I-take:B-obj] [from:I-take:O] [the:I-take:O] [desk:I-take:B-sour] , [set:B-take:O] [it(orange):I-take:B-obj] [on:I-take:O] [the:I-take:O] [desk:I-take:B-dest] , [speak:B-tell:O]
+---------------------------------------------------------------------
+ 
+
+---------------------------------------------------------------------
+* Pro Case: 
+Please [leave:B-take:O] [dish:I-take:B-obj] [on:I-take:O] [the:I-take:O] [desk:I-take:B-dest] , [pick:B-take:O] [up:I-take:O] [the:I-take:O] [paprika:I-take:B-obj] [from:I-take:O] [the:I-take:O] [storage:I-take:B-sour] [table:I-take:I-sour] , and [leave:B-take:O] [it(paprika):I-take:B-obj] [to:I-take:O] [the:I-take:O] [dining:I-take:B-dest] [room:I-take:I-dest]
+---------------------------------------------------------------------
+ 
+[Locate:B-find:O] [Mary:I-find:B-per] [at:I-find:O] [the:I-find:O] [desk:I-find:B-dest] , [find:B-find:O] [Robert:I-find:B-per] [in:I-find:O] [the:I-find:O] [dining:I-find:B-dest] [room:I-find:I-dest] , and [pinpoint:B-find:O] [Charlie:I-find:B-per] please
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Enter:B-go:O] [to:I-go:O] [the:I-go:O] [kitchen:I-go:B-dest] , [locate:B-find:O] [the:I-find:O] [paprika:I-find:B-obj] , and [deliver:B-take:O] [to:I-take:O] [it(paprika):I-take:B-obj] [to:I-take:O] [Francis:I-take:B-dest]
+---------------------------------------------------------------------
+ 
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Get:B-take:O] [the:I-take:O] [orange:I-take:B-obj] , [find:B-find:O] [James:I-find:B-per] [at:I-find:O] [the:I-find:O] [bookcase:I-find:B-dest] , and [accompany:B-guide:O] [him(James):I-guide:B-per] [to:I-guide:O] [the:I-guide:O] [exit:I-guide:B-dest]
+---------------------------------------------------------------------
+ 
+[Take:B-take:O] [the:I-take:O] [snacks:I-take:B-obj] [at:I-take:O] [the:I-take:O] [end:I-take:B-sour] [table's:I-take:I-sour] [top:I-take:I-sour] [to:I-take:O] [the:I-take:O] [end:I-take:B-dest] [table:I-take:I-dest] please
+
+---------------------------------------------------------------------
+* Pro Case: 
+Could you please [navigate:B-go:O] [to:I-go:O] [the:I-go:O] [dining:I-go:B-dest] [room:I-go:I-dest] , [pinpoint:B-find:O] [the:I-find:O] [orange:I-find:B-obj] [juice:I-find:I-obj] , and [deliver:B-take:O] [to:I-take:O] [it(juice):I-take:B-obj] [to:I-take:O] [Jennifer:I-take:B-dest]
+---------------------------------------------------------------------
+ 
+[Tell:B-tell:O] [me:I-tell:B-dest] [how:I-tell:B-what] [many:I-tell:I-what] [women:I-tell:I-what] [are:I-tell:I-what] [raising:I-tell:I-what] [their:I-tell:I-what] [left:I-tell:I-what] [arm:I-tell:I-what] [in:I-tell:I-what] [the:I-tell:I-what] [kitchen:I-tell:I-what]
+Could you [give:B-take:O] [me:I-take:B-dest] [the:I-take:O] [tableware:I-take:B-obj] [at:I-take:O] [the:I-take:O] [right:I-take:B-sour] [cupboard:I-take:I-sour]
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Grasp:B-take:O] [the:I-take:O] [orange:I-take:B-obj] [from:I-take:O] [the:I-take:O] [sink:I-take:B-sour] , [put:B-take:O] [it(orange):I-take:B-obj] [to:I-take:O] [the:I-take:O] [kitchen:I-take:B-dest] , and [grasp:B-take:O] [the:I-take:O] [paprika:I-take:B-obj] [from:I-take:O] [the:I-take:O] [side:I-take:B-sour] [table:I-take:I-sour]
+---------------------------------------------------------------------
+ 
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Find:B-find:O] [a:I-find:O] [apple:I-find:B-obj] , [retrieve:B-take:O] [the:I-take:O] [orange:I-take:B-obj] [from:I-take:O] [the:I-take:O] [end:I-take:B-sour] [table:I-take:I-sour] , and [bring:B-take:O] [it(orange):I-take:B-obj] [to:I-take:O] [me:I-take:B-dest] please
+---------------------------------------------------------------------
+ 
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Spot:B-find:O] [Jennifer:I-find:B-per] [in:I-find:O] [the:I-find:O] [kitchen:I-find:B-dest] , [accompany:B-follow:O] [her(Jennifer):I-follow:B-per] , [spot:B-find:O] [the:I-find:O] [apple:I-find:B-obj]
+---------------------------------------------------------------------
+ 
+Could you please [say:B-greet:O] [hello:I-greet:O] [to:I-greet:O] [the:I-greet:O] [child:I-greet:B-per] [in:I-greet:O] [the:I-greet:O] [kitchen:I-greet:B-dest]
+Could you please [tell:B-tell:O] [me:I-tell:B-dest] [how:I-tell:B-what] [many:I-tell:I-what] [women:I-tell:I-what] [are:I-tell:I-what] [wearing:I-tell:I-what] [shoes:I-tell:I-what] [in:I-tell:I-what] [the:I-tell:I-what] [bedroom:I-tell:I-what]
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Put:B-take:O] [a:I-take:O] [fruits:I-take:B-obj] [on:I-take:O] [the:I-take:O] [desk:I-take:B-dest] , [spot:B-find:O] [John:I-find:B-per] [at:I-find:O] [the:I-find:O] [entrance:I-find:B-dest] , and [lead:B-guide:O] [him(John):I-guide:B-per] [to:I-guide:O] [the:I-guide:O] [dining:I-guide:B-dest] [table:I-guide:I-dest] please
+---------------------------------------------------------------------
+ 
+[Greet:B-greet:O] [the:I-greet:O] [man:I-greet:B-per] [wearing:I-greet:I-per] [an:I-greet:I-per] [orange:I-greet:I-per] [shirt:I-greet:I-per] [in:I-greet:O] [the:I-greet:O] [bedroom:I-greet:B-dest] please
+[Bring:B-take:O] [the:I-take:O] [orange:I-take:B-obj] [to:I-take:O] [the:I-take:O] [person:I-take:B-per] [wearing:I-take:I-per] [a:I-take:I-per] [tie:I-take:I-per] [in:I-take:O] [the:I-take:O] [living:I-take:B-dest] [room:I-take:I-dest]
+
+---------------------------------------------------------------------
+* Pro Case: 
+Robot please [go:B-go:O] [to:I-go:O] [the:I-go:O] [bookcase:I-go:B-dest] , [find:B-find:O] [Alex:I-find:B-per] , and [escort:B-guide:O] [her(Alex):I-guide:B-per]
+---------------------------------------------------------------------
+ 
+Please [tell:B-tell:O] [me:I-tell:B-dest] [how:I-tell:B-what] [many:I-tell:I-what] [children:I-tell:I-what] [in:I-tell:I-what] [the:I-tell:I-what] [kitchen:I-tell:I-what] [are:I-tell:I-what] [wearing:I-tell:I-what] [shirts:I-tell:I-what]
+Could you [retrieve:B-take:O] [the:I-take:O] [apple:I-take:B-obj] [from:I-take:O] [the:I-take:O] [sink:I-take:B-sour] , [put:B-take:O] [dish:I-take:B-obj] [on:I-take:O] [the:I-take:O] [counter:I-take:B-dest] , and [pinpoint:B-find:O] [the:I-find:O] [cup:I-find:B-obj]
+[Offer:B-take:O] [something:I-take:B-obj] [to:I-take:I-obj] [eat:I-take:I-obj] [to:I-take:O] [all:I-take:B-dest] [the:I-take:I-dest] [children:I-take:I-dest] [wearing:I-take:I-dest] [jackets:I-take:I-dest] [in:I-take:O] [the:I-take:O] [kitchen:I-take:B-dest]
+Could you please [handshake:B-greet:O] [the:I-greet:O] [child:I-greet:B-per] [in:I-greet:O] [the:I-greet:O] [living:I-greet:B-dest] [room:I-greet:I-dest]
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Pinpoint:B-find:O] [James:I-find:B-per] , [find:B-find:O] [John:I-find:B-per] [at:I-find:O] [the:I-find:O] [entrance:I-find:B-dest] , and [conduct:B-guide:O] [him(John):I-guide:B-per] [to:I-guide:O] [the:I-guide:O] [exit:I-guide:B-dest] please
+---------------------------------------------------------------------
+ 
+[Handshake:B-greet:O] [the:I-greet:O] [slimmest:I-greet:B-per] [man:I-greet:I-per] [in:I-greet:O] [the:I-greet:O] [living:I-greet:B-dest] [room:I-greet:I-dest]
+Could you please [put:B-take:O] [a:I-take:O] [food:I-take:B-obj] [on:I-take:O] [the:I-take:O] [dining:I-take:B-dest] [table:I-take:I-dest] , [pinpoint:B-find:O] [James:I-find:B-per] [at:I-find:O] [the:I-find:O] [bed:I-find:B-dest] , and [say:B-tell:O] [a:I-tell:B-what] [joke:I-tell:I-what]
+Could you [take:B-take:O] [the:I-take:O] [tableware:I-take:B-obj] [at:I-take:O] [the:I-take:O] [end:I-take:B-sour] [table's:I-take:I-sour] [middle:I-take:I-sour] [bottom:I-take:I-sour] [to:I-take:O] [the:I-take:O] [sink:I-take:B-dest]
+[Offer:B-take:O] [something:I-take:B-obj] [to:I-take:I-obj] [drink:I-take:I-obj] [to:I-take:O] [all:I-take:B-dest] [the:I-take:I-dest] [people:I-take:I-dest] [pointing:I-take:I-dest] [to:I-take:I-dest] [the:I-take:I-dest] [left:I-take:I-dest] [in:I-take:O] [the:I-take:O] [dining:I-take:B-dest] [room:I-take:I-dest]
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Contact:B-find:O] [Robin:I-find:B-per] [at:I-find:O] [the:I-find:O] [bookcase:I-find:B-dest] , then [greet:B-greet:O] [her(Robin):I-greet:B-per] please
+---------------------------------------------------------------------
+ 
+Could you please [bring:B-take:O] [me:I-take:B-dest] [the:I-take:O] [drinks:I-take:B-obj] [at:I-take:O] [the:I-take:O] [left:I-take:B-sour] [storage:I-take:I-sour] [table:I-take:I-sour]
+Could you please [pinpoint:B-find:O] [a:I-find:O] [scrubby:I-find:B-obj] [in:I-find:O] [the:I-find:O] [corridor:I-find:B-dest] , [retrieve:B-take:O] [the:I-take:O] [apple:I-take:B-obj] [from:I-take:O] [the:I-take:O] [sink:I-take:B-sour] , and [put:B-take:O] [the:I-take:O] [paprika:I-take:B-obj] [in:I-take:O] [the:I-take:O] [kitchen:I-take:B-dest]
+[Bring:B-take:O] [the:I-take:O] [cup:I-take:B-obj] [to:I-take:O] [the:I-take:O] [woman:I-take:B-per] [wearing:I-take:I-per] [orange:I-take:I-per] [pants:I-take:I-per] [in:I-take:O] [the:I-take:O] [dining:I-take:B-dest] [room:I-take:I-dest] please
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Set:B-take:O] [a:I-take:O] [drinks:I-take:B-obj] [on:I-take:O] [the:I-take:O] [desk:I-take:B-dest] , [locate:B-find:O] [Mary:I-find:B-per] [in:I-find:O] [the:I-find:O] [corridor:I-find:B-dest] , and [go:B-follow:O] [after:I-follow:O] [her(Mary):I-follow:B-per] please
+---------------------------------------------------------------------
+ 
+Could you [look:B-find:O] [for:I-find:O] [a:I-find:O] [sprite:I-find:B-obj] [in:I-find:O] [the:I-find:O] [living:I-find:B-dest] [room:I-find:I-dest] , [find:B-find:O] [Francis:I-find:B-per] [in:I-find:O] [the:I-find:O] [corridor:I-find:B-dest] , and [pinpoint:B-find:O] [William:I-find:B-per]
+[Take:B-take:O] [the:I-take:O] [smallest:I-take:B-obj] [snacks:I-take:I-obj] [from:I-take:O] [the:I-take:O] [end:I-take:B-sour] [table:I-take:I-sour] [to:I-take:O] [the:I-take:O] [bookcase:I-take:B-dest] please
+[Tell:B-tell:O] [me:I-tell:B-dest] [how:I-tell:B-what] [many:I-tell:I-what] [children:I-tell:I-what] [there:I-tell:I-what] [are:I-tell:I-what] [in:I-tell:I-what] [the:I-tell:I-what] [dining:I-tell:I-what] [room:I-tell:I-what] please
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Go:B-go:O] [to:I-go:O] [the:I-go:O] [dining:I-go:B-dest] [room:I-go:I-dest] , [pinpoint:B-find:O] [Francis:I-find:B-per] , and [escort:B-guide:O] [her(Francis):I-guide:B-per] please
+---------------------------------------------------------------------
+ 
+
+---------------------------------------------------------------------
+* Pro Case: 
+Robot please [find:B-find:O] [Skyler:I-find:B-per] [in:I-find:O] [the:I-find:O] [dining:I-find:B-dest] [room:I-find:I-dest] , [retrieve:B-take:O] [the:I-take:O] [orange:I-take:B-obj] , and [deliver:B-take:O] [to:I-take:O] [it(orange):I-take:B-obj] [to:I-take:O] [me:I-take:B-dest]
+---------------------------------------------------------------------
+ 
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Meet:B-find:O] [Robert:I-find:B-per] [at:I-find:O] [the:I-find:O] [end:I-find:B-dest] [table:I-find:I-dest] , then [greet:B-greet:O] [him(Robert):I-greet:B-per]
+---------------------------------------------------------------------
+ 
+
+---------------------------------------------------------------------
+* Pro Case: 
+Could you please [locate:B-find:O] [a:I-find:O] [apple:I-find:B-obj] , [locate:B-find:O] [Alex:I-find:B-per] [at:I-find:O] [the:I-find:O] [entrance:I-find:B-dest] , and [escort:B-guide:O] [him(Alex):I-guide:B-per] [to:I-guide:O] [the:I-guide:O] [bed:I-guide:B-dest]
+---------------------------------------------------------------------
+ 
+Could you [tell:B-tell:O] [me:I-tell:B-dest] [how:I-tell:B-what] [many:I-tell:I-what] [people:I-tell:I-what] [dressed:I-tell:I-what] [in:I-tell:I-what] [gray:I-tell:I-what] [there:I-tell:I-what] [are:I-tell:I-what] [in:I-tell:I-what] [the:I-tell:I-what] [corridor:I-tell:I-what]
+Could you [bring:B-take:O] [the:I-take:O] [potato:I-take:B-obj] [chips:I-take:I-obj] [to:I-take:O] [the:I-take:O] [woman:I-take:B-per] [wearing:I-take:I-per] [orange:I-take:I-per] [shoes:I-take:I-per] [in:I-take:O] [the:I-take:O] [dining:I-take:B-dest] [room:I-take:I-dest]
+[Bring:B-take:O] [me:I-take:B-dest] [some:I-take:O] [grape:I-take:B-obj] [juice:I-take:I-obj] [in:I-take:I-obj] [a:I-take:I-obj] [bowl:I-take:I-obj] please
+[Enter:B-go:O] [to:I-go:O] [the:I-go:O] [kitchen:I-go:B-dest] , [pinpoint:B-find:O] [the:I-find:O] [potato:I-find:B-obj] [chips:I-find:I-obj] , [speak:B-tell:O]
+[Enter:B-go:O] [to:I-go:O] [the:I-go:O] [dining:I-go:B-dest] [room:I-go:I-dest] , [find:B-find:O] [the:I-find:O] [paprika:I-find:B-obj] , [say:B-tell:O] [something:I-tell:B-what] please
+[Tell:B-tell:O] [me:I-tell:B-dest] [how:I-tell:O] [the:I-tell:O] [person:I-tell:B-what] [sitting:I-tell:I-what] [at:I-tell:I-what] [the:I-tell:I-what] [entrance:I-tell:I-what] [looks:I-tell:O] [like:I-tell:O]
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Set:B-take:O] [the:I-take:O] [cereal:I-take:B-obj] [in:I-take:O] [the:I-take:O] [kitchen:I-take:B-dest] , [pick:B-take:O] [up:I-take:O] [the:I-take:O] [paprika:I-take:B-obj] [from:I-take:O] [the:I-take:O] [cupboard:I-take:B-sour] , and [give:B-take:O] [it(paprika):I-take:B-obj] [to:I-take:O] [Francis:I-take:B-dest] [at:I-take:O] [the:I-take:O] [dishwasher:I-take:B-dest] please
+---------------------------------------------------------------------
+ 
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Spot:B-find:O] [Charlie:I-find:B-per] [at:I-find:O] [the:I-find:O] [desk:I-find:B-dest] , [escort:B-guide:O] [him(Charlie):I-guide:B-per] , and [answer:B-answer:O] [a:I-answer:O] [question:I-answer:B-what] please
+---------------------------------------------------------------------
+ 
+[Spot:B-find:O] [Elizabeth:I-find:B-per] [at:I-find:O] [the:I-find:O] [end:I-find:B-dest] [table:I-find:I-dest] , [place:B-take:O] [the:I-take:O] [orange:I-take:B-obj] [in:I-take:O] [the:I-take:O] [kitchen:I-take:B-dest] , and [pinpoint:B-find:O] [Robin:I-find:B-per] [at:I-find:O] [the:I-find:O] [sink:I-find:B-dest] please
+
+---------------------------------------------------------------------
+* Pro Case: 
+Robot please [get:B-know:O] [acquainted:I-know:O] [with:I-know:O] [Patricia:I-know:B-per] [at:I-know:O] [the:I-know:O] [dining:I-know:B-dest] [table:I-know:I-dest] , then [greet:B-greet:O] [her(Patricia):I-greet:B-per]
+---------------------------------------------------------------------
+ 
+Could you [follow:B-follow:O] [the:I-follow:O] [person:I-follow:B-per] [dressed:I-follow:I-per] [in:I-follow:I-per] [an:I-follow:I-per] [orange:I-follow:I-per] [shirt:I-follow:I-per] [in:I-follow:O] [the:I-follow:O] [corridor:I-follow:B-sour]
+
+---------------------------------------------------------------------
+* Pro Case: 
+Robot please [take:B-take:O] [the:I-take:O] [orange:I-take:B-obj] [from:I-take:O] [the:I-take:O] [desk:I-take:B-sour] , [set:B-take:O] [it(orange):I-take:B-obj] [on:I-take:O] [the:I-take:O] [desk:I-take:B-dest] , [speak:B-tell:O]
+---------------------------------------------------------------------
+ 
+
+---------------------------------------------------------------------
+* Pro Case: 
+Please [leave:B-take:O] [dish:I-take:B-obj] [on:I-take:O] [the:I-take:O] [desk:I-take:B-dest] , [pick:B-take:O] [up:I-take:O] [the:I-take:O] [paprika:I-take:B-obj] [from:I-take:O] [the:I-take:O] [storage:I-take:B-sour] [table:I-take:I-sour] , and [leave:B-take:O] [it(paprika):I-take:B-obj] [to:I-take:O] [the:I-take:O] [dining:I-take:B-dest] [room:I-take:I-dest]
+---------------------------------------------------------------------
+ 
+[Locate:B-find:O] [Mary:I-find:B-per] [at:I-find:O] [the:I-find:O] [desk:I-find:B-dest] , [find:B-find:O] [Robert:I-find:B-per] [in:I-find:O] [the:I-find:O] [dining:I-find:B-dest] [room:I-find:I-dest] , and [pinpoint:B-find:O] [Charlie:I-find:B-per] please
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Enter:B-go:O] [to:I-go:O] [the:I-go:O] [kitchen:I-go:B-dest] , [locate:B-find:O] [the:I-find:O] [paprika:I-find:B-obj] , and [deliver:B-take:O] [to:I-take:O] [it(paprika):I-take:B-obj] [to:I-take:O] [Francis:I-take:B-dest]
+---------------------------------------------------------------------
+ 
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Get:B-take:O] [the:I-take:O] [orange:I-take:B-obj] , [find:B-find:O] [James:I-find:B-per] [at:I-find:O] [the:I-find:O] [bookcase:I-find:B-dest] , and [accompany:B-guide:O] [him(James):I-guide:B-per] [to:I-guide:O] [the:I-guide:O] [exit:I-guide:B-dest]
+---------------------------------------------------------------------
+ 
+[Take:B-take:O] [the:I-take:O] [snacks:I-take:B-obj] [at:I-take:O] [the:I-take:O] [end:I-take:B-sour] [table's:I-take:I-sour] [top:I-take:I-sour] [to:I-take:O] [the:I-take:O] [end:I-take:B-dest] [table:I-take:I-dest] please
+
+---------------------------------------------------------------------
+* Pro Case: 
+Could you please [navigate:B-go:O] [to:I-go:O] [the:I-go:O] [dining:I-go:B-dest] [room:I-go:I-dest] , [pinpoint:B-find:O] [the:I-find:O] [orange:I-find:B-obj] [juice:I-find:I-obj] , and [deliver:B-take:O] [to:I-take:O] [it(juice):I-take:B-obj] [to:I-take:O] [Jennifer:I-take:B-dest]
+---------------------------------------------------------------------
+ 
+[Tell:B-tell:O] [me:I-tell:B-dest] [how:I-tell:B-what] [many:I-tell:I-what] [women:I-tell:I-what] [are:I-tell:I-what] [raising:I-tell:I-what] [their:I-tell:I-what] [left:I-tell:I-what] [arm:I-tell:I-what] [in:I-tell:I-what] [the:I-tell:I-what] [kitchen:I-tell:I-what]
+Could you [give:B-take:O] [me:I-take:B-dest] [the:I-take:O] [tableware:I-take:B-obj] [at:I-take:O] [the:I-take:O] [right:I-take:B-sour] [cupboard:I-take:I-sour]
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Grasp:B-take:O] [the:I-take:O] [orange:I-take:B-obj] [from:I-take:O] [the:I-take:O] [sink:I-take:B-sour] , [put:B-take:O] [it(orange):I-take:B-obj] [to:I-take:O] [the:I-take:O] [kitchen:I-take:B-dest] , and [grasp:B-take:O] [the:I-take:O] [paprika:I-take:B-obj] [from:I-take:O] [the:I-take:O] [side:I-take:B-sour] [table:I-take:I-sour]
+---------------------------------------------------------------------
+ 
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Find:B-find:O] [a:I-find:O] [apple:I-find:B-obj] , [retrieve:B-take:O] [the:I-take:O] [orange:I-take:B-obj] [from:I-take:O] [the:I-take:O] [end:I-take:B-sour] [table:I-take:I-sour] , and [bring:B-take:O] [it(orange):I-take:B-obj] [to:I-take:O] [me:I-take:B-dest] please
+---------------------------------------------------------------------
+ 
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Spot:B-find:O] [Jennifer:I-find:B-per] [in:I-find:O] [the:I-find:O] [kitchen:I-find:B-dest] , [accompany:B-follow:O] [her(Jennifer):I-follow:B-per] , [spot:B-find:O] [the:I-find:O] [apple:I-find:B-obj]
+---------------------------------------------------------------------
+ 
+Could you please [say:B-greet:O] [hello:I-greet:O] [to:I-greet:O] [the:I-greet:O] [child:I-greet:B-per] [in:I-greet:O] [the:I-greet:O] [kitchen:I-greet:B-dest]
+Could you please [tell:B-tell:O] [me:I-tell:B-dest] [how:I-tell:B-what] [many:I-tell:I-what] [women:I-tell:I-what] [are:I-tell:I-what] [wearing:I-tell:I-what] [shoes:I-tell:I-what] [in:I-tell:I-what] [the:I-tell:I-what] [bedroom:I-tell:I-what]
+
+---------------------------------------------------------------------
+* Pro Case: 
+[Put:B-take:O] [a:I-take:O] [fruits:I-take:B-obj] [on:I-take:O] [the:I-take:O] [desk:I-take:B-dest] , [spot:B-find:O] [John:I-find:B-per] [at:I-find:O] [the:I-find:O] [entrance:I-find:B-dest] , and [lead:B-guide:O] [him(John):I-guide:B-per] [to:I-guide:O] [the:I-guide:O] [dining:I-guide:B-dest] [table:I-guide:I-dest] please
+---------------------------------------------------------------------
+ 
+[Greet:B-greet:O] [the:I-greet:O] [man:I-greet:B-per] [wearing:I-greet:I-per] [an:I-greet:I-per] [orange:I-greet:I-per] [shirt:I-greet:I-per] [in:I-greet:O] [the:I-greet:O] [bedroom:I-greet:B-dest] please
+[Bring:B-take:O] [the:I-take:O] [orange:I-take:B-obj] [to:I-take:O] [the:I-take:O] [person:I-take:B-per] [wearing:I-take:I-per] [a:I-take:I-per] [tie:I-take:I-per] [in:I-take:O] [the:I-take:O] [living:I-take:B-dest] [room:I-take:I-dest]
