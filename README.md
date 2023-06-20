@@ -17,8 +17,6 @@ The model was trained on a newly created, large-scale, and high-quality GPSR (Ge
 - Predict `intent` and `slot` at the same time from **one BERT model** (=Joint model)
 - total\_loss = intent_loss + slot\_coef \* slot\_loss + slot\_intent\_coef \* slot\_intent\_loss
 
-## Dependencies
-Please refer to `requirements.txt`
 
 ## Dataset
 - The following table includes the train/dev/test split of MixSNIPS and MixATIS. Also, we reports the number of intent labels and slot labels in the training set. Also, based on the mechanism of MixSnips / MixATIS construction, we label the slot-level intent.
