@@ -10,7 +10,7 @@ The model was trained on a newly created, large-scale, and high-quality GPSR (Ge
 
 ## Model Architecture
 <p float="left" align="center">
-    <img width="600" src='imgs/model.png' />  
+    <img width="600" src='./imgs/model.png' />  
 </p>
 
 
