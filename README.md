@@ -30,7 +30,7 @@ The model was trained on a newly created, large-scale, and high-quality GPSR (Ge
 ## Results
 
 <p float="left" align="center">
-    <img width="300" src="./imgs/result.png" />  
+    <img width="300" src="imgs/result.png" />  
 </p>
 
 
