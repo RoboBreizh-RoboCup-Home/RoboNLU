@@ -15,6 +15,7 @@ The model was trained on a newly created, large-scale, and high-quality GPSR (Ge
 
 
 
+
 ## Dataset
 - The following table includes the train/dev/test split of MixSNIPS and MixATIS. Also, we reports the number of intent labels and slot labels in the training set. Also, based on the mechanism of MixSnips / MixATIS construction, we label the slot-level intent.
 
