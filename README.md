@@ -25,12 +25,12 @@ The model was trained on a newly created, large-scale, and high-quality GPSR (Ge
 
 - The number of labels is based on the _train_ dataset.
 - Add `UNK` and `PAD` for intent and slot labels 
-```
+
+
 
 ## Results
-
 <p float="left" align="center">
-    <img width="300" src="imgs/result.png" />  
+    <img width="800" src="./imgs/result.png" />  
 </p>
 
 
