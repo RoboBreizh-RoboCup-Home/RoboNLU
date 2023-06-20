@@ -1,16 +1,12 @@
-# SLIM: Explicit Slot-Intent Mapping with BERT for Joint Multi-Intent Detection and Slot Filling
+# RoboNLU: Advancing Command Understanding with a Novel Lightweight BERT-based Approach for Service Robotics
 
-Pytorch implementation of `SLIM`: Explicit Slot-Intent Mapping with BERT for Joint Multi-Intent Classification and Slot Filling
+Pytorch implementation of `RoboNLU`: Advancing Command Understanding with a Novel Lightweight BERT-based Approach for Service Robotics
 
-# Update 22 Nov 2022
-We have updated the dataset, and also adjust the code. The updated result and paper will be updated very soon.
 
 ## Insight
-The previous multi-intent works predict intents and slots by feeding the same coarse-grained information distribution to assist slot prediction. However, in the multi-intent setting, different slots are mapped to different intents. Therefore, we take advantage of the slot-intent mapping to guide the intent detection and slot filling.
+This paper proposes a novel approach to natural language understanding (NLU) in service robots called RoboNLU, which leverages pre-trained language models along with specialized classifiers to extract meaning from user commands. Specifically, the proposed system utilizes BERT model in conjunction with slot, intent, and pronoun resolution classifiers.
+The model was trained on a newly created, large-scale, and high-quality GPSR (General Purpose Service Robot) command dataset, yielding impressive results in intent classification, slot filling, and pronoun resolution tasks while also demonstrating robustness in out-of-vocabulary scenarios. Furthermore, the system was optimized for real-time processing on a service robot by leveraging smaller, quantized versions of the BERT-base model and deploying the system using the ONNXruntime framework
 
-<p float="left" align="center">
-    <img width="400" src="imgs/insight.png" />  
-</p>
 
 ## Model Architecture
 
