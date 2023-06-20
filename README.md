@@ -10,12 +10,6 @@ The model was trained on a newly created, large-scale, and high-quality GPSR (Ge
 
 ## Model Architecture
 
-<p float="left" align="center">
-    <img width="600" src="imgs/model.png" />  
-</p>
-
-- Predict `intent` and `slot` at the same time from **one BERT model** (=Joint model)
-- total\_loss = intent_loss + slot\_coef \* slot\_loss + slot\_intent\_coef \* slot\_intent\_loss
 
 
 ## Dataset
