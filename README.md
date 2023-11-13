@@ -21,7 +21,7 @@ The model was trained on a newly created, large-scale, and high-quality GPSR (Ge
 
 |       | Train  | Dev | Test | Intent Labels | Slot Labels |Pronoun Labels |
 | ----- | ------ | --- | ---- | ------------- | ----------- |----------- |
-| EGPSR  | 45,250  | 3,016 | 12,068| 20       | 12          |   3       |
+| EGPSR  | 45,250  | 3,016 | 12,068| 9        | 5           |   3       |
 
 - The number of labels is based on the _train_ dataset.
 - Add `UNK` and `PAD` for intent and slot labels 
