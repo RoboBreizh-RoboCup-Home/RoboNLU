@@ -43,3 +43,16 @@ The model was trained on a newly created, large-scale, and high-quality GPSR (Ge
 - [pytorch-crf](https://github.com/kmkurn/pytorch-crf)
 - [JointBert](https://github.com/monologg/JointBERT)
 
+## Citations
+
+If you find this project helps your research, please kindly consider citing our project or papers in your publications.
+
+```
+@inproceedings{wang2023robonlu,
+title = {RoboNLU: Advancing Command Understanding with a Novel Lightweight BERT-based Approach for Service Robotics},
+author = {Sinuo Wang, Maëlic Neau and Cédric Buche},
+year = {2023},
+booktitle= "RoboCup 2023: Robot World Cup XXVI",
+}
+
+```
