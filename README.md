@@ -45,14 +45,27 @@ The model was trained on a newly created, large-scale, and high-quality GPSR (Ge
 
 ## Citations
 
-If you find this project helps your research, please kindly consider citing our project or papers in your publications.
+If you use this project, please consider citing:
 
 ```
-@inproceedings{wang2023robonlu,
-title = {RoboNLU: Advancing Command Understanding with a Novel Lightweight BERT-based Approach for Service Robotics},
-author = {Sinuo Wang, Maëlic Neau and Cédric Buche},
-year = {2023},
-booktitle= "RoboCup 2023: Robot World Cup XXVI",
+@inproceedings{10.1007/978-3-031-55015-7_31,
+  author    = {Buche, C{\'e}dric
+               and Neau, Ma{\"e}lic
+               and Ung, Thomas
+               and Li, Louis
+               and Wang, Sinuo
+               and Bono, C{\'e}dric Le},
+  editor    = {Buche, C{\'e}dric
+               and Rossi, Alessandra
+               and Sim{\~o}es, Marco
+               and Visser, Ubbo},
+  title     = {RoboCup@Home SSPL Champion 2023: RoboBreizh, a Fully Embedded Approach},
+  booktitle = {RoboCup 2023: Robot World Cup XXVI},
+  year      = {2024},
+  publisher = {Springer Nature Switzerland},
+  address   = {Cham},
+  pages     = {374--385},
+  isbn      = {978-3-031-55015-7}
 }
 
 ```
