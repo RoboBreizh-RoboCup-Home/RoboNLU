@@ -48,23 +48,20 @@ The model was trained on a newly created, large-scale, and high-quality GPSR (Ge
 If you use this project, please consider citing:
 
 ```
-@inproceedings{10.1007/978-3-031-55015-7_31,
-  author    = {Buche, C{\'e}dric
+@inproceedings{10.1007/978-3-031-55015-7_3,
+  author    = {Wang, Sinuo
                and Neau, Ma{\"e}lic
-               and Ung, Thomas
-               and Li, Louis
-               and Wang, Sinuo
-               and Bono, C{\'e}dric Le},
+               and Buche, C{\'e}dric},
   editor    = {Buche, C{\'e}dric
                and Rossi, Alessandra
                and Sim{\~o}es, Marco
                and Visser, Ubbo},
-  title     = {RoboCup@Home SSPL Champion 2023: RoboBreizh, a Fully Embedded Approach},
+  title     = {RoboNLU: Advancing Command Understanding with a Novel Lightweight BERT-Based Approach for Service Robotics},
   booktitle = {RoboCup 2023: Robot World Cup XXVI},
   year      = {2024},
   publisher = {Springer Nature Switzerland},
   address   = {Cham},
-  pages     = {374--385},
+  pages     = {29--41},
   isbn      = {978-3-031-55015-7}
 }
 
