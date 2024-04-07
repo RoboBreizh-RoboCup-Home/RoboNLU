@@ -5,5 +5,6 @@ from .modeling_jointbertmultiintent import JointBERTMultiIntent
 from .modelling_jointbertwolabelseq import JointBERTMultiIntentWoISeq
 from .modeling_jointdistilbertmultiintent import JointDistilBERTMultiIntent
 from .modeling_jointmobilebertmultiintent import JointMobileBERTMultiIntent
+from .modeling_jointalbertmultiintent import JointAlbertTMultiIntent
 
 # from .modeling_final import JointBERTMultiIntent

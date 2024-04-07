@@ -9,31 +9,31 @@ from seqeval.metrics import precision_score, recall_score, f1_score
 from transformers import BertConfig, DistilBertConfig, AlbertConfig
 from transformers import BertTokenizer, DistilBertTokenizer, AlbertTokenizer
 from transformers import MobileBertConfig, MobileBertModel, MobileBertTokenizer
+from transformers import AlbertModel, AlbertConfig, AlbertTokenizer
 
 ##
 from transformers import AutoTokenizer
 
 from datetime import datetime
 
-from model import JointMobileBERTMultiIntent, JointBERT, JointDistilBERT, JointAlbert, JointBERTMultiIntent, JointBERTMultiIntentWoISeq, JointDistilBERTMultiIntent
+from model import JointMobileBERTMultiIntent, JointBERT, JointDistilBERT, JointAlbert, JointBERTMultiIntent, JointBERTMultiIntentWoISeq, JointDistilBERTMultiIntent, JointAlbertTMultiIntent
 
 MODEL_CLASSES = {
     'bert': (BertConfig, JointBERT, BertTokenizer),
     'distilbert': (DistilBertConfig, JointDistilBERTMultiIntent, DistilBertTokenizer),
-    'albert': (AlbertConfig, JointAlbert, AlbertTokenizer),
     'multibert': (BertConfig, JointBERTMultiIntent, BertTokenizer),
     'multibertWoISeq': (BertConfig, JointBERTMultiIntentWoISeq, BertTokenizer),
-    # 'mobilebert': (MobileBertConfig, JointMobileBERTMultiIntent, BertTokenizer),
-   'mobilebert': (MobileBertConfig, JointMobileBERTMultiIntent, MobileBertTokenizer),
+    'mobilebert': (MobileBertConfig, JointMobileBERTMultiIntent, MobileBertTokenizer),
+    'albert': (AlbertConfig, JointAlbertTMultiIntent, AlbertTokenizer),
 }
 
 MODEL_PATH_MAP = {
     'bert': 'bert-base-uncased',
     'distilbert': 'distilbert-base-uncased',
-    'albert': 'albert-xxlarge-v1',
     'multibert': 'bert-base-uncased',
     'mobilebert': 'google/mobilebert-uncased',
     'multibertWoISeq': 'bert-base-uncased',
+    'albert': 'albert/albert-base-v2',
 }
 
 def get_intent_labels(args):
@@ -55,12 +55,13 @@ def load_tokenizer(args):
 
 
 def init_logger(args):
+    if not os.path.exists('./logs'):
+        os.makedirs('./logs')
     now = datetime.now()
     logging.basicConfig(format='%(asctime)s - %(levelname)s - %(name)s -   %(message)s',
                         datefmt='%m/%d/%Y %H:%M:%S',
                         level=logging.INFO,
                         filename=r'./logs/{}_seed{}_TI{}_attn{}_cls{}_mask{}_ticoef{}_patience{}_{}.log'.format(args.task, args.seed, args.tag_intent, args.intent_attn, args.cls_token_cat, args.num_mask, args.tag_intent_coef, args.patience, now.strftime('%m-%d-%H:%M:%S')))
-
 
 def set_seed(args):
     random.seed(args.seed)
@@ -272,10 +273,7 @@ def get_slot_metrics(preds, labels):
         "slot_f1": f1_score(labels, preds, average='micro')
     }
 
-#!!!!!!!!!!!!!!!!!!!!!
 def get_pro_metrics(preds, labels):
-    # print('preds: ',preds[0])
-    # print('labels: ',labels[0])
 
     assert len(preds) == len(labels)
     return {

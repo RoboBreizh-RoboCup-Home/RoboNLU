@@ -130,9 +130,6 @@ class JointBERTMultiIntent_old(BertPreTrainedModel):
                         active_labels = slot_labels_ids.view(-1)[active_loss]
                         slot_loss = slot_loss_fct(active_logits, active_labels)
                     except:
-                        print('intent_logits: ', intent_logits_cpu)
-                        print('attention_mask: ', attention_mask_cpu)
-                        print('active_loss: ', active_loss_cpu)
                         logger.info('intent_logits: ', intent_logits_cpu)
                         logger.info('attention_mask: ', attention_mask_cpu)
                         logger.info('active_loss: ', active_loss_cpu)
@@ -156,29 +153,7 @@ class JointBERTMultiIntent_old(BertPreTrainedModel):
                 # 2. feed data into network and accumulate the loss
                 referee_token_logits = self.pro_classifier(concated_input)
 
-                # print('sequence_output size: ', sequence_output.size())
-                # print('pro_labels_ids size: ', pro_labels_ids.size())
-                # print('pro_token_mask size: ', pro_token_mask.size())
-                # print('pro_sample_mask size: ', pro_sample_mask.size())
-                # print('pro_vec size: ', pro_vec.size())
-                # print('add new dim size: ', pro_vec.size())
-                # print('after repeat size: ', repeat_pro.size())
-                # print('concated_input size: ', concated_input.size())
-                # print('referee_token_logits size: ',referee_token_logits.size())
-                # print('slot_logits size: ', slot_logits.size())
-
                 if referee_labels_ids is not None:
-                    # referee_token_loss_fct = nn.BCELoss(ignore_index=self.args.ignore_index)
-
-                    total_tokens = torch.numel(pro_token_mask)
-                    pro_tokens = torch.sum(pro_token_mask)
-
-                    # # and assume the weight of non-pro token as 1
-                    # pro_weight = (total_tokens - pro_tokens)/pro_tokens
-                    #
-                    # flatten_token_map = torch.flatten(pro_token_mask)
-                    # weights_lst = [1 if ele == False else pro_weight for ele in flatten_token_map]
-                    #                     weights = torch.FloatTensor(weights_lst)
 
                     class_weights = torch.FloatTensor([1,10,200]).to('cuda')
                     referee_token_loss_fct = nn.CrossEntropyLoss(weight = class_weights,ignore_index=self.args.ignore_index) #self.referee_token_loss_fct
@@ -194,15 +169,10 @@ class JointBERTMultiIntent_old(BertPreTrainedModel):
                             referee_token_loss = referee_token_loss_fct(active_logits,
                                                                         active_labels)
                         except:
-                            # print('referee_token_logits: ', referee_token_logits)
-                            # print('referee_token_logits size: ',referee_token_logits.size())
-                            # print('attention_mask: ', attention_mask_cpu)
-                            # print('active_loss: ', active_loss_cpu)
                             logger.info('referee_token_logits: ', intent_logits_cpu)
                             logger.info('attention_mask: ', attention_mask_cpu)
                             logger.info('active_loss: ', active_loss_cpu)
                     else:
-                        print('else')
                         referee_token_loss = referee_token_loss_fct(referee_token_logits.view(-1, 3), referee_labels_ids[pro_sample_mask].view(-1))
 
 
@@ -217,11 +187,6 @@ class JointBERTMultiIntent_old(BertPreTrainedModel):
                         if sample_bool:
                             full_referee_token_logits[idx] = referee_token_logits[counter]
                             counter += 1
-
-                                                                                                                # mask: only get the labels of the samples that has pros
-                    # referee_token_loss = referee_token_loss_fct(referee_token_logits.view(-1),referee_labels_ids[pro_sample_mask].view(-1).to(torch.float32))  # !!!!!!!!!!!! view(-1) because it's binary classification
-                    # total_loss += self.args.pro_loss_coef * referee_token_loss / (torch.sum(pro_sample_mask)) #divide by the number of pro samples
-
 
         
         # ==================================== 3. Intent Token Softmax ========================================
@@ -294,8 +259,6 @@ class JointBERTMultiIntent_old(BertPreTrainedModel):
 
         if self.args.pro and self.args.intent_seq and self.args.tag_intent:
             outputs = ((intent_logits, slot_logits, intent_token_logits, tag_intent_logits, referee_token_logits,full_referee_token_logits),) + outputs[2:]
-            # print('pro')
-            # print('mobile_bert_outputs[0] shape: ', len(mobile_bert_outputs[0]))
         if self.args.pro and self.args.intent_seq:
             outputs = ((intent_logits, slot_logits, intent_token_logits, referee_token_logits,full_referee_token_logits),) + outputs[2:]
 
@@ -309,9 +272,5 @@ class JointBERTMultiIntent_old(BertPreTrainedModel):
             outputs = ((intent_logits, slot_logits),) + outputs[2:]
         
         outputs = ([total_loss, intent_loss, slot_loss, intent_token_loss, tag_intent_loss,referee_token_loss],) + outputs
-
-        # print('len mobile_bert_outputs',len(mobile_bert_outputs))
-        # print('len mobile_bert_outputs[:2][1]', len(mobile_bert_outputs[:2][1]))
-        # print('len mobile_bert_outputs[:2][0]', len(mobile_bert_outputs[:2][0]))
 
         return outputs  # (loss), logits, (hidden_states), (attentions) # Logits is a tuple of intent and slot logits

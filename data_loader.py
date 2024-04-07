@@ -12,7 +12,6 @@ from seqeval.metrics.sequence_labeling import get_entities
 
 logger = logging.getLogger(__name__)
 
-
 class InputExample(object):
     """
     A single training/test example for simple sequence classification.

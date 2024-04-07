@@ -3,7 +3,6 @@ import torch.nn as nn
 # from transformers.modeling_distilbert import DistilBertPreTrainedModel, DistilBertModel, DistilBertConfig
 from transformers.models.distilbert.modeling_distilbert import DistilBertPreTrainedModel, DistilBertModel, DistilBertConfig
 # from torchcrf import CRF
-from TorchCRF import CRF
 from .module import IntentClassifier, SlotClassifier
 
 
@@ -19,6 +18,7 @@ class JointDistilBERT(DistilBertPreTrainedModel):
         self.slot_classifier = SlotClassifier(config.hidden_size, self.num_slot_labels, args.dropout_rate)
 
         if args.use_crf:
+            from TorchCRF import CRF
             self.crf = CRF(num_tags=self.num_slot_labels, batch_first=True)
 
     def forward(self, input_ids, attention_mask, intent_label_ids, slot_labels_ids):

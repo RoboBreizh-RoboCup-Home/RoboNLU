@@ -46,8 +46,6 @@ class JointMobileBERTMultiIntent(MobileBertModel):
             pro_sequence_output = sequence_output[pro_sample_mask]
             pro_vec = pro_vec[:, None, :]  # add new dimention
             repeat_pro = pro_vec.repeat(1, 32, 1)#self.args.max_seq_len
-            print('pro_sequence_output shape: ', pro_sequence_output.shape)
-            print('repeat_pro shape: ', repeat_pro.shape)
             concated_input = torch.cat((pro_sequence_output, repeat_pro), dim=2)
 
 

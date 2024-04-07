@@ -1,12 +1,11 @@
 import time
 import onnxruntime
 import numpy as np
-from transformers import BertTokenizer
-# from onnxruntime_tools import optimizer
+import os
+import argparse
 
 from transformers import AutoTokenizer
 from numpy import load
-
 
 class slot_classifier_np():
     def __init__(self, dir):
@@ -57,21 +56,20 @@ class pro_classifier_np():
 
 
 class CommandProcessor(object):
-    def __init__(self, model_name='mobile_bert',quantized = True, gpu = False):
-        # self.model_name = 'bert'
-        # self.tokenizer_name = 'bert-base-uncased'
+    def __init__(self, model_name='mobile_bert', model_path='./onnx_models', quantized = True, gpu = False):
         self.model_name = model_name
         self.gpu = gpu
 
+        self.model_path = model_path+'/'+model_name+'/'
 
         if self.model_name == 'bert':
             self.tokenizer_name = 'bert-base-uncased'
         elif self.model_name == 'mobile_bert':
             self.tokenizer_name = 'google/mobilebert-uncased'
-        elif self.model_name == 'distil_bert':
+        elif self.model_name == 'distilbert':
             self.tokenizer_name = 'distilbert-base-uncased'
-        # self.INTENT_CLASSES = ['PAD','O','B-greet','I-greet','B-guide','I-guide','B-follow','I-follow','B-find','I-find','B-take','I-take','B-go','I-go','B-know','I-know']
-        # self.SLOT_CLASSES = ['PAD','O','B-obj','B-dest','I-sour','I-obj','I-dest','B-per','B-sour','I-per']
+        elif self.model_name == 'albert':
+            self.tokenizer_name = 'albert-base-v2'
 
         self.INTENT_CLASSES = ['PAD', 'O', 'B-greet', 'I-greet', 'B-know', 'I-know', 'B-follow', 'I-follow', 'B-take',
                                'I-take', 'B-tell', 'I-tell', 'B-guide', 'I-guide', 'B-go', 'I-go', 'B-answer',
@@ -93,35 +91,24 @@ class CommandProcessor(object):
         self.tokenizer = AutoTokenizer.from_pretrained(self.tokenizer_name)
         self.pad_token_label_id = 0
 
-        # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
         self.input_text_path = './sample_pred_in.txt'
         if quantized:
-            self.output_file = f'models_outputs/{model_name}_outputs'
+            self.output_folder = f'models_outputs/{model_name}_outputs'
         else:
-            self.output_file = f'models_outputs/{model_name}_onnx_outputs'
+            self.output_folder = f'models_outputs/{model_name}_onnx_outputs'
 
         if quantized:
-            self.bert_ort_session = self.initONNX(
-                f'./quantized_models/{self.model_name}.quant.onnx')
+            self.bert_ort_session = self.initONNX(os.path.join(self.model_path, f'{self.model_name}.quant.onnx'))
         else:
-            self.bert_ort_session = self.initONNX(
-                f'./onnx_models/{self.model_name}.onnx')
-        # self.slot_classifier_ort_session = self.initONNX('./quantized_models/slot_classifier.quant.onnx')
-        # self.intent_token_classifier_ort_session = self.initONNX('./quantized_models/intent_token_classifier.quant.onnx')
-        # self.pro_classifier_ort_session = self.initONNX('./quantized_models/pro_classifier.quant.onnx')
-        self.slot_classifier = slot_classifier_np(
-            f'numpy_para/{self.model_name}/slot_classifier')
-        self.intent_token_classifier = intent_token_classifier_np(
-            f'numpy_para/{self.model_name}/intent_token_classifier')
-        self.pro_classifier = pro_classifier_np(f'numpy_para/{self.model_name}/pro_classifier')
+            self.bert_ort_session = self.initONNX(os.path.join(self.model_path, f'{self.model_name}.onnx'))
+
+        self.slot_classifier = slot_classifier_np(os.path.join(self.model_path, f'numpy_para/slot_classifier'))
+        self.intent_token_classifier = intent_token_classifier_np(os.path.join(self.model_path, f'numpy_para/intent_token_classifier'))
+        self.pro_classifier = pro_classifier_np(os.path.join(self.model_path, f'numpy_para/pro_classifier'))
 
     def initONNX(self, path):
         start = time.time()
         sess_options = onnxruntime.SessionOptions()
-
-        # print(onnxruntime.get_available_providers())
-        # assert 'CUDAExecutionProvider' in onnxruntime.get_available_providers()
-        # device_name = 'gpu'
 
         if self.gpu:
             provider = 'CUDAExecutionProvider'
@@ -138,11 +125,6 @@ class CommandProcessor(object):
             path, sess_options, providers=[provider])
         print("Loading time ONNX: ", time.time() - start)
         return ort_session
-
-    # def read_input_file(self):
-    #     with open(self.input_text_path, "r", encoding="utf-8") as f:
-    #         words = f.readline().strip().split()
-    #     return words
 
     def convert_input_file_to_dataloader(self, words,
                                          cls_token_segment_id=0,
@@ -173,7 +155,6 @@ class CommandProcessor(object):
             # Use the real label id for the first token of the word, and padding ids for the remaining tokens
             slot_label_mask.extend(
                 [self.pad_token_label_id + 1] + [self.pad_token_label_id] * (len(word_tokens) - 1))
-            # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
             pro_labels_ids.extend(
                 [pro_label] + [self.pad_token_label_id] * (len(word_tokens) - 1))
 
@@ -183,7 +164,6 @@ class CommandProcessor(object):
             tokens = tokens[: (self.max_seq_len - special_tokens_count)]
             slot_label_mask = slot_label_mask[:(
                 self.max_seq_len - special_tokens_count)]
-            # !!!!!!!!!!!!!!!!!!!!!!!!!!!
             pro_labels_ids = pro_labels_ids[:(
                 self.max_seq_len - special_tokens_count)]
 
@@ -191,15 +171,13 @@ class CommandProcessor(object):
         tokens += [sep_token]
         token_type_ids = [sequence_a_segment_id] * len(tokens)
         slot_label_mask += [self.pad_token_label_id]
-        # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
         pro_labels_ids += [self.pad_token_label_id]
 
         # Add [CLS] token
         tokens = [cls_token] + tokens
         token_type_ids = [cls_token_segment_id] + token_type_ids
         slot_label_mask = [self.pad_token_label_id] + slot_label_mask
-        pro_labels_ids = [self.pad_token_label_id] + \
-            pro_labels_ids  # !!!!!!!!!!!!!!!!!!!!!!!
+        pro_labels_ids = [self.pad_token_label_id] + pro_labels_ids 
         input_ids = tokenizer.convert_tokens_to_ids(tokens)
 
         # The mask has 1 for real tokens and 0 for padding tokens. Only real tokens are attended to.
@@ -221,39 +199,33 @@ class CommandProcessor(object):
         attention_mask = np.array(attention_mask).astype('int64')
         token_type_ids = np.array(token_type_ids).astype('int64')
         pro_labels_ids = np.array(pro_labels_ids).astype('int64')
-        sample = {'input_ids': input_ids[None, :], 'attention_mask': attention_mask[None,
-                                                                                    :], 'token_type_ids': token_type_ids[None, :]}
+        sample = {'input_ids': input_ids[None, :], 'attention_mask': attention_mask[None,:], 'token_type_ids': token_type_ids[None, :]}
 
-        if self.model_name == 'distil_bert':
-            sample = {'input_ids': input_ids[None, :], 'attention_mask': attention_mask[None,:]}
+        if self.model_name == 'distilbert':
+            sample = {'input_ids': input_ids[None, :].astype(np.int64), 'attention_mask': attention_mask[None,:].astype(np.float32)}
 
         return sample, slot_label_mask, pro_labels_ids
 
-    def predict(self,lines):
-        #lines = self.read_input_file()
-
-        sample, slot_label_mask, pro_labels_ids = self.convert_input_file_to_dataloader(
-            lines)
-
+    def predict(self, lines):
+        sample, slot_label_mask, pro_labels_ids = self.convert_input_file_to_dataloader(lines)
 
         start = time.time()
 
-        if self.model_name == 'distil_bert':
+        if self.model_name == 'distilbert':
+            # sample = {key: value.astype(np.int64) for key, value in sample.items()}
+
             sequence_output = self.bert_ort_session.run(None, sample)
         else:
             sequence_output, _ = self.bert_ort_session.run(None, sample)
 
-
         # ============================= Slot prediction ==============================
         slot_logits = self.slot_classifier.forward(sequence_output)
-        # slot_logits = self.slot_classifier_ort_session.run(None, {'sequence_output':sequence_output})
         slot_preds = np.squeeze(np.array(slot_logits))
         slot_preds = np.argmax(slot_preds, axis=1)
 
         # ============================== Intent Token Seq =============================
         intent_token_logits = self.intent_token_classifier.forward(
             sequence_output)
-        # intent_token_logits = self.intent_token_classifier_ort_session.run(None, {'sequence_output':sequence_output})
         intent_token_preds = np.squeeze(np.array(intent_token_logits))
         intent_token_preds = np.argmax(intent_token_preds, axis=1)
 
@@ -271,10 +243,8 @@ class CommandProcessor(object):
                 (sq_sequence_output, repeat_pro), axis=1)[None, :]
 
             referee_token_logits = self.pro_classifier.forward(concated_input)
-            # referee_token_logits = self.pro_classifier_ort_session.run(None, {'concated_input':concated_input})
             referee_preds = np.squeeze(np.array(referee_token_logits))
             referee_preds = np.argmax(referee_preds, axis=1)
-
         else:
             referee_preds = np.ones(self.max_seq_len)
 
@@ -301,7 +271,9 @@ class CommandProcessor(object):
         return total_time
 
     def write_readable_outputs(self, slot_preds_list, intent_token_preds_list, referee_preds_list,lines):
-        words = lines#self.read_input_file()
+        if not os.path.exists(self.output_folder):
+            os.makedirs(self.output_folder, exist_ok=True)
+        words = lines
         line = ''
         for token_idx, (word, i_pred, s_pred, r_pred) in enumerate(zip(words, intent_token_preds_list, slot_preds_list, referee_preds_list)):
             if s_pred == 'O' and i_pred == 'O' and r_pred == 'O':
@@ -312,11 +284,11 @@ class CommandProcessor(object):
 
                     if r_pred == 'B-referee':
                         r_idx = token_idx
-
                 else:
                     line = line + "[{}({}):{}:{}] ".format(word,
                                                            words[r_idx], i_pred, s_pred)
 
+        self.output_file = os.path.join(self.output_folder, 'output.txt')
         with open(self.output_file, "a", encoding="utf-8") as f:
             if 'B-referee' in referee_preds_list:
                 f.write('\n')
@@ -330,16 +302,31 @@ class CommandProcessor(object):
                 f.write(line.strip()+'\n')
             print(line)
             print('=====================================')
+
+        print("Results saved to ", self.output_file)
+
         return
 
 
 if __name__ == "__main__":
-    base_model_type = 'mobile_bert'
-    quantized = True
-    gpu = True
+    # parse args
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--model_name", default='albert', type=str, help="Model name")
+    parser.add_argument("--quantized", default=False, type=bool, help="Quantized model")
+    parser.add_argument("--gpu", default=False, type=bool, help="Use GPU")
+    parser.add_argument("--input_text_path", default='./test/sample_pred_in.txt', type=str, help="Input text path")
+    parser.add_argument("--model_path", default='./onnx_models', type=str, help="Model path")
 
-    inference = CommandProcessor(base_model_type,quantized=quantized, gpu = gpu)
-    input_text_path = './sample_pred_in.txt'
+    args = parser.parse_args()
+
+    model_path = args.model_path
+    
+    base_model_type = args.model_name
+    quantized = args.quantized
+    gpu = args.gpu
+
+    inference = CommandProcessor(base_model_type, model_path, quantized=quantized, gpu=gpu)
+    input_text_path = args.input_text_path
     total_time = 0
     count = 0
     f =  open(input_text_path, "r", encoding="utf-8")
