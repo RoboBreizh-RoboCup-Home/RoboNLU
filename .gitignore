@@ -135,3 +135,10 @@ models_outputs/mobile_bert_outputs/
 .DS_Store
 cached*
 sample_pred_out.txt
+
+###################################
+
+checkpoints/
+logs/
+models_outputs/
+test_onnx/
