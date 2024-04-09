@@ -7,11 +7,11 @@ import torch
 from torch.utils.data import DataLoader, RandomSampler, SequentialSampler
 from transformers import BertConfig, AdamW, get_linear_schedule_with_warmup
 
-from utils import MODEL_CLASSES, compute_metrics, get_intent_labels, get_slot_labels, compute_metrics_multi_intent
+from robonlu.utils import MODEL_CLASSES, compute_metrics, get_intent_labels, get_slot_labels, compute_metrics_multi_intent
 
 logger = logging.getLogger(__name__)
 
-class Trainer_woISeq(object):
+class Trainer(object):
     def __init__(self, args, train_dataset=None, dev_dataset=None, test_dataset=None):
         self.args = args
         self.train_dataset = train_dataset
@@ -187,7 +187,7 @@ class Trainer_woISeq(object):
         }
 
         # Intent result
-        intent_preds = torch.as_tensor(intent_preds > 0.5, dtype=torch.int32)
+        intent_preds = np.argmax(intent_preds, axis=1)
 
         # Slot result
         if not self.args.use_crf:
@@ -202,7 +202,7 @@ class Trainer_woISeq(object):
                     out_slot_label_list[i].append(slot_label_map[out_slot_labels_ids[i][j]])
                     slot_preds_list[i].append(slot_label_map[slot_preds[i][j]])
 
-        total_result = compute_metrics_multi_intent(intent_preds, out_intent_label_ids, slot_preds_list, out_slot_label_list)
+        total_result = compute_metrics(intent_preds, out_intent_label_ids, slot_preds_list, out_slot_label_list)
         results.update(total_result)
 
         logger.info("***** Eval results *****")

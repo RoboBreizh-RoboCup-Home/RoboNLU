@@ -6,7 +6,7 @@ import logging
 import torch
 from torch.utils.data import TensorDataset
 
-from utils import get_intent_labels, get_slot_labels
+from robonlu.utils import get_intent_labels, get_slot_labels
 
 from seqeval.metrics.sequence_labeling import get_entities
 

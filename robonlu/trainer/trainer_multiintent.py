@@ -8,7 +8,7 @@ import torch.nn as nn
 from torch.utils.data import DataLoader, RandomSampler, SequentialSampler
 from transformers import BertConfig, AdamW, get_linear_schedule_with_warmup
 
-from utils import MODEL_CLASSES, get_intent_labels, get_slot_labels,compute_metrics_final
+from robonlu.utils import MODEL_CLASSES, get_intent_labels, get_slot_labels,compute_metrics_final
 
 FLAG = False
 logger = logging.getLogger(__name__)
@@ -497,13 +497,22 @@ class Trainer_multi(object):
     def load_model(self):
         # Check whether model exists
         if not os.path.exists(self.args.model_dir):
-            raise Exception("Model doesn't exists! Train first!")
+            print("Trying to get last model...")
+        # check directories to find the one with the date and hour closet to the current one
+        base_path = self.args.model_dir.split("/")[-2]
+        dirs = os.listdir(base_path)
+        if len(dirs) == 0:
+            raise Exception("No model found in the model directory...")
+        dirs = [{d: d.split('_')[-1] for d in dirs}]
+        # sort by value
+        dirs = sorted(dirs, key=lambda x: x.values())
+        # get first key
+        last_dir = list(dirs[0].keys())[0]
+        self.args.model_dir = os.path.join(base_path,last_dir)
+        print("Loading model from: ",self.args.model_dir)
 
         try:
-            self.model = self.model_class.from_pretrained(self.args.model_dir,
-                                                          args=self.args,
-                                                          intent_label_lst=self.intent_label_lst,
-                                                          slot_label_lst=self.slot_label_lst)
+            self.model = torch.load(self.args.model_dir+"/model.pth")
             self.model.to(self.device)
             logger.info("***** Model Loaded *****")
         except:

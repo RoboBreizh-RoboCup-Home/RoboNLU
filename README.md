@@ -1,6 +1,15 @@
 # RoboNLU: Advancing Command Understanding with a Novel Lightweight BERT-based Approach for Service Robotics
 
-Pytorch implementation of `RoboNLU`: Advancing Command Understanding with a Novel Lightweight BERT-based Approach for Service Robotics
+[![LICENSE](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/)
+[![PyTorch](https://img.shields.io/badge/pytorch-2.1.0-%237732a8)](https://pytorch.org/)
+
+Pytorch implementation of the paper [RoboNLU: Advancing Command Understanding with a Novel Lightweight BERT-based Approach for Service Robotics](https://link.springer.com/chapter/10.1007/978-3-031-55015-7_3).
+
+
+## TODO
+
+- [ ] Open-Source model weights.
 
 
 ## Insight
@@ -41,9 +50,18 @@ It is recommended to create a new conda environment before training:
 conda env create robonlu python=3.11
 ```
 
-Then dependencies can be installed with the requirements.txt file:
+Then, install [your favorite PyTorch version](https://pytorch.org/get-started/previous-versions/).
+
+
+Install dependencies with the requirements.txt file:
 ```
 pip install -r requirements.txt
+```
+
+Finally setup the project:
+
+```
+pip install .
 ```
 
 # Training
@@ -51,13 +69,13 @@ pip install -r requirements.txt
 You can train different versions of the BERT model using the ```main.py``` script. For instance, to train a distilbert model on the full EGPSR dataset (with "say" commands), you can do:
 
 ```
-python main.py --task gpsr_pro_instance_say --model_dir ./checkpoints/ --do_train --multi_intent 1 --num_train_epochs 10 --model_type distilbert 
+python robonlu/main.py --task gpsr_pro_instance_say --model_dir ./checkpoints/ --do_train --multi_intent 1 --num_train_epochs 10 --model_type distilbert 
 ```
 
 To train a mobilebert model:
 
 ```
-python main.py --task gpsr_pro_instance_say --model_dir ./checkpoints/ --do_train --multi_intent 1 --num_train_epochs 10 --model_type mobilebert 
+python robonlu/main.py --task gpsr_pro_instance_say --model_dir ./checkpoints/ --do_train --multi_intent 1 --num_train_epochs 10 --model_type mobilebert 
 ```
 
 # Converting to ONNX
@@ -65,7 +83,7 @@ python main.py --task gpsr_pro_instance_say --model_dir ./checkpoints/ --do_trai
 In the original implementation, we perform inference using the ONNXRUNTIME engine. To do so, we need to convert the weights from PyTorch format to onnx, which can be done using the ```to_onnx.py``` script. This script also convert the classifiers weights and biases to numpy format. Here we split the runtime implementation between the base model (inference with onnxruntime) and the classifiers (inference with numpy) for modularity (for instance, the pronoun classifier inference can be skipped if the sentence contains no pronoun).
 
 ```
- python to_onnx.py --model_path ./checkpoints/distilbert/model.pth --model_type distilbert --out_path ./onnx_models/distilbert
+ python export/to_onnx.py --model_path ./checkpoints/distilbert/model.pth --model_type distilbert --out_path ./onnx_models/distilbert
 ```
 
 # Inference

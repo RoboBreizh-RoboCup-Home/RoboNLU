@@ -6,7 +6,6 @@ from transformers import MobileBertConfig, MobileBertModel
 # from torchcrf import CRF
 from TorchCRF import CRF
 
-# from .module import IntentClassifier, SlotClassifier, IntentTokenClassifier, MultiIntentClassifier, TagIntentClassifier, ProClassifier
 import logging
 
 from transformers import BertConfig

@@ -1,7 +1,7 @@
 from numpy import save
 import os
 
-from utils import MODEL_CLASSES
+from robonlu.utils import MODEL_CLASSES
 
 import torch
 import numpy as np
@@ -61,7 +61,7 @@ def main(args):
     }
 
     logging.info(f"Exporting model to onnx, fp32 model saved at {save_path}...")
-    fp32_model_path = os.path.join(save_path, args.model_type+'_fp32.onnx')
+    fp32_model_path = os.path.join(save_path, args.model_type+'.onnx')
 
     inputs=['input_ids','attention_mask','token_type_ids']
 

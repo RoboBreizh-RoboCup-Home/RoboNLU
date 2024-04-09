@@ -1,8 +1,8 @@
 import argparse
 
 from trainer import Trainer, Trainer_multi, Trainer_woISeq
-from utils import init_logger, load_tokenizer, set_seed, MODEL_CLASSES, MODEL_PATH_MAP
-from data_loader import load_and_cache_examples
+from robonlu.utils import init_logger, load_tokenizer, set_seed, MODEL_CLASSES, MODEL_PATH_MAP
+from robonlu.data_loader import load_and_cache_examples
 from datetime import datetime
 import random
 import time
@@ -71,7 +71,7 @@ if __name__ == '__main__':
     parser.add_argument('--save_steps', type=int, default=200, help="Save checkpoint every X updates steps.")
 
     parser.add_argument("--do_train", action="store_true", help="Whether to run training.")
-    parser.add_argument("--do_eval", action="store_true", help="Whether to run eval on the test set.")
+    parser.add_argument("--do_eval", type=bool, default=True, help="Whether to run eval on the test set.")
     parser.add_argument("--no_cuda", action="store_true", help="Avoid using CUDA when available")
 
     parser.add_argument("--ignore_index", default=0, type=int,

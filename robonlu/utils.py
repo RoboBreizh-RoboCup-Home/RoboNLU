@@ -16,7 +16,7 @@ from transformers import AutoTokenizer
 
 from datetime import datetime
 
-from model import JointMobileBERTMultiIntent, JointBERT, JointDistilBERT, JointAlbert, JointBERTMultiIntent, JointBERTMultiIntentWoISeq, JointDistilBERTMultiIntent, JointAlbertTMultiIntent
+from robonlu.model import JointMobileBERTMultiIntent, JointBERT, JointDistilBERT, JointAlbert, JointBERTMultiIntent, JointBERTMultiIntentWoISeq, JointDistilBERTMultiIntent, JointAlbertTMultiIntent
 
 MODEL_CLASSES = {
     'bert': (BertConfig, JointBERT, BertTokenizer),
