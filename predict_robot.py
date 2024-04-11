@@ -1,5 +1,6 @@
 import time
 import onnxruntime
+import tflite_runtime.interpreter as tflite
 import numpy as np
 import os
 import argparse
@@ -56,9 +57,10 @@ class pro_classifier_np():
 
 
 class CommandProcessor(object):
-    def __init__(self, model_name='mobile_bert', model_path='./onnx_models', quantized = True, gpu = False):
+    def __init__(self, model_name='mobile_bert', model_path='./onnx_models', quantized = True, gpu = False, engine="tflite"):
         self.model_name = model_name
         self.gpu = gpu
+        self.engine = engine
 
         self.model_path = model_path+'/'+model_name+'/'
 
@@ -100,7 +102,10 @@ class CommandProcessor(object):
         if quantized:
             self.bert_ort_session = self.initONNX(os.path.join(self.model_path, f'{self.model_name}.quant.onnx'))
         else:
-            self.bert_ort_session = self.initONNX(os.path.join(self.model_path, f'{self.model_name}.onnx'))
+            if engine== "onnx":
+                self.bert_ort_session = self.initONNX(os.path.join(self.model_path, f'{self.model_name}.onnx'))
+            elif engine== "tflite":
+                self.bert_tflite, self.input_details, self.output_details = self.initTFLite(os.path.join(self.model_path, f'{self.model_name}.tflite'))
 
         self.slot_classifier = slot_classifier_np(os.path.join(self.model_path, f'numpy_para/slot_classifier'))
         self.intent_token_classifier = intent_token_classifier_np(os.path.join(self.model_path, f'numpy_para/intent_token_classifier'))
@@ -126,6 +131,18 @@ class CommandProcessor(object):
         print("Loading time ONNX: ", time.time() - start)
         return ort_session
 
+    def initTFLite(self, path):
+        start = time.time()
+        interpreter = tflite.Interpreter(model_path=path)
+        interpreter.allocate_tensors()
+        input_details = interpreter.get_input_details()
+        output_details = interpreter.get_output_details()
+        print("Loading time TFLite: ", time.time() - start)
+
+        return interpreter, input_details, output_details
+
+        
+    
     def convert_input_file_to_dataloader(self, words,
                                          cls_token_segment_id=0,
                                          pad_token_segment_id=0,
@@ -212,11 +229,22 @@ class CommandProcessor(object):
         start = time.time()
 
         if self.model_name == 'distilbert':
-            # sample = {key: value.astype(np.int64) for key, value in sample.items()}
-
-            sequence_output = self.bert_ort_session.run(None, sample)
+            if self.engine == "onnx":
+                sequence_output = self.bert_ort_session.run(None, sample)
+            elif self.engine == "tflite":
+                self.bert_tflite.set_tensor(self.input_details[0]['index'], sample['input_ids'])
+                self.bert_tflite.set_tensor(self.input_details[1]['index'], sample['attention_mask'])
+                self.bert_tflite.invoke()
+                sequence_output = self.bert_tflite.get_tensor(self.output_details[0]['index'])
         else:
-            sequence_output, _ = self.bert_ort_session.run(None, sample)
+            if self.engine == "onnx":
+                sequence_output, _ = self.bert_ort_session.run(None, sample)
+            elif self.engine == "tflite":
+                self.bert_tflite.set_tensor(self.input_details[0]['index'], sample['input_ids'])
+                self.bert_tflite.set_tensor(self.input_details[1]['index'], sample['attention_mask'])
+                self.bert_tflite.set_tensor(self.input_details[2]['index'], sample['token_type_ids'])
+                self.bert_tflite.invoke()
+                sequence_output = self.bert_tflite.get_tensor(self.output_details[0]['index'])
 
         # ============================= Slot prediction ==============================
         slot_logits = self.slot_classifier.forward(sequence_output)
@@ -311,7 +339,7 @@ class CommandProcessor(object):
 if __name__ == "__main__":
     # parse args
     parser = argparse.ArgumentParser()
-    parser.add_argument("--model_name", default='albert', type=str, help="Model name")
+    parser.add_argument("--model_name", default='distilbert', type=str, help="Model name")
     parser.add_argument("--quantized", default=False, type=bool, help="Quantized model")
     parser.add_argument("--gpu", default=False, type=bool, help="Use GPU")
     parser.add_argument("--input_text_path", default='./test/sample_pred_in.txt', type=str, help="Input text path")

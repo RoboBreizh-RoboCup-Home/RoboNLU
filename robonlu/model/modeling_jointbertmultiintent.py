@@ -21,7 +21,6 @@ class JointBERTMultiIntent(BertPreTrainedModel):
     # num_mask: 4
     def __init__(self, config, intent_label_lst, slot_label_lst):
         super().__init__(config)
-        # self.args = args
         self.num_intent_labels = len(intent_label_lst)
         self.num_slot_labels = len(slot_label_lst)
         # load pretrain bert

@@ -19,9 +19,8 @@ from datetime import datetime
 from robonlu.model import JointMobileBERTMultiIntent, JointBERT, JointDistilBERT, JointAlbert, JointBERTMultiIntent, JointBERTMultiIntentWoISeq, JointDistilBERTMultiIntent, JointAlbertTMultiIntent
 
 MODEL_CLASSES = {
-    'bert': (BertConfig, JointBERT, BertTokenizer),
+    'bert': (BertConfig, JointBERTMultiIntent, BertTokenizer),
     'distilbert': (DistilBertConfig, JointDistilBERTMultiIntent, DistilBertTokenizer),
-    'multibert': (BertConfig, JointBERTMultiIntent, BertTokenizer),
     'multibertWoISeq': (BertConfig, JointBERTMultiIntentWoISeq, BertTokenizer),
     'mobilebert': (MobileBertConfig, JointMobileBERTMultiIntent, MobileBertTokenizer),
     'albert': (AlbertConfig, JointAlbertTMultiIntent, AlbertTokenizer),

@@ -7,11 +7,6 @@
 Pytorch implementation of the paper [RoboNLU: Advancing Command Understanding with a Novel Lightweight BERT-based Approach for Service Robotics](https://link.springer.com/chapter/10.1007/978-3-031-55015-7_3).
 
 
-## TODO
-
-- [ ] Open-Source model weights.
-
-
 ## Insight
 This paper proposes a novel approach to natural language understanding (NLU) in service robots called RoboNLU, which leverages pre-trained language models along with specialized classifiers to extract meaning from user commands. Specifically, the proposed system utilizes BERT model in conjunction with slot, intent, and pronoun resolution classifiers.
 The model was trained on a newly created, large-scale, and high-quality GPSR (General Purpose Service Robot) command dataset, yielding impressive results in intent classification, slot filling, and pronoun resolution tasks while also demonstrating robustness in out-of-vocabulary scenarios. Furthermore, the system was optimized for real-time processing on a service robot by leveraging smaller, quantized versions of the BERT-base model and deploying the system using the ONNXruntime framework
@@ -42,6 +37,16 @@ The ```gpsr_pro_instance_say``` is the final split of the data that can be used 
     <img width="800" src="./imgs/result.png" />  
 </p>
 
+## Model Weights
+
+We provide the model weights trained for 10 epoch on the ```gpsr_pro_instance_say``` below.
+
+| Model Type    | Params        | Path          |
+| ------------- | ------------- | ------------- | 
+| BERT          | 111 M          | [model.pth](https://drive.google.com/file/d/10qJ-hMS9VYaU2T1G6hJmiV187ZutNQGH/view?usp=sharing)
+| DistilBERT          | 67 M          | [model.pth](hhttps://drive.google.com/file/d/1ASVFkmxtPXL6GgJKTPgSoUWLdPS4mfAJ/view?usp=sharing)
+| MobileBERT          | 25 M          | [model.pth](https://drive.google.com/file/d/1uJoW2rCATv9t6hH2484EHABqCflL_qz2/view?usp=sharing)
+| Albert          | 13 M          | [model.pth](https://drive.google.com/file/d/1JblI4kUWbRlhr8YaDUSFQn_EErzVoSWK/view?usp=sharing)
 
 # Install
 
@@ -78,12 +83,20 @@ To train a mobilebert model:
 python robonlu/main.py --task gpsr_pro_instance_say --model_dir ./checkpoints/ --do_train --multi_intent 1 --num_train_epochs 10 --model_type mobilebert 
 ```
 
+
 # Converting to ONNX
 
 In the original implementation, we perform inference using the ONNXRUNTIME engine. To do so, we need to convert the weights from PyTorch format to onnx, which can be done using the ```to_onnx.py``` script. This script also convert the classifiers weights and biases to numpy format. Here we split the runtime implementation between the base model (inference with onnxruntime) and the classifiers (inference with numpy) for modularity (for instance, the pronoun classifier inference can be skipped if the sentence contains no pronoun).
 
 ```
  python export/to_onnx.py --model_path ./checkpoints/distilbert/model.pth --model_type distilbert --out_path ./onnx_models/distilbert
+```
+
+Once you converted your model to ONNX, you can also convert it to tflite format using the `onnx2tf` package:
+
+```
+pip install onnx2tf
+python export/to_tflite.py --model_path ./onnx_models/distilbert/distilbert.onnx --model_type distilbert
 ```
 
 # Inference
