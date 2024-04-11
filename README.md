@@ -44,7 +44,7 @@ We provide the model weights trained for 10 epoch on the ```gpsr_pro_instance_sa
 | Model Type    | Params        | Path          |
 | ------------- | ------------- | ------------- | 
 | BERT          | 111 M          | [model.pth](https://drive.google.com/file/d/10qJ-hMS9VYaU2T1G6hJmiV187ZutNQGH/view?usp=sharing)
-| DistilBERT          | 67 M          | [model.pth](hhttps://drive.google.com/file/d/1ASVFkmxtPXL6GgJKTPgSoUWLdPS4mfAJ/view?usp=sharing)
+| DistilBERT          | 67 M          | [model.pth](https://drive.google.com/file/d/1ASVFkmxtPXL6GgJKTPgSoUWLdPS4mfAJ/view?usp=sharing)
 | MobileBERT          | 25 M          | [model.pth](https://drive.google.com/file/d/1uJoW2rCATv9t6hH2484EHABqCflL_qz2/view?usp=sharing)
 | Albert          | 13 M          | [model.pth](https://drive.google.com/file/d/1JblI4kUWbRlhr8YaDUSFQn_EErzVoSWK/view?usp=sharing)
 
